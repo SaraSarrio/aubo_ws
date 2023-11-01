@@ -1,0 +1,2 @@
+Invoking command in '/home/sara/aubo_ws/build/controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sara/aubo_ws/src/aubo_control/controller -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/controller
+Invoked command in '/home/sara/aubo_ws/build/controller' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sara/aubo_ws/src/aubo_control/controller -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/controller

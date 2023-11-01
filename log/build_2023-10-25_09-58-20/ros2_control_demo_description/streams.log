@@ -1,0 +1,51 @@
+[0.733s] Invoking command in '/home/sara/aubo_ws/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/ros2_control_demo_description -- -j8 -l8
+[0.780s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.085s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.236s] -- Configuring done
+[1.243s] -- Generating done
+[1.244s] -- Build files have been written to: /home/sara/aubo_ws/build/ros2_control_demo_description
+[1.291s] Invoked command in '/home/sara/aubo_ws/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/ros2_control_demo_description -- -j8 -l8
+[1.449s] Invoking command in '/home/sara/aubo_ws/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/ros2_control_demo_description
+[1.471s] -- Install configuration: ""
+[1.472s] -- Execute custom install script
+[1.473s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf/rrbot.materials.xacro
+[1.473s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf/rrbot_description.urdf.xacro
+[1.473s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/rviz/rrbot.rviz
+[1.474s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/diffbot.materials.xacro
+[1.474s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/diffbot_description.urdf.xacro
+[1.477s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz/diffbot.rviz
+[1.477s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz/diffbot_view.rviz
+[1.479s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_0.stl
+[1.479s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_1.stl
+[1.479s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_2.stl
+[1.479s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_3.stl
+[1.479s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_4.stl
+[1.480s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_5.stl
+[1.480s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_6.stl
+[1.480s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_0.dae
+[1.481s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_1.dae
+[1.481s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_2.dae
+[1.481s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_3.dae
+[1.482s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_4.dae
+[1.482s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_5.dae
+[1.482s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_6.dae
+[1.483s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/srdf/r6bot.srdf
+[1.484s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/inc/create_link.xacro
+[1.484s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/r6bot_description.urdf.xacro
+[1.485s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/rviz/view_robot.rviz
+[1.485s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_description
+[1.485s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_description
+[1.486s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/ament_prefix_path.sh
+[1.486s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/ament_prefix_path.dsv
+[1.486s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/path.sh
+[1.487s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/path.dsv
+[1.487s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.bash
+[1.487s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.sh
+[1.488s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.zsh
+[1.488s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.dsv
+[1.488s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.dsv
+[1.511s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ament_index/resource_index/packages/ros2_control_demo_description
+[1.512s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/cmake/ros2_control_demo_descriptionConfig.cmake
+[1.512s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/cmake/ros2_control_demo_descriptionConfig-version.cmake
+[1.512s] -- Up-to-date symlink: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.xml
+[1.790s] Invoked command in '/home/sara/aubo_ws/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/ros2_control_demo_description

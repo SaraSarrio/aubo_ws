@@ -1,0 +1,58 @@
+[0.130s] Invoking command in '/home/sara/aubo_ws/build/aubo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/sara/aubo_ws/src/aubo_control/aubo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/aubo
+[0.452s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.452s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.452s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.556s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.557s] -- Added test 'lint_cmake' to check CMake code style
+[0.557s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.561s] -- Added test 'xmllint' to check XML markup files
+[0.563s] -- Configuring done
+[0.568s] -- Generating done
+[0.570s] -- Build files have been written to: /home/sara/aubo_ws/build/aubo
+[0.691s] Invoked command in '/home/sara/aubo_ws/build/aubo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/sara/aubo_ws/src/aubo_control/aubo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/aubo
+[0.693s] Invoking command in '/home/sara/aubo_ws/build/aubo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/aubo -- -j8 -l8
+[0.888s] Invoked command in '/home/sara/aubo_ws/build/aubo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/aubo -- -j8 -l8
+[1.738s] Invoking command in '/home/sara/aubo_ws/build/aubo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/aubo
+[1.778s] -- Install configuration: ""
+[1.784s] -- Execute custom install script
+[1.784s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/launch/aubo.launch.py
+[1.784s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/launch/spawn.launch
+[1.784s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/launch/spawn_robot_launch_v4.launch.py
+[1.784s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/urdf/aubo.gazebo.xacro
+[1.784s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/urdf/aubo.transmission.xacro
+[1.785s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/urdf/aubo_argo.urdf
+[1.785s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/urdf/aubo_i5.urdf
+[1.785s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/urdf/aubo_i5.urdf.xacro
+[1.785s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/urdf/materials.xacro
+[1.785s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/base_link.STL
+[1.785s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/foreArm_Link.STL
+[1.786s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/pedestal.STL
+[1.786s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/shoulder_Link.STL
+[1.786s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/upperArm_Link.STL
+[1.786s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/wrist1_Link.STL
+[1.792s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/wrist2_Link.STL
+[1.793s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/wrist3_Link.STL
+[1.793s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual/base_link.DAE
+[1.793s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual/foreArm_Link.DAE
+[1.793s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual/shoulder_Link.DAE
+[1.794s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual/upperArm_Link.DAE
+[1.794s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual/wrist1_Link.DAE
+[1.794s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual/wrist2_Link.DAE
+[1.795s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual/wrist3_Link.DAE
+[1.795s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/config/aubo_control.yaml
+[1.796s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/ament_index/resource_index/package_run_dependencies/aubo
+[1.796s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/ament_index/resource_index/parent_prefix_path/aubo
+[1.797s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/environment/ament_prefix_path.sh
+[1.797s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/environment/ament_prefix_path.dsv
+[1.797s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/environment/path.sh
+[1.798s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/environment/path.dsv
+[1.798s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/local_setup.bash
+[1.799s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/local_setup.sh
+[1.799s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/local_setup.zsh
+[1.799s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/local_setup.dsv
+[1.800s] -- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/package.dsv
+[1.862s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/ament_index/resource_index/packages/aubo
+[1.862s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/cmake/auboConfig.cmake
+[1.863s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/cmake/auboConfig-version.cmake
+[1.863s] -- Up-to-date symlink: /home/sara/aubo_ws/install/aubo/share/aubo/package.xml
+[2.128s] Invoked command in '/home/sara/aubo_ws/build/aubo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/aubo

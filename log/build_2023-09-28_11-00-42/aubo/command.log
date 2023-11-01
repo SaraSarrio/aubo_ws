@@ -1,0 +1,4 @@
+Invoking command in '/home/sara/aubo_ws/build/aubo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/aubo -- -j8 -l8
+Invoked command in '/home/sara/aubo_ws/build/aubo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/aubo -- -j8 -l8
+Invoking command in '/home/sara/aubo_ws/build/aubo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/aubo
+Invoked command in '/home/sara/aubo_ws/build/aubo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/aubo

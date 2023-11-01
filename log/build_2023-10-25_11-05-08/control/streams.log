@@ -1,0 +1,18 @@
+[0.203s] Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8
+[0.412s] [ 12%] Built target controller
+[0.432s] [ 25%] Built target inv_kin
+[0.438s] [ 37%] Built target test_pub
+[0.441s] [ 50%] Built target dir_kin
+[0.534s] [ 62%] Built target sim_control
+[0.537s] [ 75%] Built target sim_sub
+[0.542s] [ 87%] Built target sim_test
+[0.544s] [ 93%] [32mBuilding CXX object CMakeFiles/sim_pub.dir/src/sim_pub.cpp.o[0m
+[4.870s] In file included from [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:3[m[K:
+[4.870s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/sim_pub.hpp:12:10:[m[K [01;31m[Kfatal error: [m[Kgazebo_msgs/msg/contact_state.hpp: No such file or directory
+[4.870s]    12 | #include [01;31m[K"gazebo_msgs/msg/contact_state.hpp"[m[K  // Si estás trabajando con contactos
+[4.870s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.870s] compilation terminated.
+[4.915s] gmake[2]: *** [CMakeFiles/sim_pub.dir/build.make:76: CMakeFiles/sim_pub.dir/src/sim_pub.cpp.o] Error 1
+[4.915s] gmake[1]: *** [CMakeFiles/Makefile2:255: CMakeFiles/sim_pub.dir/all] Error 2
+[4.916s] gmake: *** [Makefile:146: all] Error 2
+[4.919s] Invoked command in '/home/sara/aubo_ws/build/control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8

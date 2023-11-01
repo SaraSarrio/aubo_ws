@@ -1,0 +1,3 @@
+Invoking command in '/home/sara/aubo_ws/build/joint_limits': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sara/aubo_ws/src/ros-controls/ros2_control/joint_limits -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/joint_limits
+Invoked command in '/home/sara/aubo_ws/build/joint_limits' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sara/aubo_ws/src/ros-controls/ros2_control/joint_limits -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/joint_limits
+Invoking command in '/home/sara/aubo_ws/build/joint_limits': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/joint_limits -- -j8 -l8

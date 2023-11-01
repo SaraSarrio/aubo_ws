@@ -1,0 +1,35 @@
+[35m[1mConsolidate compiler generated dependencies of target sim_pub[0m
+[ 20%] Built target test_pub
+[ 40%] Built target controller
+[ 60%] Built target inv_kin
+[ 80%] Built target dir_kin
+[ 90%] [32mBuilding CXX object CMakeFiles/sim_pub.dir/src/sim_pub.cpp.o[0m
+[100%] [32m[1mLinking CXX executable sim_pub[0m
+[100%] Built target sim_pub
+-- Install configuration: ""
+-- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/controller
+-- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/dir_kin
+-- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/inv_kin
+-- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/test_pub
+-- Installing: /home/sara/aubo_ws/install/control/lib/control/sim_pub
+-- Set runtime path of "/home/sara/aubo_ws/install/control/lib/control/sim_pub" to ""
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/view_robot.launch.py
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/world.launch.py
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/gz.launch.py
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/spawn_robot_launch_v4.launch.py
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/ament_index/resource_index/package_run_dependencies/control
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/ament_index/resource_index/parent_prefix_path/control
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/environment/ament_prefix_path.sh
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/environment/path.sh
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/environment/path.dsv
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.bash
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.sh
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.zsh
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.dsv
+-- Installing: /home/sara/aubo_ws/install/control/share/control/package.dsv
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/ament_index/resource_index/packages/control
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/cmake/controlConfig.cmake
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/cmake/controlConfig-version.cmake
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/package.xml

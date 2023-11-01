@@ -1,0 +1,85 @@
+[35m[1mConsolidate compiler generated dependencies of target test_pub_q[0m
+[ 11%] Built target inv_kin
+[ 22%] Built target controller
+[ 33%] Built target dir_kin
+[ 38%] [32mBuilding CXX object CMakeFiles/test_pub_q.dir/src/test_pub_q.cpp.o[0m
+[ 50%] Built target test_pub
+[ 61%] Built target sim_test
+[ 72%] Built target sim_sub
+[ 83%] Built target sim_pub
+[ 94%] Built target sim_control
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub_q.cpp:[m[K In constructor ‘[01m[KTest_pub::Test_pub()[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub_q.cpp:11:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_ind[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   11 |     int [01;35m[Kpub_ind[m[K=1;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub_q.cpp:12:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   12 |     float [01;35m[Kx[m[K=0.2;
+      |           [01;35m[K^[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub_q.cpp:13:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   13 |     float [01;35m[Ky[m[K=-0.5;
+      |           [01;35m[K^[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub_q.cpp:14:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kz[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   14 |     float [01;35m[Kz[m[K=0.5;
+      |           [01;35m[K^[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub_q.cpp:15:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kalpha[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   15 |     float [01;35m[Kalpha[m[K=1.57;
+      |           [01;35m[K^~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub_q.cpp:16:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbeta[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   16 |     float [01;35m[Kbeta[m[K=3.14;
+      |           [01;35m[K^~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub_q.cpp:17:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgamma[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   17 |     float [01;35m[Kgamma[m[K=0.0;
+      |           [01;35m[K^~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub_q.cpp:[m[K In member function ‘[01m[Kvoid Test_pub::publish_method()[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub_q.cpp:29:15:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around assignment used as truth value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+   29 |     if([01;35m[Kpub_ind=1[m[K){
+      |        [01;35m[K~~~~~~~^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub_q.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub_q.cpp:151:20:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+  151 |     while ([01;35m[Krclcpp::ok[m[K)
+      |            [01;35m[K~~~~~~~~^~[m[K
+[100%] [32m[1mLinking CXX executable test_pub_q[0m
+[100%] Built target test_pub_q
+-- Install configuration: ""
+-- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/controller
+-- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/dir_kin
+-- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/inv_kin
+-- Installing: /home/sara/aubo_ws/install/control/lib/control/test_pub_q
+-- Set runtime path of "/home/sara/aubo_ws/install/control/lib/control/test_pub_q" to ""
+-- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/test_pub
+-- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/sim_pub
+-- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/sim_sub
+-- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/sim_test
+-- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/sim_control
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/listener.launch.py
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/nodes.launch.py
+-- Installing: /home/sara/aubo_ws/install/control/share/control/launch/full.launch.py
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/robots.launch.py
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/one_robot.launch.py
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/view_robot.launch.py
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/world.launch.py
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/gz.launch.py
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/gz_4.launch.py
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/gz_2.launch.py
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/spawn_robot_launch_v4.launch.py
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/gz_5.launch.py
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/gz_1.launch.py
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/worlds
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/worlds/gz_3.world
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/worlds/gazebo_ros_joint_pose_trajectory_demo.world
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/ament_index/resource_index/package_run_dependencies/control
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/ament_index/resource_index/parent_prefix_path/control
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/environment/ament_prefix_path.sh
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/environment/path.sh
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/environment/path.dsv
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.bash
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.sh
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.zsh
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.dsv
+-- Installing: /home/sara/aubo_ws/install/control/share/control/package.dsv
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/ament_index/resource_index/packages/control
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/cmake/controlConfig.cmake
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/cmake/controlConfig-version.cmake
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/package.xml

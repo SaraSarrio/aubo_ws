@@ -1,0 +1,114 @@
+[0.500s] Invoking command in '/home/sara/aubo_ws/build/diff_drive_controller': CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/sara/aubo_ws/src/ros-controls/ros2_controllers/diff_drive_controller -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/diff_drive_controller
+[0.621s] -- The CXX compiler identification is GNU 11.4.0
+[0.630s] -- Detecting CXX compiler ABI info
+[0.780s] -- Detecting CXX compiler ABI info - done
+[0.798s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.799s] -- Detecting CXX compile features
+[0.799s] -- Detecting CXX compile features - done
+[0.806s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.236s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.584s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[1.609s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[1.627s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[1.627s] -- BACKWARD_HAS_UNWIND=1
+[1.628s] -- BACKWARD_HAS_BACKTRACE=0
+[1.628s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[1.628s] -- BACKWARD_HAS_DW=1
+[1.629s] -- BACKWARD_HAS_BFD=0
+[1.632s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[1.635s] -- Found controller_interface: 2.33.0 (/home/sara/aubo_ws/install/controller_interface/share/controller_interface/cmake)
+[1.771s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.804s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.835s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.890s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.975s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.177s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.188s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.495s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.569s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.695s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.732s] -- Looking for C++ include pthread.h
+[4.993s] -- Looking for C++ include pthread.h - found
+[4.994s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.261s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.265s] -- Found Threads: TRUE  
+[5.937s] -- Found generate_parameter_library: 0.3.6 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[5.945s] -- Found parameter_traits: 0.3.6 (/opt/ros/humble/share/parameter_traits/cmake)
+[6.029s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[6.287s] -- Found realtime_tools: 2.5.0 (/home/sara/aubo_ws/install/realtime_tools/share/realtime_tools/cmake)
+[6.411s] -- Found tf2: 0.25.4 (/opt/ros/humble/share/tf2/cmake)
+[6.437s] -- Found tf2_msgs: 0.25.4 (/opt/ros/humble/share/tf2_msgs/cmake)
+[7.390s] -- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[7.391s] -- Found controller_manager: 2.33.0 (/home/sara/aubo_ws/install/controller_manager/share/controller_manager/cmake)
+[8.049s] -- Found ros2_control_test_assets: 2.33.0 (/home/sara/aubo_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[8.055s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[8.134s] -- The C compiler identification is GNU 11.4.0
+[8.147s] -- Detecting C compiler ABI info
+[8.362s] -- Detecting C compiler ABI info - done
+[8.385s] -- Check for working C compiler: /usr/bin/cc - skipped
+[8.386s] -- Detecting C compile features
+[8.388s] -- Detecting C compile features - done
+[8.402s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[8.404s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[10.170s] -- Configuring done
+[10.685s] -- Generating done
+[10.705s] -- Build files have been written to: /home/sara/aubo_ws/build/diff_drive_controller
+[10.781s] Invoked command in '/home/sara/aubo_ws/build/diff_drive_controller' returned '0': CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/sara/aubo_ws/src/ros-controls/ros2_controllers/diff_drive_controller -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/diff_drive_controller
+[10.782s] Invoking command in '/home/sara/aubo_ws/build/diff_drive_controller': CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/sara/aubo_ws/build/diff_drive_controller -- -j8 -l8
+[22.845s] [  7%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[22.846s] [ 14%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[22.846s] [ 21%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/sara/aubo_ws/build/diff_drive_controller/diff_drive_controller_parameters/include//diff_drive_controller_parameters.hpp /home/sara/aubo_ws/src/ros-controls/ros2_controllers/diff_drive_controller/src/diff_drive_controller_parameter.yaml `[0m
+[22.846s] [ 28%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[22.846s] [ 28%] Built target diff_drive_controller_parameters
+[22.846s] [ 35%] [32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/diff_drive_controller.cpp.o[0m
+[22.846s] [ 42%] [32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/speed_limiter.cpp.o[0m
+[22.847s] [ 50%] [32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/odometry.cpp.o[0m
+[22.847s] [ 57%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[22.847s] [ 57%] Built target gmock_main
+[31.003s] [ 64%] [32m[1mLinking CXX static library libgmock.a[0m
+[31.234s] [ 64%] Built target gmock
+[56.909s] [ 71%] [32m[1mLinking CXX shared library libdiff_drive_controller.so[0m
+[59.309s] [ 71%] Built target diff_drive_controller
+[59.362s] [ 78%] [32mBuilding CXX object CMakeFiles/test_load_diff_drive_controller.dir/test/test_load_diff_drive_controller.cpp.o[0m
+[72.568s] [ 85%] [32m[1mLinking CXX executable test_load_diff_drive_controller[0m
+[74.331s] [ 85%] Built target test_load_diff_drive_controller
+[74.415s] [ 92%] [32mBuilding CXX object CMakeFiles/test_diff_drive_controller.dir/test/test_diff_drive_controller.cpp.o[0m
+[92.115s] [100%] [32m[1mLinking CXX executable test_diff_drive_controller[0m
+[94.526s] [100%] Built target test_diff_drive_controller
+[94.559s] Invoked command in '/home/sara/aubo_ws/build/diff_drive_controller' returned '0': CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/sara/aubo_ws/build/diff_drive_controller -- -j8 -l8
+[94.678s] Invoking command in '/home/sara/aubo_ws/build/diff_drive_controller': CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/sara/aubo_ws/build/diff_drive_controller
+[98.219s] -- Install configuration: ""
+[98.221s] -- Installing: /home/sara/aubo_ws/install/diff_drive_controller/include/diff_drive_controller_parameters
+[98.222s] -- Installing: /home/sara/aubo_ws/install/diff_drive_controller/include/diff_drive_controller_parameters/diff_drive_controller_parameters.hpp
+[98.223s] -- Installing: /home/sara/aubo_ws/install/diff_drive_controller/share/diff_drive_controller/diff_drive_plugin.xml
+[98.223s] -- Installing: /home/sara/aubo_ws/install/diff_drive_controller/include/diff_drive_controller
+[98.223s] -- Installing: /home/sara/aubo_ws/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller
+[98.223s] -- Installing: /home/sara/aubo_ws/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller/speed_limiter.hpp
+[98.223s] -- Installing: /home/sara/aubo_ws/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller/visibility_control.h
+[98.223s] -- Installing: /home/sara/aubo_ws/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller/odometry.hpp
+[98.224s] -- Installing: /home/sara/aubo_ws/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller/diff_drive_controller.hpp
+[98.224s] -- Installing: /home/sara/aubo_ws/install/diff_drive_controller/lib/libdiff_drive_controller.so
+[98.224s] -- Set runtime path of "/home/sara/aubo_ws/install/diff_drive_controller/lib/libdiff_drive_controller.so" to ""
+[98.224s] -- Installing: /home/sara/aubo_ws/install/diff_drive_controller/share/diff_drive_controller/environment/library_path.sh
+[98.224s] -- Installing: /home/sara/aubo_ws/install/diff_drive_controller/share/diff_drive_controller/environment/library_path.dsv
+[98.224s] -- Installing: /home/sara/aubo_ws/install/diff_drive_controller/share/ament_index/resource_index/package_run_dependencies/diff_drive_controller
+[98.225s] -- Installing: /home/sara/aubo_ws/install/diff_drive_controller/share/ament_index/resource_index/parent_prefix_path/diff_drive_controller
+[98.225s] -- Installing: /home/sara/aubo_ws/install/diff_drive_controller/share/diff_drive_controller/environment/ament_prefix_path.sh
+[98.225s] -- Installing: /home/sara/aubo_ws/install/diff_drive_controller/share/diff_drive_controller/environment/ament_prefix_path.dsv
+[98.225s] -- Installing: /home/sara/aubo_ws/install/diff_drive_controller/share/diff_drive_controller/environment/path.sh
+[98.225s] -- Installing: /home/sara/aubo_ws/install/diff_drive_controller/share/diff_drive_controller/environment/path.dsv
+[98.225s] -- Installing: /home/sara/aubo_ws/install/diff_drive_controller/share/diff_drive_controller/local_setup.bash
+[98.225s] -- Installing: /home/sara/aubo_ws/install/diff_drive_controller/share/diff_drive_controller/local_setup.sh
+[98.226s] -- Installing: /home/sara/aubo_ws/install/diff_drive_controller/share/diff_drive_controller/local_setup.zsh
+[98.226s] -- Installing: /home/sara/aubo_ws/install/diff_drive_controller/share/diff_drive_controller/local_setup.dsv
+[98.226s] -- Installing: /home/sara/aubo_ws/install/diff_drive_controller/share/diff_drive_controller/package.dsv
+[98.226s] -- Installing: /home/sara/aubo_ws/install/diff_drive_controller/share/ament_index/resource_index/packages/diff_drive_controller
+[98.226s] -- Installing: /home/sara/aubo_ws/install/diff_drive_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/diff_drive_controller
+[98.226s] -- Installing: /home/sara/aubo_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/export_diff_drive_controllerExport.cmake
+[98.227s] -- Installing: /home/sara/aubo_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/export_diff_drive_controllerExport-noconfig.cmake
+[98.227s] -- Installing: /home/sara/aubo_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/ament_cmake_export_targets-extras.cmake
+[98.227s] -- Installing: /home/sara/aubo_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[98.227s] -- Installing: /home/sara/aubo_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/diff_drive_controllerConfig.cmake
+[98.227s] -- Installing: /home/sara/aubo_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/diff_drive_controllerConfig-version.cmake
+[98.227s] -- Installing: /home/sara/aubo_ws/install/diff_drive_controller/share/diff_drive_controller/package.xml
+[98.236s] Invoked command in '/home/sara/aubo_ws/build/diff_drive_controller' returned '0': CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/sara/aubo_ws/build/diff_drive_controller

@@ -1,0 +1,158 @@
+[0.781s] Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/sara/aubo_ws/src/aubo_control/control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/control
+[0.845s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.466s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.504s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[1.627s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.637s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.657s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.701s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.761s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.976s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.989s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.491s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.457s] -- Found rclcpp_action: 16.0.6 (/opt/ros/humble/share/rclcpp_action/cmake)
+[3.948s] -- Found rclcpp_components: 16.0.6 (/opt/ros/humble/share/rclcpp_components/cmake)
+[4.348s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[4.349s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[4.349s]   does not match the name of the calling package (gazebo).  This can lead to
+[4.349s]   problems in calling code that expects `find_package` result variables
+[4.349s]   (e.g., `_FOUND`) to follow a certain pattern.
+[4.349s] Call Stack (most recent call first):
+[4.350s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[4.350s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[4.350s]   CMakeLists.txt:17 (find_package)
+[4.350s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[4.350s] [0m
+[4.499s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[4.683s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[4.693s] -- Looking for ignition-math6 -- found version 6.15.0
+[4.730s] -- Searching for dependencies of ignition-math6
+[4.735s] -- Looking for OGRE...
+[4.771s] -- Found Ogre Ghadamon (1.9.0)
+[4.772s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[4.831s] -- Looking for OGRE_Paging...
+[4.832s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[4.832s] -- Looking for OGRE_Terrain...
+[4.833s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[4.833s] -- Looking for OGRE_Property...
+[4.833s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[4.833s] -- Looking for OGRE_RTShaderSystem...
+[4.834s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[4.834s] -- Looking for OGRE_Volume...
+[4.834s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[4.834s] -- Looking for OGRE_Overlay...
+[4.834s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[5.949s] -- Looking for ignition-math6 -- found version 6.15.0
+[5.965s] -- Looking for ignition-transport8 -- found version 8.2.1
+[5.966s] -- Searching for dependencies of ignition-transport8
+[6.051s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[6.102s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[6.154s] -- Checking for module 'libzmq >= 4'
+[6.317s] --   Found libzmq , version 4.3.4
+[6.573s] -- Checking for module 'uuid'
+[6.694s] --   Found uuid, version 2.37.2
+[7.121s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[7.122s] -- Searching for dependencies of ignition-msgs5
+[7.220s] -- Looking for ignition-math6 -- found version 6.15.0
+[7.250s] -- Checking for module 'tinyxml2'
+[7.367s] --   Found tinyxml2, version 9.0.0
+[7.629s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[7.631s] -- Looking for ignition-common3 -- found version 3.14.0
+[7.632s] -- Searching for dependencies of ignition-common3
+[7.639s] -- Looking for dlfcn.h - found
+[7.639s] -- Looking for libdl - found
+[7.704s] -- Searching for <ignition-common3> component [graphics]
+[7.711s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[7.713s] -- Searching for dependencies of ignition-common3-graphics
+[7.714s] -- Looking for ignition-math6 -- found version 6.15.0
+[7.717s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[7.719s] -- Searching for dependencies of ignition-fuel_tools4
+[7.972s] -- Checking for module 'jsoncpp'
+[8.114s] --   Found jsoncpp, version 1.9.5
+[8.527s] -- Checking for module 'libzip'
+[8.702s] --   Found libzip, version 1.7.3
+[9.186s] -- Looking for ignition-common3 -- found version 3.14.0
+[9.187s] -- Looking for ignition-math6 -- found version 6.15.0
+[9.188s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[9.201s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[11.753s] -- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[12.570s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.488s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.492s] -- Configured cppcheck include dirs: /home/sara/aubo_ws/src/aubo_control/control/include
+[13.492s] -- Configured cppcheck exclude dirs and/or files: 
+[13.493s] -- Added test 'flake8' to check Python code syntax and style conventions
+[13.494s] -- Added test 'lint_cmake' to check CMake code style
+[13.498s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[13.508s] -- Added test 'uncrustify' to check C / C++ code style
+[13.508s] -- Configured uncrustify additional arguments: 
+[13.524s] -- Added test 'xmllint' to check XML markup files
+[13.544s] -- Configuring done
+[13.692s] -- Generating done
+[13.699s] -- Build files have been written to: /home/sara/aubo_ws/build/control
+[13.752s] Invoked command in '/home/sara/aubo_ws/build/control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/sara/aubo_ws/src/aubo_control/control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/control
+[13.753s] Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8
+[14.855s] [35m[1mConsolidate compiler generated dependencies of target inv_kin[0m
+[15.102s] [35m[1mConsolidate compiler generated dependencies of target dir_kin[0m
+[15.109s] [35m[1mConsolidate compiler generated dependencies of target controller[0m
+[15.141s] [35m[1mConsolidate compiler generated dependencies of target sim_sub[0m
+[15.198s] [35m[1mConsolidate compiler generated dependencies of target test_pub[0m
+[15.310s] [35m[1mConsolidate compiler generated dependencies of target sim_pub[0m
+[15.340s] [35m[1mConsolidate compiler generated dependencies of target sim_test[0m
+[15.361s] [35m[1mConsolidate compiler generated dependencies of target sim_control[0m
+[15.801s] [  6%] [32m[1mLinking CXX executable inv_kin[0m
+[15.965s] [ 12%] [32m[1mLinking CXX executable dir_kin[0m
+[16.197s] [ 18%] [32m[1mLinking CXX executable sim_test[0m
+[16.234s] [ 25%] [32m[1mLinking CXX executable test_pub[0m
+[16.247s] [ 31%] [32m[1mLinking CXX executable controller[0m
+[16.276s] [ 37%] [32m[1mLinking CXX executable sim_sub[0m
+[16.564s] [ 43%] [32m[1mLinking CXX executable sim_pub[0m
+[16.617s] [ 50%] [32m[1mLinking CXX executable sim_control[0m
+[19.644s] [ 56%] Built target test_pub
+[19.912s] [ 62%] Built target sim_test
+[22.227s] [ 68%] Built target dir_kin
+[22.320s] [ 75%] Built target sim_sub
+[22.424s] [ 81%] Built target inv_kin
+[22.527s] [ 87%] Built target sim_pub
+[23.476s] [ 93%] Built target sim_control
+[24.295s] [100%] Built target controller
+[24.347s] Invoked command in '/home/sara/aubo_ws/build/control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8
+[25.636s] Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/control
+[25.679s] -- Install configuration: ""
+[25.693s] -- Execute custom install script
+[25.694s] -- Symlinking: /home/sara/aubo_ws/install/control/lib/control/controller
+[25.769s] -- Symlinking: /home/sara/aubo_ws/install/control/lib/control/dir_kin
+[25.822s] -- Symlinking: /home/sara/aubo_ws/install/control/lib/control/inv_kin
+[25.855s] -- Symlinking: /home/sara/aubo_ws/install/control/lib/control/test_pub
+[25.904s] -- Symlinking: /home/sara/aubo_ws/install/control/lib/control/sim_pub
+[25.964s] -- Symlinking: /home/sara/aubo_ws/install/control/lib/control/sim_sub
+[26.022s] -- Symlinking: /home/sara/aubo_ws/install/control/lib/control/sim_test
+[26.078s] -- Symlinking: /home/sara/aubo_ws/install/control/lib/control/sim_control
+[26.121s] -- Symlinking: /home/sara/aubo_ws/install/control/share/control/launch/gz.launch.py
+[26.201s] -- Symlinking: /home/sara/aubo_ws/install/control/share/control/launch/gz_1.launch.py
+[26.279s] -- Symlinking: /home/sara/aubo_ws/install/control/share/control/launch/gz_2.launch.py
+[26.345s] -- Symlinking: /home/sara/aubo_ws/install/control/share/control/launch/gz_4.launch.py
+[26.425s] -- Symlinking: /home/sara/aubo_ws/install/control/share/control/launch/gz_5.launch.py
+[26.490s] -- Symlinking: /home/sara/aubo_ws/install/control/share/control/launch/listener.launch.py
+[26.557s] -- Symlinking: /home/sara/aubo_ws/install/control/share/control/launch/one_robot.launch.py
+[26.615s] -- Symlinking: /home/sara/aubo_ws/install/control/share/control/launch/robots.launch.py
+[26.666s] -- Symlinking: /home/sara/aubo_ws/install/control/share/control/launch/spawn_robot_launch_v4.launch.py
+[26.719s] -- Symlinking: /home/sara/aubo_ws/install/control/share/control/launch/view_robot.launch.py
+[26.775s] -- Symlinking: /home/sara/aubo_ws/install/control/share/control/launch/world.launch.py
+[26.805s] -- Symlinking: /home/sara/aubo_ws/install/control/share/control/worlds/gazebo_ros_joint_pose_trajectory_demo.world
+[26.834s] -- Symlinking: /home/sara/aubo_ws/install/control/share/control/worlds/gz_3.world
+[26.881s] -- Symlinking: /home/sara/aubo_ws/install/control/share/ament_index/resource_index/package_run_dependencies/control
+[26.911s] -- Symlinking: /home/sara/aubo_ws/install/control/share/ament_index/resource_index/parent_prefix_path/control
+[26.942s] -- Symlinking: /home/sara/aubo_ws/install/control/share/control/environment/ament_prefix_path.sh
+[26.984s] -- Symlinking: /home/sara/aubo_ws/install/control/share/control/environment/ament_prefix_path.dsv
+[27.064s] -- Symlinking: /home/sara/aubo_ws/install/control/share/control/environment/path.sh
+[27.121s] -- Symlinking: /home/sara/aubo_ws/install/control/share/control/environment/path.dsv
+[27.194s] -- Symlinking: /home/sara/aubo_ws/install/control/share/control/local_setup.bash
+[27.223s] -- Symlinking: /home/sara/aubo_ws/install/control/share/control/local_setup.sh
+[27.277s] -- Symlinking: /home/sara/aubo_ws/install/control/share/control/local_setup.zsh
+[27.323s] -- Symlinking: /home/sara/aubo_ws/install/control/share/control/local_setup.dsv
+[27.377s] -- Symlinking: /home/sara/aubo_ws/install/control/share/control/package.dsv
+[27.439s] -- Symlinking: /home/sara/aubo_ws/install/control/share/ament_index/resource_index/packages/control
+[27.522s] -- Symlinking: /home/sara/aubo_ws/install/control/share/control/cmake/controlConfig.cmake
+[27.560s] -- Symlinking: /home/sara/aubo_ws/install/control/share/control/cmake/controlConfig-version.cmake
+[27.626s] -- Symlinking: /home/sara/aubo_ws/install/control/share/control/package.xml
+[27.693s] Invoked command in '/home/sara/aubo_ws/build/control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/control

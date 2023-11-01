@@ -1,0 +1,94 @@
+[0.087s] Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8
+[0.126s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.287s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.335s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.338s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.350s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.366s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.386s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.452s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.456s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.599s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.756s] -- Found rclcpp_action: 16.0.6 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.845s] -- Found rclcpp_components: 16.0.6 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.908s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.908s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[0.908s]   does not match the name of the calling package (gazebo).  This can lead to
+[0.908s]   problems in calling code that expects `find_package` result variables
+[0.908s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.908s] Call Stack (most recent call first):
+[0.908s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[0.908s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[0.908s]   CMakeLists.txt:14 (find_package)
+[0.908s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.908s] [0m
+[0.935s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.972s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.974s] -- Looking for ignition-math6 -- found version 6.15.0
+[0.980s] -- Searching for dependencies of ignition-math6
+[0.981s] -- Looking for OGRE...
+[0.988s] -- Found Ogre Ghadamon (1.9.0)
+[0.988s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.996s] -- Looking for OGRE_Paging...
+[0.996s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.996s] -- Looking for OGRE_Terrain...
+[0.997s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.997s] -- Looking for OGRE_Property...
+[0.997s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.997s] -- Looking for OGRE_RTShaderSystem...
+[0.997s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.997s] -- Looking for OGRE_Volume...
+[0.997s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.997s] -- Looking for OGRE_Overlay...
+[0.997s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.213s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.239s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.240s] -- Searching for dependencies of ignition-transport8
+[1.261s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.275s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.281s] -- Checking for module 'libzmq >= 4'
+[1.301s] --   Found libzmq , version 4.3.4
+[1.354s] -- Checking for module 'uuid'
+[1.373s] --   Found uuid, version 2.37.2
+[1.417s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.417s] -- Searching for dependencies of ignition-msgs5
+[1.439s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.446s] -- Checking for module 'tinyxml2'
+[1.465s] --   Found tinyxml2, version 9.0.0
+[1.510s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.510s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.511s] -- Searching for dependencies of ignition-common3
+[1.511s] -- Looking for dlfcn.h - found
+[1.511s] -- Looking for libdl - found
+[1.523s] -- Searching for <ignition-common3> component [graphics]
+[1.524s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.524s] -- Searching for dependencies of ignition-common3-graphics
+[1.524s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.526s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.526s] -- Searching for dependencies of ignition-fuel_tools4
+[1.572s] -- Checking for module 'jsoncpp'
+[1.591s] --   Found jsoncpp, version 1.9.5
+[1.641s] -- Checking for module 'libzip'
+[1.661s] --   Found libzip, version 1.7.3
+[1.704s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.705s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.705s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.707s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.713s] -- Gazebo version: 11.10
+[1.717s] -- Found control_msgs: 4.4.0 (/home/sara/ros2_ws/install/control_msgs/share/control_msgs/cmake)
+[2.127s] -- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[2.289s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.358s] [31mCMake Error at CMakeLists.txt:53 (install):
+[2.358s]   install TARGETS given target "sim_test" which does not exist.
+[2.358s] 
+[2.358s] [0m
+[2.408s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[2.408s]   ament_target_dependencies() the first argument must be a valid target name
+[2.408s] Call Stack (most recent call first):
+[2.408s]   CMakeLists.txt:76 (ament_target_dependencies)
+[2.408s] 
+[2.408s] [0m
+[2.408s] -- Configuring incomplete, errors occurred!
+[2.408s] See also "/home/sara/aubo_ws/build/control/CMakeFiles/CMakeOutput.log".
+[2.417s] gmake: *** [Makefile:595: cmake_check_build_system] Error 1
+[2.419s] Invoked command in '/home/sara/aubo_ws/build/control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8

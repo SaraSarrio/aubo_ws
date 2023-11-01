@@ -1,0 +1,30 @@
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:[m[K In constructor ‘[01m[KSim_control::Sim_control()[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:13:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   13 |     float [01;35m[Kq0[m[K=0.0;
+      |           [01;35m[K^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:14:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   14 |     float [01;35m[Kq1[m[K=0.0;
+      |           [01;35m[K^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:15:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   15 |     float [01;35m[Kq2[m[K=0.0;
+      |           [01;35m[K^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:16:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq3[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   16 |     float [01;35m[Kq3[m[K=0.0;
+      |           [01;35m[K^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:17:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq4[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   17 |     float [01;35m[Kq4[m[K=0.0;
+      |           [01;35m[K^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:18:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq5[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   18 |     float [01;35m[Kq5[m[K=0.0;
+      |           [01;35m[K^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:19:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_int_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   19 |     int [01;35m[Kpub_int_[m[K=0;
+      |         [01;35m[K^~~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:[m[K In member function ‘[01m[Kvoid Sim_control::feedback_callback(rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>::SharedPtr)[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:92:134:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   92 |   void  Sim_control::feedback_callback([01;35m[Kconst rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>::SharedPtr goal_handle[m[K) {
+      |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:110:19:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+  110 |    while ([01;35m[Krclcpp::ok[m[K)
+      |           [01;35m[K~~~~~~~~^~[m[K

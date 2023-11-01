@@ -1,0 +1,110 @@
+[0.054s] Invoking command in '/home/sara/aubo_ws/build/control': /usr/bin/cmake /home/sara/aubo_ws/src/aubo_control/control -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/control
+[0.063s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.198s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.223s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.225s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.237s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.242s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.256s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.310s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.311s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.412s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.561s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.561s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[0.561s]   does not match the name of the calling package (gazebo).  This can lead to
+[0.561s]   problems in calling code that expects `find_package` result variables
+[0.561s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.561s] Call Stack (most recent call first):
+[0.561s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[0.561s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[0.561s]   CMakeLists.txt:12 (find_package)
+[0.561s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.561s] [0m
+[0.561s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.561s] -- Checking for module 'bullet>=2.82'
+[0.571s] --   Found bullet, version 3.05
+[0.647s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[0.684s] -- Found assimp: /usr/include (found version "5.2.0") 
+[0.696s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.712s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[0.723s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.726s] -- Looking for ignition-math6 -- found version 6.15.0
+[0.731s] -- Searching for dependencies of ignition-math6
+[0.732s] -- Looking for OGRE...
+[0.732s] -- OGRE_PREFIX_WATCH changed.
+[0.736s] -- Checking for module 'OGRE'
+[0.746s] --   Found OGRE, version 1.9.0
+[0.770s] -- Found Ogre Ghadamon (1.9.0)
+[0.775s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.783s] -- Looking for OGRE_Paging...
+[0.786s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.786s] -- Looking for OGRE_Terrain...
+[0.789s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.789s] -- Looking for OGRE_Property...
+[0.792s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.792s] -- Looking for OGRE_RTShaderSystem...
+[0.795s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.795s] -- Looking for OGRE_Volume...
+[0.798s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.798s] -- Looking for OGRE_Overlay...
+[0.802s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.874s] -- Looking for ignition-math6 -- found version 6.15.0
+[0.875s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.876s] -- Searching for dependencies of ignition-transport8
+[0.890s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.898s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.902s] -- Checking for module 'libzmq >= 4'
+[0.912s] --   Found libzmq , version 4.3.4
+[0.939s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[0.943s] -- Checking for module 'uuid'
+[0.953s] --   Found uuid, version 2.37.2
+[0.978s] -- Found UUID: TRUE  
+[0.979s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.980s] -- Searching for dependencies of ignition-msgs5
+[0.995s] -- Looking for ignition-math6 -- found version 6.15.0
+[0.999s] -- Checking for module 'tinyxml2'
+[1.009s] --   Found tinyxml2, version 9.0.0
+[1.034s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.036s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.036s] -- Searching for dependencies of ignition-common3
+[1.036s] -- Looking for dlfcn.h - found
+[1.037s] -- Looking for libdl - found
+[1.038s] -- Found DL: TRUE  
+[1.046s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[1.047s] -- Searching for <ignition-common3> component [graphics]
+[1.048s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.048s] -- Searching for dependencies of ignition-common3-graphics
+[1.049s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.050s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.051s] -- Searching for dependencies of ignition-fuel_tools4
+[1.109s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.116s] -- Checking for module 'jsoncpp'
+[1.126s] --   Found jsoncpp, version 1.9.5
+[1.151s] -- Found JSONCPP: TRUE  
+[1.156s] -- Checking for module 'libzip'
+[1.165s] --   Found libzip, version 1.7.3
+[1.191s] -- Found ZIP: TRUE  
+[1.191s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.192s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.192s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.194s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[1.646s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[1.646s]   By not providing "Findaubo_ros2_common.cmake" in CMAKE_MODULE_PATH this
+[1.646s]   project has asked CMake to find a package configuration file provided by
+[1.646s]   "aubo_ros2_common", but CMake did not find one.
+[1.646s] 
+[1.646s]   Could not find a package configuration file provided by "aubo_ros2_common"
+[1.646s]   with any of the following names:
+[1.646s] 
+[1.646s]     aubo_ros2_commonConfig.cmake
+[1.646s]     aubo_ros2_common-config.cmake
+[1.646s] 
+[1.646s]   Add the installation prefix of "aubo_ros2_common" to CMAKE_PREFIX_PATH or
+[1.646s]   set "aubo_ros2_common_DIR" to a directory containing one of the above
+[1.646s]   files.  If "aubo_ros2_common" provides a separate development package or
+[1.647s]   SDK, be sure it has been installed.
+[1.647s] 
+[1.647s] [0m
+[1.647s] -- Configuring incomplete, errors occurred!
+[1.647s] See also "/home/sara/aubo_ws/build/control/CMakeFiles/CMakeOutput.log".
+[1.655s] Invoked command in '/home/sara/aubo_ws/build/control' returned '1': /usr/bin/cmake /home/sara/aubo_ws/src/aubo_control/control -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/control

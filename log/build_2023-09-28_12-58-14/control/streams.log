@@ -1,0 +1,54 @@
+[0.049s] Invoking command in '/home/sara/aubo_ws/build/control': /usr/bin/cmake /home/sara/aubo_ws/src/aubo_control/control -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/control
+[0.059s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.191s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.229s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.230s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.233s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.248s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.262s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.319s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.322s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.429s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.575s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[1.015s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.056s] Error parsing '/home/sara/aubo_ws/src/aubo_control/control/package.xml':
+[1.093s] Traceback (most recent call last):
+[1.093s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[1.093s]     root = dom.parseString(data)
+[1.093s]   File "/usr/lib/python3.10/xml/dom/minidom.py", line 2000, in parseString
+[1.093s]     return expatbuilder.parseString(string)
+[1.093s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString
+[1.093s]     return builder.parseString(string)
+[1.094s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString
+[1.094s]     parser.Parse(string, True)
+[1.094s] xml.parsers.expat.ExpatError: not well-formed (invalid token): line 16, column 10
+[1.094s] 
+[1.094s] During handling of the above exception, another exception occurred:
+[1.094s] 
+[1.094s] Traceback (most recent call last):
+[1.094s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[1.094s]     main()
+[1.094s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[1.094s]     raise e
+[1.094s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[1.095s]     package = parse_package_string(
+[1.095s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[1.095s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[1.095s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/sara/aubo_ws/src/aubo_control/control/package.xml':
+[1.095s] The manifest contains invalid XML:
+[1.095s] not well-formed (invalid token): line 16, column 10
+[1.105s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.105s]   execute_process(/usr/bin/python3.10
+[1.105s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.105s]   /home/sara/aubo_ws/src/aubo_control/control/package.xml
+[1.105s]   /home/sara/aubo_ws/build/control/ament_cmake_core/package.cmake) returned
+[1.105s]   error code 1
+[1.106s] Call Stack (most recent call first):
+[1.106s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.106s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.106s]   CMakeLists.txt:30 (ament_lint_auto_find_test_dependencies)
+[1.106s] 
+[1.106s] [0m
+[1.106s] -- Configuring incomplete, errors occurred!
+[1.106s] See also "/home/sara/aubo_ws/build/control/CMakeFiles/CMakeOutput.log".
+[1.112s] Invoked command in '/home/sara/aubo_ws/build/control' returned '1': /usr/bin/cmake /home/sara/aubo_ws/src/aubo_control/control -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/control

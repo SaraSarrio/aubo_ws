@@ -1,0 +1,632 @@
+[0.403s] Invoking command in '/home/sara/aubo_ws/build/controller_manager_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/sara/aubo_ws/src/ros-controls/ros2_control/controller_manager_msgs -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/controller_manager_msgs
+[0.907s] -- The C compiler identification is GNU 11.4.0
+[0.907s] -- The CXX compiler identification is GNU 11.4.0
+[0.907s] -- Detecting C compiler ABI info
+[0.907s] -- Detecting C compiler ABI info - done
+[0.907s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.907s] -- Detecting C compile features
+[0.907s] -- Detecting C compile features - done
+[0.907s] -- Detecting CXX compiler ABI info
+[0.908s] -- Detecting CXX compiler ABI info - done
+[0.908s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.908s] -- Detecting CXX compile features
+[0.908s] -- Detecting CXX compile features - done
+[0.908s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.227s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.397s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.457s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.466s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.485s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.510s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.557s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.598s] -- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)
+[1.630s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.355s] -- Found ament_cmake_cppcheck: 0.12.8 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[2.358s] -- Found ament_cmake_cpplint: 0.12.8 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[2.365s] -- Found ament_cmake_uncrustify: 0.12.8 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[2.367s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.958s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.212s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.247s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.249s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.296s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.296s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.296s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.296s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.332s] -- Found PythonExtra: .so  
+[3.449s] -- Found ament_cmake_flake8: 0.12.8 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[3.453s] -- Found ament_cmake_pep257: 0.12.8 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[3.468s] -- Configuring done
+[3.578s] -- Generating done
+[3.583s] -- Build files have been written to: /home/sara/aubo_ws/build/controller_manager_msgs
+[3.645s] Invoked command in '/home/sara/aubo_ws/build/controller_manager_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/sara/aubo_ws/src/ros-controls/ros2_control/controller_manager_msgs -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/controller_manager_msgs
+[3.645s] Invoking command in '/home/sara/aubo_ws/build/controller_manager_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/controller_manager_msgs -- -j8 -l8
+[4.037s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.038s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.051s] [  1%] Built target ament_cmake_python_copy_controller_manager_msgs
+[4.602s] running egg_info
+[4.602s] creating controller_manager_msgs.egg-info
+[4.602s] writing controller_manager_msgs.egg-info/PKG-INFO
+[4.602s] writing dependency_links to controller_manager_msgs.egg-info/dependency_links.txt
+[4.602s] writing top-level names to controller_manager_msgs.egg-info/top_level.txt
+[4.603s] writing manifest file 'controller_manager_msgs.egg-info/SOURCES.txt'
+[4.603s] reading manifest file 'controller_manager_msgs.egg-info/SOURCES.txt'
+[4.603s] writing manifest file 'controller_manager_msgs.egg-info/SOURCES.txt'
+[4.698s] [  1%] Built target ament_cmake_python_build_controller_manager_msgs_egg
+[9.260s] [  1%] Built target controller_manager_msgs__cpp
+[9.303s] [  2%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[9.334s] [  3%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[9.349s] [  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[10.002s] [  3%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/controller_state__functions.c.o[0m
+[10.035s] [  4%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/hardware_component_state__functions.c.o[0m
+[10.042s] [  5%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/chain_connection__functions.c.o[0m
+[10.071s] [  6%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/hardware_interface__functions.c.o[0m
+[10.084s] [  6%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/configure_controller__functions.c.o[0m
+[10.221s] [  7%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_controllers__functions.c.o[0m
+[10.287s] [  8%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_controller_types__functions.c.o[0m
+[10.386s] [  8%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_hardware_interfaces__functions.c.o[0m
+[10.386s] [  9%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_hardware_components__functions.c.o[0m
+[10.401s] [ 10%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/reload_controller_libraries__functions.c.o[0m
+[10.404s] [ 11%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/load_controller__functions.c.o[0m
+[10.552s] [ 12%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/set_hardware_component_state__functions.c.o[0m
+[10.595s] [ 12%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/switch_controller__functions.c.o[0m
+[10.634s] [ 13%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/unload_controller__functions.c.o[0m
+[10.907s] [ 14%] [32m[1mLinking C shared library libcontroller_manager_msgs__rosidl_generator_c.so[0m
+[11.133s] [ 14%] Built target controller_manager_msgs__rosidl_generator_c
+[11.214s] [ 15%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[11.235s] [ 16%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[11.241s] [ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[13.102s] [ 18%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/msg/controller_state__type_support.cpp.o[0m
+[13.125s] [ 18%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/msg/hardware_component_state__type_support.cpp.o[0m
+[13.150s] [ 19%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/msg/chain_connection__type_support.cpp.o[0m
+[14.784s] [ 20%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/msg/hardware_interface__type_support.cpp.o[0m
+[14.896s] [ 21%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/configure_controller__type_support.cpp.o[0m
+[15.120s] [ 21%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/list_controllers__type_support.cpp.o[0m
+[16.235s] [ 22%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/msg/detail/controller_state__type_support.cpp.o[0m
+[16.991s] [ 23%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/list_controller_types__type_support.cpp.o[0m
+[17.017s] [ 24%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/msg/detail/dds_fastrtps/controller_state__type_support.cpp.o[0m
+[17.088s] [ 25%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/msg/detail/dds_fastrtps/chain_connection__type_support.cpp.o[0m
+[17.244s] [ 26%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/list_hardware_components__type_support.cpp.o[0m
+[19.112s] [ 27%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/list_hardware_interfaces__type_support.cpp.o[0m
+[19.154s] [ 27%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/msg/controller_state__type_support.cpp.o[0m
+[19.492s] [ 28%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/msg/chain_connection__type_support.cpp.o[0m
+[19.870s] [ 29%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/msg/hardware_component_state__type_support.cpp.o[0m
+[19.979s] [ 30%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/msg/detail/controller_state__type_support.c.o[0m
+[20.206s] [ 30%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/load_controller__type_support.cpp.o[0m
+[20.263s] [ 31%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/msg/hardware_interface__type_support.cpp.o[0m
+[20.502s] [ 32%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/msg/detail/chain_connection__type_support.c.o[0m
+[20.659s] [ 32%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/configure_controller__type_support.cpp.o[0m
+[20.828s] [ 33%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/list_controllers__type_support.cpp.o[0m
+[20.844s] [ 34%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/reload_controller_libraries__type_support.cpp.o[0m
+[20.879s] [ 34%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/msg/detail/hardware_component_state__type_support.c.o[0m
+[21.102s] [ 35%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/msg/detail/hardware_interface__type_support.c.o[0m
+[21.177s] [ 36%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/list_controller_types__type_support.cpp.o[0m
+[21.503s] [ 37%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/configure_controller__type_support.c.o[0m
+[21.697s] [ 38%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/list_hardware_components__type_support.cpp.o[0m
+[21.716s] [ 38%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/list_hardware_interfaces__type_support.cpp.o[0m
+[21.847s] [ 39%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/msg/detail/chain_connection__type_support.cpp.o[0m
+[22.003s] [ 40%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/list_controllers__type_support.c.o[0m
+[22.125s] [ 41%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/msg/detail/hardware_component_state__type_support.cpp.o[0m
+[22.128s] [ 42%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/load_controller__type_support.cpp.o[0m
+[22.170s] [ 42%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/msg/detail/dds_fastrtps/hardware_component_state__type_support.cpp.o[0m
+[22.363s] [ 43%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/msg/detail/controller_state__type_support_c.cpp.o[0m
+[22.527s] [ 43%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/list_controller_types__type_support.c.o[0m
+[22.575s] [ 44%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/reload_controller_libraries__type_support.cpp.o[0m
+[22.982s] [ 45%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/set_hardware_component_state__type_support.cpp.o[0m
+[23.198s] [ 46%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/list_hardware_components__type_support.c.o[0m
+[23.336s] [ 47%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support.c.o[0m
+[23.380s] [ 47%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/switch_controller__type_support.cpp.o[0m
+[23.563s] [ 48%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/unload_controller__type_support.cpp.o[0m
+[23.709s] [ 49%] [32m[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_c.so[0m
+[23.805s] [ 50%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/set_hardware_component_state__type_support.cpp.o[0m
+[23.841s] [ 50%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/load_controller__type_support.c.o[0m
+[24.064s] [ 51%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support.c.o[0m
+[24.240s] [ 51%] Built target controller_manager_msgs__rosidl_typesupport_c
+[24.361s] [ 52%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/set_hardware_component_state__type_support.c.o[0m
+[24.765s] [ 53%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/switch_controller__type_support.c.o[0m
+[25.133s] [ 53%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/unload_controller__type_support.c.o[0m
+[25.293s] [ 54%] [32m[1mLinking C shared library libcontroller_manager_msgs__rosidl_typesupport_introspection_c.so[0m
+[25.323s] [ 54%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/msg/detail/chain_connection__type_support_c.cpp.o[0m
+[25.517s] [ 54%] Built target controller_manager_msgs__rosidl_typesupport_introspection_c
+[25.988s] [ 55%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/switch_controller__type_support.cpp.o[0m
+[26.090s] [ 56%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/configure_controller__type_support.cpp.o[0m
+[26.206s] [ 57%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/msg/detail/dds_fastrtps/hardware_interface__type_support.cpp.o[0m
+[27.291s] [ 58%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/msg/detail/hardware_interface__type_support_c.cpp.o[0m
+[27.877s] [ 58%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/unload_controller__type_support.cpp.o[0m
+[28.640s] [ 58%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/msg/detail/hardware_interface__type_support.cpp.o[0m
+[29.014s] [ 59%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/list_controllers__type_support.cpp.o[0m
+[29.657s] [ 59%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/list_controllers__type_support_c.cpp.o[0m
+[29.676s] [ 60%] [32m[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_cpp.so[0m
+[30.049s] [ 60%] Built target controller_manager_msgs__rosidl_typesupport_cpp
+[30.862s] [ 61%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/list_controllers__type_support.cpp.o[0m
+[31.766s] [ 61%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/list_controller_types__type_support.cpp.o[0m
+[31.860s] [ 62%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/list_hardware_components__type_support_c.cpp.o[0m
+[32.530s] [ 63%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/list_controller_types__type_support.cpp.o[0m
+[33.381s] [ 64%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support_c.cpp.o[0m
+[34.175s] [ 65%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/list_hardware_components__type_support.cpp.o[0m
+[34.273s] [ 65%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/list_hardware_components__type_support.cpp.o[0m
+[34.824s] [ 65%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/load_controller__type_support_c.cpp.o[0m
+[35.786s] [ 66%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/list_controller_types__type_support_c.cpp.o[0m
+[36.166s] [ 67%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/list_hardware_interfaces__type_support.cpp.o[0m
+[36.581s] [ 68%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support.cpp.o[0m
+[37.109s] [ 69%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support_c.cpp.o[0m
+[38.004s] [ 70%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/load_controller__type_support.cpp.o[0m
+[38.302s] [ 71%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support.cpp.o[0m
+[38.690s] [ 72%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/set_hardware_component_state__type_support_c.cpp.o[0m
+[39.412s] [ 73%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/configure_controller__type_support.cpp.o[0m
+[40.220s] [ 73%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/set_hardware_component_state__type_support.cpp.o[0m
+[40.404s] [ 74%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/switch_controller__type_support_c.cpp.o[0m
+[40.620s] [ 74%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/reload_controller_libraries__type_support.cpp.o[0m
+[41.775s] [ 75%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/switch_controller__type_support.cpp.o[0m
+[41.942s] [ 75%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/unload_controller__type_support_c.cpp.o[0m
+[42.476s] [ 76%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/set_hardware_component_state__type_support.cpp.o[0m
+[43.128s] [ 77%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/unload_controller__type_support.cpp.o[0m
+[43.512s] [ 78%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/configure_controller__type_support_c.cpp.o[0m
+[44.134s] [ 79%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/unload_controller__type_support.cpp.o[0m
+[44.462s] [ 80%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/load_controller__type_support.cpp.o[0m
+[44.596s] [ 81%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/msg/detail/hardware_component_state__type_support_c.cpp.o[0m
+[45.314s] [ 82%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/switch_controller__type_support.cpp.o[0m
+[45.435s] [ 83%] [32m[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[45.669s] [ 84%] [32m[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[45.702s] [ 84%] Built target controller_manager_msgs__rosidl_typesupport_introspection_cpp
+[45.937s] [ 84%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_c
+[46.633s] [ 84%] [32m[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[46.900s] [ 84%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_cpp
+[46.963s] [ 84%] Built target controller_manager_msgs
+[47.042s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[54.945s] [ 85%] Built target controller_manager_msgs__py
+[54.984s] [ 86%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/msg/_controller_state_s.c.o[0m
+[55.213s] [ 87%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/srv/_list_hardware_components_s.c.o[0m
+[55.414s] [ 88%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/srv/_list_hardware_interfaces_s.c.o[0m
+[55.675s] [ 88%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/srv/_load_controller_s.c.o[0m
+[55.861s] [ 89%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/srv/_reload_controller_libraries_s.c.o[0m
+[56.047s] [ 90%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/srv/_set_hardware_component_state_s.c.o[0m
+[56.322s] [ 90%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/srv/_switch_controller_s.c.o[0m
+[56.543s] [ 91%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/srv/_unload_controller_s.c.o[0m
+[56.742s] [ 92%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/srv/_list_controller_types_s.c.o[0m
+[56.999s] [ 92%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/srv/_list_controllers_s.c.o[0m
+[57.198s] [ 93%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/srv/_configure_controller_s.c.o[0m
+[57.394s] [ 94%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/msg/_hardware_interface_s.c.o[0m
+[57.574s] [ 95%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/msg/_hardware_component_state_s.c.o[0m
+[57.770s] [ 95%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/msg/_chain_connection_s.c.o[0m
+[57.952s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/controller_manager_msgs/libcontroller_manager_msgs__rosidl_generator_py.so[0m
+[58.036s] [ 96%] Built target controller_manager_msgs__rosidl_generator_py
+[58.072s] [ 97%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/controller_manager_msgs/_controller_manager_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[58.393s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[58.464s] [ 97%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_c__pyext
+[58.502s] [ 98%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/controller_manager_msgs/_controller_manager_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[58.825s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[58.905s] [ 98%] Built target controller_manager_msgs__rosidl_typesupport_c__pyext
+[58.943s] [ 99%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/controller_manager_msgs/_controller_manager_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[59.273s] [100%] [32m[1mLinking C shared library rosidl_generator_py/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[59.349s] [100%] Built target controller_manager_msgs__rosidl_typesupport_introspection_c__pyext
+[59.371s] Invoked command in '/home/sara/aubo_ws/build/controller_manager_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/controller_manager_msgs -- -j8 -l8
+[60.102s] Invoking command in '/home/sara/aubo_ws/build/controller_manager_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/controller_manager_msgs
+[60.117s] -- Install configuration: ""
+[60.117s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/ament_index/resource_index/rosidl_interfaces/controller_manager_msgs
+[60.117s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs
+[60.118s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg
+[60.118s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/hardware_interface.h
+[60.118s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail
+[60.118s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__struct.h
+[60.119s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__struct.h
+[60.119s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__type_support.h
+[60.119s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__functions.h
+[60.119s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__type_support.h
+[60.120s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__functions.h
+[60.120s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__functions.c
+[60.120s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__struct.h
+[60.120s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__struct.h
+[60.121s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__functions.h
+[60.121s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__type_support.h
+[60.121s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__functions.c
+[60.121s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__functions.c
+[60.122s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__type_support.h
+[60.122s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__functions.h
+[60.123s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__functions.c
+[60.123s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/controller_state.h
+[60.123s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/chain_connection.h
+[60.123s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/hardware_component_state.h
+[60.124s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/rosidl_generator_c__visibility_control.h
+[60.124s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv
+[60.124s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_hardware_interfaces.h
+[60.124s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_controller_types.h
+[60.125s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/switch_controller.h
+[60.125s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/load_controller.h
+[60.125s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/unload_controller.h
+[60.125s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail
+[60.125s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__functions.c
+[60.126s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__functions.h
+[60.126s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__type_support.h
+[60.126s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__functions.h
+[60.126s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__functions.c
+[60.127s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__type_support.h
+[60.127s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__type_support.h
+[60.127s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__type_support.h
+[60.127s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__functions.h
+[60.128s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__struct.h
+[60.128s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__functions.c
+[60.128s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__functions.c
+[60.128s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__struct.h
+[60.128s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__type_support.h
+[60.129s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__struct.h
+[60.129s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__functions.h
+[60.129s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__struct.h
+[60.129s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__functions.h
+[60.129s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__functions.h
+[60.130s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__functions.c
+[60.130s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__struct.h
+[60.130s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__type_support.h
+[60.130s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__functions.c
+[60.130s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support.h
+[60.131s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__type_support.h
+[60.131s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__functions.h
+[60.131s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__functions.c
+[60.131s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__functions.c
+[60.132s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__functions.h
+[60.132s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__struct.h
+[60.132s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support.h
+[60.132s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__struct.h
+[60.132s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__functions.h
+[60.133s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__functions.c
+[60.133s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__functions.c
+[60.133s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__struct.h
+[60.133s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__struct.h
+[60.133s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__functions.h
+[60.134s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__type_support.h
+[60.134s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__struct.h
+[60.134s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_controllers.h
+[60.134s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/configure_controller.h
+[60.134s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/reload_controller_libraries.h
+[60.134s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/set_hardware_component_state.h
+[60.135s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_hardware_components.h
+[60.135s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/library_path.sh
+[60.135s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/library_path.dsv
+[60.135s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_generator_c.so
+[60.136s] -- Set runtime path of "/home/sara/aubo_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_generator_c.so" to ""
+[60.136s] -- Up-to-date: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs
+[60.136s] -- Up-to-date: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg
+[60.136s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[60.136s] -- Up-to-date: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail
+[60.137s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_fastrtps_c.h
+[60.137s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__rosidl_typesupport_fastrtps_c.h
+[60.137s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__rosidl_typesupport_fastrtps_c.h
+[60.137s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__rosidl_typesupport_fastrtps_c.h
+[60.138s] -- Up-to-date: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv
+[60.138s] -- Up-to-date: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail
+[60.138s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_fastrtps_c.h
+[60.138s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_fastrtps_c.h
+[60.139s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__rosidl_typesupport_fastrtps_c.h
+[60.139s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_fastrtps_c.h
+[60.139s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__rosidl_typesupport_fastrtps_c.h
+[60.139s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__rosidl_typesupport_fastrtps_c.h
+[60.139s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_fastrtps_c.h
+[60.140s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_fastrtps_c.h
+[60.140s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_fastrtps_c.h
+[60.140s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__rosidl_typesupport_fastrtps_c.h
+[60.140s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_fastrtps_c.so
+[60.141s] -- Set runtime path of "/home/sara/aubo_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[60.141s] -- Up-to-date: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs
+[60.141s] -- Up-to-date: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg
+[60.141s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/controller_state.hpp
+[60.142s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/chain_connection.hpp
+[60.142s] -- Up-to-date: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail
+[60.142s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__traits.hpp
+[60.142s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__builder.hpp
+[60.143s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__struct.hpp
+[60.143s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__struct.hpp
+[60.143s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__traits.hpp
+[60.143s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__struct.hpp
+[60.144s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__struct.hpp
+[60.144s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__builder.hpp
+[60.144s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__builder.hpp
+[60.144s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__builder.hpp
+[60.145s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__traits.hpp
+[60.145s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__traits.hpp
+[60.145s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/hardware_interface.hpp
+[60.145s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/hardware_component_state.hpp
+[60.146s] -- Up-to-date: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv
+[60.146s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_controllers.hpp
+[60.146s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/unload_controller.hpp
+[60.146s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_hardware_components.hpp
+[60.146s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/configure_controller.hpp
+[60.147s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_hardware_interfaces.hpp
+[60.147s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/load_controller.hpp
+[60.147s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/set_hardware_component_state.hpp
+[60.147s] -- Up-to-date: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail
+[60.148s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__builder.hpp
+[60.148s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__traits.hpp
+[60.148s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__traits.hpp
+[60.148s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__builder.hpp
+[60.148s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__struct.hpp
+[60.149s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__builder.hpp
+[60.149s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__traits.hpp
+[60.149s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__traits.hpp
+[60.149s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__traits.hpp
+[60.149s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__builder.hpp
+[60.150s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__traits.hpp
+[60.150s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__struct.hpp
+[60.150s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__struct.hpp
+[60.151s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__struct.hpp
+[60.151s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__struct.hpp
+[60.151s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__builder.hpp
+[60.151s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__builder.hpp
+[60.152s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__traits.hpp
+[60.152s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__struct.hpp
+[60.152s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__struct.hpp
+[60.152s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__struct.hpp
+[60.152s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__traits.hpp
+[60.153s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__builder.hpp
+[60.153s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__builder.hpp
+[60.153s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__builder.hpp
+[60.153s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__struct.hpp
+[60.153s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__traits.hpp
+[60.154s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__traits.hpp
+[60.154s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__builder.hpp
+[60.154s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__struct.hpp
+[60.154s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/reload_controller_libraries.hpp
+[60.154s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_controller_types.hpp
+[60.155s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/switch_controller.hpp
+[60.155s] -- Up-to-date: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs
+[60.155s] -- Up-to-date: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg
+[60.155s] -- Up-to-date: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail
+[60.156s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_fastrtps_cpp.hpp
+[60.156s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__rosidl_typesupport_fastrtps_cpp.hpp
+[60.156s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__rosidl_typesupport_fastrtps_cpp.hpp
+[60.156s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__rosidl_typesupport_fastrtps_cpp.hpp
+[60.157s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/dds_fastrtps
+[60.157s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[60.157s] -- Up-to-date: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv
+[60.157s] -- Up-to-date: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail
+[60.158s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__rosidl_typesupport_fastrtps_cpp.hpp
+[60.158s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[60.158s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_fastrtps_cpp.hpp
+[60.158s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[60.159s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[60.159s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__rosidl_typesupport_fastrtps_cpp.hpp
+[60.159s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__rosidl_typesupport_fastrtps_cpp.hpp
+[60.159s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/dds_fastrtps
+[60.160s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_fastrtps_cpp.hpp
+[60.160s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_fastrtps_cpp.hpp
+[60.160s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[60.160s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_fastrtps_cpp.so
+[60.160s] -- Set runtime path of "/home/sara/aubo_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[60.161s] -- Up-to-date: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs
+[60.161s] -- Up-to-date: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg
+[60.161s] -- Up-to-date: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail
+[60.161s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__type_support.c
+[60.161s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__rosidl_typesupport_introspection_c.h
+[60.162s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__type_support.c
+[60.162s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__rosidl_typesupport_introspection_c.h
+[60.162s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__type_support.c
+[60.162s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__rosidl_typesupport_introspection_c.h
+[60.163s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_introspection_c.h
+[60.163s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__type_support.c
+[60.163s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[60.163s] -- Up-to-date: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv
+[60.164s] -- Up-to-date: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail
+[60.164s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__type_support.c
+[60.164s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_introspection_c.h
+[60.164s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_introspection_c.h
+[60.164s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__type_support.c
+[60.164s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__type_support.c
+[60.165s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__type_support.c
+[60.165s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__type_support.c
+[60.165s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_introspection_c.h
+[60.165s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__rosidl_typesupport_introspection_c.h
+[60.165s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__rosidl_typesupport_introspection_c.h
+[60.166s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_introspection_c.h
+[60.166s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_introspection_c.h
+[60.166s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_introspection_c.h
+[60.166s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__type_support.c
+[60.166s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__type_support.c
+[60.167s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__type_support.c
+[60.167s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__rosidl_typesupport_introspection_c.h
+[60.167s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support.c
+[60.167s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__rosidl_typesupport_introspection_c.h
+[60.167s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support.c
+[60.168s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_introspection_c.so
+[60.168s] -- Set runtime path of "/home/sara/aubo_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_introspection_c.so" to ""
+[60.168s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_c.so
+[60.168s] -- Set runtime path of "/home/sara/aubo_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_c.so" to ""
+[60.168s] -- Up-to-date: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs
+[60.169s] -- Up-to-date: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg
+[60.169s] -- Up-to-date: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail
+[60.169s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__rosidl_typesupport_introspection_cpp.hpp
+[60.169s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__type_support.cpp
+[60.170s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__rosidl_typesupport_introspection_cpp.hpp
+[60.170s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__type_support.cpp
+[60.170s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__rosidl_typesupport_introspection_cpp.hpp
+[60.170s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__type_support.cpp
+[60.170s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_introspection_cpp.hpp
+[60.171s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__type_support.cpp
+[60.171s] -- Up-to-date: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv
+[60.171s] -- Up-to-date: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail
+[60.171s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__rosidl_typesupport_introspection_cpp.hpp
+[60.171s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__rosidl_typesupport_introspection_cpp.hpp
+[60.171s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_introspection_cpp.hpp
+[60.172s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__type_support.cpp
+[60.172s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__type_support.cpp
+[60.173s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_introspection_cpp.hpp
+[60.173s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_introspection_cpp.hpp
+[60.173s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__rosidl_typesupport_introspection_cpp.hpp
+[60.173s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__type_support.cpp
+[60.174s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_introspection_cpp.hpp
+[60.174s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__type_support.cpp
+[60.174s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__type_support.cpp
+[60.175s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__type_support.cpp
+[60.175s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support.cpp
+[60.175s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_introspection_cpp.hpp
+[60.175s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_introspection_cpp.hpp
+[60.175s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support.cpp
+[60.176s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__type_support.cpp
+[60.176s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__type_support.cpp
+[60.176s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__rosidl_typesupport_introspection_cpp.hpp
+[60.176s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_introspection_cpp.so
+[60.176s] -- Set runtime path of "/home/sara/aubo_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[60.177s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_cpp.so
+[60.177s] -- Set runtime path of "/home/sara/aubo_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_cpp.so" to ""
+[60.177s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/pythonpath.sh
+[60.177s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/pythonpath.dsv
+[60.178s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs-2.33.0-py3.10.egg-info
+[60.178s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs-2.33.0-py3.10.egg-info/dependency_links.txt
+[60.178s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs-2.33.0-py3.10.egg-info/top_level.txt
+[60.179s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs-2.33.0-py3.10.egg-info/SOURCES.txt
+[60.179s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs-2.33.0-py3.10.egg-info/PKG-INFO
+[60.180s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs
+[60.180s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg
+[60.181s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg/__init__.py
+[60.181s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg/_chain_connection.py
+[60.181s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg/_controller_state_s.c
+[60.182s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg/_chain_connection_s.c
+[60.182s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg/_hardware_component_state_s.c
+[60.182s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg/_controller_state.py
+[60.183s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg/_hardware_interface_s.c
+[60.183s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg/_hardware_component_state.py
+[60.183s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg/_hardware_interface.py
+[60.184s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/__init__.py
+[60.184s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv
+[60.184s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/__init__.py
+[60.184s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_list_hardware_interfaces.py
+[60.185s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_configure_controller_s.c
+[60.185s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_set_hardware_component_state.py
+[60.185s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_list_hardware_components.py
+[60.185s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_list_controller_types_s.c
+[60.186s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_reload_controller_libraries.py
+[60.186s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_list_controllers_s.c
+[60.186s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_set_hardware_component_state_s.c
+[60.186s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_load_controller.py
+[60.186s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_list_hardware_components_s.c
+[60.187s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_list_hardware_interfaces_s.c
+[60.187s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_unload_controller_s.c
+[60.187s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_load_controller_s.c
+[60.187s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_list_controllers.py
+[60.188s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_reload_controller_libraries_s.c
+[60.188s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_configure_controller.py
+[60.188s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_unload_controller.py
+[60.189s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_list_controller_types.py
+[60.189s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_switch_controller_s.c
+[60.189s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_switch_controller.py
+[60.189s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/_controller_manager_msgs_s.ep.rosidl_typesupport_c.c
+[60.190s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[60.190s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/libcontroller_manager_msgs__rosidl_generator_py.so
+[60.190s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[60.190s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/_controller_manager_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[60.191s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[60.191s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/_controller_manager_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[60.287s] Listing '/home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs'...
+[60.288s] Compiling '/home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/__init__.py'...
+[60.288s] Listing '/home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg'...
+[60.288s] Compiling '/home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg/__init__.py'...
+[60.288s] Compiling '/home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg/_chain_connection.py'...
+[60.289s] Compiling '/home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg/_controller_state.py'...
+[60.289s] Compiling '/home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg/_hardware_component_state.py'...
+[60.289s] Compiling '/home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg/_hardware_interface.py'...
+[60.289s] Listing '/home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv'...
+[60.289s] Compiling '/home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/__init__.py'...
+[60.289s] Compiling '/home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_configure_controller.py'...
+[60.290s] Compiling '/home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_list_controller_types.py'...
+[60.290s] Compiling '/home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_list_controllers.py'...
+[60.290s] Compiling '/home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_list_hardware_components.py'...
+[60.290s] Compiling '/home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_list_hardware_interfaces.py'...
+[60.290s] Compiling '/home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_load_controller.py'...
+[60.290s] Compiling '/home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_reload_controller_libraries.py'...
+[60.291s] Compiling '/home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_set_hardware_component_state.py'...
+[60.291s] Compiling '/home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_switch_controller.py'...
+[60.291s] Compiling '/home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_unload_controller.py'...
+[60.298s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[60.299s] -- Set runtime path of "/home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[60.299s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[60.300s] -- Set runtime path of "/home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[60.300s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[60.302s] -- Set runtime path of "/home/sara/aubo_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[60.302s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_generator_py.so
+[60.303s] -- Set runtime path of "/home/sara/aubo_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_generator_py.so" to ""
+[60.303s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/ControllerState.idl
+[60.304s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/ChainConnection.idl
+[60.304s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/HardwareComponentState.idl
+[60.304s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/HardwareInterface.idl
+[60.305s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureController.idl
+[60.305s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllers.idl
+[60.306s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllerTypes.idl
+[60.306s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareComponents.idl
+[60.307s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareInterfaces.idl
+[60.308s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadController.idl
+[60.308s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ReloadControllerLibraries.idl
+[60.309s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SetHardwareComponentState.idl
+[60.309s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SwitchController.idl
+[60.309s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/UnloadController.idl
+[60.309s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/ControllerState.msg
+[60.310s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/ChainConnection.msg
+[60.310s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/HardwareComponentState.msg
+[60.310s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/HardwareInterface.msg
+[60.310s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureController.srv
+[60.311s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureController_Request.msg
+[60.311s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureController_Response.msg
+[60.311s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllers.srv
+[60.311s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllers_Request.msg
+[60.311s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllers_Response.msg
+[60.312s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllerTypes.srv
+[60.312s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllerTypes_Request.msg
+[60.312s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllerTypes_Response.msg
+[60.312s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareComponents.srv
+[60.313s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareComponents_Request.msg
+[60.313s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareComponents_Response.msg
+[60.313s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareInterfaces.srv
+[60.314s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareInterfaces_Request.msg
+[60.314s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareInterfaces_Response.msg
+[60.314s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadController.srv
+[60.315s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadController_Request.msg
+[60.315s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadController_Response.msg
+[60.315s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ReloadControllerLibraries.srv
+[60.315s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ReloadControllerLibraries_Request.msg
+[60.316s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ReloadControllerLibraries_Response.msg
+[60.316s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SetHardwareComponentState.srv
+[60.316s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SetHardwareComponentState_Request.msg
+[60.316s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SetHardwareComponentState_Response.msg
+[60.317s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SwitchController.srv
+[60.317s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SwitchController_Request.msg
+[60.317s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SwitchController_Response.msg
+[60.318s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/UnloadController.srv
+[60.318s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/UnloadController_Request.msg
+[60.319s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/UnloadController_Response.msg
+[60.319s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/ament_index/resource_index/package_run_dependencies/controller_manager_msgs
+[60.319s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/ament_index/resource_index/parent_prefix_path/controller_manager_msgs
+[60.320s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/ament_prefix_path.sh
+[60.320s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/ament_prefix_path.dsv
+[60.320s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/path.sh
+[60.321s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/path.dsv
+[60.321s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.bash
+[60.321s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.sh
+[60.322s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.zsh
+[60.322s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.dsv
+[60.322s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/package.dsv
+[60.323s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/ament_index/resource_index/packages/controller_manager_msgs
+[60.323s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_generator_cExport.cmake
+[60.323s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_generator_cExport-noconfig.cmake
+[60.324s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[60.324s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[60.324s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_generator_cppExport.cmake
+[60.326s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[60.326s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[60.326s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cExport.cmake
+[60.326s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[60.326s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cExport.cmake
+[60.327s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[60.327s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[60.327s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[60.327s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cppExport.cmake
+[60.328s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[60.328s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_generator_pyExport.cmake
+[60.329s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_generator_pyExport-noconfig.cmake
+[60.329s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/rosidl_cmake-extras.cmake
+[60.330s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[60.330s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[60.333s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[60.334s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[60.334s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[60.334s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[60.335s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgsConfig.cmake
+[60.336s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgsConfig-version.cmake
+[60.336s] -- Installing: /home/sara/aubo_ws/install/controller_manager_msgs/share/controller_manager_msgs/package.xml
+[60.337s] Invoked command in '/home/sara/aubo_ws/build/controller_manager_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/controller_manager_msgs

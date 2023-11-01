@@ -1,0 +1,38 @@
+[35m[1mConsolidate compiler generated dependencies of target sim_control[0m
+[ 12%] Built target test_pub
+[ 25%] Built target sim_sub
+[ 37%] Built target controller
+[ 50%] Built target sim_pub
+[ 62%] Built target dir_kin
+[ 75%] Built target inv_kin
+[ 81%] [32mBuilding CXX object CMakeFiles/sim_control.dir/src/sim_control.cpp.o[0m
+[ 93%] Built target sim_test
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:[m[K In member function ‘[01m[Kvoid Sim_control::send_goal()[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:44:59:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::shared_ptr<control_msgs::action::FollowJointTrajectory_Goal_<std::allocator<void> > >[m[K’ to ‘[01m[Kconst Goal&[m[K’ {aka ‘[01m[Kconst control_msgs::action::FollowJointTrajectory_Goal_<std::allocator<void> >&[m[K’}
+   44 |   auto send_goal_future = action_client_->async_send_goal([01;31m[Kgoal_msg[m[K, send_goal_options);
+      |                                                           [01;31m[K^~~~~~~~[m[K
+      |                                                           [01;31m[K|[m[K
+      |                                                           [01;31m[Kstd::shared_ptr<control_msgs::action::FollowJointTrajectory_Goal_<std::allocator<void> > >[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:36[m[K,
+                 from [01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/sim_control.hpp:10[m[K,
+                 from [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp:422:32:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::shared_future<typename rclcpp_action::ClientGoalHandle<ActionT>::SharedPtr> rclcpp_action::Client<ActionT>::async_send_goal(const Goal&, const rclcpp_action::Client<ActionT>::SendGoalOptions&) [with ActionT = control_msgs::action::FollowJointTrajectory; typename rclcpp_action::ClientGoalHandle<ActionT>::SharedPtr = std::shared_ptr<rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory> >; rclcpp_action::Client<ActionT>::Goal = control_msgs::action::FollowJointTrajectory_Goal_<std::allocator<void> >][m[K’
+  422 |   async_send_goal([01;36m[Kconst Goal & goal[m[K, const SendGoalOptions & options = SendGoalOptions())
+      |                   [01;36m[K~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:46:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kspin_until_fute_complete[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[Kspin_until_future_complete[m[K’?
+   46 |   if (rclcpp::[01;31m[Kspin_until_fute_complete[m[K(shared_from_this(), send_goal_future) !=
+      |               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |               [32m[Kspin_until_future_complete[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:47:15:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::executor[m[K’ has not been declared
+   47 |       rclcpp::[01;31m[Kexecutor[m[K::FutureReturnCode::SUCCESS) {
+      |               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:[m[K In member function ‘[01m[Kvoid Sim_control::feedback_callback(rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>::SharedPtr)[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:53:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>[m[K’ {aka ‘[01m[Kclass rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>[m[K’} has no member named ‘[01m[Kaccept_pending[m[K’
+   53 |   if (goal_handle->[01;31m[Kaccept_pending[m[K()) {
+      |                    [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:55:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>[m[K’ {aka ‘[01m[Kclass rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>[m[K’} has no member named ‘[01m[Kaccepted[m[K’
+   55 |      } else if (goal_handle->[01;31m[Kaccepted[m[K()) {
+      |                              [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/sim_control.dir/build.make:76: CMakeFiles/sim_control.dir/src/sim_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/sim_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

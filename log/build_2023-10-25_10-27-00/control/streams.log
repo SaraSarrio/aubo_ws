@@ -1,0 +1,51 @@
+[0.149s] Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8
+[0.245s] [ 12%] Built target controller
+[0.247s] [ 25%] Built target test_pub
+[0.254s] [ 37%] Built target sim_pub
+[0.255s] [ 50%] Built target inv_kin
+[0.257s] [ 62%] Built target dir_kin
+[0.258s] [ 75%] Built target sim_sub
+[0.258s] [ 87%] Built target sim_control
+[0.263s] [100%] Built target sim_test
+[0.557s] Invoked command in '/home/sara/aubo_ws/build/control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8
+[1.081s] Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/control
+[1.575s] -- Install configuration: ""
+[1.575s] -- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/controller
+[1.575s] -- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/dir_kin
+[1.576s] -- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/inv_kin
+[1.576s] -- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/test_pub
+[1.576s] -- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/sim_pub
+[1.577s] -- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/sim_sub
+[1.577s] -- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/sim_test
+[1.577s] -- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/sim_control
+[1.577s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch
+[1.577s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/listener.launch.py
+[1.577s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/robots.launch.py
+[1.577s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/one_robot.launch.py
+[1.577s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/view_robot.launch.py
+[1.578s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/world.launch.py
+[1.579s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/gz.launch.py
+[1.579s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/gz_4.launch.py
+[1.579s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/gz_2.launch.py
+[1.579s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/spawn_robot_launch_v4.launch.py
+[1.579s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/gz_5.launch.py
+[1.580s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/gz_1.launch.py
+[1.580s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/worlds
+[1.580s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/worlds/gz_3.world
+[1.580s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/worlds/gazebo_ros_joint_pose_trajectory_demo.world
+[1.580s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/ament_index/resource_index/package_run_dependencies/control
+[1.580s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/ament_index/resource_index/parent_prefix_path/control
+[1.580s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/environment/ament_prefix_path.sh
+[1.580s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/environment/ament_prefix_path.dsv
+[1.580s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/environment/path.sh
+[1.581s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/environment/path.dsv
+[1.581s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.bash
+[1.581s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.sh
+[1.581s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.zsh
+[1.581s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.dsv
+[1.581s] -- Installing: /home/sara/aubo_ws/install/control/share/control/package.dsv
+[1.581s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/ament_index/resource_index/packages/control
+[1.582s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/cmake/controlConfig.cmake
+[1.582s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/cmake/controlConfig-version.cmake
+[1.582s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/package.xml
+[1.586s] Invoked command in '/home/sara/aubo_ws/build/control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/control

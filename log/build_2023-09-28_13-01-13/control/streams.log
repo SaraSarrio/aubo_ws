@@ -1,0 +1,94 @@
+[0.051s] Invoking command in '/home/sara/aubo_ws/build/control': /usr/bin/cmake /home/sara/aubo_ws/src/aubo_control/control -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/control
+[0.062s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.192s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.231s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.232s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.232s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.245s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.260s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.319s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.319s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.424s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.574s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.574s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[0.574s]   does not match the name of the calling package (gazebo).  This can lead to
+[0.575s]   problems in calling code that expects `find_package` result variables
+[0.575s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.575s] Call Stack (most recent call first):
+[0.575s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[0.575s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[0.575s]   CMakeLists.txt:12 (find_package)
+[0.575s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.575s] [0m
+[0.594s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.617s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.618s] -- Looking for ignition-math6 -- found version 6.15.0
+[0.622s] -- Searching for dependencies of ignition-math6
+[0.624s] -- Looking for OGRE...
+[0.628s] -- Found Ogre Ghadamon (1.9.0)
+[0.628s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.636s] -- Looking for OGRE_Paging...
+[0.637s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.637s] -- Looking for OGRE_Terrain...
+[0.637s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.637s] -- Looking for OGRE_Property...
+[0.637s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.637s] -- Looking for OGRE_RTShaderSystem...
+[0.637s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.637s] -- Looking for OGRE_Volume...
+[0.638s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.638s] -- Looking for OGRE_Overlay...
+[0.638s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.709s] -- Looking for ignition-math6 -- found version 6.15.0
+[0.710s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.710s] -- Searching for dependencies of ignition-transport8
+[0.724s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.733s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.737s] -- Checking for module 'libzmq >= 4'
+[0.747s] --   Found libzmq , version 4.3.4
+[0.778s] -- Checking for module 'uuid'
+[0.787s] --   Found uuid, version 2.37.2
+[0.812s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.813s] -- Searching for dependencies of ignition-msgs5
+[0.828s] -- Looking for ignition-math6 -- found version 6.15.0
+[0.832s] -- Checking for module 'tinyxml2'
+[0.841s] --   Found tinyxml2, version 9.0.0
+[0.867s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.867s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.868s] -- Searching for dependencies of ignition-common3
+[0.868s] -- Looking for dlfcn.h - found
+[0.868s] -- Looking for libdl - found
+[0.880s] -- Searching for <ignition-common3> component [graphics]
+[0.880s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[0.880s] -- Searching for dependencies of ignition-common3-graphics
+[0.880s] -- Looking for ignition-math6 -- found version 6.15.0
+[0.880s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[0.881s] -- Searching for dependencies of ignition-fuel_tools4
+[0.908s] -- Checking for module 'jsoncpp'
+[0.918s] --   Found jsoncpp, version 1.9.5
+[0.947s] -- Checking for module 'libzip'
+[0.957s] --   Found libzip, version 1.7.3
+[0.982s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.983s] -- Looking for ignition-math6 -- found version 6.15.0
+[0.983s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.984s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[1.431s] [31mCMake Error at CMakeLists.txt:16 (find_package):
+[1.431s]   By not providing "Findgazebo_msgs.cmake" in CMAKE_MODULE_PATH this project
+[1.431s]   has asked CMake to find a package configuration file provided by
+[1.431s]   "gazebo_msgs", but CMake did not find one.
+[1.431s] 
+[1.431s]   Could not find a package configuration file provided by "gazebo_msgs" with
+[1.431s]   any of the following names:
+[1.431s] 
+[1.431s]     gazebo_msgsConfig.cmake
+[1.431s]     gazebo_msgs-config.cmake
+[1.431s] 
+[1.431s]   Add the installation prefix of "gazebo_msgs" to CMAKE_PREFIX_PATH or set
+[1.431s]   "gazebo_msgs_DIR" to a directory containing one of the above files.  If
+[1.431s]   "gazebo_msgs" provides a separate development package or SDK, be sure it
+[1.432s]   has been installed.
+[1.432s] 
+[1.432s] [0m
+[1.432s] -- Configuring incomplete, errors occurred!
+[1.432s] See also "/home/sara/aubo_ws/build/control/CMakeFiles/CMakeOutput.log".
+[1.439s] Invoked command in '/home/sara/aubo_ws/build/control' returned '1': /usr/bin/cmake /home/sara/aubo_ws/src/aubo_control/control -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/control

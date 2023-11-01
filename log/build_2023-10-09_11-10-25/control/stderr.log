@@ -1,0 +1,119 @@
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PkgConfig)
+  does not match the name of the calling package (gazebo).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+  CMakeLists.txt:12 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+In file included from [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/inv_kin.cpp:4[m[K:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/aubo_kin_mod.hpp:[m[K In function ‘[01m[Kint inverse(const double*, double*)[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/aubo_kin_mod.hpp:316:69:[m[K [01;35m[Kwarning: [m[Ksuggest braces around empty body in an ‘[01m[Kif[m[K’ statement [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wempty-body-Wempty-body]8;;[m[K]
+  316 |                     if (loop_again && !solution_num && j5_idx == 1) [01;35m[K;[m[K
+      |                                                                     [01;35m[K^[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/aubo_kin_mod.hpp:341:73:[m[K [01;35m[Kwarning: [m[Ksuggest braces around empty body in an ‘[01m[Kif[m[K’ statement [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wempty-body-Wempty-body]8;;[m[K]
+  341 |                         if (loop_again && !solution_num && j5_idx == 1) [01;35m[K;[m[K
+      |                                                                         [01;35m[K^[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/inv_kin.cpp:[m[K In constructor ‘[01m[KInv_kin::Inv_kin()[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/inv_kin.cpp:12:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kc_goal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   12 |     double [01;35m[Kc_goal[m[K[6]={0.097,-0.128,0.959,0.0,0.0,0.0};
+      |            [01;35m[K^~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/inv_kin.cpp:13:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kj_goal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   13 |     double [01;35m[Kj_goal[m[K[6]={0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
+      |            [01;35m[K^~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/inv_kin.cpp:14:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_ind[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   14 |     int [01;35m[Kpub_ind[m[K=0;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/inv_kin.cpp:15:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kest_codo[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   15 |     int [01;35m[Kest_codo[m[K=1;
+      |         [01;35m[K^~~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/inv_kin.cpp:[m[K In member function ‘[01m[Kvoid Inv_kin::funcion(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/inv_kin.cpp:26:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kqi[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   26 |  double [01;35m[Kqi[m[K[6];
+      |         [01;35m[K^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/inv_kin.cpp:27:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KTi[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   27 |  double [01;35m[KTi[m[K[16];
+      |         [01;35m[K^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/inv_kin.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/inv_kin.cpp:129:20:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+  129 |     while ([01;35m[Krclcpp::ok[m[K)
+      |            [01;35m[K~~~~~~~~^~[m[K
+In file included from [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:3[m[K:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/aubo_kin_mod.hpp:[m[K In function ‘[01m[Kint inverse(const double*, double*)[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/aubo_kin_mod.hpp:316:69:[m[K [01;35m[Kwarning: [m[Ksuggest braces around empty body in an ‘[01m[Kif[m[K’ statement [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wempty-body-Wempty-body]8;;[m[K]
+  316 |             if (loop_again && !solution_num && j5_idx == 1) [01;35m[K;[m[K
+      |                                                             [01;35m[K^[m[K
+
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/aubo_kin_mod.hpp:341:73:[m[K [01;35m[Kwarning: [m[Ksuggest braces around empty body in an ‘[01m[Kif[m[K’ statement [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wempty-body-Wempty-body]8;;[m[K]
+  341 |             if (loop_again && !solution_num && j5_idx == 1) [01;35m[K;[m[K
+      |                                                             [01;35m[K^[m[K
+
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:[m[K In constructor ‘[01m[KController::Controller()[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:24:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_ind_user[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   24 |     int [01;35m[Kpub_ind_user[m[K=0;
+      |         [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:25:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_ind_sim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   25 |     int [01;35m[Kpub_ind_sim[m[K=0;
+      |         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:26:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_ind_robot[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   26 |     int [01;35m[Kpub_ind_robot[m[K=0;
+      |         [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:[m[K In member function ‘[01m[Kvoid Controller::sim_sub_f(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:57:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsgrec[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   57 | f([01;35m[Kconst std_msgs::msg::Float32MultiArray::SharedPtr msgrec[m[K) {
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:[m[K In member function ‘[01m[Kvoid Controller::coll_sub_f(gazebo_msgs::msg::ContactsState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:61:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg_coll_robot[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   61 | ([01;35m[Kconst gazebo_msgs::msg::ContactsState::SharedPtr msg_coll_robot[m[K) {
+      |  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:104:20:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+  104 |     while ([01;35m[Krclcpp::ok[m[K)
+      |            [01;35m[K~~~~~~~~^~[m[K
+In file included from [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/dir_kin.cpp:3[m[K:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/aubo_kin_mod.hpp:[m[K In function ‘[01m[Kint inverse(const double*, double*)[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/aubo_kin_mod.hpp:316:69:[m[K [01;35m[Kwarning: [m[Ksuggest braces around empty body in an ‘[01m[Kif[m[K’ statement [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wempty-body-Wempty-body]8;;[m[K]
+  316 |                     if (loop_again && !solution_num && j5_idx == 1) [01;35m[K;[m[K
+      |                                                                     [01;35m[K^[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/aubo_kin_mod.hpp:341:73:[m[K [01;35m[Kwarning: [m[Ksuggest braces around empty body in an ‘[01m[Kif[m[K’ statement [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wempty-body-Wempty-body]8;;[m[K]
+  341 |                         if (loop_again && !solution_num && j5_idx == 1) [01;35m[K;[m[K
+      |                                                                         [01;35m[K^[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/dir_kin.cpp:[m[K In constructor ‘[01m[KDir_kin::Dir_kin()[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/dir_kin.cpp:11:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KT[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   11 |     double [01;35m[KT[m[K[16] = {0.0, 0.0, 0.0, 0.0,0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
+      |            [01;35m[K^[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/dir_kin.cpp:12:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   12 |     double [01;35m[Kq0[m[K[6];
+      |            [01;35m[K^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/dir_kin.cpp:14:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_ind[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   14 |     int [01;35m[Kpub_ind[m[K=0;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/dir_kin.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/dir_kin.cpp:73:20:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+   73 |     while ([01;35m[Krclcpp::ok[m[K)
+      |            [01;35m[K~~~~~~~~^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub.cpp:[m[K In constructor ‘[01m[KTest_pub::Test_pub()[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub.cpp:10:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_ind[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   10 |     int [01;35m[Kpub_ind[m[K=1;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub.cpp:[m[K In member function ‘[01m[Kvoid Test_pub::publish_method()[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub.cpp:21:15:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around assignment used as truth value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+   21 |     if([01;35m[Kpub_ind=1[m[K){
+      |        [01;35m[K~~~~~~~^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:[m[K In constructor ‘[01m[KSim_pub::Sim_pub()[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:14:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_ind[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   14 |     int [01;35m[Kpub_ind[m[K=1;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:[m[K In member function ‘[01m[Kvoid Sim_pub::funcion(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:22:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsgrec[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   22 | void Sim_pub::funcion([01;35m[Kconst std_msgs::msg::Float32MultiArray::SharedPtr msgrec[m[K) {
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:60:20:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+   60 |     while ([01;35m[Krclcpp::ok[m[K)
+      |            [01;35m[K~~~~~~~~^~[m[K

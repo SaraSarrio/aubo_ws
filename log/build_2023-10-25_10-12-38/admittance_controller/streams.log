@@ -1,0 +1,121 @@
+[0.578s] Invoking command in '/home/sara/aubo_ws/build/admittance_controller': AMENT_PREFIX_PATH=/home/sara/aubo_ws/install/joint_trajectory_controller:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/joint_trajectory_controller:/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/sara/aubo_ws/install/joint_trajectory_controller/lib:/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/sara/aubo_ws/src/ros-controls/ros2_controllers/admittance_controller -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/admittance_controller
+[0.777s] -- The CXX compiler identification is GNU 11.4.0
+[0.777s] -- Detecting CXX compiler ABI info
+[0.986s] -- Detecting CXX compiler ABI info - done
+[1.011s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.011s] -- Detecting CXX compile features
+[1.013s] -- Detecting CXX compile features - done
+[1.024s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.517s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.843s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[1.866s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[1.882s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[1.882s] -- BACKWARD_HAS_UNWIND=1
+[1.883s] -- BACKWARD_HAS_BACKTRACE=0
+[1.883s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[1.883s] -- BACKWARD_HAS_DW=1
+[1.884s] -- BACKWARD_HAS_BFD=0
+[1.886s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[1.894s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[1.901s] -- Found control_msgs: 4.4.0 (/home/sara/aubo_ws/install/control_msgs/share/control_msgs/cmake)
+[2.024s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.046s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.079s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.129s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.200s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.972s] -- Found control_toolbox: 3.1.0 (/home/sara/aubo_ws/install/control_toolbox/share/control_toolbox/cmake)
+[4.200s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.212s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.575s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.645s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.773s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.804s] -- Looking for C++ include pthread.h
+[5.073s] -- Looking for C++ include pthread.h - found
+[5.073s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.340s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.343s] -- Found Threads: TRUE  
+[5.971s] -- Found parameter_traits: 0.3.6 (/opt/ros/humble/share/parameter_traits/cmake)
+[6.054s] -- Found rclcpp_lifecycle: 16.0.6 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[6.281s] -- Found controller_interface: 2.33.0 (/home/sara/aubo_ws/install/controller_interface/share/controller_interface/cmake)
+[7.045s] -- Found joint_trajectory_controller: 2.26.0 (/home/sara/aubo_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake)
+[8.145s] -- Found kinematics_interface: 0.1.0 (/home/sara/aubo_ws/install/kinematics_interface/share/kinematics_interface/cmake)
+[8.168s] -- Found tf2: 0.25.4 (/opt/ros/humble/share/tf2/cmake)
+[8.202s] -- Found tf2_eigen: 0.25.4 (/opt/ros/humble/share/tf2_eigen/cmake)
+[8.845s] -- Found tf2_geometry_msgs: 0.25.4 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[8.876s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[8.879s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[8.879s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[8.901s] -- Found tf2_kdl: 0.25.4 (/opt/ros/humble/share/tf2_kdl/cmake)
+[9.868s] -- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[9.870s] -- Found controller_manager: 2.33.0 (/home/sara/aubo_ws/install/controller_manager/share/controller_manager/cmake)
+[10.621s] -- Found ros2_control_test_assets: 2.33.0 (/home/sara/aubo_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[10.623s] -- Found kinematics_interface_kdl: 0.1.0 (/home/sara/aubo_ws/install/kinematics_interface_kdl/share/kinematics_interface_kdl/cmake)
+[10.661s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[10.741s] -- The C compiler identification is GNU 11.4.0
+[10.757s] -- Detecting C compiler ABI info
+[10.939s] -- Detecting C compiler ABI info - done
+[10.953s] -- Check for working C compiler: /usr/bin/cc - skipped
+[10.954s] -- Detecting C compile features
+[10.955s] -- Detecting C compile features - done
+[10.967s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[10.969s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[12.488s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[12.488s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[12.490s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[13.618s] -- Configuring done
+[13.793s] -- Generating done
+[13.799s] -- Build files have been written to: /home/sara/aubo_ws/build/admittance_controller
+[13.834s] Invoked command in '/home/sara/aubo_ws/build/admittance_controller' returned '0': AMENT_PREFIX_PATH=/home/sara/aubo_ws/install/joint_trajectory_controller:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/joint_trajectory_controller:/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/sara/aubo_ws/install/joint_trajectory_controller/lib:/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/sara/aubo_ws/src/ros-controls/ros2_controllers/admittance_controller -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/admittance_controller
+[13.835s] Invoking command in '/home/sara/aubo_ws/build/admittance_controller': AMENT_PREFIX_PATH=/home/sara/aubo_ws/install/joint_trajectory_controller:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/joint_trajectory_controller:/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/sara/aubo_ws/install/joint_trajectory_controller/lib:/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/sara/aubo_ws/build/admittance_controller -- -j8 -l8
+[22.360s] [ 10%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/sara/aubo_ws/build/admittance_controller/admittance_controller_parameters/include//admittance_controller_parameters.hpp /home/sara/aubo_ws/src/ros-controls/ros2_controllers/admittance_controller/src/admittance_controller_parameters.yaml `[0m
+[22.360s] [ 10%] Built target admittance_controller_parameters
+[22.361s] [ 20%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[22.876s] [ 30%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[27.086s] [ 40%] [32m[1mLinking CXX static library libgmock.a[0m
+[27.196s] [ 40%] Built target gmock
+[27.235s] [ 50%] [32mBuilding CXX object CMakeFiles/admittance_controller.dir/src/admittance_controller.cpp.o[0m
+[66.594s] [ 60%] [32m[1mLinking CXX shared library libadmittance_controller.so[0m
+[68.834s] [ 60%] Built target admittance_controller
+[68.887s] [ 70%] [32mBuilding CXX object CMakeFiles/test_load_admittance_controller.dir/test/test_load_admittance_controller.cpp.o[0m
+[81.218s] [ 80%] [32m[1mLinking CXX executable test_load_admittance_controller[0m
+[82.252s] [ 80%] Built target test_load_admittance_controller
+[82.288s] [ 90%] [32mBuilding CXX object CMakeFiles/test_admittance_controller.dir/test/test_admittance_controller.cpp.o[0m
+[117.454s] [100%] [32m[1mLinking CXX executable test_admittance_controller[0m
+[119.298s] [100%] Built target test_admittance_controller
+[119.317s] Invoked command in '/home/sara/aubo_ws/build/admittance_controller' returned '0': AMENT_PREFIX_PATH=/home/sara/aubo_ws/install/joint_trajectory_controller:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/joint_trajectory_controller:/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/sara/aubo_ws/install/joint_trajectory_controller/lib:/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/sara/aubo_ws/build/admittance_controller -- -j8 -l8
+[119.384s] Invoking command in '/home/sara/aubo_ws/build/admittance_controller': AMENT_PREFIX_PATH=/home/sara/aubo_ws/install/joint_trajectory_controller:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/joint_trajectory_controller:/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/sara/aubo_ws/install/joint_trajectory_controller/lib:/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/sara/aubo_ws/build/admittance_controller
+[119.396s] -- Install configuration: ""
+[119.396s] -- Installing: /home/sara/aubo_ws/install/admittance_controller/include/admittance_controller_parameters
+[119.396s] -- Installing: /home/sara/aubo_ws/install/admittance_controller/include/admittance_controller_parameters/admittance_controller_parameters.hpp
+[119.396s] -- Installing: /home/sara/aubo_ws/install/admittance_controller/share/admittance_controller/admittance_controller.xml
+[119.396s] -- Installing: /home/sara/aubo_ws/install/admittance_controller/include/admittance_controller
+[119.397s] -- Installing: /home/sara/aubo_ws/install/admittance_controller/include/admittance_controller/admittance_controller
+[119.397s] -- Installing: /home/sara/aubo_ws/install/admittance_controller/include/admittance_controller/admittance_controller/admittance_controller.hpp
+[119.397s] -- Installing: /home/sara/aubo_ws/install/admittance_controller/include/admittance_controller/admittance_controller/visibility_control.h
+[119.397s] -- Installing: /home/sara/aubo_ws/install/admittance_controller/include/admittance_controller/admittance_controller/admittance_rule.hpp
+[119.398s] -- Installing: /home/sara/aubo_ws/install/admittance_controller/include/admittance_controller/admittance_controller/admittance_rule_impl.hpp
+[119.398s] -- Installing: /home/sara/aubo_ws/install/admittance_controller/lib/libadmittance_controller.so
+[119.413s] -- Set runtime path of "/home/sara/aubo_ws/install/admittance_controller/lib/libadmittance_controller.so" to ""
+[119.414s] -- Installing: /home/sara/aubo_ws/install/admittance_controller/share/admittance_controller/environment/library_path.sh
+[119.414s] -- Installing: /home/sara/aubo_ws/install/admittance_controller/share/admittance_controller/environment/library_path.dsv
+[119.414s] -- Installing: /home/sara/aubo_ws/install/admittance_controller/share/ament_index/resource_index/package_run_dependencies/admittance_controller
+[119.414s] -- Installing: /home/sara/aubo_ws/install/admittance_controller/share/ament_index/resource_index/parent_prefix_path/admittance_controller
+[119.415s] -- Installing: /home/sara/aubo_ws/install/admittance_controller/share/admittance_controller/environment/ament_prefix_path.sh
+[119.415s] -- Installing: /home/sara/aubo_ws/install/admittance_controller/share/admittance_controller/environment/ament_prefix_path.dsv
+[119.415s] -- Installing: /home/sara/aubo_ws/install/admittance_controller/share/admittance_controller/environment/path.sh
+[119.415s] -- Installing: /home/sara/aubo_ws/install/admittance_controller/share/admittance_controller/environment/path.dsv
+[119.416s] -- Installing: /home/sara/aubo_ws/install/admittance_controller/share/admittance_controller/local_setup.bash
+[119.416s] -- Installing: /home/sara/aubo_ws/install/admittance_controller/share/admittance_controller/local_setup.sh
+[119.416s] -- Installing: /home/sara/aubo_ws/install/admittance_controller/share/admittance_controller/local_setup.zsh
+[119.416s] -- Installing: /home/sara/aubo_ws/install/admittance_controller/share/admittance_controller/local_setup.dsv
+[119.416s] -- Installing: /home/sara/aubo_ws/install/admittance_controller/share/admittance_controller/package.dsv
+[119.417s] -- Installing: /home/sara/aubo_ws/install/admittance_controller/share/ament_index/resource_index/packages/admittance_controller
+[119.417s] -- Installing: /home/sara/aubo_ws/install/admittance_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/admittance_controller
+[119.417s] -- Installing: /home/sara/aubo_ws/install/admittance_controller/share/admittance_controller/cmake/export_admittance_controllerExport.cmake
+[119.417s] -- Installing: /home/sara/aubo_ws/install/admittance_controller/share/admittance_controller/cmake/export_admittance_controllerExport-noconfig.cmake
+[119.417s] -- Installing: /home/sara/aubo_ws/install/admittance_controller/share/admittance_controller/cmake/ament_cmake_export_targets-extras.cmake
+[119.418s] -- Installing: /home/sara/aubo_ws/install/admittance_controller/share/admittance_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[119.418s] -- Installing: /home/sara/aubo_ws/install/admittance_controller/share/admittance_controller/cmake/admittance_controllerConfig.cmake
+[119.418s] -- Installing: /home/sara/aubo_ws/install/admittance_controller/share/admittance_controller/cmake/admittance_controllerConfig-version.cmake
+[119.418s] -- Installing: /home/sara/aubo_ws/install/admittance_controller/share/admittance_controller/package.xml
+[119.421s] Invoked command in '/home/sara/aubo_ws/build/admittance_controller' returned '0': AMENT_PREFIX_PATH=/home/sara/aubo_ws/install/joint_trajectory_controller:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/joint_trajectory_controller:/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/sara/aubo_ws/install/joint_trajectory_controller/lib:/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/sara/aubo_ws/build/admittance_controller

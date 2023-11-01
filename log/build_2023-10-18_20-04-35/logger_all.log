@@ -1,0 +1,469 @@
+[0.849s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.849s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7c4151d8a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7c4151cfa0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7c4151cfa0>>)
+[0.889s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.889s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.889s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.889s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.889s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.889s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.889s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sara/aubo_ws'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control) by extensions ['ignore', 'ignore_ament_install']
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control) by extension 'ignore'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control) by extension 'ignore_ament_install'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control) by extensions ['colcon_pkg']
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control) by extension 'colcon_pkg'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control) by extensions ['colcon_meta']
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control) by extension 'colcon_meta'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control) by extensions ['ros']
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control) by extension 'ros'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control) by extensions ['cmake', 'python']
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control) by extension 'cmake'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control) by extension 'python'
+[0.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control) by extensions ['python_setup_py']
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control) by extension 'python_setup_py'
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/argo) by extensions ['ignore', 'ignore_ament_install']
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/argo) by extension 'ignore'
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/argo) by extension 'ignore_ament_install'
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/argo) by extensions ['colcon_pkg']
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/argo) by extension 'colcon_pkg'
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/argo) by extensions ['colcon_meta']
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/argo) by extension 'colcon_meta'
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/argo) by extensions ['ros']
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/argo) by extension 'ros'
+[0.903s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aubo_control/argo' with type 'ros.ament_cmake' and name 'argo'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/aubo) by extensions ['ignore', 'ignore_ament_install']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/aubo) by extension 'ignore'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/aubo) by extension 'ignore_ament_install'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/aubo) by extensions ['colcon_pkg']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/aubo) by extension 'colcon_pkg'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/aubo) by extensions ['colcon_meta']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/aubo) by extension 'colcon_meta'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/aubo) by extensions ['ros']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/aubo) by extension 'ros'
+[0.904s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aubo_control/aubo' with type 'ros.ament_cmake' and name 'aubo'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/control) by extensions ['ignore', 'ignore_ament_install']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/control) by extension 'ignore'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/control) by extension 'ignore_ament_install'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/control) by extensions ['colcon_pkg']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/control) by extension 'colcon_pkg'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/control) by extensions ['colcon_meta']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/control) by extension 'colcon_meta'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/control) by extensions ['ros']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/control) by extension 'ros'
+[0.905s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aubo_control/control' with type 'ros.ament_cmake' and name 'control'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_description) by extensions ['ignore', 'ignore_ament_install']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_description) by extension 'ignore'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_description) by extension 'ignore_ament_install'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_description) by extensions ['colcon_pkg']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_description) by extension 'colcon_pkg'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_description) by extensions ['colcon_meta']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_description) by extension 'colcon_meta'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_description) by extensions ['ros']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_description) by extension 'ros'
+[0.906s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aubo_description' with type 'ros.ament_cmake' and name 'aubo_description'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'ignore'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'ignore_ament_install'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['colcon_pkg']
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'colcon_pkg'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['colcon_meta']
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'colcon_meta'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['ros']
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'ros'
+[0.907s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros2_control' with type 'ros.ament_cmake' and name 'gazebo_ros2_control'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control_demos) by extension 'ignore'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control_demos) by extension 'ignore_ament_install'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control_demos) by extensions ['colcon_pkg']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control_demos) by extension 'colcon_pkg'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control_demos) by extensions ['colcon_meta']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control_demos) by extension 'colcon_meta'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control_demos) by extensions ['ros']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control_demos) by extension 'ros'
+[0.908s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros2_control_demos' with type 'ros.ament_cmake' and name 'gazebo_ros2_control_demos'
+[0.908s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.908s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.908s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.908s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.908s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.986s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.986s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.012s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/sara/aubo_ws/install
+[1.025s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 292 installed packages in /opt/ros/humble
+[1.026s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.105s] Level 5:colcon.colcon_core.verb:set package 'argo' build argument 'cmake_args' from command line to 'None'
+[1.105s] Level 5:colcon.colcon_core.verb:set package 'argo' build argument 'cmake_target' from command line to 'None'
+[1.105s] Level 5:colcon.colcon_core.verb:set package 'argo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.105s] Level 5:colcon.colcon_core.verb:set package 'argo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.105s] Level 5:colcon.colcon_core.verb:set package 'argo' build argument 'cmake_clean_first' from command line to 'False'
+[1.105s] Level 5:colcon.colcon_core.verb:set package 'argo' build argument 'cmake_force_configure' from command line to 'False'
+[1.105s] Level 5:colcon.colcon_core.verb:set package 'argo' build argument 'ament_cmake_args' from command line to 'None'
+[1.105s] Level 5:colcon.colcon_core.verb:set package 'argo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.105s] Level 5:colcon.colcon_core.verb:set package 'argo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.105s] DEBUG:colcon.colcon_core.verb:Building package 'argo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sara/aubo_ws/build/argo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sara/aubo_ws/install/argo', 'merge_install': False, 'path': '/home/sara/aubo_ws/src/aubo_control/argo', 'symlink_install': False, 'test_result_base': None}
+[1.118s] Level 5:colcon.colcon_core.verb:set package 'aubo' build argument 'cmake_args' from command line to 'None'
+[1.118s] Level 5:colcon.colcon_core.verb:set package 'aubo' build argument 'cmake_target' from command line to 'None'
+[1.118s] Level 5:colcon.colcon_core.verb:set package 'aubo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.118s] Level 5:colcon.colcon_core.verb:set package 'aubo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.118s] Level 5:colcon.colcon_core.verb:set package 'aubo' build argument 'cmake_clean_first' from command line to 'False'
+[1.118s] Level 5:colcon.colcon_core.verb:set package 'aubo' build argument 'cmake_force_configure' from command line to 'False'
+[1.118s] Level 5:colcon.colcon_core.verb:set package 'aubo' build argument 'ament_cmake_args' from command line to 'None'
+[1.118s] Level 5:colcon.colcon_core.verb:set package 'aubo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.118s] Level 5:colcon.colcon_core.verb:set package 'aubo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.118s] DEBUG:colcon.colcon_core.verb:Building package 'aubo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sara/aubo_ws/build/aubo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sara/aubo_ws/install/aubo', 'merge_install': False, 'path': '/home/sara/aubo_ws/src/aubo_control/aubo', 'symlink_install': False, 'test_result_base': None}
+[1.131s] Level 5:colcon.colcon_core.verb:set package 'aubo_description' build argument 'cmake_args' from command line to 'None'
+[1.131s] Level 5:colcon.colcon_core.verb:set package 'aubo_description' build argument 'cmake_target' from command line to 'None'
+[1.131s] Level 5:colcon.colcon_core.verb:set package 'aubo_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.131s] Level 5:colcon.colcon_core.verb:set package 'aubo_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.131s] Level 5:colcon.colcon_core.verb:set package 'aubo_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.131s] Level 5:colcon.colcon_core.verb:set package 'aubo_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.131s] Level 5:colcon.colcon_core.verb:set package 'aubo_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.131s] Level 5:colcon.colcon_core.verb:set package 'aubo_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.131s] Level 5:colcon.colcon_core.verb:set package 'aubo_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.131s] DEBUG:colcon.colcon_core.verb:Building package 'aubo_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sara/aubo_ws/build/aubo_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sara/aubo_ws/install/aubo_description', 'merge_install': False, 'path': '/home/sara/aubo_ws/src/aubo_description', 'symlink_install': False, 'test_result_base': None}
+[1.143s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_args' from command line to 'None'
+[1.144s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_target' from command line to 'None'
+[1.144s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.144s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_clean_cache' from command line to 'False'
+[1.144s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_clean_first' from command line to 'False'
+[1.144s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_force_configure' from command line to 'False'
+[1.144s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'ament_cmake_args' from command line to 'None'
+[1.144s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'catkin_cmake_args' from command line to 'None'
+[1.144s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.144s] DEBUG:colcon.colcon_core.verb:Building package 'control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sara/aubo_ws/build/control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sara/aubo_ws/install/control', 'merge_install': False, 'path': '/home/sara/aubo_ws/src/aubo_control/control', 'symlink_install': False, 'test_result_base': None}
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_args' from command line to 'None'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_target' from command line to 'None'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[1.156s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.156s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sara/aubo_ws/build/gazebo_ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sara/aubo_ws/install/gazebo_ros2_control', 'merge_install': False, 'path': '/home/sara/aubo_ws/src/gazebo_ros2_control', 'symlink_install': False, 'test_result_base': None}
+[1.168s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_args' from command line to 'None'
+[1.168s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_target' from command line to 'None'
+[1.168s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.168s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[1.168s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_clean_first' from command line to 'False'
+[1.168s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'cmake_force_configure' from command line to 'False'
+[1.169s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'ament_cmake_args' from command line to 'None'
+[1.169s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[1.169s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.169s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_ros2_control_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sara/aubo_ws/build/gazebo_ros2_control_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sara/aubo_ws/install/gazebo_ros2_control_demos', 'merge_install': False, 'path': '/home/sara/aubo_ws/src/gazebo_ros2_control_demos', 'symlink_install': False, 'test_result_base': None}
+[1.181s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.193s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.194s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sara/aubo_ws/src/gazebo_ros2_control' with build type 'ament_cmake'
+[1.194s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sara/aubo_ws/src/gazebo_ros2_control'
+[1.208s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.208s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.208s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.248s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sara/aubo_ws/src/aubo_control/argo' with build type 'ament_cmake'
+[1.248s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sara/aubo_ws/src/aubo_control/argo'
+[1.261s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.261s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.301s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sara/aubo_ws/src/aubo_control/aubo' with build type 'ament_cmake'
+[1.301s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sara/aubo_ws/src/aubo_control/aubo'
+[1.315s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.315s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.359s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sara/aubo_ws/src/aubo_description' with build type 'ament_cmake'
+[1.359s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sara/aubo_ws/src/aubo_description'
+[1.381s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.381s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.422s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sara/aubo_ws/src/aubo_control/control' with build type 'ament_cmake'
+[1.423s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sara/aubo_ws/src/aubo_control/control'
+[1.436s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.436s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sara/aubo_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/gazebo_ros2_control -- -j8 -l8
+[1.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sara/aubo_ws/build/argo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/argo -- -j8 -l8
+[1.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sara/aubo_ws/build/aubo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/aubo -- -j8 -l8
+[1.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sara/aubo_ws/build/aubo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/aubo_description -- -j8 -l8
+[1.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8
+[1.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sara/aubo_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/gazebo_ros2_control -- -j8 -l8
+[1.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sara/aubo_ws/build/aubo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/aubo -- -j8 -l8
+[1.533s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sara/aubo_ws/build/argo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/argo -- -j8 -l8
+[1.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sara/aubo_ws/build/aubo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/aubo_description -- -j8 -l8
+[1.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sara/aubo_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/gazebo_ros2_control
+[1.594s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sara/aubo_ws/build/argo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/argo
+[1.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sara/aubo_ws/build/aubo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/aubo_description
+[1.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sara/aubo_ws/build/aubo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/aubo
+[1.603s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros2_control)
+[1.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sara/aubo_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/gazebo_ros2_control
+[1.637s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/gazebo_ros2_control' for CMake module files
+[1.637s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/gazebo_ros2_control' for CMake config files
+[1.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control', 'cmake_prefix_path')
+[1.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.ps1'
+[1.650s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.dsv'
+[1.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.sh'
+[1.651s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/gazebo_ros2_control/bin'
+[1.651s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/gazebo_ros2_control/lib/pkgconfig/gazebo_ros2_control.pc'
+[1.651s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/gazebo_ros2_control/lib/python3.10/site-packages'
+[1.652s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/gazebo_ros2_control/bin'
+[1.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.ps1'
+[1.665s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv'
+[1.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.sh'
+[1.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.bash'
+[1.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.zsh'
+[1.667s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sara/aubo_ws/install/gazebo_ros2_control/share/colcon-core/packages/gazebo_ros2_control)
+[1.669s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(argo)
+[1.669s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sara/aubo_ws/build/argo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/argo
+[1.685s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/argo' for CMake module files
+[1.686s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/argo' for CMake config files
+[1.686s] Level 1:colcon.colcon_core.shell:create_environment_hook('argo', 'cmake_prefix_path')
+[1.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/argo/share/argo/hook/cmake_prefix_path.ps1'
+[1.700s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sara/aubo_ws/install/argo/share/argo/hook/cmake_prefix_path.dsv'
+[1.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/argo/share/argo/hook/cmake_prefix_path.sh'
+[1.700s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/argo/bin'
+[1.700s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/argo/lib/pkgconfig/argo.pc'
+[1.701s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/argo/lib/python3.10/site-packages'
+[1.701s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/argo/bin'
+[1.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/argo/share/argo/package.ps1'
+[1.715s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sara/aubo_ws/install/argo/share/argo/package.dsv'
+[1.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/argo/share/argo/package.sh'
+[1.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/argo/share/argo/package.bash'
+[1.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/argo/share/argo/package.zsh'
+[1.716s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sara/aubo_ws/install/argo/share/colcon-core/packages/argo)
+[1.716s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aubo_description)
+[1.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sara/aubo_ws/build/aubo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/aubo_description
+[1.731s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo_description' for CMake module files
+[1.731s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo_description' for CMake config files
+[1.731s] Level 1:colcon.colcon_core.shell:create_environment_hook('aubo_description', 'cmake_prefix_path')
+[1.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/aubo_description/share/aubo_description/hook/cmake_prefix_path.ps1'
+[1.745s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sara/aubo_ws/install/aubo_description/share/aubo_description/hook/cmake_prefix_path.dsv'
+[1.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/aubo_description/share/aubo_description/hook/cmake_prefix_path.sh'
+[1.745s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo_description/bin'
+[1.745s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo_description/lib/pkgconfig/aubo_description.pc'
+[1.746s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo_description/lib/python3.10/site-packages'
+[1.746s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo_description/bin'
+[1.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/aubo_description/share/aubo_description/package.ps1'
+[1.759s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sara/aubo_ws/install/aubo_description/share/aubo_description/package.dsv'
+[1.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/aubo_description/share/aubo_description/package.sh'
+[1.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/aubo_description/share/aubo_description/package.bash'
+[1.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/aubo_description/share/aubo_description/package.zsh'
+[1.760s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sara/aubo_ws/install/aubo_description/share/colcon-core/packages/aubo_description)
+[1.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sara/aubo_ws/build/control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8
+[1.763s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aubo)
+[1.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sara/aubo_ws/build/aubo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/aubo
+[1.779s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo' for CMake module files
+[1.780s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo' for CMake config files
+[1.780s] Level 1:colcon.colcon_core.shell:create_environment_hook('aubo', 'cmake_prefix_path')
+[1.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/aubo/share/aubo/hook/cmake_prefix_path.ps1'
+[1.794s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sara/aubo_ws/install/aubo/share/aubo/hook/cmake_prefix_path.dsv'
+[1.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/aubo/share/aubo/hook/cmake_prefix_path.sh'
+[1.794s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo/bin'
+[1.794s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo/lib/pkgconfig/aubo.pc'
+[1.795s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo/lib/python3.10/site-packages'
+[1.795s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo/bin'
+[1.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/aubo/share/aubo/package.ps1'
+[1.812s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sara/aubo_ws/install/aubo/share/aubo/package.dsv'
+[1.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/aubo/share/aubo/package.sh'
+[1.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/aubo/share/aubo/package.bash'
+[1.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/aubo/share/aubo/package.zsh'
+[1.813s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sara/aubo_ws/install/aubo/share/colcon-core/packages/aubo)
+[1.831s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros2_control)
+[1.844s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/gazebo_ros2_control' for CMake module files
+[1.845s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/gazebo_ros2_control' for CMake config files
+[1.845s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control', 'cmake_prefix_path')
+[1.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.ps1'
+[1.858s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.dsv'
+[1.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.sh'
+[1.859s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/gazebo_ros2_control/bin'
+[1.859s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/gazebo_ros2_control/lib/pkgconfig/gazebo_ros2_control.pc'
+[1.859s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/gazebo_ros2_control/lib/python3.10/site-packages'
+[1.859s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/gazebo_ros2_control/bin'
+[1.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.ps1'
+[1.873s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv'
+[1.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.sh'
+[1.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.bash'
+[1.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.zsh'
+[1.874s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sara/aubo_ws/install/gazebo_ros2_control/share/colcon-core/packages/gazebo_ros2_control)
+[1.889s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(argo)
+[1.903s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/argo' for CMake module files
+[1.903s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/argo' for CMake config files
+[1.903s] Level 1:colcon.colcon_core.shell:create_environment_hook('argo', 'cmake_prefix_path')
+[1.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/argo/share/argo/hook/cmake_prefix_path.ps1'
+[1.917s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sara/aubo_ws/install/argo/share/argo/hook/cmake_prefix_path.dsv'
+[1.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/argo/share/argo/hook/cmake_prefix_path.sh'
+[1.918s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/argo/bin'
+[1.918s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/argo/lib/pkgconfig/argo.pc'
+[1.918s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/argo/lib/python3.10/site-packages'
+[1.918s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/argo/bin'
+[1.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/argo/share/argo/package.ps1'
+[1.932s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sara/aubo_ws/install/argo/share/argo/package.dsv'
+[1.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/argo/share/argo/package.sh'
+[1.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/argo/share/argo/package.bash'
+[1.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/argo/share/argo/package.zsh'
+[1.934s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sara/aubo_ws/install/argo/share/colcon-core/packages/argo)
+[1.934s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sara/aubo_ws/src/gazebo_ros2_control_demos' with build type 'ament_cmake'
+[1.934s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sara/aubo_ws/src/gazebo_ros2_control_demos'
+[1.950s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.950s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.007s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aubo_description)
+[2.020s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo_description' for CMake module files
+[2.020s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo_description' for CMake config files
+[2.020s] Level 1:colcon.colcon_core.shell:create_environment_hook('aubo_description', 'cmake_prefix_path')
+[2.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/aubo_description/share/aubo_description/hook/cmake_prefix_path.ps1'
+[2.033s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sara/aubo_ws/install/aubo_description/share/aubo_description/hook/cmake_prefix_path.dsv'
+[2.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/aubo_description/share/aubo_description/hook/cmake_prefix_path.sh'
+[2.034s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo_description/bin'
+[2.034s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo_description/lib/pkgconfig/aubo_description.pc'
+[2.034s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo_description/lib/python3.10/site-packages'
+[2.034s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo_description/bin'
+[2.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/aubo_description/share/aubo_description/package.ps1'
+[2.048s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sara/aubo_ws/install/aubo_description/share/aubo_description/package.dsv'
+[2.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/aubo_description/share/aubo_description/package.sh'
+[2.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/aubo_description/share/aubo_description/package.bash'
+[2.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/aubo_description/share/aubo_description/package.zsh'
+[2.049s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sara/aubo_ws/install/aubo_description/share/colcon-core/packages/aubo_description)
+[2.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/control
+[2.071s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aubo)
+[2.084s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo' for CMake module files
+[2.084s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo' for CMake config files
+[2.084s] Level 1:colcon.colcon_core.shell:create_environment_hook('aubo', 'cmake_prefix_path')
+[2.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/aubo/share/aubo/hook/cmake_prefix_path.ps1'
+[2.097s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sara/aubo_ws/install/aubo/share/aubo/hook/cmake_prefix_path.dsv'
+[2.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/aubo/share/aubo/hook/cmake_prefix_path.sh'
+[2.098s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo/bin'
+[2.098s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo/lib/pkgconfig/aubo.pc'
+[2.098s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo/lib/python3.10/site-packages'
+[2.098s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo/bin'
+[2.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/aubo/share/aubo/package.ps1'
+[2.112s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sara/aubo_ws/install/aubo/share/aubo/package.dsv'
+[2.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/aubo/share/aubo/package.sh'
+[2.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/aubo/share/aubo/package.bash'
+[2.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/aubo/share/aubo/package.zsh'
+[2.113s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sara/aubo_ws/install/aubo/share/colcon-core/packages/aubo)
+[2.116s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control)
+[2.117s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sara/aubo_ws/build/gazebo_ros2_control_demos': AMENT_PREFIX_PATH=/home/sara/aubo_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/opt/ros/humble /usr/bin/cmake /home/sara/aubo_ws/src/gazebo_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/gazebo_ros2_control_demos
+[2.118s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sara/aubo_ws/build/control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/control
+[2.131s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/control' for CMake module files
+[2.132s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/control' for CMake config files
+[2.132s] Level 1:colcon.colcon_core.shell:create_environment_hook('control', 'cmake_prefix_path')
+[2.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/control/share/control/hook/cmake_prefix_path.ps1'
+[2.145s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sara/aubo_ws/install/control/share/control/hook/cmake_prefix_path.dsv'
+[2.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/control/share/control/hook/cmake_prefix_path.sh'
+[2.146s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/control/lib'
+[2.146s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/control/bin'
+[2.146s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/control/lib/pkgconfig/control.pc'
+[2.147s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/control/lib/python3.10/site-packages'
+[2.147s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/control/bin'
+[2.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/control/share/control/package.ps1'
+[2.160s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sara/aubo_ws/install/control/share/control/package.dsv'
+[2.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/control/share/control/package.sh'
+[2.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/control/share/control/package.bash'
+[2.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/control/share/control/package.zsh'
+[2.161s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sara/aubo_ws/install/control/share/colcon-core/packages/control)
+[2.218s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control)
+[2.238s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/control' for CMake module files
+[2.239s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/control' for CMake config files
+[2.239s] Level 1:colcon.colcon_core.shell:create_environment_hook('control', 'cmake_prefix_path')
+[2.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/control/share/control/hook/cmake_prefix_path.ps1'
+[2.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sara/aubo_ws/install/control/share/control/hook/cmake_prefix_path.dsv'
+[2.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/control/share/control/hook/cmake_prefix_path.sh'
+[2.254s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/control/lib'
+[2.255s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/control/bin'
+[2.255s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/control/lib/pkgconfig/control.pc'
+[2.255s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/control/lib/python3.10/site-packages'
+[2.255s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/control/bin'
+[2.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/control/share/control/package.ps1'
+[2.269s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sara/aubo_ws/install/control/share/control/package.dsv'
+[2.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/control/share/control/package.sh'
+[2.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/control/share/control/package.bash'
+[2.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/control/share/control/package.zsh'
+[2.270s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sara/aubo_ws/install/control/share/colcon-core/packages/control)
+[5.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sara/aubo_ws/build/gazebo_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/sara/aubo_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/opt/ros/humble /usr/bin/cmake /home/sara/aubo_ws/src/gazebo_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/gazebo_ros2_control_demos
+[5.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sara/aubo_ws/build/gazebo_ros2_control_demos': AMENT_PREFIX_PATH=/home/sara/aubo_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/gazebo_ros2_control_demos -- -j8 -l8
+[12.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sara/aubo_ws/build/gazebo_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/sara/aubo_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/gazebo_ros2_control_demos -- -j8 -l8
+[12.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sara/aubo_ws/build/gazebo_ros2_control_demos': AMENT_PREFIX_PATH=/home/sara/aubo_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/gazebo_ros2_control_demos
+[12.892s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros2_control_demos)
+[12.893s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sara/aubo_ws/build/gazebo_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/sara/aubo_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/gazebo_ros2_control_demos
+[12.906s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/gazebo_ros2_control_demos' for CMake module files
+[12.906s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/gazebo_ros2_control_demos' for CMake config files
+[12.907s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control_demos', 'cmake_prefix_path')
+[12.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.ps1'
+[12.920s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.dsv'
+[12.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.sh'
+[12.920s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/gazebo_ros2_control_demos/lib'
+[12.921s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/gazebo_ros2_control_demos/bin'
+[12.921s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/gazebo_ros2_control_demos/lib/pkgconfig/gazebo_ros2_control_demos.pc'
+[12.921s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/gazebo_ros2_control_demos/lib/python3.10/site-packages'
+[12.921s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/gazebo_ros2_control_demos/bin'
+[12.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.ps1'
+[12.935s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv'
+[12.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.sh'
+[12.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.bash'
+[12.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.zsh'
+[12.936s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/colcon-core/packages/gazebo_ros2_control_demos)
+[12.985s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros2_control_demos)
+[12.998s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/gazebo_ros2_control_demos' for CMake module files
+[12.998s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/gazebo_ros2_control_demos' for CMake config files
+[12.999s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control_demos', 'cmake_prefix_path')
+[13.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.ps1'
+[13.011s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.dsv'
+[13.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/hook/cmake_prefix_path.sh'
+[13.012s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/gazebo_ros2_control_demos/lib'
+[13.012s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/gazebo_ros2_control_demos/bin'
+[13.012s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/gazebo_ros2_control_demos/lib/pkgconfig/gazebo_ros2_control_demos.pc'
+[13.012s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/gazebo_ros2_control_demos/lib/python3.10/site-packages'
+[13.013s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/gazebo_ros2_control_demos/bin'
+[13.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.ps1'
+[13.026s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv'
+[13.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.sh'
+[13.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.bash'
+[13.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.zsh'
+[13.027s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/colcon-core/packages/gazebo_ros2_control_demos)
+[13.028s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.028s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.028s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.028s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.047s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.047s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.047s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.056s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.070s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sara/aubo_ws/install/local_setup.ps1'
+[13.071s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sara/aubo_ws/install/_local_setup_util_ps1.py'
+[13.072s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sara/aubo_ws/install/setup.ps1'
+[13.087s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sara/aubo_ws/install/local_setup.sh'
+[13.087s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sara/aubo_ws/install/_local_setup_util_sh.py'
+[13.087s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sara/aubo_ws/install/setup.sh'
+[13.103s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sara/aubo_ws/install/local_setup.bash'
+[13.104s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sara/aubo_ws/install/setup.bash'
+[13.118s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sara/aubo_ws/install/local_setup.zsh'
+[13.118s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sara/aubo_ws/install/setup.zsh'

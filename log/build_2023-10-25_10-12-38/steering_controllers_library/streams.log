@@ -1,0 +1,111 @@
+[0.455s] Invoking command in '/home/sara/aubo_ws/build/steering_controllers_library': CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/sara/aubo_ws/src/ros-controls/ros2_controllers/steering_controllers_library -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/steering_controllers_library
+[0.573s] -- The CXX compiler identification is GNU 11.4.0
+[0.590s] -- Detecting CXX compiler ABI info
+[0.734s] -- Detecting CXX compiler ABI info - done
+[0.758s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.758s] -- Detecting CXX compile features
+[0.759s] -- Detecting CXX compile features - done
+[0.766s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.178s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.441s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[1.463s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[1.477s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[1.477s] -- BACKWARD_HAS_UNWIND=1
+[1.477s] -- BACKWARD_HAS_BACKTRACE=0
+[1.478s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[1.478s] -- BACKWARD_HAS_DW=1
+[1.478s] -- BACKWARD_HAS_BFD=0
+[1.479s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[1.481s] -- Found control_msgs: 4.4.0 (/home/sara/aubo_ws/install/control_msgs/share/control_msgs/cmake)
+[1.590s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.610s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.639s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.689s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.760s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.512s] -- Found controller_interface: 2.33.0 (/home/sara/aubo_ws/install/controller_interface/share/controller_interface/cmake)
+[3.895s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.906s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.203s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.280s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.421s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.456s] -- Looking for C++ include pthread.h
+[4.736s] -- Looking for C++ include pthread.h - found
+[4.737s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.017s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.020s] -- Found Threads: TRUE  
+[5.766s] -- Found generate_parameter_library: 0.3.6 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[5.775s] -- Found parameter_traits: 0.3.6 (/opt/ros/humble/share/parameter_traits/cmake)
+[5.865s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[6.115s] -- Found realtime_tools: 2.5.0 (/home/sara/aubo_ws/install/realtime_tools/share/realtime_tools/cmake)
+[6.243s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[6.295s] -- Found tf2: 0.25.4 (/opt/ros/humble/share/tf2/cmake)
+[6.321s] -- Found tf2_msgs: 0.25.4 (/opt/ros/humble/share/tf2_msgs/cmake)
+[6.696s] -- Found tf2_geometry_msgs: 0.25.4 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[6.725s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[6.727s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.728s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.022s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)
+[7.662s] -- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[7.663s] -- Found controller_manager: 2.33.0 (/home/sara/aubo_ws/install/controller_manager/share/controller_manager/cmake)
+[8.275s] -- Found ros2_control_test_assets: 2.33.0 (/home/sara/aubo_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[8.282s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[8.353s] -- The C compiler identification is GNU 11.4.0
+[8.367s] -- Detecting C compiler ABI info
+[8.592s] -- Detecting C compiler ABI info - done
+[8.616s] -- Check for working C compiler: /usr/bin/cc - skipped
+[8.617s] -- Detecting C compile features
+[8.619s] -- Detecting C compile features - done
+[8.631s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[8.634s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[9.436s] -- Configuring done
+[9.580s] -- Generating done
+[9.596s] -- Build files have been written to: /home/sara/aubo_ws/build/steering_controllers_library
+[9.644s] Invoked command in '/home/sara/aubo_ws/build/steering_controllers_library' returned '0': CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/sara/aubo_ws/src/ros-controls/ros2_controllers/steering_controllers_library -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/steering_controllers_library
+[9.645s] Invoking command in '/home/sara/aubo_ws/build/steering_controllers_library': CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/sara/aubo_ws/build/steering_controllers_library -- -j8 -l8
+[10.017s] [ 11%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/sara/aubo_ws/build/steering_controllers_library/steering_controllers_library_parameters/include//steering_controllers_library_parameters.hpp /home/sara/aubo_ws/src/ros-controls/ros2_controllers/steering_controllers_library/src/steering_controllers_library.yaml `[0m
+[10.038s] [ 22%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[10.045s] [ 33%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[13.201s] [ 33%] Built target steering_controllers_library_parameters
+[13.466s] [ 44%] [32mBuilding CXX object CMakeFiles/steering_controllers_library.dir/src/steering_controllers_library.cpp.o[0m
+[13.529s] [ 55%] [32mBuilding CXX object CMakeFiles/steering_controllers_library.dir/src/steering_odometry.cpp.o[0m
+[28.457s] [ 66%] [32m[1mLinking CXX static library libgmock.a[0m
+[28.819s] [ 66%] Built target gmock
+[55.407s] [ 77%] [32m[1mLinking CXX shared library libsteering_controllers_library.so[0m
+[57.632s] [ 77%] Built target steering_controllers_library
+[57.685s] [ 88%] [32mBuilding CXX object CMakeFiles/test_steering_controllers_library.dir/test/test_steering_controllers_library.cpp.o[0m
+[75.953s] [100%] [32m[1mLinking CXX executable test_steering_controllers_library[0m
+[77.916s] [100%] Built target test_steering_controllers_library
+[77.942s] Invoked command in '/home/sara/aubo_ws/build/steering_controllers_library' returned '0': CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/sara/aubo_ws/build/steering_controllers_library -- -j8 -l8
+[78.045s] Invoking command in '/home/sara/aubo_ws/build/steering_controllers_library': CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/sara/aubo_ws/build/steering_controllers_library
+[88.755s] -- Install configuration: ""
+[88.755s] -- Installing: /home/sara/aubo_ws/install/steering_controllers_library/include/steering_controllers_library_parameters
+[88.756s] -- Installing: /home/sara/aubo_ws/install/steering_controllers_library/include/steering_controllers_library_parameters/steering_controllers_library_parameters.hpp
+[88.756s] -- Installing: /home/sara/aubo_ws/install/steering_controllers_library/include/steering_controllers_library
+[88.756s] -- Installing: /home/sara/aubo_ws/install/steering_controllers_library/include/steering_controllers_library/steering_controllers_library
+[88.757s] -- Installing: /home/sara/aubo_ws/install/steering_controllers_library/include/steering_controllers_library/steering_controllers_library/steering_odometry.hpp
+[88.757s] -- Installing: /home/sara/aubo_ws/install/steering_controllers_library/include/steering_controllers_library/steering_controllers_library/visibility_control.h
+[88.758s] -- Installing: /home/sara/aubo_ws/install/steering_controllers_library/include/steering_controllers_library/steering_controllers_library/steering_controllers_library.hpp
+[88.758s] -- Installing: /home/sara/aubo_ws/install/steering_controllers_library/lib/libsteering_controllers_library.so
+[88.758s] -- Set runtime path of "/home/sara/aubo_ws/install/steering_controllers_library/lib/libsteering_controllers_library.so" to ""
+[88.758s] -- Installing: /home/sara/aubo_ws/install/steering_controllers_library/share/steering_controllers_library/environment/library_path.sh
+[88.758s] -- Installing: /home/sara/aubo_ws/install/steering_controllers_library/share/steering_controllers_library/environment/library_path.dsv
+[88.758s] -- Installing: /home/sara/aubo_ws/install/steering_controllers_library/share/ament_index/resource_index/package_run_dependencies/steering_controllers_library
+[88.759s] -- Installing: /home/sara/aubo_ws/install/steering_controllers_library/share/ament_index/resource_index/parent_prefix_path/steering_controllers_library
+[88.759s] -- Installing: /home/sara/aubo_ws/install/steering_controllers_library/share/steering_controllers_library/environment/ament_prefix_path.sh
+[88.759s] -- Installing: /home/sara/aubo_ws/install/steering_controllers_library/share/steering_controllers_library/environment/ament_prefix_path.dsv
+[88.759s] -- Installing: /home/sara/aubo_ws/install/steering_controllers_library/share/steering_controllers_library/environment/path.sh
+[88.759s] -- Installing: /home/sara/aubo_ws/install/steering_controllers_library/share/steering_controllers_library/environment/path.dsv
+[88.759s] -- Installing: /home/sara/aubo_ws/install/steering_controllers_library/share/steering_controllers_library/local_setup.bash
+[88.760s] -- Installing: /home/sara/aubo_ws/install/steering_controllers_library/share/steering_controllers_library/local_setup.sh
+[88.760s] -- Installing: /home/sara/aubo_ws/install/steering_controllers_library/share/steering_controllers_library/local_setup.zsh
+[88.760s] -- Installing: /home/sara/aubo_ws/install/steering_controllers_library/share/steering_controllers_library/local_setup.dsv
+[88.760s] -- Installing: /home/sara/aubo_ws/install/steering_controllers_library/share/steering_controllers_library/package.dsv
+[88.760s] -- Installing: /home/sara/aubo_ws/install/steering_controllers_library/share/ament_index/resource_index/packages/steering_controllers_library
+[88.761s] -- Installing: /home/sara/aubo_ws/install/steering_controllers_library/share/steering_controllers_library/cmake/export_steering_controllers_libraryExport.cmake
+[88.761s] -- Installing: /home/sara/aubo_ws/install/steering_controllers_library/share/steering_controllers_library/cmake/export_steering_controllers_libraryExport-noconfig.cmake
+[88.761s] -- Installing: /home/sara/aubo_ws/install/steering_controllers_library/share/steering_controllers_library/cmake/ament_cmake_export_targets-extras.cmake
+[88.761s] -- Installing: /home/sara/aubo_ws/install/steering_controllers_library/share/steering_controllers_library/cmake/ament_cmake_export_dependencies-extras.cmake
+[88.761s] -- Installing: /home/sara/aubo_ws/install/steering_controllers_library/share/steering_controllers_library/cmake/steering_controllers_libraryConfig.cmake
+[88.761s] -- Installing: /home/sara/aubo_ws/install/steering_controllers_library/share/steering_controllers_library/cmake/steering_controllers_libraryConfig-version.cmake
+[88.762s] -- Installing: /home/sara/aubo_ws/install/steering_controllers_library/share/steering_controllers_library/package.xml
+[88.769s] Invoked command in '/home/sara/aubo_ws/build/steering_controllers_library' returned '0': CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/sara/aubo_ws/build/steering_controllers_library

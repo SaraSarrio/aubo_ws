@@ -1,0 +1,424 @@
+<?xml version="1.0"?>
+<robot  name="aubo_i5">
+<!--   <include filename="$(find argo)/urdf/argo.urdf"/> -->
+
+  <link name="base_link_aubo">
+    <turnGravityOff>true</turnGravityOff>
+    <inertial>
+      <origin xyz="-1.4795E-13 0.0015384 0.020951" rpy="0 0 0" />
+      <mass value="0.83419" />
+      <inertia ixx="0.0014414" ixy="7.8809E-15" ixz="8.5328E-16" iyy="0.0013542" iyz="-1.4364E-05" izz="0.0024659" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://aubo_description/meshes/aubo_i5/visual/base_link.DAE" />
+      </geometry>
+      <material name="">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://aubo_description/meshes/aubo_i5/collision/base_link.STL" />
+      </geometry>
+    </collision>
+    <static>true</static>
+  </link>
+
+  <gazebo reference="base_link_aubo">
+    <kp>1000000000000000000000000000.0</kp>
+    <kd>1000000000000000000000000000.0</kd>
+    <mu1>100.0</mu1>
+    <mu2>10.0</mu2>
+  </gazebo>
+
+
+  <link name="shoulder_Link">
+    <turnGravityOff>true</turnGravityOff>
+    <inertial>
+      <origin xyz="3.2508868974735E-07 0.00534955349296065 -0.00883689325611056" rpy="0 0 0" />
+      <mass value="1.57658348693929" />
+      <inertia ixx="0.0040640448663128" ixy="0" ixz="0" iyy="0.00392863238466817" iyz="-0.000160151642851425" izz="0.0030869857349184" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://aubo_description/meshes/aubo_i5/visual/shoulder_Link.DAE" />
+      </geometry>
+      <material name="">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://aubo_description/meshes/aubo_i5/collision/shoulder_Link.STL" />
+      </geometry>
+    </collision>
+    <static>true</static>
+  </link>
+
+  <gazebo reference="shoulder_Link">
+    <kp>1000000000000000000000000000.0</kp>
+    <kd>1000000000000000000000000000.0</kd>
+    <mu1>100.0</mu1>
+    <mu2>10.0</mu2>
+  </gazebo>
+
+  <joint name="shoulder_joint" type="revolute">
+    <origin xyz="0 0 0.122" rpy="0 0 3.1416" />
+    <parent link="base_link_aubo" />
+    <child link="shoulder_Link" />
+    <axis xyz="0 0 1" />
+    <limit lower="-3.05" upper="3.05" effort="0" velocity="0" />
+    <static>1</static>
+  </joint>
+
+  <link name="upperArm_Link">
+    <turnGravityOff>true</turnGravityOff>
+    <inertial>
+      <origin xyz="0.203996646979614 2.01304585036544E-10 0.0127641545395984" rpy="0 0 0" />
+      <mass value="4.04175782265494" />
+      <inertia ixx="0.00965399211106204" ixy="0" ixz="0" iyy="0.144993869035655" iyz="0" izz="0.142607184038966" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://aubo_description/meshes/aubo_i5/visual/upperArm_Link.DAE" />
+      </geometry>
+      <material name="">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://aubo_description/meshes/aubo_i5/collision/upperArm_Link.STL" />
+      </geometry>
+    </collision>
+    <static>true</static>
+  </link>
+
+  <gazebo reference="upperArm_Link">
+    <kp>1000000000000000000000000000.0</kp>
+    <kd>1000000000000000000000000000.0</kd>
+    <mu1>100.0</mu1>
+    <mu2>10.0</mu2>
+  </gazebo>
+
+  <joint name="upperArm_joint" type="revolute">
+    <origin xyz="0 0.1215 0" rpy="-1.5708 -1.5708 0" />
+    <parent link="shoulder_Link" />
+    <child link="upperArm_Link" />
+    <axis xyz="0 0 1" />
+    <limit lower="-3.05" upper="3.05" effort="0" velocity="0" />
+    <static>1</static>
+  </joint>
+
+  <link name="foreArm_Link">
+    <turnGravityOff>true</turnGravityOff>
+    <inertial>
+      <origin xyz="0.188922115560337 6.78882434739072E-07 0.0981026740461557" rpy="0 0 0" />
+      <mass  value="2.27145669098343" />
+      <inertia ixx="0.00214322284946289" ixy="0" ixz="-0.00073120631553383" iyy="0.0443926090878205" iyz="0" izz="0.0441273797128365" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://aubo_description/meshes/aubo_i5/visual/foreArm_Link.DAE" />
+      </geometry>
+      <material name="">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://aubo_description/meshes/aubo_i5/collision/foreArm_Link.STL" />
+      </geometry>
+    </collision>
+    <static>true</static>
+  </link>
+
+  <gazebo reference="foreArm_Link">
+    <kp>1000000000000000000000000000.0</kp>
+    <kd>1000000000000000000000000000.0</kd>
+    <mu1>100.0</mu1>
+    <mu2>100.0</mu2>
+  </gazebo>
+
+  <joint name="foreArm_joint" type="revolute">
+    <origin xyz="0.408 0 0" rpy="-3.1416 -5.1632E-18 -5.459E-16" />
+    <parent link="upperArm_Link" />
+    <child link="foreArm_Link" />
+    <axis xyz="0 0 1" />
+    <limit lower="-3.05" upper="3.05" effort="0" velocity="0" />
+      <static>1</static>
+  </joint>
+
+  <link name="wrist1_Link">
+    <turnGravityOff>true</turnGravityOff>
+    <inertial>
+      <origin xyz="7.54205137428592E-07 0.0062481254331257 -0.00392367464072373" rpy="0 0 0" />
+      <mass value="0.500477539188764" />
+      <inertia ixx="0.00071194605962081" ixy="0" ixz="0" iyy="0.00040588242872958" iyz="-2.30808694377512E-05" izz="0.000685574004861334" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://aubo_description/meshes/aubo_i5/visual/wrist1_Link.DAE" />
+      </geometry>
+      <material name="">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://aubo_description/meshes/aubo_i5/collision/wrist1_Link.STL" />
+      </geometry>
+    </collision>
+    <static>true</static>
+  </link>
+
+  <gazebo reference="wrist1_Link">
+    <kp>1000000000000000000000000000.0</kp>
+    <kd>1000000000000000000000000000.0</kd>
+    <mu1>100.0</mu1>
+    <mu2>10.0</mu2>
+  </gazebo>
+
+  <joint name="wrist1_joint" type="revolute">
+    <origin xyz="0.376 0 0" rpy="3.1416 -1.8323E-15 1.5708" />
+    <parent link="foreArm_Link" />
+    <child link="wrist1_Link" />
+    <axis xyz="0 0 1" />
+    <limit lower="-3.05" upper="3.05" effort="0" velocity="0" />
+    <static>1</static>
+  </joint>
+
+  <link name="wrist2_Link">
+    <turnGravityOff>true</turnGravityOff>
+    <inertial>
+      <origin xyz="-7.54207620578635E-07 -0.00624812542617262 -0.00392367464115684" rpy="0 0 0" />
+      <mass value="0.500477539245988" />
+      <inertia ixx="0.00071194605981829" ixy="0" ixz="0" iyy="0.000405882428755442" iyz="2.30808694515886E-05" izz="0.000685574005112107" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://aubo_description/meshes/aubo_i5/visual/wrist2_Link.DAE" />
+      </geometry>
+      <material name="">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://aubo_description/meshes/aubo_i5/collision/wrist2_Link.STL" />
+      </geometry>
+    </collision>
+    <static>true</static>
+  </link>
+
+  <gazebo reference="wrist2_Link">
+    <kp>1000000000000000000000000000.0</kp>
+    <kd>1000000000000000000000000000.0</kd>
+    <mu1>100.0</mu1>
+    <mu2>10.0</mu2>
+  </gazebo>
+
+  <joint name="wrist2_joint" type="revolute">
+    <origin xyz="0 0.1025 0" rpy="-1.5708 -1.8709E-15 -1.6653E-16" />
+    <parent link="wrist1_Link" />
+    <child link="wrist2_Link" />
+    <axis xyz="0 0 1" />
+    <limit lower="-3.05" upper="3.05" effort="0" velocity="0" />
+    <static>1</static>
+  </joint>
+
+  <link name="wrist3_Link">
+    <turnGravityOff>true</turnGravityOff>
+    <inertial>
+      <origin xyz="3.92048778449938E-10 0.000175788057281467 -0.0213294490706684" rpy="0 0 0" />
+      <mass value="0.158309554874285" />
+      <inertia ixx="7.31376196034769E-05" ixy="0" ixz="0" iyy="7.19528188876563E-05" iyz="0" izz="0.000108772439051422" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://aubo_description/meshes/aubo_i5/visual/wrist3_Link.DAE" />
+      </geometry>
+      <material name="">
+        <color rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://aubo_description/meshes/aubo_i5/collision/wrist3_Link.STL" />
+      </geometry>
+    </collision>
+    <static>true</static>
+  </link>
+  <gazebo reference="wrist3_Link">
+    <kp>1000000000000000000000000000.0</kp>
+    <kd>1000000000000000000000000000.0</kd>
+    <mu1>100.0</mu1>
+    <mu2>10.0</mu2>
+  </gazebo>
+  <joint name="wrist3_joint" type="revolute">
+    <origin xyz="0 -0.094 0" rpy="1.5708 0 1.7907E-15" />
+    <parent link="wrist2_Link" />
+    <child link="wrist3_Link" />
+    <axis xyz="0 0 1" />
+    <limit lower="-3.05" upper="3.05" effort="0" velocity="0" />
+  </joint>
+
+  <link name="world" />
+<!--  <link name="base_link" />-->
+
+  <joint name="base_link" type="fixed">
+    <parent link="world" />
+    <child link = "base_link_aubo" />
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+  </joint>
+
+
+    <transmission name="shoulder_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="shoulder_joint">
+        <hardwareInterface>PositionJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="shoulder_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>
+
+    <transmission name="foreArm_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="foreArm_joint">
+        <hardwareInterface>PositionJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="foreArm_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>
+
+    <transmission name="upperArm_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="upperArm_joint">
+        <hardwareInterface>PositionJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="upperArm_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>
+
+    <transmission name="wrist1_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="wrist1_joint">
+        <hardwareInterface>PositionJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="wrist1_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>
+
+    <transmission name="wrist2_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="wrist2_joint">
+        <hardwareInterface>PositionJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="wrist2_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>
+
+    <transmission name="wrist3_trans">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="wrist3_joint">
+        <hardwareInterface>PositionJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="wrist3_motor">
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>
+<!--
+  <gazebo>
+    <plugin name="gazebo_ros_joint_state_publisher"
+            filename="libgazebo_ros_joint_state_publisher.so">
+      <update_rate>20</update_rate>
+      <joint_name>shoulder_joint</joint_name>
+      <joint_name>upperArm_joint</joint_name>
+      <joint_name>foreArm_joint</joint_name>
+      <joint_name>wrist1_joint</joint_name>
+      <joint_name>wrist2_joint</joint_name>
+      <joint_name>wrist3_joint</joint_name>
+    </plugin>
+
+    <plugin name="gazebo_ros_joint_pose_trajectory"
+        filename="libgazebo_ros_joint_pose_trajectory.so">
+        <update_rate>20</update_rate>
+    </plugin>
+
+
+    <plugin name="gazebo_ros_bumper_controller" filename="libgazebo_ros_bumper.so">
+      <alwaysOn>true</alwaysOn>
+      <updateRate>20</updateRate>
+      <bumperTopicName>aubo_bumper</bumperTopicName>
+        <frameName>world</frameName>
+    </plugin>
+
+  </gazebo>-->
+  <ros2_control name= "GazeboSimSystem"  type="system" >
+    <hardware>
+      <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+    </hardware>
+    <joint name="shoulder_joint">
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name= "initial_value">0.0</param>
+      </state_interface>
+    </joint>
+    <joint name="upperArm_joint">
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name= "initial_value">0.0</param>
+      </state_interface>
+    </joint>
+    <joint name="foreArm_joint">
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name= "initial_value">0.0</param>
+      </state_interface>
+    </joint>
+    <joint name="wrist1_joint">
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name= "initial_value">0.0</param>
+      </state_interface>
+    </joint>
+    <joint name="wrist2_joint">
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name= "initial_value">0.0</param>
+      </state_interface>
+    </joint>
+    <joint name="wrist3_joint">
+      <command_interface name="position"/>
+      <state_interface name="position">
+        <param name= "initial_value">0.0</param>
+      </state_interface>
+    </joint>
+  </ros2_control >
+  <gazebo>
+    <plugin name="gazebo_ros2_control" filename="libgazebo_ros2_control.so">
+      <parameters>$(find aubo)/config/aubo_control.yaml</parameters>
+    </plugin>
+  </gazebo>
+
+</robot>

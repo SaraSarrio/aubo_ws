@@ -1,0 +1,8 @@
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:[m[K In member function ‘[01m[Kvoid Sim_control::feedback_callback(rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>::SharedPtr)[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:61:134:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   61 |   void  Sim_control::feedback_callback([01;35m[Kconst rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>::SharedPtr goal_handle[m[K) {
+      |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:79:19:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+   79 |    while ([01;35m[Krclcpp::ok[m[K)
+      |           [01;35m[K~~~~~~~~^~[m[K

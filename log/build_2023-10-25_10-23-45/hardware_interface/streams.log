@@ -1,0 +1,91 @@
+[0.457s] Invoking command in '/home/sara/aubo_ws/build/hardware_interface': CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/sara/aubo_ws/build/hardware_interface -- -j8 -l8
+[0.507s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[0.507s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[0.509s] [35m[1mConsolidate compiler generated dependencies of target hardware_interface[0m
+[0.545s] [  5%] Built target gmock_main
+[0.546s] [ 12%] Built target gmock
+[0.559s] [ 28%] Built target hardware_interface
+[0.567s] [35m[1mConsolidate compiler generated dependencies of target test_macros[0m
+[0.578s] [35m[1mConsolidate compiler generated dependencies of target mock_components[0m
+[0.579s] [35m[1mConsolidate compiler generated dependencies of target fake_components[0m
+[0.584s] [35m[1mConsolidate compiler generated dependencies of target test_inst_hardwares[0m
+[0.589s] [35m[1mConsolidate compiler generated dependencies of target test_component_interfaces[0m
+[0.593s] [35m[1mConsolidate compiler generated dependencies of target test_joint_handle[0m
+[0.598s] [35m[1mConsolidate compiler generated dependencies of target test_components[0m
+[0.599s] [35m[1mConsolidate compiler generated dependencies of target test_component_parser[0m
+[0.610s] [ 33%] Built target test_macros
+[0.631s] [ 38%] Built target mock_components
+[0.634s] [ 46%] Built target fake_components
+[0.637s] [ 53%] Built target test_component_interfaces
+[0.637s] [ 56%] Built target test_inst_hardwares
+[0.638s] [ 61%] Built target test_joint_handle
+[0.649s] [ 66%] Built target test_component_parser
+[0.655s] [ 76%] Built target test_components
+[0.658s] [35m[1mConsolidate compiler generated dependencies of target test_resource_manager[0m
+[0.660s] [35m[1mConsolidate compiler generated dependencies of target test_hardware_components[0m
+[0.667s] [35m[1mConsolidate compiler generated dependencies of target test_generic_system[0m
+[0.686s] [ 82%] Built target test_resource_manager
+[0.689s] [ 94%] Built target test_hardware_components
+[0.690s] [100%] Built target test_generic_system
+[0.898s] Invoked command in '/home/sara/aubo_ws/build/hardware_interface' returned '0': CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/sara/aubo_ws/build/hardware_interface -- -j8 -l8
+[1.053s] Invoking command in '/home/sara/aubo_ws/build/hardware_interface': CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/sara/aubo_ws/build/hardware_interface
+[1.060s] -- Install configuration: ""
+[1.060s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/share/hardware_interface/mock_components_plugin_description.xml
+[1.060s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/share/hardware_interface/fake_components_plugin_description.xml
+[1.061s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/include
+[1.061s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/include/fake_components
+[1.061s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/include/fake_components/visibility_control.h
+[1.061s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/include/fake_components/generic_system.hpp
+[1.061s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/include/hardware_interface
+[1.061s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/include/hardware_interface/actuator_interface.hpp
+[1.061s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/include/hardware_interface/component_parser.hpp
+[1.062s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/include/hardware_interface/actuator.hpp
+[1.062s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/include/hardware_interface/macros.hpp
+[1.062s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/include/hardware_interface/hardware_component_info.hpp
+[1.062s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/include/hardware_interface/visibility_control.h
+[1.062s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/include/hardware_interface/controller_info.hpp
+[1.062s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/include/hardware_interface/resource_manager.hpp
+[1.062s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/include/hardware_interface/loaned_state_interface.hpp
+[1.063s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/include/hardware_interface/sensor_interface.hpp
+[1.063s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/include/hardware_interface/hardware_info.hpp
+[1.063s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/include/hardware_interface/system.hpp
+[1.063s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/include/hardware_interface/handle.hpp
+[1.064s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/include/hardware_interface/sensor.hpp
+[1.064s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/include/hardware_interface/system_interface.hpp
+[1.064s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/include/hardware_interface/loaned_command_interface.hpp
+[1.064s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/include/hardware_interface/types
+[1.064s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_return_values.hpp
+[1.064s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_type_values.hpp
+[1.064s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/include/hardware_interface/types/lifecycle_state_names.hpp
+[1.065s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/include/mock_components
+[1.065s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/include/mock_components/visibility_control.h
+[1.065s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/include/mock_components/generic_system.hpp
+[1.065s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/lib/libfake_components.so
+[1.065s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/lib/libmock_components.so
+[1.065s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/lib/libhardware_interface.so
+[1.065s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/lib/libtest_components.so
+[1.066s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/share/hardware_interface/test/test_components/test_components.xml
+[1.066s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/lib/libtest_hardware_components.so
+[1.066s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/share/hardware_interface/test/test_hardware_components/test_hardware_components.xml
+[1.066s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/share/hardware_interface/environment/library_path.sh
+[1.067s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/share/hardware_interface/environment/library_path.dsv
+[1.067s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/share/ament_index/resource_index/package_run_dependencies/hardware_interface
+[1.067s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/share/ament_index/resource_index/parent_prefix_path/hardware_interface
+[1.067s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.sh
+[1.068s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.dsv
+[1.068s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/share/hardware_interface/environment/path.sh
+[1.068s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/share/hardware_interface/environment/path.dsv
+[1.068s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/share/hardware_interface/local_setup.bash
+[1.068s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/share/hardware_interface/local_setup.sh
+[1.068s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/share/hardware_interface/local_setup.zsh
+[1.069s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/share/hardware_interface/local_setup.dsv
+[1.069s] -- Installing: /home/sara/aubo_ws/install/hardware_interface/share/hardware_interface/package.dsv
+[1.069s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/share/ament_index/resource_index/packages/hardware_interface
+[1.069s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/hardware_interface
+[1.069s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.070s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[1.070s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.070s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig.cmake
+[1.070s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig-version.cmake
+[1.070s] -- Up-to-date: /home/sara/aubo_ws/install/hardware_interface/share/hardware_interface/package.xml
+[1.070s] Invoked command in '/home/sara/aubo_ws/build/hardware_interface' returned '0': CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/sara/aubo_ws/build/hardware_interface

@@ -1,0 +1,85 @@
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:[m[K In constructor ‘[01m[KSim_pub::Sim_pub()[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:16:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_ind[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   16 |     int [01;35m[Kpub_ind[m[K=1;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:18:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   18 |     float [01;35m[Kq0[m[K=0.0;
+      |           [01;35m[K^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:19:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   19 |     float [01;35m[Kq1[m[K=0.0;
+      |           [01;35m[K^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:20:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   20 |     float [01;35m[Kq2[m[K=0.0;
+      |           [01;35m[K^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:21:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq3[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   21 |     float [01;35m[Kq3[m[K=0.0;
+      |           [01;35m[K^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:22:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq4[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   22 |     float [01;35m[Kq4[m[K=0.0;
+      |           [01;35m[K^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:23:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq5[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   23 |     float [01;35m[Kq5[m[K=0.0;
+      |           [01;35m[K^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:77:20:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+   77 |     while ([01;35m[Krclcpp::ok[m[K)
+      |            [01;35m[K~~~~~~~~^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:[m[K In constructor ‘[01m[KSim_control::Sim_control()[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:11:98:[m[K [01;31m[Kerror: [m[K‘[01m[KSim_pub[m[K’ has not been declared
+   11 |   sub_= this -> create_subscription <std_msgs::msg::Float32MultiArray>("Joint_pos",10,std::bind(&[01;31m[KSim_pub[m[K::funcion,this, _1));
+      |                                                                                                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:13:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   13 |     float [01;35m[Kq0[m[K=0.0;
+      |           [01;35m[K^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:14:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   14 |     float [01;35m[Kq1[m[K=0.0;
+      |           [01;35m[K^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:15:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   15 |     float [01;35m[Kq2[m[K=0.0;
+      |           [01;35m[K^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:16:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq3[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   16 |     float [01;35m[Kq3[m[K=0.0;
+      |           [01;35m[K^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:17:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq4[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   17 |     float [01;35m[Kq4[m[K=0.0;
+      |           [01;35m[K^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:18:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq5[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   18 |     float [01;35m[Kq5[m[K=0.0;
+      |           [01;35m[K^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:[m[K At global scope:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:27:6:[m[K [01;31m[Kerror: [m[K‘[01m[KSim_pub[m[K’ has not been declared
+   27 | void [01;31m[KSim_pub[m[K::funcion(const std_msgs::msg::Float32MultiArray::SharedPtr msgrec) {
+      |      [01;31m[K^~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:[m[K In function ‘[01m[Kvoid funcion(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:28:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kq0[m[K’ was not declared in this scope; did you mean ‘[01m[Ky0[m[K’?
+   28 |     [01;31m[Kq0[m[K=msgrec-> data[0];
+      |     [01;31m[K^~[m[K
+      |     [32m[Ky0[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:29:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kq1[m[K’ was not declared in this scope; did you mean ‘[01m[Ky1[m[K’?
+   29 |     [01;31m[Kq1[m[K=msgrec-> data[1];
+      |     [01;31m[K^~[m[K
+      |     [32m[Ky1[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:30:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kq2[m[K’ was not declared in this scope
+   30 |     [01;31m[Kq2[m[K=msgrec-> data[2];
+      |     [01;31m[K^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:31:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kq3[m[K’ was not declared in this scope
+   31 |     [01;31m[Kq3[m[K=msgrec-> data[3];
+      |     [01;31m[K^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kq4[m[K’ was not declared in this scope
+   32 |     [01;31m[Kq4[m[K=msgrec-> data[4];
+      |     [01;31m[K^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:33:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kq5[m[K’ was not declared in this scope
+   33 |     [01;31m[Kq5[m[K=msgrec-> data[5];
+      |     [01;31m[K^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:[m[K In member function ‘[01m[Kvoid Sim_control::feedback_callback(rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>::SharedPtr)[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:81:134:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   81 |   void  Sim_control::feedback_callback([01;35m[Kconst rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>::SharedPtr goal_handle[m[K) {
+      |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:99:19:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+   99 |    while ([01;35m[Krclcpp::ok[m[K)
+      |           [01;35m[K~~~~~~~~^~[m[K
+gmake[2]: *** [CMakeFiles/sim_control.dir/build.make:76: CMakeFiles/sim_control.dir/src/sim_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/sim_control.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,77 @@
+[0.116s] Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8
+[0.242s] [35m[1mConsolidate compiler generated dependencies of target sim_control[0m
+[0.274s] [ 12%] Built target dir_kin
+[0.274s] [ 25%] Built target controller
+[0.286s] [ 37%] Built target inv_kin
+[0.287s] [ 50%] Built target test_pub
+[0.293s] [ 56%] [32mBuilding CXX object CMakeFiles/sim_control.dir/src/sim_control.cpp.o[0m
+[0.294s] [ 68%] Built target sim_pub
+[0.301s] [ 81%] Built target sim_test
+[0.302s] [ 93%] Built target sim_sub
+[3.469s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:[m[K In constructor ‘[01m[KSim_control::Sim_control()[m[K’:
+[3.469s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:13:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.469s]    13 |     float [01;35m[Kq0[m[K=0.0;
+[3.469s]       |           [01;35m[K^~[m[K
+[3.469s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:14:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.469s]    14 |     float [01;35m[Kq1[m[K=0.0;
+[3.469s]       |           [01;35m[K^~[m[K
+[3.469s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:15:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.469s]    15 |     float [01;35m[Kq2[m[K=0.0;
+[3.469s]       |           [01;35m[K^~[m[K
+[3.469s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:16:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq3[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.469s]    16 |     float [01;35m[Kq3[m[K=0.0;
+[3.469s]       |           [01;35m[K^~[m[K
+[3.470s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:17:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq4[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.470s]    17 |     float [01;35m[Kq4[m[K=0.0;
+[3.470s]       |           [01;35m[K^~[m[K
+[3.470s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:18:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq5[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.470s]    18 |     float [01;35m[Kq5[m[K=0.0;
+[3.470s]       |           [01;35m[K^~[m[K
+[3.470s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:19:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_int_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.470s]    19 |     int [01;35m[Kpub_int_[m[K=0;
+[3.470s]       |         [01;35m[K^~~~~~~~[m[K
+[3.495s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:[m[K In member function ‘[01m[Kvoid Sim_control::feedback_callback(rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>::SharedPtr)[m[K’:
+[3.495s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:92:134:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.495s]    92 |   void  Sim_control::feedback_callback([01;35m[Kconst rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>::SharedPtr goal_handle[m[K) {
+[3.495s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[3.499s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.499s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:110:19:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+[3.499s]   110 |    while ([01;35m[Krclcpp::ok[m[K)
+[3.499s]       |           [01;35m[K~~~~~~~~^~[m[K
+[11.764s] [100%] [32m[1mLinking CXX executable sim_control[0m
+[12.493s] [100%] Built target sim_control
+[12.510s] Invoked command in '/home/sara/aubo_ws/build/control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8
+[12.627s] Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/control
+[12.639s] -- Install configuration: ""
+[12.640s] -- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/controller
+[12.640s] -- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/dir_kin
+[12.640s] -- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/inv_kin
+[12.641s] -- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/test_pub
+[12.641s] -- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/sim_pub
+[12.641s] -- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/sim_sub
+[12.642s] -- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/sim_test
+[12.642s] -- Installing: /home/sara/aubo_ws/install/control/lib/control/sim_control
+[12.647s] -- Set runtime path of "/home/sara/aubo_ws/install/control/lib/control/sim_control" to ""
+[12.647s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch
+[12.648s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/listener.launch.py
+[12.648s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/aubo_i5_gz.launch.py
+[12.648s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/view_robot.launch.py
+[12.648s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/world.launch.py
+[12.648s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/gz.launch.py
+[12.648s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/spawn_robot_launch_v4.launch.py
+[12.648s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/ament_index/resource_index/package_run_dependencies/control
+[12.648s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/ament_index/resource_index/parent_prefix_path/control
+[12.648s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/environment/ament_prefix_path.sh
+[12.648s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/environment/ament_prefix_path.dsv
+[12.649s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/environment/path.sh
+[12.649s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/environment/path.dsv
+[12.649s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.bash
+[12.649s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.sh
+[12.649s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.zsh
+[12.649s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.dsv
+[12.649s] -- Installing: /home/sara/aubo_ws/install/control/share/control/package.dsv
+[12.649s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/ament_index/resource_index/packages/control
+[12.649s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/cmake/controlConfig.cmake
+[12.649s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/cmake/controlConfig-version.cmake
+[12.649s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/package.xml
+[12.651s] Invoked command in '/home/sara/aubo_ws/build/control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/control

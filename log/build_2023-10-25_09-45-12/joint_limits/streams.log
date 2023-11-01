@@ -1,0 +1,57 @@
+[0.457s] Invoking command in '/home/sara/aubo_ws/build/joint_limits': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/joint_limits -- -j8 -l8
+[0.503s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.707s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.714s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.766s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.772s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.783s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.809s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.844s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.966s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.973s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.191s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.510s] -- Found rclcpp_lifecycle: 16.0.6 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.575s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.576s] -- Found launch_testing_ament_cmake: 1.0.4 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[1.576s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.616s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.616s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.616s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.619s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.757s] -- Configuring done
+[1.781s] -- Generating done
+[1.784s] -- Build files have been written to: /home/sara/aubo_ws/build/joint_limits
+[1.845s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[1.866s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[1.893s] [ 33%] Built target gtest_main
+[1.898s] [ 66%] Built target gtest
+[1.920s] [35m[1mConsolidate compiler generated dependencies of target joint_limits_rosparam_test[0m
+[1.951s] [ 83%] [32mBuilding CXX object CMakeFiles/joint_limits_rosparam_test.dir/test/joint_limits_rosparam_test.cpp.o[0m
+[22.167s] [100%] [32m[1mLinking CXX executable joint_limits_rosparam_test[0m
+[23.438s] [100%] Built target joint_limits_rosparam_test
+[23.476s] Invoked command in '/home/sara/aubo_ws/build/joint_limits' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/joint_limits -- -j8 -l8
+[24.144s] Invoking command in '/home/sara/aubo_ws/build/joint_limits': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/joint_limits
+[24.236s] -- Install configuration: ""
+[24.237s] -- Execute custom install script
+[24.239s] -- Symlinking: /home/sara/aubo_ws/install/joint_limits/include/joint_limits/joint_limits.hpp
+[24.370s] -- Symlinking: /home/sara/aubo_ws/install/joint_limits/include/joint_limits/joint_limits_rosparam.hpp
+[24.487s] -- Symlinking: /home/sara/aubo_ws/install/joint_limits/lib/joint_limits/joint_limits_rosparam_test
+[24.583s] -- Symlinking: /home/sara/aubo_ws/install/joint_limits/share/joint_limits/test/joint_limits_rosparam.yaml
+[24.662s] -- Symlinking: /home/sara/aubo_ws/install/joint_limits/share/ament_index/resource_index/package_run_dependencies/joint_limits
+[24.721s] -- Symlinking: /home/sara/aubo_ws/install/joint_limits/share/ament_index/resource_index/parent_prefix_path/joint_limits
+[24.845s] -- Symlinking: /home/sara/aubo_ws/install/joint_limits/share/joint_limits/environment/ament_prefix_path.sh
+[24.898s] -- Symlinking: /home/sara/aubo_ws/install/joint_limits/share/joint_limits/environment/ament_prefix_path.dsv
+[24.948s] -- Symlinking: /home/sara/aubo_ws/install/joint_limits/share/joint_limits/environment/path.sh
+[25.065s] -- Symlinking: /home/sara/aubo_ws/install/joint_limits/share/joint_limits/environment/path.dsv
+[25.122s] -- Symlinking: /home/sara/aubo_ws/install/joint_limits/share/joint_limits/local_setup.bash
+[25.236s] -- Symlinking: /home/sara/aubo_ws/install/joint_limits/share/joint_limits/local_setup.sh
+[25.348s] -- Symlinking: /home/sara/aubo_ws/install/joint_limits/share/joint_limits/local_setup.zsh
+[25.476s] -- Symlinking: /home/sara/aubo_ws/install/joint_limits/share/joint_limits/local_setup.dsv
+[25.608s] -- Symlinking: /home/sara/aubo_ws/install/joint_limits/share/joint_limits/package.dsv
+[25.694s] -- Symlinking: /home/sara/aubo_ws/install/joint_limits/share/ament_index/resource_index/packages/joint_limits
+[25.800s] -- Symlinking: /home/sara/aubo_ws/install/joint_limits/share/joint_limits/cmake/ament_cmake_export_dependencies-extras.cmake
+[25.890s] -- Symlinking: /home/sara/aubo_ws/install/joint_limits/share/joint_limits/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.011s] -- Symlinking: /home/sara/aubo_ws/install/joint_limits/share/joint_limits/cmake/joint_limitsConfig.cmake
+[26.131s] -- Symlinking: /home/sara/aubo_ws/install/joint_limits/share/joint_limits/cmake/joint_limitsConfig-version.cmake
+[26.268s] -- Symlinking: /home/sara/aubo_ws/install/joint_limits/share/joint_limits/package.xml
+[26.400s] Invoked command in '/home/sara/aubo_ws/build/joint_limits' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/joint_limits

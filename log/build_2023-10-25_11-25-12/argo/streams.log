@@ -1,0 +1,46 @@
+[0.597s] Invoking command in '/home/sara/aubo_ws/build/argo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/argo -- -j8 -l8
+[0.721s] Invoked command in '/home/sara/aubo_ws/build/argo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/argo -- -j8 -l8
+[0.971s] Invoking command in '/home/sara/aubo_ws/build/argo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/argo
+[1.009s] -- Install configuration: ""
+[1.011s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/launch
+[1.012s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/launch/argo.launch.py
+[1.012s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/launch/spawn_robot_launch_v4.launch.py
+[1.012s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/urdf
+[1.013s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/urdf/argo.urdf
+[1.013s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/urdf/argo.csv
+[1.014s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/meshes
+[1.014s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/meshes/W2.STL
+[1.015s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/meshes/brdge.STL
+[1.015s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/meshes/base_gps.STL
+[1.015s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/meshes/W7.STL
+[1.016s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/meshes/W4.STL
+[1.016s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/meshes/rover_gp.STL
+[1.017s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/meshes/W5.STL
+[1.017s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/meshes/rear_cam.STL
+[1.017s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/meshes/W3.STL
+[1.017s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/meshes/W1.STL
+[1.018s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/meshes/base_link.STL
+[1.018s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/meshes/imu.STL
+[1.019s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/meshes/W6.STL
+[1.019s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/meshes/W8.STL
+[1.019s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/meshes/front_cam.STL
+[1.020s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/meshes/top.STL
+[1.020s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/config
+[1.020s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/config/joint_names_argo.yaml
+[1.020s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/config/joint_names_argo_v2.yaml
+[1.021s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/ament_index/resource_index/package_run_dependencies/argo
+[1.021s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/ament_index/resource_index/parent_prefix_path/argo
+[1.022s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/environment/ament_prefix_path.sh
+[1.022s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/environment/ament_prefix_path.dsv
+[1.023s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/environment/path.sh
+[1.023s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/environment/path.dsv
+[1.023s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/local_setup.bash
+[1.024s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/local_setup.sh
+[1.024s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/local_setup.zsh
+[1.024s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/local_setup.dsv
+[1.025s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/package.dsv
+[1.025s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/ament_index/resource_index/packages/argo
+[1.025s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/cmake/argoConfig.cmake
+[1.025s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/cmake/argoConfig-version.cmake
+[1.026s] -- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/package.xml
+[1.139s] Invoked command in '/home/sara/aubo_ws/build/argo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/argo

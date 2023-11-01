@@ -1,0 +1,24 @@
+[0.063s] Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8
+[0.109s] [35m[1mConsolidate compiler generated dependencies of target sim_pub[0m
+[0.112s] [35m[1mConsolidate compiler generated dependencies of target controller[0m
+[0.112s] [35m[1mConsolidate compiler generated dependencies of target dir_kin[0m
+[0.131s] [ 20%] Built target inv_kin
+[0.132s] [ 40%] Built target test_pub
+[0.137s] [ 60%] Built target dir_kin
+[0.138s] [ 70%] [32mBuilding CXX object CMakeFiles/sim_pub.dir/src/sim_pub.cpp.o[0m
+[0.139s] [ 90%] Built target controller
+[2.088s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:[m[K In constructor ‘[01m[KSim_pub::Sim_pub()[m[K’:
+[2.088s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:11:109:[m[K [01;31m[Kerror: [m[K‘[01m[Kfuncion[m[K’ is not a member of ‘[01m[KSim_pub[m[K’
+[2.088s]    11 |     sub_= this -> create_subscription <std_msgs::msg::Float32MultiArray>("Joint_pos",10,std::bind(&Sim_pub::[01;31m[Kfuncion[m[K,this, _1));
+[2.088s]       |                                                                                                             [01;31m[K^~~~~~~[m[K
+[2.088s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:13:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_ind[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.089s]    13 |     int [01;35m[Kpub_ind[m[K=1;
+[2.089s]       |         [01;35m[K^~~~~~~[m[K
+[2.090s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.090s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:46:20:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+[2.090s]    46 |     while ([01;35m[Krclcpp::ok[m[K)
+[2.090s]       |            [01;35m[K~~~~~~~~^~[m[K
+[2.465s] gmake[2]: *** [CMakeFiles/sim_pub.dir/build.make:76: CMakeFiles/sim_pub.dir/src/sim_pub.cpp.o] Error 1
+[2.465s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/sim_pub.dir/all] Error 2
+[2.466s] gmake: *** [Makefile:146: all] Error 2
+[2.468s] Invoked command in '/home/sara/aubo_ws/build/control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8

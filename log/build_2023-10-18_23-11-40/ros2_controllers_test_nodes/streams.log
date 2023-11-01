@@ -1,0 +1,30 @@
+[1.942s] Invoking command in '/home/sara/aubo_ws/build/ros2_controllers_test_nodes': PYTHONPATH=/home/sara/aubo_ws/build/ros2_controllers_test_nodes/prefix_override:/home/sara/aubo_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sara/aubo_ws/build/ros2_controllers_test_nodes/build --no-deps install_data
+[2.401s] running develop
+[2.402s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.402s]   warnings.warn(
+[2.405s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.405s]   warnings.warn(
+[2.692s] running egg_info
+[2.692s] creating ros2_controllers_test_nodes.egg-info
+[2.692s] writing ros2_controllers_test_nodes.egg-info/PKG-INFO
+[2.693s] writing dependency_links to ros2_controllers_test_nodes.egg-info/dependency_links.txt
+[2.693s] writing entry points to ros2_controllers_test_nodes.egg-info/entry_points.txt
+[2.693s] writing requirements to ros2_controllers_test_nodes.egg-info/requires.txt
+[2.693s] writing top-level names to ros2_controllers_test_nodes.egg-info/top_level.txt
+[2.694s] writing manifest file 'ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[2.696s] reading manifest file 'ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[2.697s] writing manifest file 'ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[2.698s] running build_ext
+[2.699s] Creating /home/sara/aubo_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2-controllers-test-nodes.egg-link (link to .)
+[2.700s] Installing publisher_forward_position_controller script to /home/sara/aubo_ws/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[2.701s] Installing publisher_joint_trajectory_controller script to /home/sara/aubo_ws/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[2.701s] 
+[2.701s] Installed /home/sara/aubo_ws/build/ros2_controllers_test_nodes
+[2.701s] running install_data
+[2.702s] creating /home/sara/aubo_ws/install/ros2_controllers_test_nodes/share/ament_index
+[2.702s] creating /home/sara/aubo_ws/install/ros2_controllers_test_nodes/share/ament_index/resource_index
+[2.702s] creating /home/sara/aubo_ws/install/ros2_controllers_test_nodes/share/ament_index/resource_index/packages
+[2.703s] copying resource/ros2_controllers_test_nodes -> /home/sara/aubo_ws/install/ros2_controllers_test_nodes/share/ament_index/resource_index/packages
+[2.705s] copying package.xml -> /home/sara/aubo_ws/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes
+[2.705s] creating /home/sara/aubo_ws/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/configs
+[2.946s] Invoked command in '/home/sara/aubo_ws/build/ros2_controllers_test_nodes' returned '0': PYTHONPATH=/home/sara/aubo_ws/build/ros2_controllers_test_nodes/prefix_override:/home/sara/aubo_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sara/aubo_ws/build/ros2_controllers_test_nodes/build --no-deps install_data

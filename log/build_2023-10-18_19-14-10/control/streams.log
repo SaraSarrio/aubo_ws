@@ -1,0 +1,8 @@
+[0.075s] Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8
+[0.154s] [ 42%] Built target sim_pub
+[0.154s] [ 35%] Built target dir_kin
+[0.154s] [ 42%] Built target inv_kin
+[0.154s] [ 57%] Built target controller
+[0.155s] [ 71%] Built target test_pub
+[0.157s] [ 85%] Built target sim_test
+[0.160s] [100%] Built target sim_sub

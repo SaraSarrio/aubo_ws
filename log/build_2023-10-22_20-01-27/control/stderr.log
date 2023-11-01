@@ -1,0 +1,18 @@
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PkgConfig)
+  does not match the name of the calling package (gazebo).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+  CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/listener.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kgazebo_msgs/msg/imu.hpp: No such file or directory
+    4 | #include [01;31m[K"gazebo_msgs/msg/imu.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/listener.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:361: CMakeFiles/listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

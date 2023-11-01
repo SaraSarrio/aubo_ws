@@ -1,0 +1,2 @@
+Invoking command in '/home/sara/aubo_ws/build/realtime_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sara/aubo_ws/src/ros-controls/realtime_tools -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/realtime_tools
+Invoked command in '/home/sara/aubo_ws/build/realtime_tools' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sara/aubo_ws/src/ros-controls/realtime_tools -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/realtime_tools

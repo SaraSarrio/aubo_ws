@@ -1,0 +1,58 @@
+[0.062s] Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8
+[0.126s] [ 20%] [32mBuilding CXX object CMakeFiles/sim_pub.dir/src/sim_pub.cpp.o[0m
+[0.127s] [ 30%] Built target dir_kin
+[0.127s] [ 50%] Built target inv_kin
+[0.128s] [ 70%] Built target controller
+[0.131s] [ 90%] Built target test_pub
+[2.070s] In file included from [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:3[m[K:
+[2.070s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/sim_pub.hpp:17:143:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.070s]    17 |     std_msgs::msg::String joint_names[6] = { "shoulder_Link", "upperArm_Link", "foreArm_Link", "wrist1_Link", "wrist2_Link", "wris3_Link" };  [01;35m[K;[m[K
+[2.070s]       |                                                                                                                                               [01;35m[K^[m[K
+[2.070s]       |                                                                                                                                               [31m[K-[m[K
+[2.071s] In file included from [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:3[m[K:
+[2.071s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/sim_pub.hpp:17:46:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K"shoulder_Link"[m[K’ from ‘[01m[Kconst char [14][m[K’ to ‘[01m[Kstd_msgs::msg::String[m[K’ {aka ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’}
+[2.071s]    17 |     std_msgs::msg::String joint_names[6] = { [01;31m[K"shoulder_Link"[m[K, "upperArm_Link", "foreArm_Link", "wrist1_Link", "wrist2_Link", "wris3_Link" };  ;
+[2.071s]       |                                              [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.071s]       |                                              [01;31m[K|[m[K
+[2.071s]       |                                              [01;31m[Kconst char [14][m[K
+[2.071s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/sim_pub.hpp:17:63:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K"upperArm_Link"[m[K’ from ‘[01m[Kconst char [14][m[K’ to ‘[01m[Kstd_msgs::msg::String[m[K’ {aka ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’}
+[2.071s]    17 |     std_msgs::msg::String joint_names[6] = { "shoulder_Link", [01;31m[K"upperArm_Link"[m[K, "foreArm_Link", "wrist1_Link", "wrist2_Link", "wris3_Link" };  ;
+[2.071s]       |                                                               [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.071s]       |                                                               [01;31m[K|[m[K
+[2.071s]       |                                                               [01;31m[Kconst char [14][m[K
+[2.071s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/sim_pub.hpp:17:80:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K"foreArm_Link"[m[K’ from ‘[01m[Kconst char [13][m[K’ to ‘[01m[Kstd_msgs::msg::String[m[K’ {aka ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’}
+[2.072s]    17 |     std_msgs::msg::String joint_names[6] = { "shoulder_Link", "upperArm_Link", [01;31m[K"foreArm_Link"[m[K, "wrist1_Link", "wrist2_Link", "wris3_Link" };  ;
+[2.072s]       |                                                                                [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.072s]       |                                                                                [01;31m[K|[m[K
+[2.072s]       |                                                                                [01;31m[Kconst char [13][m[K
+[2.072s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/sim_pub.hpp:17:96:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K"wrist1_Link"[m[K’ from ‘[01m[Kconst char [12][m[K’ to ‘[01m[Kstd_msgs::msg::String[m[K’ {aka ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’}
+[2.072s]    17 |     std_msgs::msg::String joint_names[6] = { "shoulder_Link", "upperArm_Link", "foreArm_Link", [01;31m[K"wrist1_Link"[m[K, "wrist2_Link", "wris3_Link" };  ;
+[2.072s]       |                                                                                                [01;31m[K^~~~~~~~~~~~~[m[K
+[2.072s]       |                                                                                                [01;31m[K|[m[K
+[2.072s]       |                                                                                                [01;31m[Kconst char [12][m[K
+[2.072s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/sim_pub.hpp:17:111:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K"wrist2_Link"[m[K’ from ‘[01m[Kconst char [12][m[K’ to ‘[01m[Kstd_msgs::msg::String[m[K’ {aka ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’}
+[2.072s]    17 |     std_msgs::msg::String joint_names[6] = { "shoulder_Link", "upperArm_Link", "foreArm_Link", "wrist1_Link", [01;31m[K"wrist2_Link"[m[K, "wris3_Link" };  ;
+[2.072s]       |                                                                                                               [01;31m[K^~~~~~~~~~~~~[m[K
+[2.072s]       |                                                                                                               [01;31m[K|[m[K
+[2.072s]       |                                                                                                               [01;31m[Kconst char [12][m[K
+[2.072s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/sim_pub.hpp:17:126:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K"wris3_Link"[m[K’ from ‘[01m[Kconst char [11][m[K’ to ‘[01m[Kstd_msgs::msg::String[m[K’ {aka ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >[m[K’}
+[2.072s]    17 |     std_msgs::msg::String joint_names[6] = { "shoulder_Link", "upperArm_Link", "foreArm_Link", "wrist1_Link", "wrist2_Link", [01;31m[K"wris3_Link"[m[K };  ;
+[2.072s]       |                                                                                                                              [01;31m[K^~~~~~~~~~~~[m[K
+[2.072s]       |                                                                                                                              [01;31m[K|[m[K
+[2.072s]       |                                                                                                                              [01;31m[Kconst char [11][m[K
+[2.078s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:[m[K In constructor ‘[01m[KSim_pub::Sim_pub()[m[K’:
+[2.078s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:13:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_ind[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.078s]    13 |     int [01;35m[Kpub_ind[m[K=1;
+[2.078s]       |         [01;35m[K^~~~~~~[m[K
+[2.080s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:[m[K In member function ‘[01m[Kvoid Sim_pub::funcion(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.080s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:21:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsgrec[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.080s]    21 | void Sim_pub::funcion([01;35m[Kconst std_msgs::msg::Float32MultiArray::SharedPtr msgrec[m[K) {
+[2.080s]       |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[2.082s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.082s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:50:20:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+[2.082s]    50 |     while ([01;35m[Krclcpp::ok[m[K)
+[2.082s]       |            [01;35m[K~~~~~~~~^~[m[K
+[4.204s] gmake[2]: *** [CMakeFiles/sim_pub.dir/build.make:76: CMakeFiles/sim_pub.dir/src/sim_pub.cpp.o] Error 1
+[4.204s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/sim_pub.dir/all] Error 2
+[4.205s] gmake: *** [Makefile:146: all] Error 2
+[4.207s] Invoked command in '/home/sara/aubo_ws/build/control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8

@@ -1,0 +1,149 @@
+[0.131s] Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8
+[0.194s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.451s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.493s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.497s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.505s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.528s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.555s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.650s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.656s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.865s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.101s] -- Found rclcpp_action: 16.0.6 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.249s] -- Found rclcpp_components: 16.0.6 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.357s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.357s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[1.357s]   does not match the name of the calling package (gazebo).  This can lead to
+[1.357s]   problems in calling code that expects `find_package` result variables
+[1.357s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.358s] Call Stack (most recent call first):
+[1.358s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[1.358s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[1.358s]   CMakeLists.txt:14 (find_package)
+[1.358s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.358s] [0m
+[1.396s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.441s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.443s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.449s] -- Searching for dependencies of ignition-math6
+[1.450s] -- Looking for OGRE...
+[1.461s] -- Found Ogre Ghadamon (1.9.0)
+[1.461s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.477s] -- Looking for OGRE_Paging...
+[1.477s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.478s] -- Looking for OGRE_Terrain...
+[1.478s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.478s] -- Looking for OGRE_Property...
+[1.478s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.478s] -- Looking for OGRE_RTShaderSystem...
+[1.479s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.479s] -- Looking for OGRE_Volume...
+[1.479s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.479s] -- Looking for OGRE_Overlay...
+[1.479s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.936s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.937s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.937s] -- Searching for dependencies of ignition-transport8
+[1.972s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.998s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.007s] -- Checking for module 'libzmq >= 4'
+[2.043s] --   Found libzmq , version 4.3.4
+[2.134s] -- Checking for module 'uuid'
+[2.169s] --   Found uuid, version 2.37.2
+[2.244s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.245s] -- Searching for dependencies of ignition-msgs5
+[2.281s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.290s] -- Checking for module 'tinyxml2'
+[2.326s] --   Found tinyxml2, version 9.0.0
+[2.401s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.402s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.403s] -- Searching for dependencies of ignition-common3
+[2.403s] -- Looking for dlfcn.h - found
+[2.403s] -- Looking for libdl - found
+[2.424s] -- Searching for <ignition-common3> component [graphics]
+[2.425s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.426s] -- Searching for dependencies of ignition-common3-graphics
+[2.426s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.428s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.428s] -- Searching for dependencies of ignition-fuel_tools4
+[2.510s] -- Checking for module 'jsoncpp'
+[2.549s] --   Found jsoncpp, version 1.9.5
+[2.646s] -- Checking for module 'libzip'
+[2.686s] --   Found libzip, version 1.7.3
+[2.772s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.772s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.773s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.775s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[3.538s] -- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[3.785s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.012s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.015s] -- Configured cppcheck include dirs: /home/sara/aubo_ws/src/aubo_control/control/include
+[4.016s] -- Configured cppcheck exclude dirs and/or files: 
+[4.016s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.018s] -- Added test 'lint_cmake' to check CMake code style
+[4.019s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.022s] -- Added test 'uncrustify' to check C / C++ code style
+[4.022s] -- Configured uncrustify additional arguments: 
+[4.023s] -- Added test 'xmllint' to check XML markup files
+[4.024s] -- Configuring done
+[4.094s] -- Generating done
+[4.099s] -- Build files have been written to: /home/sara/aubo_ws/build/control
+[4.186s] [35m[1mConsolidate compiler generated dependencies of target inv_kin[0m
+[4.187s] [35m[1mConsolidate compiler generated dependencies of target dir_kin[0m
+[4.200s] [35m[1mConsolidate compiler generated dependencies of target sim_pub[0m
+[4.206s] [35m[1mConsolidate compiler generated dependencies of target sim_control[0m
+[4.209s] [35m[1mConsolidate compiler generated dependencies of target test_pub[0m
+[4.220s] [35m[1mConsolidate compiler generated dependencies of target controller[0m
+[4.240s] [35m[1mConsolidate compiler generated dependencies of target sim_sub[0m
+[4.245s] [35m[1mConsolidate compiler generated dependencies of target sim_test[0m
+[4.260s] [ 11%] Built target dir_kin
+[4.272s] [ 22%] Built target inv_kin
+[4.301s] [ 33%] Built target test_pub
+[4.302s] [ 44%] Built target sim_control
+[4.313s] [ 55%] Built target controller
+[4.313s] [ 66%] Built target sim_pub
+[4.322s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[4.331s] [ 77%] Built target sim_sub
+[4.334s] [ 88%] Built target sim_test
+[4.400s] [ 94%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[27.835s] [100%] [32m[1mLinking CXX executable listener[0m
+[28.592s] /usr/bin/ld: CMakeFiles/listener.dir/src/listener.cpp.o: in function `main':
+[28.592s] listener.cpp:(.text+0x3f0): undefined reference to `gazebo::transport::Node::Node()'
+[28.593s] /usr/bin/ld: listener.cpp:(.text+0x481): undefined reference to `gazebo::transport::Node::Init(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[28.596s] /usr/bin/ld: CMakeFiles/listener.dir/src/listener.cpp.o: in function `tbb::detail::d1::wait_context::add_reference(long)':
+[28.596s] listener.cpp:(.text._ZN3tbb6detail2d112wait_context13add_referenceEl[_ZN3tbb6detail2d112wait_context13add_referenceEl]+0x70): undefined reference to `tbb::detail::r1::notify_waiters(unsigned long)'
+[28.598s] /usr/bin/ld: CMakeFiles/listener.dir/src/listener.cpp.o: in function `tbb::detail::d1::execution_slot(tbb::detail::d1::execution_data const&)':
+[28.598s] listener.cpp:(.text._ZN3tbb6detail2d114execution_slotERKNS1_14execution_dataE[_ZN3tbb6detail2d114execution_slotERKNS1_14execution_dataE]+0x18): undefined reference to `tbb::detail::r1::execution_slot(tbb::detail::d1::execution_data const*)'
+[28.600s] /usr/bin/ld: CMakeFiles/listener.dir/src/listener.cpp.o: in function `tbb::detail::d1::wait(tbb::detail::d1::wait_context&, tbb::detail::d1::task_group_context&)':
+[28.600s] listener.cpp:(.text._ZN3tbb6detail2d14waitERNS1_12wait_contextERNS1_18task_group_contextE[_ZN3tbb6detail2d14waitERNS1_12wait_contextERNS1_18task_group_contextE]+0x23): undefined reference to `tbb::detail::r1::wait(tbb::detail::d1::wait_context&, tbb::detail::d1::task_group_context&)'
+[28.601s] /usr/bin/ld: CMakeFiles/listener.dir/src/listener.cpp.o: in function `tbb::detail::d1::task_arena::initialize()::{lambda()#1}::operator()() const':
+[28.601s] listener.cpp:(.text._ZZN3tbb6detail2d110task_arena10initializeEvENKUlvE_clEv[_ZZN3tbb6detail2d110task_arena10initializeEvENKUlvE_clEv]+0x1b): undefined reference to `tbb::detail::r1::initialize(tbb::detail::d1::task_arena_base&)'
+[28.603s] /usr/bin/ld: CMakeFiles/listener.dir/src/listener.cpp.o: in function `tbb::detail::d1::task_arena::terminate()':
+[28.603s] listener.cpp:(.text._ZN3tbb6detail2d110task_arena9terminateEv[_ZN3tbb6detail2d110task_arena9terminateEv]+0x28): undefined reference to `tbb::detail::r1::terminate(tbb::detail::d1::task_arena_base&)'
+[28.604s] /usr/bin/ld: CMakeFiles/listener.dir/src/listener.cpp.o: in function `tbb::detail::d1::current_thread_index()':
+[28.604s] listener.cpp:(.text._ZN3tbb6detail2d120current_thread_indexEv[_ZN3tbb6detail2d120current_thread_indexEv]+0x12): undefined reference to `tbb::detail::r1::execution_slot(tbb::detail::d1::execution_data const*)'
+[28.605s] /usr/bin/ld: CMakeFiles/listener.dir/src/listener.cpp.o: in function `tbb::detail::d1::task_group_context::~task_group_context()':
+[28.605s] listener.cpp:(.text._ZN3tbb6detail2d118task_group_contextD2Ev[_ZN3tbb6detail2d118task_group_contextD5Ev]+0x18): undefined reference to `tbb::detail::r1::destroy(tbb::detail::d1::task_group_context&)'
+[28.607s] /usr/bin/ld: CMakeFiles/listener.dir/src/listener.cpp.o: in function `tbb::detail::d1::task_group_context::reset()':
+[28.607s] listener.cpp:(.text._ZN3tbb6detail2d118task_group_context5resetEv[_ZN3tbb6detail2d118task_group_context5resetEv]+0x20): undefined reference to `tbb::detail::r1::reset(tbb::detail::d1::task_group_context&)'
+[28.608s] /usr/bin/ld: CMakeFiles/listener.dir/src/listener.cpp.o: in function `tbb::detail::d1::task_group_context::is_group_execution_cancelled()':
+[28.608s] listener.cpp:(.text._ZN3tbb6detail2d118task_group_context28is_group_execution_cancelledEv[_ZN3tbb6detail2d118task_group_context28is_group_execution_cancelledEv]+0x20): undefined reference to `tbb::detail::r1::is_group_execution_cancelled(tbb::detail::d1::task_group_context&)'
+[28.610s] /usr/bin/ld: CMakeFiles/listener.dir/src/listener.cpp.o: in function `tbb::detail::d1::graph::~graph()':
+[28.610s] listener.cpp:(.text._ZN3tbb6detail2d15graphD2Ev[_ZN3tbb6detail2d15graphD5Ev]+0x53): undefined reference to `tbb::detail::r1::cache_aligned_deallocate(void*)'
+[28.611s] /usr/bin/ld: CMakeFiles/listener.dir/src/listener.cpp.o: in function `SingletonT<gazebo::transport::ConnectionManager>::GetInstance()':
+[28.611s] listener.cpp:(.text._ZN10SingletonTIN6gazebo9transport17ConnectionManagerEE11GetInstanceEv[_ZN10SingletonTIN6gazebo9transport17ConnectionManagerEE11GetInstanceEv]+0x44): undefined reference to `gazebo::transport::ConnectionManager::ConnectionManager()'
+[28.613s] /usr/bin/ld: listener.cpp:(.text._ZN10SingletonTIN6gazebo9transport17ConnectionManagerEE11GetInstanceEv[_ZN10SingletonTIN6gazebo9transport17ConnectionManagerEE11GetInstanceEv]+0x5f): undefined reference to `gazebo::transport::ConnectionManager::~ConnectionManager()'
+[28.614s] /usr/bin/ld: CMakeFiles/listener.dir/src/listener.cpp.o: in function `SingletonT<gazebo::transport::TopicManager>::GetInstance()':
+[28.615s] listener.cpp:(.text._ZN10SingletonTIN6gazebo9transport12TopicManagerEE11GetInstanceEv[_ZN10SingletonTIN6gazebo9transport12TopicManagerEE11GetInstanceEv]+0x44): undefined reference to `gazebo::transport::TopicManager::TopicManager()'
+[28.616s] /usr/bin/ld: listener.cpp:(.text._ZN10SingletonTIN6gazebo9transport12TopicManagerEE11GetInstanceEv[_ZN10SingletonTIN6gazebo9transport12TopicManagerEE11GetInstanceEv]+0x5f): undefined reference to `gazebo::transport::TopicManager::~TopicManager()'
+[28.618s] /usr/bin/ld: CMakeFiles/listener.dir/src/listener.cpp.o: in function `void tbb::detail::d1::small_object_allocator::deallocate<tbb::detail::d1::graph_task>(tbb::detail::d1::graph_task*, tbb::detail::d1::execution_data const&)':
+[28.618s] listener.cpp:(.text._ZN3tbb6detail2d122small_object_allocator10deallocateINS1_10graph_taskEEEvPT_RKNS1_14execution_dataE[_ZN3tbb6detail2d122small_object_allocator10deallocateINS1_10graph_taskEEEvPT_RKNS1_14execution_dataE]+0x44): undefined reference to `tbb::detail::r1::deallocate(tbb::detail::d1::small_object_pool&, void*, unsigned long, tbb::detail::d1::execution_data const&)'
+[28.620s] /usr/bin/ld: CMakeFiles/listener.dir/src/listener.cpp.o: in function `void tbb::detail::d1::task_arena::execute_impl<void, tbb::detail::d1::graph::wait_for_all()::{lambda()#1}::operator()() const::{lambda()#1}>(tbb::detail::d1::graph::wait_for_all()::{lambda()#1}::operator()() const::{lambda()#1}&)':
+[28.621s] listener.cpp:(.text._ZN3tbb6detail2d110task_arena12execute_implIvZZNS1_5graph12wait_for_allEvENKUlvE_clEvEUlvE_EET_RT0_[_ZN3tbb6detail2d110task_arena12execute_implIvZZNS1_5graph12wait_for_allEvENKUlvE_clEvEUlvE_EET_RT0_]+0x52): undefined reference to `tbb::detail::r1::execute(tbb::detail::d1::task_arena_base&, tbb::detail::d1::delegate_base&)'
+[28.624s] /usr/bin/ld: CMakeFiles/listener.dir/src/listener.cpp.o: in function `tbb::detail::d1::cache_aligned_allocator<tbb::detail::d1::graph_task*>::deallocate(tbb::detail::d1::graph_task**, unsigned long)':
+[28.624s] listener.cpp:(.text._ZN3tbb6detail2d123cache_aligned_allocatorIPNS1_10graph_taskEE10deallocateEPS4_m[_ZN3tbb6detail2d123cache_aligned_allocatorIPNS1_10graph_taskEE10deallocateEPS4_m]+0x20): undefined reference to `tbb::detail::r1::cache_aligned_deallocate(void*)'
+[28.689s] collect2: error: ld returned 1 exit status
+[28.691s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:215: listener] Error 1
+[28.691s] gmake[1]: *** [CMakeFiles/Makefile2:361: CMakeFiles/listener.dir/all] Error 2
+[28.691s] gmake: *** [Makefile:146: all] Error 2
+[28.695s] Invoked command in '/home/sara/aubo_ws/build/control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8

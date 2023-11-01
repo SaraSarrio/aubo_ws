@@ -1,0 +1,16 @@
+/home/sara/aubo_ws/build/control/CMakeFiles/uninstall.dir
+/home/sara/aubo_ws/build/control/CMakeFiles/control_uninstall.dir
+/home/sara/aubo_ws/build/control/CMakeFiles/controller.dir
+/home/sara/aubo_ws/build/control/CMakeFiles/dir_kin.dir
+/home/sara/aubo_ws/build/control/CMakeFiles/inv_kin.dir
+/home/sara/aubo_ws/build/control/CMakeFiles/test_pub.dir
+/home/sara/aubo_ws/build/control/CMakeFiles/test_pub_q.dir
+/home/sara/aubo_ws/build/control/CMakeFiles/sim_pub.dir
+/home/sara/aubo_ws/build/control/CMakeFiles/sim_control.dir
+/home/sara/aubo_ws/build/control/CMakeFiles/test.dir
+/home/sara/aubo_ws/build/control/CMakeFiles/edit_cache.dir
+/home/sara/aubo_ws/build/control/CMakeFiles/rebuild_cache.dir
+/home/sara/aubo_ws/build/control/CMakeFiles/list_install_components.dir
+/home/sara/aubo_ws/build/control/CMakeFiles/install.dir
+/home/sara/aubo_ws/build/control/CMakeFiles/install/local.dir
+/home/sara/aubo_ws/build/control/CMakeFiles/install/strip.dir

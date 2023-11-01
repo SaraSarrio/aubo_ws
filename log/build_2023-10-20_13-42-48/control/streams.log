@@ -1,0 +1,155 @@
+[0.101s] Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8
+[0.213s] [35m[1mConsolidate compiler generated dependencies of target sim_control[0m
+[0.236s] [ 12%] Built target inv_kin
+[0.242s] [ 37%] Built target dir_kin
+[0.243s] [ 50%] Built target test_pub
+[0.244s] [ 37%] Built target controller
+[0.253s] [ 62%] Built target sim_sub
+[0.261s] [ 75%] Built target sim_test
+[0.261s] [ 87%] Built target sim_pub
+[0.268s] [ 93%] [32mBuilding CXX object CMakeFiles/sim_control.dir/src/sim_control.cpp.o[0m
+[2.682s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:[m[K In member function ‘[01m[Kvoid Sim_control::send_goal()[m[K’:
+[2.682s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:42:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kfeedback_callback[m[K’ is not a member of ‘[01m[KSim_control[m[K’
+[2.682s]    42 |   send_goal_options.feedback_callback = std::bind(&Sim_control::[01;31m[Kfeedback_callback[m[K, this, std::placeholders::_1);
+[2.682s]       |                                                                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.682s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:44:59:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::shared_ptr<control_msgs::action::FollowJointTrajectory_Goal_<std::allocator<void> > >[m[K’ to ‘[01m[Kconst Goal&[m[K’ {aka ‘[01m[Kconst control_msgs::action::FollowJointTrajectory_Goal_<std::allocator<void> >&[m[K’}
+[2.682s]    44 |   auto send_goal_future = action_client_->async_send_goal([01;31m[Kgoal_msg[m[K, send_goal_options);
+[2.682s]       |                                                           [01;31m[K^~~~~~~~[m[K
+[2.682s]       |                                                           [01;31m[K|[m[K
+[2.683s]       |                                                           [01;31m[Kstd::shared_ptr<control_msgs::action::FollowJointTrajectory_Goal_<std::allocator<void> > >[m[K
+[2.683s] In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:36[m[K,
+[2.683s]                  from [01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/sim_control.hpp:10[m[K,
+[2.683s]                  from [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:1[m[K:
+[2.683s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp:422:32:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::shared_future<typename rclcpp_action::ClientGoalHandle<ActionT>::SharedPtr> rclcpp_action::Client<ActionT>::async_send_goal(const Goal&, const rclcpp_action::Client<ActionT>::SendGoalOptions&) [with ActionT = control_msgs::action::FollowJointTrajectory; typename rclcpp_action::ClientGoalHandle<ActionT>::SharedPtr = std::shared_ptr<rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory> >; rclcpp_action::Client<ActionT>::Goal = control_msgs::action::FollowJointTrajectory_Goal_<std::allocator<void> >][m[K’
+[2.683s]   422 |   async_send_goal([01;36m[Kconst Goal & goal[m[K, const SendGoalOptions & options = SendGoalOptions())
+[2.683s]       |                   [01;36m[K~~~~~~~~~~~~~^~~~[m[K
+[2.683s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:47:15:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::executor[m[K’ has not been declared
+[2.683s]    47 |       rclcpp::[01;31m[Kexecutor[m[K::FutureReturnCode::SUCCESS) {
+[2.683s]       |               [01;31m[K^~~~~~~~[m[K
+[2.685s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:[m[K In function ‘[01m[Kvoid feedback_callback(rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>::SharedPtr)[m[K’:
+[2.685s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:53:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>[m[K’ {aka ‘[01m[Kclass rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>[m[K’} has no member named ‘[01m[Kaccept_pending[m[K’
+[2.685s]    53 |   if (goal_handle->[01;31m[Kaccept_pending[m[K()) {
+[2.685s]       |                    [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.689s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.690s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.690s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.690s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.690s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.690s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.690s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.690s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.690s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.690s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.690s]                  from [01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/sim_control.hpp:7[m[K,
+[2.690s]                  from [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:1[m[K:
+[2.691s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:54:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+[2.691s]    54 |        RCLCPP_INFO([01;31m[Kget_logger[m[K(), "Goal accepted.");
+[2.691s]       |                    [01;31m[K^~~~~~~~~~[m[K
+[2.691s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[2.691s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.691s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.691s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.691s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.692s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.692s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.692s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.692s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.692s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.692s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.692s]                  from [01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/sim_control.hpp:7[m[K,
+[2.692s]                  from [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:1[m[K:
+[2.692s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+[2.692s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[2.692s]       |                 [01;36m[K^~~~~~[m[K
+[2.692s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.692s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.692s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.692s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.693s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.693s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.693s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.693s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.693s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.693s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.693s]                  from [01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/sim_control.hpp:7[m[K,
+[2.693s]                  from [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:1[m[K:
+[2.693s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:54:8:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.693s]    54 |        [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Goal accepted.");
+[2.693s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[2.693s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:54:8:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.693s]    54 |        [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Goal accepted.");
+[2.693s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[2.693s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:54:8:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.693s]    54 |        [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Goal accepted.");
+[2.693s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[2.694s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:54:8:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.694s]    54 |        [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Goal accepted.");
+[2.694s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[2.694s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:54:8:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.694s]    54 |        [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Goal accepted.");
+[2.694s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[2.694s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:55:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>[m[K’ {aka ‘[01m[Kclass rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>[m[K’} has no member named ‘[01m[Kaccepted[m[K’
+[2.694s]    55 |      } else if (goal_handle->[01;31m[Kaccepted[m[K()) {
+[2.694s]       |                              [01;31m[K^~~~~~~~[m[K
+[2.694s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.694s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.694s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.694s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.694s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.694s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.694s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.694s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.694s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.695s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.695s]                  from [01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/sim_control.hpp:7[m[K,
+[2.695s]                  from [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:1[m[K:
+[2.695s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:56:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+[2.695s]    56 |        RCLCPP_INFO([01;31m[Kget_logger[m[K(), "Goal was accepted and is currently executing.");
+[2.695s]       |                    [01;31m[K^~~~~~~~~~[m[K
+[2.695s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+[2.695s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.695s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.695s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.695s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.695s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.695s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.695s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.695s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.695s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.696s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.696s]                  from [01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/sim_control.hpp:7[m[K,
+[2.696s]                  from [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:1[m[K:
+[2.696s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+[2.696s]   106 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[2.696s]       |                 [01;36m[K^~~~~~[m[K
+[2.696s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.696s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.696s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.696s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.696s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.696s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.696s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.696s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.696s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.696s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.696s]                  from [01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/sim_control.hpp:7[m[K,
+[2.696s]                  from [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:1[m[K:
+[2.697s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:56:8:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.697s]    56 |        [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Goal was accepted and is currently executing.");
+[2.697s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[2.697s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:56:8:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.697s]    56 |        [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Goal was accepted and is currently executing.");
+[2.697s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[2.697s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:56:8:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.697s]    56 |        [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Goal was accepted and is currently executing.");
+[2.697s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[2.697s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:56:8:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.697s]    56 |        [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Goal was accepted and is currently executing.");
+[2.697s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[2.697s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:56:8:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.697s]    56 |        [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Goal was accepted and is currently executing.");
+[2.697s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[3.306s] gmake[2]: *** [CMakeFiles/sim_control.dir/build.make:76: CMakeFiles/sim_control.dir/src/sim_control.cpp.o] Error 1
+[3.307s] gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/sim_control.dir/all] Error 2
+[3.307s] gmake: *** [Makefile:146: all] Error 2
+[3.310s] Invoked command in '/home/sara/aubo_ws/build/control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8

@@ -1,0 +1,18 @@
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:[m[K In member function ‘[01m[Kvoid Sim_control::send_goal()[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:46:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kspin_until_fute_complete[m[K’ is not a member of ‘[01m[Krclcpp[m[K’; did you mean ‘[01m[Kspin_until_future_complete[m[K’?
+   46 |   if (rclcpp::[01;31m[Kspin_until_fute_complete[m[K(shared_from_this(), send_goal_future) !=
+      |               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |               [32m[Kspin_until_future_complete[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:47:15:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::executor[m[K’ has not been declared
+   47 |       rclcpp::[01;31m[Kexecutor[m[K::FutureReturnCode::SUCCESS) {
+      |               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:[m[K In member function ‘[01m[Kvoid Sim_control::feedback_callback(rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>::SharedPtr)[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:53:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>[m[K’ {aka ‘[01m[Kclass rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>[m[K’} has no member named ‘[01m[Kaccept_pending[m[K’
+   53 |   if (goal_handle->[01;31m[Kaccept_pending[m[K()) {
+      |                    [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:55:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>[m[K’ {aka ‘[01m[Kclass rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>[m[K’} has no member named ‘[01m[Kaccepted[m[K’
+   55 |      } else if (goal_handle->[01;31m[Kaccepted[m[K()) {
+      |                              [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/sim_control.dir/build.make:76: CMakeFiles/sim_control.dir/src/sim_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/sim_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

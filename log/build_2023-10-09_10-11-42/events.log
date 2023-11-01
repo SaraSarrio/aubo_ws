@@ -1,0 +1,290 @@
+[0.000000] (-) TimerEvent: {}
+[0.000575] (argo) JobQueued: {'identifier': 'argo', 'dependencies': OrderedDict()}
+[0.001134] (aubo) JobQueued: {'identifier': 'aubo', 'dependencies': OrderedDict()}
+[0.001242] (control) JobQueued: {'identifier': 'control', 'dependencies': OrderedDict()}
+[0.001271] (argo) JobStarted: {'identifier': 'argo'}
+[0.082899] (aubo) JobStarted: {'identifier': 'aubo'}
+[0.100353] (-) TimerEvent: {}
+[0.174669] (control) JobStarted: {'identifier': 'control'}
+[0.200555] (-) TimerEvent: {}
+[0.259579] (argo) JobProgress: {'identifier': 'argo', 'progress': 'cmake'}
+[0.261383] (argo) JobProgress: {'identifier': 'argo', 'progress': 'build'}
+[0.261556] (argo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sara/aubo_ws/build/argo', '--', '-j8', '-l8'], 'cwd': '/home/sara/aubo_ws/build/argo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sara'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/sara'), ('OLDPWD', '/home/sara'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('SYSTEMD_EXEC_PID', '4101'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sara/aubo_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sara'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sara'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sara-HP-Laptop-15-da1xxx:@/tmp/.ICE-unix/1090,unix/sara-HP-Laptop-15-da1xxx:/tmp/.ICE-unix/1090'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a8568f3c_faa9_4449_82c4_b743d185de84'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XDBPC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sara/aubo_ws/install/controller:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sara/aubo_ws/build/argo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sara/aubo_ws/install/controller:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/opt/ros/humble')]), 'shell': False}
+[0.265512] (aubo) JobProgress: {'identifier': 'aubo', 'progress': 'cmake'}
+[0.266404] (aubo) JobProgress: {'identifier': 'aubo', 'progress': 'build'}
+[0.266963] (aubo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sara/aubo_ws/build/aubo', '--', '-j8', '-l8'], 'cwd': '/home/sara/aubo_ws/build/aubo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sara'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/sara'), ('OLDPWD', '/home/sara'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('SYSTEMD_EXEC_PID', '4101'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sara/aubo_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sara'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sara'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sara-HP-Laptop-15-da1xxx:@/tmp/.ICE-unix/1090,unix/sara-HP-Laptop-15-da1xxx:/tmp/.ICE-unix/1090'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a8568f3c_faa9_4449_82c4_b743d185de84'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XDBPC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sara/aubo_ws/install/controller:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sara/aubo_ws/build/aubo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sara/aubo_ws/install/controller:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/opt/ros/humble')]), 'shell': False}
+[0.272695] (control) JobProgress: {'identifier': 'control', 'progress': 'cmake'}
+[0.274399] (control) JobProgress: {'identifier': 'control', 'progress': 'build'}
+[0.276204] (control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sara/aubo_ws/build/control', '--', '-j8', '-l8'], 'cwd': '/home/sara/aubo_ws/build/control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sara'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/sara'), ('OLDPWD', '/home/sara'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('SYSTEMD_EXEC_PID', '4101'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sara/aubo_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sara'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sara'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sara-HP-Laptop-15-da1xxx:@/tmp/.ICE-unix/1090,unix/sara-HP-Laptop-15-da1xxx:/tmp/.ICE-unix/1090'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a8568f3c_faa9_4449_82c4_b743d185de84'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XDBPC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sara/aubo_ws/install/controller:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sara/aubo_ws/build/control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sara/aubo_ws/install/controller:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/opt/ros/humble')]), 'shell': False}
+[0.300714] (-) TimerEvent: {}
+[0.322383] (argo) CommandEnded: {'returncode': 0}
+[0.332778] (aubo) CommandEnded: {'returncode': 0}
+[0.375494] (argo) JobProgress: {'identifier': 'argo', 'progress': 'install'}
+[0.397481] (argo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sara/aubo_ws/build/argo'], 'cwd': '/home/sara/aubo_ws/build/argo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sara'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/sara'), ('OLDPWD', '/home/sara'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('SYSTEMD_EXEC_PID', '4101'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sara/aubo_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sara'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sara'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sara-HP-Laptop-15-da1xxx:@/tmp/.ICE-unix/1090,unix/sara-HP-Laptop-15-da1xxx:/tmp/.ICE-unix/1090'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a8568f3c_faa9_4449_82c4_b743d185de84'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XDBPC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sara/aubo_ws/install/controller:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sara/aubo_ws/build/argo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sara/aubo_ws/install/controller:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/opt/ros/humble')]), 'shell': False}
+[0.398379] (control) StdoutLine: {'line': b'[ 20%] Built target controller\n'}
+[0.398678] (control) StdoutLine: {'line': b'[ 40%] Built target dir_kin\n'}
+[0.403757] (aubo) JobProgress: {'identifier': 'aubo', 'progress': 'install'}
+[0.403897] (-) TimerEvent: {}
+[0.404492] (aubo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sara/aubo_ws/build/aubo'], 'cwd': '/home/sara/aubo_ws/build/aubo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sara'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/sara'), ('OLDPWD', '/home/sara'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('SYSTEMD_EXEC_PID', '4101'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sara/aubo_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sara'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sara'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sara-HP-Laptop-15-da1xxx:@/tmp/.ICE-unix/1090,unix/sara-HP-Laptop-15-da1xxx:/tmp/.ICE-unix/1090'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a8568f3c_faa9_4449_82c4_b743d185de84'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XDBPC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sara/aubo_ws/install/controller:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sara/aubo_ws/build/aubo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sara/aubo_ws/install/controller:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/opt/ros/humble')]), 'shell': False}
+[0.406160] (control) StdoutLine: {'line': b'[ 60%] Built target inv_kin\n'}
+[0.406392] (control) StdoutLine: {'line': b'[ 80%] Built target test_pub\n'}
+[0.407368] (control) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/sim_pub.dir/src/sim_pub.cpp.o\x1b[0m\n'}
+[0.412462] (argo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.412992] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/launch\n'}
+[0.413437] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/launch/argo.launch.py\n'}
+[0.413689] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/launch/spawn_robot_launch_v4.launch.py\n'}
+[0.413913] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/urdf\n'}
+[0.414104] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/urdf/argo.urdf\n'}
+[0.414288] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/urdf/argo.csv\n'}
+[0.414474] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/meshes\n'}
+[0.414662] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/meshes/W2.STL\n'}
+[0.414858] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/meshes/brdge.STL\n'}
+[0.415051] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/meshes/base_gps.STL\n'}
+[0.415242] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/meshes/W7.STL\n'}
+[0.415430] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/meshes/W4.STL\n'}
+[0.415626] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/meshes/rover_gp.STL\n'}
+[0.415781] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/meshes/W5.STL\n'}
+[0.415950] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/meshes/rear_cam.STL\n'}
+[0.416113] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/meshes/W3.STL\n'}
+[0.416299] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/meshes/W1.STL\n'}
+[0.416803] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/meshes/base_link.STL\n'}
+[0.417050] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/meshes/imu.STL\n'}
+[0.417270] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/meshes/W6.STL\n'}
+[0.417466] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/meshes/W8.STL\n'}
+[0.417734] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/meshes/front_cam.STL\n'}
+[0.418302] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/meshes/top.STL\n'}
+[0.418503] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/config\n'}
+[0.418655] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/config/joint_names_argo.yaml\n'}
+[0.419268] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/config/joint_names_argo_v2.yaml\n'}
+[0.419453] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/ament_index/resource_index/package_run_dependencies/argo\n'}
+[0.419608] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/ament_index/resource_index/parent_prefix_path/argo\n'}
+[0.419747] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/environment/ament_prefix_path.sh\n'}
+[0.419883] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/environment/ament_prefix_path.dsv\n'}
+[0.420019] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/environment/path.sh\n'}
+[0.420523] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/environment/path.dsv\n'}
+[0.422322] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/local_setup.bash\n'}
+[0.422585] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/local_setup.sh\n'}
+[0.423031] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/local_setup.zsh\n'}
+[0.423887] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/local_setup.dsv\n'}
+[0.424250] (argo) StdoutLine: {'line': b'-- Installing: /home/sara/aubo_ws/install/argo/share/argo/package.dsv\n'}
+[0.424593] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/ament_index/resource_index/packages/argo\n'}
+[0.425060] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/cmake/argoConfig.cmake\n'}
+[0.425298] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/cmake/argoConfig-version.cmake\n'}
+[0.425702] (argo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/argo/share/argo/package.xml\n'}
+[0.426096] (aubo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.426392] (argo) CommandEnded: {'returncode': 0}
+[0.427205] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/launch\n'}
+[0.427575] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/launch/aubo.launch.py\n'}
+[0.427855] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/launch/spawn_robot_launch_v4.launch.py\n'}
+[0.428134] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/urdf\n'}
+[0.428437] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/urdf/materials.xacro\n'}
+[0.428749] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/urdf/aubo_i5.urdf\n'}
+[0.429015] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/urdf/aubo.gazebo.xacro\n'}
+[0.429355] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/urdf/aubo.transmission.xacro\n'}
+[0.429660] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/urdf/aubo_i5.urdf.xacro\n'}
+[0.429962] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes\n'}
+[0.430258] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5\n'}
+[0.430553] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision\n'}
+[0.430703] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/pedestal.STL\n'}
+[0.430843] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/wrist3_Link.STL\n'}
+[0.430987] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/shoulder_Link.STL\n'}
+[0.431150] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/upperArm_Link.STL\n'}
+[0.431530] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/wrist2_Link.STL\n'}
+[0.431867] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/base_link.STL\n'}
+[0.432053] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/wrist1_Link.STL\n'}
+[0.432195] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/foreArm_Link.STL\n'}
+[0.432386] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual\n'}
+[0.432526] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual/wrist3_Link.DAE\n'}
+[0.432737] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual/shoulder_Link.DAE\n'}
+[0.433195] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual/wrist1_Link.DAE\n'}
+[0.433352] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual/base_link.DAE\n'}
+[0.433496] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual/wrist2_Link.DAE\n'}
+[0.433645] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual/upperArm_Link.DAE\n'}
+[0.433881] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual/foreArm_Link.DAE\n'}
+[0.434035] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/config\n'}
+[0.435083] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/config/aubo_control.yaml\n'}
+[0.435295] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/ament_index/resource_index/package_run_dependencies/aubo\n'}
+[0.435464] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/ament_index/resource_index/parent_prefix_path/aubo\n'}
+[0.435611] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/environment/ament_prefix_path.sh\n'}
+[0.435771] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/environment/ament_prefix_path.dsv\n'}
+[0.436129] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/environment/path.sh\n'}
+[0.436283] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/environment/path.dsv\n'}
+[0.436496] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/local_setup.bash\n'}
+[0.437187] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/local_setup.sh\n'}
+[0.437449] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/local_setup.zsh\n'}
+[0.437907] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/local_setup.dsv\n'}
+[0.438384] (aubo) StdoutLine: {'line': b'-- Installing: /home/sara/aubo_ws/install/aubo/share/aubo/package.dsv\n'}
+[0.438910] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/ament_index/resource_index/packages/aubo\n'}
+[0.439126] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/cmake/auboConfig.cmake\n'}
+[0.439349] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/cmake/auboConfig-version.cmake\n'}
+[0.439450] (aubo) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/package.xml\n'}
+[0.504066] (-) TimerEvent: {}
+[0.554038] (aubo) CommandEnded: {'returncode': 0}
+[0.604615] (-) TimerEvent: {}
+[0.705727] (-) TimerEvent: {}
+[0.756645] (argo) JobEnded: {'identifier': 'argo', 'rc': 0}
+[0.805866] (-) TimerEvent: {}
+[0.894521] (aubo) JobEnded: {'identifier': 'aubo', 'rc': 0}
+[0.906028] (-) TimerEvent: {}
+[1.006404] (-) TimerEvent: {}
+[1.106743] (-) TimerEvent: {}
+[1.207049] (-) TimerEvent: {}
+[1.307397] (-) TimerEvent: {}
+[1.407676] (-) TimerEvent: {}
+[1.507972] (-) TimerEvent: {}
+[1.608285] (-) TimerEvent: {}
+[1.708590] (-) TimerEvent: {}
+[1.808913] (-) TimerEvent: {}
+[1.909183] (-) TimerEvent: {}
+[2.009503] (-) TimerEvent: {}
+[2.109845] (-) TimerEvent: {}
+[2.210156] (-) TimerEvent: {}
+[2.310477] (-) TimerEvent: {}
+[2.410764] (-) TimerEvent: {}
+[2.511027] (-) TimerEvent: {}
+[2.611317] (-) TimerEvent: {}
+[2.711648] (-) TimerEvent: {}
+[2.811921] (-) TimerEvent: {}
+[2.912169] (-) TimerEvent: {}
+[3.012499] (-) TimerEvent: {}
+[3.112837] (-) TimerEvent: {}
+[3.213126] (-) TimerEvent: {}
+[3.313464] (-) TimerEvent: {}
+[3.413813] (-) TimerEvent: {}
+[3.514166] (-) TimerEvent: {}
+[3.614526] (-) TimerEvent: {}
+[3.682569] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSim_pub::Sim_pub()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.682821] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:14:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kpub_ind\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.682961] (control) StderrLine: {'line': b'   14 |     int \x1b[01;35m\x1b[Kpub_ind\x1b[m\x1b[K=1;\n'}
+[3.683085] (control) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.686223] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Sim_pub::funcion(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.686469] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:22:73:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsgrec\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.686634] (control) StderrLine: {'line': b'   22 | void Sim_pub::funcion(\x1b[01;35m\x1b[Kconst std_msgs::msg::Float32MultiArray::SharedPtr msgrec\x1b[m\x1b[K) {\n'}
+[3.686761] (control) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[3.691437] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.691676] (control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:60:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthe address of \xe2\x80\x98\x1b[01m\x1b[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99 will never be NULL [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress\x07-Waddress\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.691819] (control) StderrLine: {'line': b'   60 |     while (\x1b[01;35m\x1b[Krclcpp::ok\x1b[m\x1b[K)\n'}
+[3.691943] (control) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~~~^~\x1b[m\x1b[K\n'}
+[3.714631] (-) TimerEvent: {}
+[3.814982] (-) TimerEvent: {}
+[3.915309] (-) TimerEvent: {}
+[4.015574] (-) TimerEvent: {}
+[4.115840] (-) TimerEvent: {}
+[4.216174] (-) TimerEvent: {}
+[4.316527] (-) TimerEvent: {}
+[4.416797] (-) TimerEvent: {}
+[4.517072] (-) TimerEvent: {}
+[4.617381] (-) TimerEvent: {}
+[4.717652] (-) TimerEvent: {}
+[4.817944] (-) TimerEvent: {}
+[4.918268] (-) TimerEvent: {}
+[5.018581] (-) TimerEvent: {}
+[5.118934] (-) TimerEvent: {}
+[5.219218] (-) TimerEvent: {}
+[5.319520] (-) TimerEvent: {}
+[5.419833] (-) TimerEvent: {}
+[5.520103] (-) TimerEvent: {}
+[5.620387] (-) TimerEvent: {}
+[5.720716] (-) TimerEvent: {}
+[5.821097] (-) TimerEvent: {}
+[5.921458] (-) TimerEvent: {}
+[6.021746] (-) TimerEvent: {}
+[6.122084] (-) TimerEvent: {}
+[6.222339] (-) TimerEvent: {}
+[6.322633] (-) TimerEvent: {}
+[6.422896] (-) TimerEvent: {}
+[6.523209] (-) TimerEvent: {}
+[6.623519] (-) TimerEvent: {}
+[6.723789] (-) TimerEvent: {}
+[6.824150] (-) TimerEvent: {}
+[6.924466] (-) TimerEvent: {}
+[7.024774] (-) TimerEvent: {}
+[7.125068] (-) TimerEvent: {}
+[7.225384] (-) TimerEvent: {}
+[7.325828] (-) TimerEvent: {}
+[7.426072] (-) TimerEvent: {}
+[7.526405] (-) TimerEvent: {}
+[7.626706] (-) TimerEvent: {}
+[7.726984] (-) TimerEvent: {}
+[7.827229] (-) TimerEvent: {}
+[7.927536] (-) TimerEvent: {}
+[8.027930] (-) TimerEvent: {}
+[8.128241] (-) TimerEvent: {}
+[8.228560] (-) TimerEvent: {}
+[8.328870] (-) TimerEvent: {}
+[8.429173] (-) TimerEvent: {}
+[8.529444] (-) TimerEvent: {}
+[8.629732] (-) TimerEvent: {}
+[8.730059] (-) TimerEvent: {}
+[8.830352] (-) TimerEvent: {}
+[8.930594] (-) TimerEvent: {}
+[9.030907] (-) TimerEvent: {}
+[9.131201] (-) TimerEvent: {}
+[9.231476] (-) TimerEvent: {}
+[9.331758] (-) TimerEvent: {}
+[9.432080] (-) TimerEvent: {}
+[9.532428] (-) TimerEvent: {}
+[9.632704] (-) TimerEvent: {}
+[9.733008] (-) TimerEvent: {}
+[9.833382] (-) TimerEvent: {}
+[9.933673] (-) TimerEvent: {}
+[10.033950] (-) TimerEvent: {}
+[10.134260] (-) TimerEvent: {}
+[10.234548] (-) TimerEvent: {}
+[10.334859] (-) TimerEvent: {}
+[10.435164] (-) TimerEvent: {}
+[10.535499] (-) TimerEvent: {}
+[10.635839] (-) TimerEvent: {}
+[10.736144] (-) TimerEvent: {}
+[10.836480] (-) TimerEvent: {}
+[10.936860] (-) TimerEvent: {}
+[11.037206] (-) TimerEvent: {}
+[11.137486] (-) TimerEvent: {}
+[11.237832] (-) TimerEvent: {}
+[11.338168] (-) TimerEvent: {}
+[11.438455] (-) TimerEvent: {}
+[11.538707] (-) TimerEvent: {}
+[11.639022] (-) TimerEvent: {}
+[11.655976] (control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable sim_pub\x1b[0m\n'}
+[11.739157] (-) TimerEvent: {}
+[11.839472] (-) TimerEvent: {}
+[11.939764] (-) TimerEvent: {}
+[12.040142] (-) TimerEvent: {}
+[12.140551] (-) TimerEvent: {}
+[12.219517] (control) StdoutLine: {'line': b'[100%] Built target sim_pub\n'}
+[12.234010] (control) CommandEnded: {'returncode': 0}
+[12.240659] (-) TimerEvent: {}
+[12.284061] (control) JobProgress: {'identifier': 'control', 'progress': 'install'}
+[12.285642] (control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sara/aubo_ws/build/control'], 'cwd': '/home/sara/aubo_ws/build/control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sara'), ('LC_TIME', 'es_ES.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/sara'), ('OLDPWD', '/home/sara'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('SYSTEMD_EXEC_PID', '4101'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sara/aubo_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sara'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sara'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sara-HP-Laptop-15-da1xxx:@/tmp/.ICE-unix/1090,unix/sara-HP-Laptop-15-da1xxx:/tmp/.ICE-unix/1090'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a8568f3c_faa9_4449_82c4_b743d185de84'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.XDBPC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.119'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sara/aubo_ws/install/controller:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sara/aubo_ws/build/control'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sara/aubo_ws/install/controller:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/opt/ros/humble')]), 'shell': False}
+[12.295465] (control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.295754] (control) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/controller\n'}
+[12.296050] (control) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/dir_kin\n'}
+[12.296558] (control) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/inv_kin\n'}
+[12.297173] (control) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/test_pub\n'}
+[12.297552] (control) StdoutLine: {'line': b'-- Installing: /home/sara/aubo_ws/install/control/lib/control/sim_pub\n'}
+[12.302377] (control) StdoutLine: {'line': b'-- Set runtime path of "/home/sara/aubo_ws/install/control/lib/control/sim_pub" to ""\n'}
+[12.302805] (control) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch\n'}
+[12.302902] (control) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/view_robot.launch.py\n'}
+[12.302981] (control) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/world.launch.py\n'}
+[12.303054] (control) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/gz.launch.py\n'}
+[12.303125] (control) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/spawn_robot_launch_v4.launch.py\n'}
+[12.303197] (control) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/control/share/ament_index/resource_index/package_run_dependencies/control\n'}
+[12.303280] (control) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/control/share/ament_index/resource_index/parent_prefix_path/control\n'}
+[12.303481] (control) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/environment/ament_prefix_path.sh\n'}
+[12.303663] (control) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/environment/ament_prefix_path.dsv\n'}
+[12.303808] (control) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/environment/path.sh\n'}
+[12.303915] (control) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/environment/path.dsv\n'}
+[12.304020] (control) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.bash\n'}
+[12.304130] (control) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.sh\n'}
+[12.304250] (control) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.zsh\n'}
+[12.304364] (control) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.dsv\n'}
+[12.304480] (control) StdoutLine: {'line': b'-- Installing: /home/sara/aubo_ws/install/control/share/control/package.dsv\n'}
+[12.304589] (control) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/control/share/ament_index/resource_index/packages/control\n'}
+[12.304766] (control) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/cmake/controlConfig.cmake\n'}
+[12.304874] (control) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/cmake/controlConfig-version.cmake\n'}
+[12.304993] (control) StdoutLine: {'line': b'-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/package.xml\n'}
+[12.305878] (control) CommandEnded: {'returncode': 0}
+[12.340893] (-) TimerEvent: {}
+[12.441670] (-) TimerEvent: {}
+[12.506759] (control) JobEnded: {'identifier': 'control', 'rc': 0}
+[12.507795] (-) EventReactorShutdown: {}

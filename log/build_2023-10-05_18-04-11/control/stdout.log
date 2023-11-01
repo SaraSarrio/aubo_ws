@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target test_pub[0m
+[ 25%] Built target controller
+[ 50%] Built target inv_kin
+[ 75%] Built target dir_kin
+[ 87%] [32mBuilding CXX object CMakeFiles/test_pub.dir/src/test_pub.cpp.o[0m

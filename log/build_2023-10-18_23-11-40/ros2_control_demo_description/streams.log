@@ -1,0 +1,66 @@
+[0.502s] Invoking command in '/home/sara/aubo_ws/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sara/aubo_ws/src/ros-controls/ros2_control_demos/ros2_control_demo_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/ros2_control_demo_description
+[0.575s] -- The C compiler identification is GNU 11.4.0
+[0.667s] -- The CXX compiler identification is GNU 11.4.0
+[0.680s] -- Detecting C compiler ABI info
+[0.822s] -- Detecting C compiler ABI info - done
+[0.832s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.834s] -- Detecting C compile features
+[0.837s] -- Detecting C compile features - done
+[0.842s] -- Detecting CXX compiler ABI info
+[0.952s] -- Detecting CXX compiler ABI info - done
+[0.969s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.969s] -- Detecting CXX compile features
+[0.970s] -- Detecting CXX compile features - done
+[0.974s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.240s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.349s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.570s] -- Configuring done
+[1.573s] -- Generating done
+[1.574s] -- Build files have been written to: /home/sara/aubo_ws/build/ros2_control_demo_description
+[1.585s] Invoked command in '/home/sara/aubo_ws/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sara/aubo_ws/src/ros-controls/ros2_control_demos/ros2_control_demo_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/ros2_control_demo_description
+[1.585s] Invoking command in '/home/sara/aubo_ws/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/ros2_control_demo_description -- -j8 -l8
+[1.628s] Invoked command in '/home/sara/aubo_ws/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/ros2_control_demo_description -- -j8 -l8
+[1.663s] Invoking command in '/home/sara/aubo_ws/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/ros2_control_demo_description
+[1.671s] -- Install configuration: ""
+[1.671s] -- Execute custom install script
+[1.672s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf/rrbot.materials.xacro
+[1.685s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf/rrbot_description.urdf.xacro
+[1.695s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/rviz/rrbot.rviz
+[1.706s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/diffbot.materials.xacro
+[1.717s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/diffbot_description.urdf.xacro
+[1.728s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz/diffbot.rviz
+[1.739s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz/diffbot_view.rviz
+[1.750s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_0.stl
+[1.763s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_1.stl
+[1.776s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_2.stl
+[1.789s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_3.stl
+[1.802s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_4.stl
+[1.816s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_5.stl
+[1.829s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_6.stl
+[1.843s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_0.dae
+[1.857s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_1.dae
+[1.871s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_2.dae
+[1.885s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_3.dae
+[1.899s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_4.dae
+[1.913s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_5.dae
+[1.926s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_6.dae
+[1.941s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/srdf/r6bot.srdf
+[1.954s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/inc/create_link.xacro
+[1.967s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/r6bot_description.urdf.xacro
+[1.981s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/rviz/view_robot.rviz
+[1.995s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_description
+[2.008s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_description
+[2.021s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/ament_prefix_path.sh
+[2.035s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/ament_prefix_path.dsv
+[2.049s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/path.sh
+[2.064s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/path.dsv
+[2.078s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.bash
+[2.091s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.sh
+[2.105s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.zsh
+[2.118s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.dsv
+[2.127s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.dsv
+[2.137s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ament_index/resource_index/packages/ros2_control_demo_description
+[2.147s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/cmake/ros2_control_demo_descriptionConfig.cmake
+[2.157s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/cmake/ros2_control_demo_descriptionConfig-version.cmake
+[2.166s] -- Symlinking: /home/sara/aubo_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.xml
+[2.195s] Invoked command in '/home/sara/aubo_ws/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/ros2_control_demo_description

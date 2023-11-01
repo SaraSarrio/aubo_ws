@@ -1,0 +1,18 @@
+[0.182s] Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8
+[0.386s] [ 11%] Built target inv_kin
+[0.413s] [ 22%] Built target test_pub
+[0.418s] [ 33%] Built target sim_sub
+[0.427s] [ 44%] Built target sim_pub
+[0.454s] [ 55%] Built target dir_kin
+[0.454s] [ 66%] Built target sim_test
+[0.456s] [ 77%] Built target sim_control
+[0.464s] [ 88%] Built target controller
+[0.520s] [ 94%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[1.085s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/listener.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kgazebo/transport/transport.hh: No such file or directory
+[1.085s]     3 | #include [01;31m[K"gazebo/transport/transport.hh"[m[K
+[1.086s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.086s] compilation terminated.
+[1.091s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/listener.cpp.o] Error 1
+[1.091s] gmake[1]: *** [CMakeFiles/Makefile2:361: CMakeFiles/listener.dir/all] Error 2
+[1.092s] gmake: *** [Makefile:146: all] Error 2
+[1.381s] Invoked command in '/home/sara/aubo_ws/build/control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8

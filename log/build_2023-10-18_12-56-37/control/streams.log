@@ -1,0 +1,112 @@
+[0.076s] Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8
+[0.163s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.511s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.779s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.808s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.875s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.969s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.028s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.096s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.098s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.212s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.372s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.373s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[1.373s]   does not match the name of the calling package (gazebo).  This can lead to
+[1.373s]   problems in calling code that expects `find_package` result variables
+[1.373s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.373s] Call Stack (most recent call first):
+[1.373s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[1.373s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[1.373s]   CMakeLists.txt:12 (find_package)
+[1.373s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.373s] [0m
+[1.399s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.433s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.434s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.441s] -- Searching for dependencies of ignition-math6
+[1.442s] -- Looking for OGRE...
+[1.448s] -- Found Ogre Ghadamon (1.9.0)
+[1.448s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.456s] -- Looking for OGRE_Paging...
+[1.456s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.456s] -- Looking for OGRE_Terrain...
+[1.457s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.457s] -- Looking for OGRE_Property...
+[1.457s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.457s] -- Looking for OGRE_RTShaderSystem...
+[1.457s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.457s] -- Looking for OGRE_Volume...
+[1.457s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.457s] -- Looking for OGRE_Overlay...
+[1.457s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.545s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.545s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.546s] -- Searching for dependencies of ignition-transport8
+[1.561s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.571s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.575s] -- Checking for module 'libzmq >= 4'
+[1.589s] --   Found libzmq , version 4.3.4
+[1.622s] -- Checking for module 'uuid'
+[1.633s] --   Found uuid, version 2.37.2
+[1.660s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.660s] -- Searching for dependencies of ignition-msgs5
+[1.677s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.682s] -- Checking for module 'tinyxml2'
+[1.693s] --   Found tinyxml2, version 9.0.0
+[1.720s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.721s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.721s] -- Searching for dependencies of ignition-common3
+[1.722s] -- Looking for dlfcn.h - found
+[1.722s] -- Looking for libdl - found
+[1.732s] -- Searching for <ignition-common3> component [graphics]
+[1.732s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.733s] -- Searching for dependencies of ignition-common3-graphics
+[1.733s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.735s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.735s] -- Searching for dependencies of ignition-fuel_tools4
+[1.768s] -- Checking for module 'jsoncpp'
+[1.780s] --   Found jsoncpp, version 1.9.5
+[1.812s] -- Checking for module 'libzip'
+[1.824s] --   Found libzip, version 1.7.3
+[1.852s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.853s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.853s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.856s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[2.330s] -- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[2.492s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.564s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.564s] -- Configured cppcheck include dirs: /home/sara/aubo_ws/src/aubo_control/control/include
+[2.564s] -- Configured cppcheck exclude dirs and/or files: 
+[2.565s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.565s] -- Added test 'lint_cmake' to check CMake code style
+[2.566s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.567s] -- Added test 'uncrustify' to check C / C++ code style
+[2.567s] -- Configured uncrustify additional arguments: 
+[2.568s] -- Added test 'xmllint' to check XML markup files
+[2.569s] -- Configuring done
+[2.595s] -- Generating done
+[2.598s] -- Build files have been written to: /home/sara/aubo_ws/build/control
+[2.626s] [35m[1mConsolidate compiler generated dependencies of target inv_kin[0m
+[2.629s] [35m[1mConsolidate compiler generated dependencies of target controller[0m
+[2.629s] [35m[1mConsolidate compiler generated dependencies of target dir_kin[0m
+[2.629s] [35m[1mConsolidate compiler generated dependencies of target test_pub[0m
+[2.629s] [35m[1mConsolidate compiler generated dependencies of target sim_pub[0m
+[2.630s] [35m[1mConsolidate compiler generated dependencies of target sim_sub[0m
+[2.645s] [  7%] [32mBuilding CXX object CMakeFiles/sim_test.dir/src/sim_test_v1.cpp.o[0m
+[2.645s] [ 21%] Built target inv_kin
+[2.654s] [ 35%] Built target dir_kin
+[2.657s] [ 92%] Built target test_pub
+[2.657s] [ 92%] Built target controller
+[2.657s] [ 92%] Built target sim_pub
+[2.657s] [ 92%] Built target sim_sub
+[4.592s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_test_v1.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.592s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_test_v1.cpp:86:20:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+[4.592s]    86 |     while ([01;35m[Krclcpp::ok[m[K)
+[4.593s]       |            [01;35m[K~~~~~~~~^~[m[K
+[4.596s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_test_v1.cpp:91:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kq2[m[K’ was not declared in this scope
+[4.596s]    91 |         [01;31m[Kq2[m[K=q2+0.1;
+[4.596s]       |         [01;31m[K^~[m[K
+[5.260s] gmake[2]: *** [CMakeFiles/sim_test.dir/build.make:76: CMakeFiles/sim_test.dir/src/sim_test_v1.cpp.o] Error 1
+[5.260s] gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/sim_test.dir/all] Error 2
+[5.261s] gmake: *** [Makefile:146: all] Error 2
+[5.263s] Invoked command in '/home/sara/aubo_ws/build/control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8

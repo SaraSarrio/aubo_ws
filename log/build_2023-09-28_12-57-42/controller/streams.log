@@ -1,0 +1,45 @@
+[0.050s] Invoking command in '/home/sara/aubo_ws/build/controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sara/aubo_ws/src/aubo_control/controller -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/controller
+[0.101s] -- The C compiler identification is GNU 11.4.0
+[0.158s] -- The CXX compiler identification is GNU 11.4.0
+[0.168s] -- Detecting C compiler ABI info
+[0.234s] -- Detecting C compiler ABI info - done
+[0.246s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.246s] -- Detecting C compile features
+[0.247s] -- Detecting C compile features - done
+[0.250s] -- Detecting CXX compiler ABI info
+[0.325s] -- Detecting CXX compiler ABI info - done
+[0.340s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.341s] -- Detecting CXX compile features
+[0.341s] -- Detecting CXX compile features - done
+[0.343s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.507s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.584s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.623s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.627s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.635s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.647s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.670s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.755s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.758s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.850s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.875s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.922s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.930s] -- Looking for pthread.h
+[0.998s] -- Looking for pthread.h - found
+[0.998s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.059s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.061s] -- Found Threads: TRUE  
+[1.219s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[1.686s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.751s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.752s] -- Configured cppcheck include dirs: /home/sara/aubo_ws/src/aubo_control/controller/include
+[1.752s] -- Configured cppcheck exclude dirs and/or files: 
+[1.754s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.755s] -- Added test 'lint_cmake' to check CMake code style
+[1.755s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.755s] -- Added test 'uncrustify' to check C / C++ code style
+[1.755s] -- Configured uncrustify additional arguments: 
+[1.755s] -- Added test 'xmllint' to check XML markup files
+[1.756s] -- Configuring done
+[1.769s] -- Generating done
+[1.770s] -- Build files have been written to: /home/sara/aubo_ws/build/controller

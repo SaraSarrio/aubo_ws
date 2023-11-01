@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target sim_pub[0m
+[ 12%] Built target inv_kin
+[ 25%] Built target dir_kin
+[ 37%] Built target controller
+[ 50%] Built target test_pub
+[ 62%] Built target sim_test
+[ 75%] Built target sim_control
+[ 87%] Built target sim_sub
+[ 93%] [32mBuilding CXX object CMakeFiles/sim_pub.dir/src/sim_pub.cpp.o[0m

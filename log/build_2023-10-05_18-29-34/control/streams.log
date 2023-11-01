@@ -1,0 +1,84 @@
+[0.064s] Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8
+[0.110s] [35m[1mConsolidate compiler generated dependencies of target controller[0m
+[0.126s] [ 25%] Built target dir_kin
+[0.127s] [ 50%] Built target test_pub
+[0.129s] [ 75%] Built target inv_kin
+[0.132s] [ 87%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller_v1.cpp.o[0m
+[2.182s] In file included from [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:3[m[K:
+[2.183s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/aubo_kin_mod.hpp:[m[K In function ‘[01m[Kint inverse(const double*, double*)[m[K’:
+[2.183s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/aubo_kin_mod.hpp:316:69:[m[K [01;35m[Kwarning: [m[Ksuggest braces around empty body in an ‘[01m[Kif[m[K’ statement [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wempty-body-Wempty-body]8;;[m[K]
+[2.183s]   316 |                     if (loop_again && !solution_num && j5_idx == 1) [01;35m[K;[m[K
+[2.183s]       |                                                                     [01;35m[K^[m[K
+[2.183s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/aubo_kin_mod.hpp:341:73:[m[K [01;35m[Kwarning: [m[Ksuggest braces around empty body in an ‘[01m[Kif[m[K’ statement [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wempty-body-Wempty-body]8;;[m[K]
+[2.183s]   341 |                         if (loop_again && !solution_num && j5_idx == 1) [01;35m[K;[m[K
+[2.183s]       |                                                                         [01;35m[K^[m[K
+[2.192s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:[m[K In constructor ‘[01m[KController::Controller()[m[K’:
+[2.193s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:24:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_ind_user[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.193s]    24 |     int [01;35m[Kpub_ind_user[m[K=0;
+[2.193s]       |         [01;35m[K^~~~~~~~~~~~[m[K
+[2.193s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:25:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_ind_sim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.193s]    25 |     int [01;35m[Kpub_ind_sim[m[K=0;
+[2.193s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[2.193s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:26:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_ind_robot[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.193s]    26 |     int [01;35m[Kpub_ind_robot[m[K=0;
+[2.193s]       |         [01;35m[K^~~~~~~~~~~~~[m[K
+[2.196s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.196s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.196s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.196s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.196s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.196s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.196s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.196s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.196s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.196s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.197s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.197s]                  from [01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/controller_v1.hpp:4[m[K,
+[2.197s]                  from [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:1[m[K:
+[2.197s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:[m[K In member function ‘[01m[Kvoid Controller::goal_sub_f(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.197s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:36:87:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<std_msgs::msg::Float32MultiArray_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[2.197s]    36 |     RCLCPP_INFO(get_logger(), "El valor de goal es: [%f, %f, %f, %f, %f, %f]", msgrec.[01;31m[Kdata[m[K[0], msgrec.data[1], msgrec.data[2], msgrec.data[3], msgrec.data[4], msgrec.data[5], msgrec.data[6]);
+[2.197s]       |                                                                                       [01;31m[K^~~~[m[K
+[2.197s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:36:103:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<std_msgs::msg::Float32MultiArray_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[2.197s]    36 | FO(get_logger(), "El valor de goal es: [%f, %f, %f, %f, %f, %f]", msgrec.data[0], msgrec.[01;31m[Kdata[m[K[1], msgrec.data[2], msgrec.data[3], msgrec.data[4], msgrec.data[5], msgrec.data[6]);
+[2.197s]       |                                                                                          [01;31m[K^~~~[m[K
+[2.198s] 
+[2.198s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:36:119:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<std_msgs::msg::Float32MultiArray_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[2.198s]    36 |  "El valor de goal es: [%f, %f, %f, %f, %f, %f]", msgrec.data[0], msgrec.data[1], msgrec.[01;31m[Kdata[m[K[2], msgrec.data[3], msgrec.data[4], msgrec.data[5], msgrec.data[6]);
+[2.198s]       |                                                                                          [01;31m[K^~~~[m[K
+[2.198s] 
+[2.198s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:36:135:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<std_msgs::msg::Float32MultiArray_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[2.198s]    36 | al es: [%f, %f, %f, %f, %f, %f]", msgrec.data[0], msgrec.data[1], msgrec.data[2], msgrec.[01;31m[Kdata[m[K[3], msgrec.data[4], msgrec.data[5], msgrec.data[6]);
+[2.198s]       |                                                                                          [01;31m[K^~~~[m[K
+[2.198s] 
+[2.198s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:36:151:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<std_msgs::msg::Float32MultiArray_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[2.198s]    36 | %f, %f, %f, %f]", msgrec.data[0], msgrec.data[1], msgrec.data[2], msgrec.data[3], msgrec.[01;31m[Kdata[m[K[4], msgrec.data[5], msgrec.data[6]);
+[2.199s]       |                                                                                          [01;31m[K^~~~[m[K
+[2.199s] 
+[2.199s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:36:167:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<std_msgs::msg::Float32MultiArray_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[2.199s]    36 | , msgrec.data[0], msgrec.data[1], msgrec.data[2], msgrec.data[3], msgrec.data[4], msgrec.[01;31m[Kdata[m[K[5], msgrec.data[6]);
+[2.199s]       |                                                                                          [01;31m[K^~~~[m[K
+[2.199s] 
+[2.199s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:36:183:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<std_msgs::msg::Float32MultiArray_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[2.199s]    36 | 0], msgrec.data[1], msgrec.data[2], msgrec.data[3], msgrec.data[4], msgrec.data[5], msgrec.[01;31m[Kdata[m[K[6]);
+[2.199s]       |                                                                                            [01;31m[K^~~~[m[K
+[2.199s] 
+[2.200s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:52:36:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[2.200s]    52 |          RCLCPP_INFO(get_logger(), [01;35m[K"El valor de goal es: [%f, %f, %f, %f, %f, %f]"[m[K, goal.data[0], goal.data[1], goal.data[2], goal.data[3], goal.data[4], goal.data[5], goal.data[6]);
+[2.200s]       |                                    [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.200s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:[m[K In member function ‘[01m[Kvoid Controller::sim_sub_f(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.200s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:57:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsgrec[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.200s]    57 | void Controller::sim_sub_f([01;35m[Kconst std_msgs::msg::Float32MultiArray::SharedPtr msgrec[m[K) {
+[2.200s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[2.200s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:[m[K In member function ‘[01m[Kvoid Controller::coll_sub_f(gazebo_msgs::msg::ContactsState_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.200s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:61:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg_coll_robot[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.200s]    61 | void Controller::coll_sub_f([01;35m[Kconst gazebo_msgs::msg::ContactsState::SharedPtr msg_coll_robot[m[K) {
+[2.200s]       |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.203s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.203s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:104:20:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+[2.203s]   104 |     while ([01;35m[Krclcpp::ok[m[K)
+[2.203s]       |            [01;35m[K~~~~~~~~^~[m[K
+[5.162s] gmake[2]: *** [CMakeFiles/controller.dir/build.make:76: CMakeFiles/controller.dir/src/controller_v1.cpp.o] Error 1
+[5.162s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/controller.dir/all] Error 2
+[5.162s] gmake: *** [Makefile:146: all] Error 2
+[5.165s] Invoked command in '/home/sara/aubo_ws/build/control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8

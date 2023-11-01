@@ -1,0 +1,110 @@
+[0.237s] Invoking command in '/home/sara/aubo_ws/build/gripper_controllers': CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/sara/aubo_ws/src/ros-controls/ros2_controllers/gripper_controllers -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/gripper_controllers
+[2.345s] -- The CXX compiler identification is GNU 11.4.0
+[2.345s] -- Detecting CXX compiler ABI info
+[2.345s] -- Detecting CXX compiler ABI info - done
+[2.345s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.346s] -- Detecting CXX compile features
+[2.346s] -- Detecting CXX compile features - done
+[2.346s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.346s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.346s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[2.346s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[2.347s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[2.347s] -- BACKWARD_HAS_UNWIND=1
+[2.347s] -- BACKWARD_HAS_BACKTRACE=0
+[2.347s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[2.347s] -- BACKWARD_HAS_DW=1
+[2.348s] -- BACKWARD_HAS_BFD=0
+[2.348s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[2.348s] -- Found control_msgs: 4.4.0 (/home/sara/aubo_ws/install/control_msgs/share/control_msgs/cmake)
+[2.348s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.348s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.348s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.349s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.349s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.430s] -- Found control_toolbox: 3.1.0 (/home/sara/aubo_ws/install/control_toolbox/share/control_toolbox/cmake)
+[3.650s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.661s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.922s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.983s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.110s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.146s] -- Looking for C++ include pthread.h
+[4.423s] -- Looking for C++ include pthread.h - found
+[4.424s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.693s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.695s] -- Found Threads: TRUE  
+[5.278s] -- Found parameter_traits: 0.3.6 (/opt/ros/humble/share/parameter_traits/cmake)
+[5.366s] -- Found rclcpp_lifecycle: 16.0.6 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[5.587s] -- Found controller_interface: 2.33.0 (/home/sara/aubo_ws/install/controller_interface/share/controller_interface/cmake)
+[7.355s] -- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[7.356s] -- Found controller_manager: 2.33.0 (/home/sara/aubo_ws/install/controller_manager/share/controller_manager/cmake)
+[8.251s] -- Found ros2_control_test_assets: 2.33.0 (/home/sara/aubo_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[8.266s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[8.370s] -- The C compiler identification is GNU 11.4.0
+[8.386s] -- Detecting C compiler ABI info
+[8.627s] -- Detecting C compiler ABI info - done
+[8.650s] -- Check for working C compiler: /usr/bin/cc - skipped
+[8.651s] -- Detecting C compile features
+[8.652s] -- Detecting C compile features - done
+[8.669s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[8.672s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[9.411s] -- Configuring done
+[9.572s] -- Generating done
+[9.580s] -- Build files have been written to: /home/sara/aubo_ws/build/gripper_controllers
+[9.613s] Invoked command in '/home/sara/aubo_ws/build/gripper_controllers' returned '0': CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/sara/aubo_ws/src/ros-controls/ros2_controllers/gripper_controllers -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/gripper_controllers
+[9.614s] Invoking command in '/home/sara/aubo_ws/build/gripper_controllers': CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/sara/aubo_ws/build/gripper_controllers -- -j8 -l8
+[10.796s] [  8%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/sara/aubo_ws/build/gripper_controllers/gripper_action_controller_parameters/include//gripper_action_controller_parameters.hpp /home/sara/aubo_ws/src/ros-controls/ros2_controllers/gripper_controllers/src/gripper_action_controller_parameters.yaml `[0m
+[10.796s] [  8%] Built target gripper_action_controller_parameters
+[10.796s] [ 16%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[18.232s] [ 25%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[23.241s] [ 33%] [32m[1mLinking CXX static library libgmock.a[0m
+[23.677s] [ 33%] Built target gmock
+[23.876s] [ 41%] [32mBuilding CXX object CMakeFiles/gripper_action_controller.dir/src/gripper_action_controller.cpp.o[0m
+[36.702s] [ 50%] [32m[1mLinking CXX shared library libgripper_action_controller.so[0m
+[37.247s] [ 50%] Built target gripper_action_controller
+[37.290s] [ 58%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[39.845s] [ 66%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[39.917s] [ 66%] Built target gmock_main
+[39.965s] [ 75%] [32mBuilding CXX object CMakeFiles/test_load_gripper_action_controllers.dir/test/test_load_gripper_action_controllers.cpp.o[0m
+[39.966s] [ 83%] [32mBuilding CXX object CMakeFiles/test_gripper_controllers.dir/test/test_gripper_controllers.cpp.o[0m
+[48.763s] [ 91%] [32m[1mLinking CXX executable test_load_gripper_action_controllers[0m
+[49.607s] [ 91%] Built target test_load_gripper_action_controllers
+[50.800s] [100%] [32m[1mLinking CXX executable test_gripper_controllers[0m
+[51.287s] [100%] Built target test_gripper_controllers
+[51.302s] Invoked command in '/home/sara/aubo_ws/build/gripper_controllers' returned '0': CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/sara/aubo_ws/build/gripper_controllers -- -j8 -l8
+[51.357s] Invoking command in '/home/sara/aubo_ws/build/gripper_controllers': CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/sara/aubo_ws/build/gripper_controllers
+[51.367s] -- Install configuration: ""
+[51.367s] -- Installing: /home/sara/aubo_ws/install/gripper_controllers/include/gripper_action_controller_parameters
+[51.367s] -- Installing: /home/sara/aubo_ws/install/gripper_controllers/include/gripper_action_controller_parameters/gripper_action_controller_parameters.hpp
+[51.368s] -- Installing: /home/sara/aubo_ws/install/gripper_controllers/share/gripper_controllers/ros_control_plugins.xml
+[51.368s] -- Installing: /home/sara/aubo_ws/install/gripper_controllers/include/gripper_action_controller
+[51.368s] -- Installing: /home/sara/aubo_ws/install/gripper_controllers/include/gripper_action_controller/gripper_controllers
+[51.368s] -- Installing: /home/sara/aubo_ws/install/gripper_controllers/include/gripper_action_controller/gripper_controllers/hardware_interface_adapter.hpp
+[51.369s] -- Installing: /home/sara/aubo_ws/install/gripper_controllers/include/gripper_action_controller/gripper_controllers/gripper_action_controller_impl.hpp
+[51.369s] -- Installing: /home/sara/aubo_ws/install/gripper_controllers/include/gripper_action_controller/gripper_controllers/visibility_control.hpp
+[51.369s] -- Installing: /home/sara/aubo_ws/install/gripper_controllers/include/gripper_action_controller/gripper_controllers/gripper_action_controller.hpp
+[51.369s] -- Installing: /home/sara/aubo_ws/install/gripper_controllers/lib/libgripper_action_controller.so
+[51.372s] -- Set runtime path of "/home/sara/aubo_ws/install/gripper_controllers/lib/libgripper_action_controller.so" to ""
+[51.372s] -- Installing: /home/sara/aubo_ws/install/gripper_controllers/share/gripper_controllers/environment/library_path.sh
+[51.373s] -- Installing: /home/sara/aubo_ws/install/gripper_controllers/share/gripper_controllers/environment/library_path.dsv
+[51.373s] -- Installing: /home/sara/aubo_ws/install/gripper_controllers/share/ament_index/resource_index/package_run_dependencies/gripper_controllers
+[51.373s] -- Installing: /home/sara/aubo_ws/install/gripper_controllers/share/ament_index/resource_index/parent_prefix_path/gripper_controllers
+[51.373s] -- Installing: /home/sara/aubo_ws/install/gripper_controllers/share/gripper_controllers/environment/ament_prefix_path.sh
+[51.374s] -- Installing: /home/sara/aubo_ws/install/gripper_controllers/share/gripper_controllers/environment/ament_prefix_path.dsv
+[51.374s] -- Installing: /home/sara/aubo_ws/install/gripper_controllers/share/gripper_controllers/environment/path.sh
+[51.374s] -- Installing: /home/sara/aubo_ws/install/gripper_controllers/share/gripper_controllers/environment/path.dsv
+[51.374s] -- Installing: /home/sara/aubo_ws/install/gripper_controllers/share/gripper_controllers/local_setup.bash
+[51.374s] -- Installing: /home/sara/aubo_ws/install/gripper_controllers/share/gripper_controllers/local_setup.sh
+[51.375s] -- Installing: /home/sara/aubo_ws/install/gripper_controllers/share/gripper_controllers/local_setup.zsh
+[51.375s] -- Installing: /home/sara/aubo_ws/install/gripper_controllers/share/gripper_controllers/local_setup.dsv
+[51.375s] -- Installing: /home/sara/aubo_ws/install/gripper_controllers/share/gripper_controllers/package.dsv
+[51.375s] -- Installing: /home/sara/aubo_ws/install/gripper_controllers/share/ament_index/resource_index/packages/gripper_controllers
+[51.376s] -- Installing: /home/sara/aubo_ws/install/gripper_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/gripper_controllers
+[51.376s] -- Installing: /home/sara/aubo_ws/install/gripper_controllers/share/gripper_controllers/cmake/export_gripper_action_controllerExport.cmake
+[51.376s] -- Installing: /home/sara/aubo_ws/install/gripper_controllers/share/gripper_controllers/cmake/export_gripper_action_controllerExport-noconfig.cmake
+[51.376s] -- Installing: /home/sara/aubo_ws/install/gripper_controllers/share/gripper_controllers/cmake/ament_cmake_export_targets-extras.cmake
+[51.377s] -- Installing: /home/sara/aubo_ws/install/gripper_controllers/share/gripper_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[51.377s] -- Installing: /home/sara/aubo_ws/install/gripper_controllers/share/gripper_controllers/cmake/gripper_controllersConfig.cmake
+[51.377s] -- Installing: /home/sara/aubo_ws/install/gripper_controllers/share/gripper_controllers/cmake/gripper_controllersConfig-version.cmake
+[51.377s] -- Installing: /home/sara/aubo_ws/install/gripper_controllers/share/gripper_controllers/package.xml
+[51.379s] Invoked command in '/home/sara/aubo_ws/build/gripper_controllers' returned '0': CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/sara/aubo_ws/build/gripper_controllers

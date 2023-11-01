@@ -1,0 +1,43 @@
+[ 16%] Built target controller
+[ 33%] Built target dir_kin
+[ 41%] [32mBuilding CXX object CMakeFiles/test_pub.dir/src/test_pub.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/inv_kin.dir/src/inv_kin.cpp.o[0m
+[ 66%] Built target sim_sub
+[ 75%] [32mBuilding CXX object CMakeFiles/sim_pub.dir/src/sim_pub.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable test_pub[0m
+[ 83%] Built target test_pub
+[ 91%] [32m[1mLinking CXX executable inv_kin[0m
+[100%] [32m[1mLinking CXX executable sim_pub[0m
+[100%] Built target inv_kin
+[100%] Built target sim_pub
+-- Install configuration: ""
+-- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/controller
+-- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/dir_kin
+-- Installing: /home/sara/aubo_ws/install/control/lib/control/inv_kin
+-- Set runtime path of "/home/sara/aubo_ws/install/control/lib/control/inv_kin" to ""
+-- Installing: /home/sara/aubo_ws/install/control/lib/control/test_pub
+-- Set runtime path of "/home/sara/aubo_ws/install/control/lib/control/test_pub" to ""
+-- Installing: /home/sara/aubo_ws/install/control/lib/control/sim_pub
+-- Set runtime path of "/home/sara/aubo_ws/install/control/lib/control/sim_pub" to ""
+-- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/sim_sub
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/listener.launch.py
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/view_robot.launch.py
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/world.launch.py
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/gz.launch.py
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/spawn_robot_launch_v4.launch.py
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/ament_index/resource_index/package_run_dependencies/control
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/ament_index/resource_index/parent_prefix_path/control
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/environment/ament_prefix_path.sh
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/environment/path.sh
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/environment/path.dsv
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.bash
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.sh
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.zsh
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.dsv
+-- Installing: /home/sara/aubo_ws/install/control/share/control/package.dsv
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/ament_index/resource_index/packages/control
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/cmake/controlConfig.cmake
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/cmake/controlConfig-version.cmake
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/package.xml

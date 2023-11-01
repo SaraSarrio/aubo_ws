@@ -1,0 +1,49 @@
+[0.093s] Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8
+[0.164s] [35m[1mConsolidate compiler generated dependencies of target sim_test[0m
+[0.191s] [ 14%] Built target dir_kin
+[0.192s] [ 28%] Built target sim_pub
+[0.193s] [ 42%] Built target inv_kin
+[0.199s] [ 57%] Built target test_pub
+[0.200s] [ 64%] [32mBuilding CXX object CMakeFiles/sim_test.dir/src/sim_test.cpp.o[0m
+[0.203s] [ 78%] Built target controller
+[0.208s] [ 92%] Built target sim_sub
+[2.877s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_test.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.877s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_test.cpp:163:20:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+[2.877s]   163 |     while ([01;35m[Krclcpp::ok[m[K)
+[2.877s]       |            [01;35m[K~~~~~~~~^~[m[K
+[5.367s] [100%] [32m[1mLinking CXX executable sim_test[0m
+[5.623s] [100%] Built target sim_test
+[5.638s] Invoked command in '/home/sara/aubo_ws/build/control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8
+[5.701s] Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/control
+[5.711s] -- Install configuration: ""
+[5.711s] -- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/controller
+[5.712s] -- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/dir_kin
+[5.712s] -- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/inv_kin
+[5.713s] -- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/test_pub
+[5.713s] -- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/sim_pub
+[5.714s] -- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/sim_sub
+[5.714s] -- Installing: /home/sara/aubo_ws/install/control/lib/control/sim_test
+[5.716s] -- Set runtime path of "/home/sara/aubo_ws/install/control/lib/control/sim_test" to ""
+[5.716s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch
+[5.717s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/listener.launch.py
+[5.717s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/aubo_i5_gz.launch.py
+[5.717s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/view_robot.launch.py
+[5.717s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/world.launch.py
+[5.717s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/gz.launch.py
+[5.717s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/spawn_robot_launch_v4.launch.py
+[5.717s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/ament_index/resource_index/package_run_dependencies/control
+[5.717s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/ament_index/resource_index/parent_prefix_path/control
+[5.718s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/environment/ament_prefix_path.sh
+[5.718s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/environment/ament_prefix_path.dsv
+[5.718s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/environment/path.sh
+[5.718s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/environment/path.dsv
+[5.718s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.bash
+[5.718s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.sh
+[5.718s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.zsh
+[5.718s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.dsv
+[5.718s] -- Installing: /home/sara/aubo_ws/install/control/share/control/package.dsv
+[5.718s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/ament_index/resource_index/packages/control
+[5.718s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/cmake/controlConfig.cmake
+[5.718s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/cmake/controlConfig-version.cmake
+[5.719s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/package.xml
+[5.720s] Invoked command in '/home/sara/aubo_ws/build/control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/control

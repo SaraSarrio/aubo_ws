@@ -1,0 +1,773 @@
+[0.455s] Invoking command in '/home/sara/aubo_ws/build/control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/sara/aubo_ws/src/ros-controls/control_msgs/control_msgs -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/control_msgs
+[0.958s] -- The C compiler identification is GNU 11.4.0
+[0.958s] -- The CXX compiler identification is GNU 11.4.0
+[0.958s] -- Detecting C compiler ABI info
+[0.958s] -- Detecting C compiler ABI info - done
+[0.959s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.959s] -- Detecting C compile features
+[0.959s] -- Detecting C compile features - done
+[0.959s] -- Detecting CXX compiler ABI info
+[0.960s] -- Detecting CXX compiler ABI info - done
+[0.961s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.961s] -- Detecting CXX compile features
+[0.961s] -- Detecting CXX compile features - done
+[0.961s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[1.222s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.536s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.545s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.560s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.597s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.639s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.826s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.047s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.069s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.317s] -- Found trajectory_msgs: 4.2.3 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[2.482s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.475s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.478s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.155s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.241s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[6.242s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.307s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[6.308s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.308s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.308s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[6.384s] -- Found PythonExtra: .so  
+[6.692s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.701s] -- Added test 'lint_cmake' to check CMake code style
+[6.706s] -- Added test 'xmllint' to check XML markup files
+[6.718s] -- Configuring done
+[6.963s] -- Generating done
+[6.968s] -- Build files have been written to: /home/sara/aubo_ws/build/control_msgs
+[7.011s] Invoked command in '/home/sara/aubo_ws/build/control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/sara/aubo_ws/src/ros-controls/control_msgs/control_msgs -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/control_msgs
+[7.012s] Invoking command in '/home/sara/aubo_ws/build/control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control_msgs -- -j8 -l8
+[7.192s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.240s] [  0%] Built target ament_cmake_python_copy_control_msgs
+[7.246s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.800s] running egg_info
+[7.801s] creating control_msgs.egg-info
+[7.802s] writing control_msgs.egg-info/PKG-INFO
+[7.803s] writing dependency_links to control_msgs.egg-info/dependency_links.txt
+[7.803s] writing top-level names to control_msgs.egg-info/top_level.txt
+[7.804s] writing manifest file 'control_msgs.egg-info/SOURCES.txt'
+[7.809s] reading manifest file 'control_msgs.egg-info/SOURCES.txt'
+[7.811s] writing manifest file 'control_msgs.egg-info/SOURCES.txt'
+[7.928s] [  0%] Built target ament_cmake_python_build_control_msgs_egg
+[27.218s] [  1%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/action/detail/follow_joint_trajectory__functions.c.o[0m
+[27.909s] [  1%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/dynamic_joint_state__functions.c.o[0m
+[28.160s] [  2%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/gripper_command__functions.c.o[0m
+[28.329s] [  2%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/interface_value__functions.c.o[0m
+[28.687s] [  3%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/joint_component_tolerance__functions.c.o[0m
+[29.156s] [  4%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/joint_controller_state__functions.c.o[0m
+[29.622s] [  4%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/joint_jog__functions.c.o[0m
+[30.010s] [  5%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/joint_tolerance__functions.c.o[0m
+[30.393s] [  5%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/joint_trajectory_controller_state__functions.c.o[0m
+[30.880s] [  6%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/mecanum_drive_controller_state__functions.c.o[0m
+[31.209s] [  6%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/pid_state__functions.c.o[0m
+[31.576s] [  7%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/steering_controller_status__functions.c.o[0m
+[31.937s] [  8%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/srv/detail/query_calibration_state__functions.c.o[0m
+[32.092s] [  8%] Built target control_msgs__cpp
+[32.354s] [  8%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/srv/detail/query_trajectory_state__functions.c.o[0m
+[32.730s] [  9%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/msg/detail/admittance_controller_state__functions.c.o[0m
+[33.153s] [  9%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/action/detail/single_joint_position__functions.c.o[0m
+[33.970s] [ 10%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/action/detail/point_head__functions.c.o[0m
+[34.731s] [ 11%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/action/detail/joint_trajectory__functions.c.o[0m
+[35.463s] [ 11%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_c.dir/rosidl_generator_c/control_msgs/action/detail/gripper_command__functions.c.o[0m
+[36.193s] [ 12%] [32m[1mLinking C shared library libcontrol_msgs__rosidl_generator_c.so[0m
+[36.524s] [ 12%] Built target control_msgs__rosidl_generator_c
+[36.642s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[44.939s] [ 13%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/action/detail/follow_joint_trajectory__type_support.cpp.o[0m
+[47.216s] [ 14%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/action/detail/joint_trajectory__type_support.cpp.o[0m
+[48.885s] [ 14%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/action/detail/point_head__type_support.cpp.o[0m
+[50.499s] [ 15%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/action/detail/single_joint_position__type_support.cpp.o[0m
+[51.900s] [ 16%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/admittance_controller_state__type_support.cpp.o[0m
+[52.961s] [ 16%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/dynamic_joint_state__type_support.cpp.o[0m
+[54.023s] [ 17%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/gripper_command__type_support.cpp.o[0m
+[54.673s] [ 17%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/interface_value__type_support.cpp.o[0m
+[55.469s] [ 18%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/joint_component_tolerance__type_support.cpp.o[0m
+[56.157s] [ 18%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/joint_controller_state__type_support.cpp.o[0m
+[56.897s] [ 19%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/joint_jog__type_support.cpp.o[0m
+[57.699s] [ 20%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/joint_tolerance__type_support.cpp.o[0m
+[58.619s] [ 20%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/joint_trajectory_controller_state__type_support.cpp.o[0m
+[59.470s] [ 21%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/mecanum_drive_controller_state__type_support.cpp.o[0m
+[60.237s] [ 21%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/pid_state__type_support.cpp.o[0m
+[60.998s] [ 22%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/msg/detail/steering_controller_status__type_support.cpp.o[0m
+[61.719s] [ 22%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/srv/detail/query_calibration_state__type_support.cpp.o[0m
+[62.320s] [ 23%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/srv/detail/query_trajectory_state__type_support.cpp.o[0m
+[63.045s] [ 23%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/control_msgs/action/detail/gripper_command__type_support.cpp.o[0m
+[63.843s] [ 24%] [32m[1mLinking CXX shared library libcontrol_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[63.996s] [ 24%] Built target control_msgs__rosidl_typesupport_introspection_cpp
+[64.012s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[66.593s] [ 25%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/action/follow_joint_trajectory__type_support.cpp.o[0m
+[66.661s] [ 26%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/action/point_head__type_support.cpp.o[0m
+[66.732s] [ 27%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/action/single_joint_position__type_support.cpp.o[0m
+[66.801s] [ 27%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/msg/admittance_controller_state__type_support.cpp.o[0m
+[66.848s] [ 28%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/msg/dynamic_joint_state__type_support.cpp.o[0m
+[66.891s] [ 28%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/msg/gripper_command__type_support.cpp.o[0m
+[66.933s] [ 29%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/msg/interface_value__type_support.cpp.o[0m
+[66.974s] [ 29%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/msg/joint_component_tolerance__type_support.cpp.o[0m
+[67.018s] [ 30%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/msg/joint_controller_state__type_support.cpp.o[0m
+[67.059s] [ 31%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/msg/joint_jog__type_support.cpp.o[0m
+[67.103s] [ 31%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/msg/joint_tolerance__type_support.cpp.o[0m
+[67.154s] [ 32%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/msg/joint_trajectory_controller_state__type_support.cpp.o[0m
+[67.201s] [ 32%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/msg/mecanum_drive_controller_state__type_support.cpp.o[0m
+[67.242s] [ 33%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/msg/pid_state__type_support.cpp.o[0m
+[67.284s] [ 33%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/msg/steering_controller_status__type_support.cpp.o[0m
+[67.325s] [ 34%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/srv/query_calibration_state__type_support.cpp.o[0m
+[67.368s] [ 35%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/srv/query_trajectory_state__type_support.cpp.o[0m
+[67.411s] [ 35%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/action/joint_trajectory__type_support.cpp.o[0m
+[67.477s] [ 36%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/control_msgs/action/gripper_command__type_support.cpp.o[0m
+[67.543s] [ 36%] [32m[1mLinking CXX shared library libcontrol_msgs__rosidl_typesupport_c.so[0m
+[67.611s] [ 36%] Built target control_msgs__rosidl_typesupport_c
+[67.627s] [ 37%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[71.231s] [ 38%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/action/detail/follow_joint_trajectory__type_support.c.o[0m
+[71.331s] [ 39%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/action/detail/single_joint_position__type_support.c.o[0m
+[71.401s] [ 39%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/msg/detail/admittance_controller_state__type_support.c.o[0m
+[71.463s] [ 40%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/msg/detail/dynamic_joint_state__type_support.c.o[0m
+[71.521s] [ 41%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/msg/detail/gripper_command__type_support.c.o[0m
+[71.568s] [ 41%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/msg/detail/interface_value__type_support.c.o[0m
+[71.626s] [ 42%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/msg/detail/joint_component_tolerance__type_support.c.o[0m
+[71.676s] [ 42%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/msg/detail/joint_controller_state__type_support.c.o[0m
+[71.726s] [ 43%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/msg/detail/joint_jog__type_support.c.o[0m
+[71.790s] [ 43%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/msg/detail/joint_tolerance__type_support.c.o[0m
+[71.838s] [ 44%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/msg/detail/joint_trajectory_controller_state__type_support.c.o[0m
+[71.904s] [ 45%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/msg/detail/mecanum_drive_controller_state__type_support.c.o[0m
+[71.956s] [ 45%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/msg/detail/pid_state__type_support.c.o[0m
+[72.009s] [ 46%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/msg/detail/steering_controller_status__type_support.c.o[0m
+[72.077s] [ 46%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/srv/detail/query_calibration_state__type_support.c.o[0m
+[72.129s] [ 47%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/srv/detail/query_trajectory_state__type_support.c.o[0m
+[72.198s] [ 47%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/action/detail/point_head__type_support.c.o[0m
+[72.267s] [ 48%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/action/detail/joint_trajectory__type_support.c.o[0m
+[72.336s] [ 48%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/control_msgs/action/detail/gripper_command__type_support.c.o[0m
+[72.403s] [ 48%] [32m[1mLinking C shared library libcontrol_msgs__rosidl_typesupport_introspection_c.so[0m
+[72.461s] [ 48%] Built target control_msgs__rosidl_typesupport_introspection_c
+[72.478s] [ 49%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[76.411s] [ 49%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/action/detail/follow_joint_trajectory__type_support_c.cpp.o[0m
+[76.965s] [ 49%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/msg/detail/admittance_controller_state__type_support_c.cpp.o[0m
+[77.411s] [ 50%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/msg/detail/dynamic_joint_state__type_support_c.cpp.o[0m
+[77.865s] [ 50%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/msg/detail/gripper_command__type_support_c.cpp.o[0m
+[78.300s] [ 51%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/msg/detail/interface_value__type_support_c.cpp.o[0m
+[78.751s] [ 52%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/msg/detail/joint_component_tolerance__type_support_c.cpp.o[0m
+[79.220s] [ 52%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/msg/detail/joint_controller_state__type_support_c.cpp.o[0m
+[79.642s] [ 53%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/msg/detail/joint_jog__type_support_c.cpp.o[0m
+[80.093s] [ 53%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/msg/detail/joint_tolerance__type_support_c.cpp.o[0m
+[80.536s] [ 54%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/msg/detail/joint_trajectory_controller_state__type_support_c.cpp.o[0m
+[81.015s] [ 54%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/msg/detail/mecanum_drive_controller_state__type_support_c.cpp.o[0m
+[81.468s] [ 55%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/msg/detail/pid_state__type_support_c.cpp.o[0m
+[81.932s] [ 56%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/msg/detail/steering_controller_status__type_support_c.cpp.o[0m
+[82.401s] [ 56%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/srv/detail/query_calibration_state__type_support_c.cpp.o[0m
+[82.858s] [ 57%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/srv/detail/query_trajectory_state__type_support_c.cpp.o[0m
+[83.334s] [ 58%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/action/detail/point_head__type_support_c.cpp.o[0m
+[83.334s] [ 58%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/action/detail/single_joint_position__type_support_c.cpp.o[0m
+[83.891s] [ 59%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/action/detail/joint_trajectory__type_support_c.cpp.o[0m
+[83.897s] [ 60%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/control_msgs/action/detail/gripper_command__type_support_c.cpp.o[0m
+[84.482s] [ 60%] [32m[1mLinking CXX shared library libcontrol_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[84.619s] [ 60%] Built target control_msgs__rosidl_typesupport_fastrtps_c
+[84.636s] [ 62%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[84.636s] [ 62%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[87.633s] [ 62%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/action/follow_joint_trajectory__type_support.cpp.o[0m
+[87.634s] [ 63%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/action/gripper_command__type_support.cpp.o[0m
+[87.640s] [ 64%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/action/joint_trajectory__type_support.cpp.o[0m
+[88.435s] [ 64%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/admittance_controller_state__type_support.cpp.o[0m
+[88.438s] [ 65%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/dynamic_joint_state__type_support.cpp.o[0m
+[88.547s] [ 65%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/gripper_command__type_support.cpp.o[0m
+[88.767s] [ 66%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/interface_value__type_support.cpp.o[0m
+[89.092s] [ 67%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/action/single_joint_position__type_support.cpp.o[0m
+[89.105s] [ 68%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/joint_component_tolerance__type_support.cpp.o[0m
+[89.172s] [ 68%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/joint_controller_state__type_support.cpp.o[0m
+[89.183s] [ 69%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/joint_jog__type_support.cpp.o[0m
+[89.521s] [ 69%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/joint_tolerance__type_support.cpp.o[0m
+[89.897s] [ 69%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/action/point_head__type_support.cpp.o[0m
+[89.916s] [ 70%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/joint_trajectory_controller_state__type_support.cpp.o[0m
+[89.969s] [ 71%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/pid_state__type_support.cpp.o[0m
+[90.028s] [ 72%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/action/detail/dds_fastrtps/follow_joint_trajectory__type_support.cpp.o[0m
+[90.263s] [ 72%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/mecanum_drive_controller_state__type_support.cpp.o[0m
+[90.265s] [ 72%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/action/detail/dds_fastrtps/gripper_command__type_support.cpp.o[0m
+[90.280s] [ 73%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/msg/steering_controller_status__type_support.cpp.o[0m
+[90.343s] [ 73%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/srv/query_calibration_state__type_support.cpp.o[0m
+[90.726s] [ 74%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/control_msgs/srv/query_trajectory_state__type_support.cpp.o[0m
+[90.883s] [ 75%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/action/detail/dds_fastrtps/joint_trajectory__type_support.cpp.o[0m
+[91.172s] [ 75%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/action/detail/dds_fastrtps/point_head__type_support.cpp.o[0m
+[91.298s] [ 76%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/action/detail/dds_fastrtps/single_joint_position__type_support.cpp.o[0m
+[91.544s] [ 76%] [32m[1mLinking CXX shared library libcontrol_msgs__rosidl_typesupport_cpp.so[0m
+[91.698s] [ 76%] Built target control_msgs__rosidl_typesupport_cpp
+[92.052s] [ 77%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/gripper_command__type_support.cpp.o[0m
+[92.066s] [ 78%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/dynamic_joint_state__type_support.cpp.o[0m
+[92.295s] [ 78%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/interface_value__type_support.cpp.o[0m
+[92.513s] [ 79%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/joint_component_tolerance__type_support.cpp.o[0m
+[92.835s] [ 79%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/joint_controller_state__type_support.cpp.o[0m
+[93.134s] [ 79%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/joint_tolerance__type_support.cpp.o[0m
+[93.138s] [ 80%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/joint_jog__type_support.cpp.o[0m
+[93.603s] [ 81%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/joint_trajectory_controller_state__type_support.cpp.o[0m
+[93.634s] [ 82%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/mecanum_drive_controller_state__type_support.cpp.o[0m
+[93.715s] [ 82%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/pid_state__type_support.cpp.o[0m
+[93.852s] [ 83%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/steering_controller_status__type_support.cpp.o[0m
+[94.343s] [ 83%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/srv/detail/dds_fastrtps/query_calibration_state__type_support.cpp.o[0m
+[94.708s] [ 84%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/srv/detail/dds_fastrtps/query_trajectory_state__type_support.cpp.o[0m
+[94.993s] [ 84%] [32mBuilding CXX object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/control_msgs/msg/detail/dds_fastrtps/admittance_controller_state__type_support.cpp.o[0m
+[95.897s] [ 84%] [32m[1mLinking CXX shared library libcontrol_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[96.051s] [ 84%] Built target control_msgs__rosidl_typesupport_fastrtps_cpp
+[96.083s] [ 84%] Built target control_msgs
+[96.116s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[109.493s] [ 85%] Built target control_msgs__py
+[109.536s] [ 86%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/action/_point_head_s.c.o[0m
+[109.538s] [ 87%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/action/_gripper_command_s.c.o[0m
+[109.538s] [ 87%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/action/_joint_trajectory_s.c.o[0m
+[109.542s] [ 87%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/action/_follow_joint_trajectory_s.c.o[0m
+[109.942s] [ 87%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/msg/_gripper_command_s.c.o[0m
+[109.991s] [ 88%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/msg/_interface_value_s.c.o[0m
+[110.029s] [ 88%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/msg/_joint_component_tolerance_s.c.o[0m
+[110.062s] [ 88%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/msg/_admittance_controller_state_s.c.o[0m
+[110.076s] [ 89%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/msg/_dynamic_joint_state_s.c.o[0m
+[110.083s] [ 90%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/action/_single_joint_position_s.c.o[0m
+[110.105s] [ 91%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/msg/_joint_controller_state_s.c.o[0m
+[110.326s] [ 92%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/msg/_joint_jog_s.c.o[0m
+[110.428s] [ 92%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/msg/_joint_tolerance_s.c.o[0m
+[110.499s] [ 93%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/msg/_joint_trajectory_controller_state_s.c.o[0m
+[110.522s] [ 93%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/msg/_mecanum_drive_controller_state_s.c.o[0m
+[110.545s] [ 94%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/msg/_pid_state_s.c.o[0m
+[110.640s] [ 94%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/msg/_steering_controller_status_s.c.o[0m
+[110.755s] [ 95%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/srv/_query_calibration_state_s.c.o[0m
+[110.863s] [ 96%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_generator_py.dir/rosidl_generator_py/control_msgs/srv/_query_trajectory_state_s.c.o[0m
+[111.207s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/control_msgs/libcontrol_msgs__rosidl_generator_py.so[0m
+[111.310s] [ 96%] Built target control_msgs__rosidl_generator_py
+[111.357s] [ 97%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/control_msgs/_control_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[111.359s] [ 98%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/control_msgs/_control_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[111.364s] [ 99%] [32mBuilding C object CMakeFiles/control_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/control_msgs/_control_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[111.973s] [100%] [32m[1mLinking C shared library rosidl_generator_py/control_msgs/control_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[112.023s] [100%] [32m[1mLinking C shared library rosidl_generator_py/control_msgs/control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[112.109s] [100%] [32m[1mLinking C shared library rosidl_generator_py/control_msgs/control_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[112.121s] [100%] Built target control_msgs__rosidl_typesupport_introspection_c__pyext
+[112.176s] [100%] Built target control_msgs__rosidl_typesupport_fastrtps_c__pyext
+[112.236s] [100%] Built target control_msgs__rosidl_typesupport_c__pyext
+[112.259s] Invoked command in '/home/sara/aubo_ws/build/control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control_msgs -- -j8 -l8
+[113.153s] Invoking command in '/home/sara/aubo_ws/build/control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/control_msgs
+[113.169s] -- Install configuration: ""
+[113.169s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/ament_index/resource_index/rosidl_interfaces/control_msgs
+[113.169s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs
+[113.169s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg
+[113.170s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/joint_trajectory_controller_state.h
+[113.170s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/pid_state.h
+[113.170s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/joint_jog.h
+[113.170s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/gripper_command.h
+[113.171s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/joint_component_tolerance.h
+[113.171s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/dynamic_joint_state.h
+[113.171s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/admittance_controller_state.h
+[113.171s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail
+[113.171s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__functions.c
+[113.172s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__type_support.h
+[113.172s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__functions.h
+[113.172s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__struct.h
+[113.172s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__functions.c
+[113.173s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__functions.c
+[113.173s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__struct.h
+[113.174s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__struct.h
+[113.174s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__functions.c
+[113.174s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__struct.h
+[113.175s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__functions.c
+[113.175s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__struct.h
+[113.176s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__struct.h
+[113.176s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__type_support.h
+[113.177s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__functions.c
+[113.177s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__functions.c
+[113.177s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__struct.h
+[113.178s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__struct.h
+[113.178s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__struct.h
+[113.178s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__type_support.h
+[113.179s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__functions.h
+[113.179s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__functions.h
+[113.179s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__functions.c
+[113.180s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__struct.h
+[113.180s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__functions.h
+[113.180s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__type_support.h
+[113.180s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__functions.h
+[113.181s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__type_support.h
+[113.181s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__functions.c
+[113.182s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__functions.c
+[113.182s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__type_support.h
+[113.182s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__type_support.h
+[113.182s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__type_support.h
+[113.183s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__functions.h
+[113.183s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__struct.h
+[113.183s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__type_support.h
+[113.183s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__struct.h
+[113.184s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__functions.h
+[113.184s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__type_support.h
+[113.184s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__functions.h
+[113.185s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__functions.h
+[113.185s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__functions.h
+[113.185s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__functions.h
+[113.185s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__functions.c
+[113.185s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__type_support.h
+[113.186s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__functions.c
+[113.186s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__functions.h
+[113.186s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__type_support.h
+[113.186s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/steering_controller_status.h
+[113.187s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/joint_tolerance.h
+[113.187s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/rosidl_generator_c__visibility_control.h
+[113.187s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/interface_value.h
+[113.187s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/mecanum_drive_controller_state.h
+[113.188s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/joint_controller_state.h
+[113.188s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv
+[113.188s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail
+[113.189s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__struct.h
+[113.189s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__struct.h
+[113.189s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__functions.h
+[113.189s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__functions.c
+[113.190s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__functions.c
+[113.190s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__functions.h
+[113.190s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__type_support.h
+[113.190s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__type_support.h
+[113.190s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/query_trajectory_state.h
+[113.191s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/query_calibration_state.h
+[113.191s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action
+[113.191s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/point_head.h
+[113.192s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/joint_trajectory.h
+[113.192s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/single_joint_position.h
+[113.193s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/gripper_command.h
+[113.193s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail
+[113.193s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__struct.h
+[113.194s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__struct.h
+[113.194s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__type_support.h
+[113.194s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__functions.c
+[113.195s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__struct.h
+[113.195s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__functions.c
+[113.195s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__functions.c
+[113.195s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__struct.h
+[113.195s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__functions.c
+[113.196s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__functions.h
+[113.196s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__type_support.h
+[113.196s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__functions.h
+[113.196s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__functions.h
+[113.196s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__functions.c
+[113.196s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__type_support.h
+[113.197s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__struct.h
+[113.197s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__type_support.h
+[113.197s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__type_support.h
+[113.197s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__functions.h
+[113.197s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__functions.h
+[113.198s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/follow_joint_trajectory.h
+[113.198s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/environment/library_path.sh
+[113.198s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/environment/library_path.dsv
+[113.198s] -- Installing: /home/sara/aubo_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_generator_c.so
+[113.198s] -- Set runtime path of "/home/sara/aubo_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_generator_c.so" to ""
+[113.199s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs
+[113.199s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg
+[113.199s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[113.199s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail
+[113.200s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__rosidl_typesupport_fastrtps_c.h
+[113.200s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__rosidl_typesupport_fastrtps_c.h
+[113.200s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__rosidl_typesupport_fastrtps_c.h
+[113.200s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__rosidl_typesupport_fastrtps_c.h
+[113.200s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__rosidl_typesupport_fastrtps_c.h
+[113.201s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__rosidl_typesupport_fastrtps_c.h
+[113.201s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__rosidl_typesupport_fastrtps_c.h
+[113.201s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__rosidl_typesupport_fastrtps_c.h
+[113.202s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__rosidl_typesupport_fastrtps_c.h
+[113.202s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__rosidl_typesupport_fastrtps_c.h
+[113.202s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__rosidl_typesupport_fastrtps_c.h
+[113.202s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__rosidl_typesupport_fastrtps_c.h
+[113.202s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv
+[113.203s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail
+[113.203s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__rosidl_typesupport_fastrtps_c.h
+[113.203s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__rosidl_typesupport_fastrtps_c.h
+[113.203s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action
+[113.204s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail
+[113.204s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__rosidl_typesupport_fastrtps_c.h
+[113.204s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__rosidl_typesupport_fastrtps_c.h
+[113.205s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__rosidl_typesupport_fastrtps_c.h
+[113.205s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[113.205s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[113.206s] -- Installing: /home/sara/aubo_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_fastrtps_c.so
+[113.206s] -- Set runtime path of "/home/sara/aubo_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[113.206s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs
+[113.206s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg
+[113.207s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/joint_jog.hpp
+[113.207s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/joint_controller_state.hpp
+[113.207s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/pid_state.hpp
+[113.207s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/admittance_controller_state.hpp
+[113.208s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/steering_controller_status.hpp
+[113.208s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/joint_tolerance.hpp
+[113.208s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/gripper_command.hpp
+[113.208s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail
+[113.209s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__struct.hpp
+[113.209s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__traits.hpp
+[113.209s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__builder.hpp
+[113.210s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__traits.hpp
+[113.210s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__builder.hpp
+[113.210s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__builder.hpp
+[113.211s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__traits.hpp
+[113.211s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__struct.hpp
+[113.211s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__traits.hpp
+[113.211s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__struct.hpp
+[113.211s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__traits.hpp
+[113.212s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__builder.hpp
+[113.212s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__struct.hpp
+[113.212s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__traits.hpp
+[113.212s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__builder.hpp
+[113.213s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__builder.hpp
+[113.213s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__struct.hpp
+[113.213s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__builder.hpp
+[113.213s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__traits.hpp
+[113.213s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__builder.hpp
+[113.214s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__traits.hpp
+[113.214s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__struct.hpp
+[113.214s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__builder.hpp
+[113.214s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__struct.hpp
+[113.215s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__struct.hpp
+[113.215s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__traits.hpp
+[113.215s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__builder.hpp
+[113.215s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__traits.hpp
+[113.215s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__builder.hpp
+[113.215s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__builder.hpp
+[113.216s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__struct.hpp
+[113.216s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__traits.hpp
+[113.216s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__struct.hpp
+[113.216s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__struct.hpp
+[113.216s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__struct.hpp
+[113.217s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__traits.hpp
+[113.217s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/joint_trajectory_controller_state.hpp
+[113.217s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/joint_component_tolerance.hpp
+[113.217s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/dynamic_joint_state.hpp
+[113.217s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/mecanum_drive_controller_state.hpp
+[113.218s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/interface_value.hpp
+[113.218s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv
+[113.218s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail
+[113.218s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__builder.hpp
+[113.218s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__traits.hpp
+[113.218s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__traits.hpp
+[113.218s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__struct.hpp
+[113.219s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__struct.hpp
+[113.219s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__builder.hpp
+[113.219s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/query_trajectory_state.hpp
+[113.219s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/query_calibration_state.hpp
+[113.220s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action
+[113.220s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/follow_joint_trajectory.hpp
+[113.220s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/point_head.hpp
+[113.220s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/joint_trajectory.hpp
+[113.220s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/gripper_command.hpp
+[113.221s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail
+[113.221s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__traits.hpp
+[113.221s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__traits.hpp
+[113.221s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__traits.hpp
+[113.222s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__struct.hpp
+[113.222s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__builder.hpp
+[113.222s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__builder.hpp
+[113.223s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__struct.hpp
+[113.223s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__builder.hpp
+[113.223s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__builder.hpp
+[113.223s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__struct.hpp
+[113.224s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__traits.hpp
+[113.224s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__struct.hpp
+[113.224s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__traits.hpp
+[113.224s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__struct.hpp
+[113.225s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__builder.hpp
+[113.225s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/single_joint_position.hpp
+[113.225s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs
+[113.225s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg
+[113.226s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail
+[113.226s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__rosidl_typesupport_fastrtps_cpp.hpp
+[113.226s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__rosidl_typesupport_fastrtps_cpp.hpp
+[113.226s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__rosidl_typesupport_fastrtps_cpp.hpp
+[113.227s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__rosidl_typesupport_fastrtps_cpp.hpp
+[113.227s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__rosidl_typesupport_fastrtps_cpp.hpp
+[113.227s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__rosidl_typesupport_fastrtps_cpp.hpp
+[113.227s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__rosidl_typesupport_fastrtps_cpp.hpp
+[113.227s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__rosidl_typesupport_fastrtps_cpp.hpp
+[113.228s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dds_fastrtps
+[113.228s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__rosidl_typesupport_fastrtps_cpp.hpp
+[113.228s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__rosidl_typesupport_fastrtps_cpp.hpp
+[113.228s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__rosidl_typesupport_fastrtps_cpp.hpp
+[113.228s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__rosidl_typesupport_fastrtps_cpp.hpp
+[113.228s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[113.229s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv
+[113.229s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail
+[113.229s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/dds_fastrtps
+[113.229s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__rosidl_typesupport_fastrtps_cpp.hpp
+[113.229s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__rosidl_typesupport_fastrtps_cpp.hpp
+[113.229s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action
+[113.230s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail
+[113.230s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[113.230s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__rosidl_typesupport_fastrtps_cpp.hpp
+[113.230s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__rosidl_typesupport_fastrtps_cpp.hpp
+[113.230s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__rosidl_typesupport_fastrtps_cpp.hpp
+[113.231s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/dds_fastrtps
+[113.231s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[113.231s] -- Installing: /home/sara/aubo_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_fastrtps_cpp.so
+[113.231s] -- Set runtime path of "/home/sara/aubo_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[113.231s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs
+[113.232s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg
+[113.232s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail
+[113.232s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__type_support.c
+[113.232s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__rosidl_typesupport_introspection_c.h
+[113.233s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__type_support.c
+[113.233s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__type_support.c
+[113.233s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__rosidl_typesupport_introspection_c.h
+[113.233s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__rosidl_typesupport_introspection_c.h
+[113.233s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__rosidl_typesupport_introspection_c.h
+[113.234s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__rosidl_typesupport_introspection_c.h
+[113.234s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__type_support.c
+[113.234s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__type_support.c
+[113.234s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__type_support.c
+[113.234s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__rosidl_typesupport_introspection_c.h
+[113.235s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__rosidl_typesupport_introspection_c.h
+[113.235s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__rosidl_typesupport_introspection_c.h
+[113.235s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__type_support.c
+[113.235s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__type_support.c
+[113.236s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__type_support.c
+[113.236s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__rosidl_typesupport_introspection_c.h
+[113.236s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__type_support.c
+[113.236s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__rosidl_typesupport_introspection_c.h
+[113.236s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__type_support.c
+[113.237s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__rosidl_typesupport_introspection_c.h
+[113.237s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__rosidl_typesupport_introspection_c.h
+[113.237s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__type_support.c
+[113.237s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[113.238s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv
+[113.238s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail
+[113.238s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__type_support.c
+[113.239s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__type_support.c
+[113.239s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__rosidl_typesupport_introspection_c.h
+[113.239s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__rosidl_typesupport_introspection_c.h
+[113.239s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action
+[113.239s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail
+[113.240s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__type_support.c
+[113.240s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__type_support.c
+[113.240s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__rosidl_typesupport_introspection_c.h
+[113.240s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__rosidl_typesupport_introspection_c.h
+[113.240s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__rosidl_typesupport_introspection_c.h
+[113.240s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__rosidl_typesupport_introspection_c.h
+[113.241s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__type_support.c
+[113.241s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__type_support.c
+[113.241s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__type_support.c
+[113.241s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__rosidl_typesupport_introspection_c.h
+[113.241s] -- Installing: /home/sara/aubo_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_introspection_c.so
+[113.242s] -- Set runtime path of "/home/sara/aubo_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_introspection_c.so" to ""
+[113.242s] -- Installing: /home/sara/aubo_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_c.so
+[113.242s] -- Set runtime path of "/home/sara/aubo_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_c.so" to ""
+[113.242s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs
+[113.242s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg
+[113.243s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail
+[113.244s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__rosidl_typesupport_introspection_cpp.hpp
+[113.244s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__type_support.cpp
+[113.244s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__rosidl_typesupport_introspection_cpp.hpp
+[113.245s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__rosidl_typesupport_introspection_cpp.hpp
+[113.245s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__rosidl_typesupport_introspection_cpp.hpp
+[113.245s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__rosidl_typesupport_introspection_cpp.hpp
+[113.245s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__type_support.cpp
+[113.246s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__type_support.cpp
+[113.246s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__type_support.cpp
+[113.246s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__rosidl_typesupport_introspection_cpp.hpp
+[113.246s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__rosidl_typesupport_introspection_cpp.hpp
+[113.247s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__type_support.cpp
+[113.247s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__rosidl_typesupport_introspection_cpp.hpp
+[113.247s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__rosidl_typesupport_introspection_cpp.hpp
+[113.247s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__type_support.cpp
+[113.248s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__rosidl_typesupport_introspection_cpp.hpp
+[113.248s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__type_support.cpp
+[113.248s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__type_support.cpp
+[113.248s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__type_support.cpp
+[113.249s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__type_support.cpp
+[113.249s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__rosidl_typesupport_introspection_cpp.hpp
+[113.249s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__type_support.cpp
+[113.249s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__rosidl_typesupport_introspection_cpp.hpp
+[113.250s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__type_support.cpp
+[113.250s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv
+[113.250s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail
+[113.250s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__rosidl_typesupport_introspection_cpp.hpp
+[113.251s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__rosidl_typesupport_introspection_cpp.hpp
+[113.251s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__type_support.cpp
+[113.251s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__type_support.cpp
+[113.251s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action
+[113.252s] -- Up-to-date: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail
+[113.252s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__type_support.cpp
+[113.252s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[113.252s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__type_support.cpp
+[113.253s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__type_support.cpp
+[113.253s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__type_support.cpp
+[113.253s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__rosidl_typesupport_introspection_cpp.hpp
+[113.253s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__rosidl_typesupport_introspection_cpp.hpp
+[113.254s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[113.254s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__type_support.cpp
+[113.254s] -- Installing: /home/sara/aubo_ws/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__rosidl_typesupport_introspection_cpp.hpp
+[113.255s] -- Installing: /home/sara/aubo_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_introspection_cpp.so
+[113.255s] -- Set runtime path of "/home/sara/aubo_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[113.255s] -- Installing: /home/sara/aubo_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_cpp.so
+[113.255s] -- Set runtime path of "/home/sara/aubo_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_cpp.so" to ""
+[113.256s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/environment/pythonpath.sh
+[113.256s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/environment/pythonpath.dsv
+[113.256s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs-4.4.0-py3.10.egg-info
+[113.256s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs-4.4.0-py3.10.egg-info/dependency_links.txt
+[113.257s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs-4.4.0-py3.10.egg-info/top_level.txt
+[113.257s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs-4.4.0-py3.10.egg-info/SOURCES.txt
+[113.257s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs-4.4.0-py3.10.egg-info/PKG-INFO
+[113.258s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs
+[113.258s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg
+[113.258s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_pid_state_s.c
+[113.258s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_gripper_command_s.c
+[113.259s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/__init__.py
+[113.259s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_steering_controller_status.py
+[113.259s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_jog.py
+[113.260s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_trajectory_controller_state.py
+[113.260s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_interface_value.py
+[113.261s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_admittance_controller_state.py
+[113.261s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_steering_controller_status_s.c
+[113.261s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_dynamic_joint_state_s.c
+[113.261s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_gripper_command.py
+[113.262s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_dynamic_joint_state.py
+[113.262s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_controller_state_s.c
+[113.262s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_tolerance_s.c
+[113.262s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_component_tolerance.py
+[113.262s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_controller_state.py
+[113.263s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_mecanum_drive_controller_state_s.c
+[113.263s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_interface_value_s.c
+[113.263s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_component_tolerance_s.c
+[113.263s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_pid_state.py
+[113.263s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_tolerance.py
+[113.263s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_jog_s.c
+[113.263s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_admittance_controller_state_s.c
+[113.263s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_trajectory_controller_state_s.c
+[113.264s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_mecanum_drive_controller_state.py
+[113.264s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/__init__.py
+[113.264s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[113.264s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/_control_msgs_s.ep.rosidl_typesupport_c.c
+[113.264s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/srv
+[113.264s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/srv/__init__.py
+[113.264s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/srv/_query_calibration_state.py
+[113.264s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/srv/_query_trajectory_state.py
+[113.264s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/srv/_query_calibration_state_s.c
+[113.264s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/srv/_query_trajectory_state_s.c
+[113.264s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/_control_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[113.265s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/libcontrol_msgs__rosidl_generator_py.so
+[113.265s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/_control_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[113.265s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action
+[113.265s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_single_joint_position.py
+[113.265s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_gripper_command_s.c
+[113.265s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_follow_joint_trajectory.py
+[113.265s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/__init__.py
+[113.265s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_follow_joint_trajectory_s.c
+[113.265s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_point_head_s.c
+[113.265s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_single_joint_position_s.c
+[113.265s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_joint_trajectory_s.c
+[113.265s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_gripper_command.py
+[113.266s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_joint_trajectory.py
+[113.266s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_point_head.py
+[113.266s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/control_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[113.266s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/control_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[113.427s] Listing '/home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs'...
+[113.427s] Compiling '/home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/__init__.py'...
+[113.427s] Listing '/home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action'...
+[113.427s] Compiling '/home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/__init__.py'...
+[113.428s] Compiling '/home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_follow_joint_trajectory.py'...
+[113.428s] Compiling '/home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_gripper_command.py'...
+[113.428s] Compiling '/home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_joint_trajectory.py'...
+[113.428s] Compiling '/home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_point_head.py'...
+[113.428s] Compiling '/home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/action/_single_joint_position.py'...
+[113.429s] Listing '/home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg'...
+[113.429s] Compiling '/home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/__init__.py'...
+[113.429s] Compiling '/home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_admittance_controller_state.py'...
+[113.429s] Compiling '/home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_dynamic_joint_state.py'...
+[113.430s] Compiling '/home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_gripper_command.py'...
+[113.430s] Compiling '/home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_interface_value.py'...
+[113.430s] Compiling '/home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_component_tolerance.py'...
+[113.430s] Compiling '/home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_controller_state.py'...
+[113.430s] Compiling '/home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_jog.py'...
+[113.430s] Compiling '/home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_tolerance.py'...
+[113.431s] Compiling '/home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_joint_trajectory_controller_state.py'...
+[113.431s] Compiling '/home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_mecanum_drive_controller_state.py'...
+[113.432s] Compiling '/home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_pid_state.py'...
+[113.432s] Compiling '/home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/msg/_steering_controller_status.py'...
+[113.433s] Listing '/home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/srv'...
+[113.433s] Compiling '/home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/srv/__init__.py'...
+[113.433s] Compiling '/home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/srv/_query_calibration_state.py'...
+[113.433s] Compiling '/home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/srv/_query_trajectory_state.py'...
+[113.441s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[113.442s] -- Set runtime path of "/home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/control_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[113.442s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/control_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[113.443s] -- Set runtime path of "/home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/control_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[113.444s] -- Installing: /home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/control_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[113.445s] -- Set runtime path of "/home/sara/aubo_ws/install/control_msgs/local/lib/python3.10/dist-packages/control_msgs/control_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[113.445s] -- Installing: /home/sara/aubo_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_generator_py.so
+[113.446s] -- Set runtime path of "/home/sara/aubo_ws/install/control_msgs/lib/libcontrol_msgs__rosidl_generator_py.so" to ""
+[113.447s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/action/FollowJointTrajectory.idl
+[113.447s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/action/GripperCommand.idl
+[113.447s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/action/JointTrajectory.idl
+[113.448s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/action/PointHead.idl
+[113.448s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/action/SingleJointPosition.idl
+[113.449s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/msg/AdmittanceControllerState.idl
+[113.449s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/msg/DynamicJointState.idl
+[113.449s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/msg/GripperCommand.idl
+[113.450s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/msg/InterfaceValue.idl
+[113.450s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/msg/JointComponentTolerance.idl
+[113.450s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/msg/JointControllerState.idl
+[113.450s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/msg/JointJog.idl
+[113.451s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/msg/JointTolerance.idl
+[113.451s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/msg/JointTrajectoryControllerState.idl
+[113.451s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/msg/MecanumDriveControllerState.idl
+[113.451s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/msg/PidState.idl
+[113.452s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/msg/SteeringControllerStatus.idl
+[113.452s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/srv/QueryCalibrationState.idl
+[113.453s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/srv/QueryTrajectoryState.idl
+[113.453s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/action/FollowJointTrajectory.action
+[113.453s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/action/GripperCommand.action
+[113.453s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/action/JointTrajectory.action
+[113.453s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/action/PointHead.action
+[113.454s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/action/SingleJointPosition.action
+[113.454s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/msg/AdmittanceControllerState.msg
+[113.454s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/msg/DynamicJointState.msg
+[113.454s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/msg/GripperCommand.msg
+[113.455s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/msg/InterfaceValue.msg
+[113.455s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/msg/JointComponentTolerance.msg
+[113.455s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/msg/JointControllerState.msg
+[113.455s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/msg/JointJog.msg
+[113.456s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/msg/JointTolerance.msg
+[113.456s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/msg/JointTrajectoryControllerState.msg
+[113.456s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/msg/MecanumDriveControllerState.msg
+[113.456s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/msg/PidState.msg
+[113.457s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/msg/SteeringControllerStatus.msg
+[113.457s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/srv/QueryCalibrationState.srv
+[113.457s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/srv/QueryCalibrationState_Request.msg
+[113.457s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/srv/QueryCalibrationState_Response.msg
+[113.458s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/srv/QueryTrajectoryState.srv
+[113.458s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/srv/QueryTrajectoryState_Request.msg
+[113.458s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/srv/QueryTrajectoryState_Response.msg
+[113.459s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/ament_index/resource_index/package_run_dependencies/control_msgs
+[113.459s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/ament_index/resource_index/parent_prefix_path/control_msgs
+[113.459s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/environment/ament_prefix_path.sh
+[113.460s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/environment/ament_prefix_path.dsv
+[113.460s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/environment/path.sh
+[113.460s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/environment/path.dsv
+[113.460s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/local_setup.bash
+[113.461s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/local_setup.sh
+[113.461s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/local_setup.zsh
+[113.461s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/local_setup.dsv
+[113.462s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/package.dsv
+[113.462s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/ament_index/resource_index/packages/control_msgs
+[113.463s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_generator_cExport.cmake
+[113.463s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_generator_cExport-noconfig.cmake
+[113.463s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[113.464s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[113.464s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_generator_cppExport.cmake
+[113.464s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[113.465s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[113.465s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_introspection_cExport.cmake
+[113.466s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[113.466s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_cExport.cmake
+[113.466s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[113.467s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[113.467s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[113.467s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_cppExport.cmake
+[113.468s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[113.468s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_generator_pyExport.cmake
+[113.469s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_generator_pyExport-noconfig.cmake
+[113.469s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/cmake/rosidl_cmake-extras.cmake
+[113.469s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[113.469s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[113.470s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[113.470s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[113.471s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[113.471s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[113.471s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/cmake/control_msgsConfig.cmake
+[113.471s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/cmake/control_msgsConfig-version.cmake
+[113.472s] -- Installing: /home/sara/aubo_ws/install/control_msgs/share/control_msgs/package.xml
+[113.476s] Invoked command in '/home/sara/aubo_ws/build/control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/control_msgs

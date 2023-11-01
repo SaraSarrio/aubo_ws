@@ -1,0 +1,91 @@
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PkgConfig)
+  does not match the name of the calling package (gazebo).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+  CMakeLists.txt:12 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+In file included from [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:1[m[K:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/controller_v1.hpp:29:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kaubo_ros2_common[m[K’ was not declared in this scope
+   29 |     rclcpp::Publisher<[01;31m[Kaubo_ros2_common[m[K::msg::AuboTcpPose>::SharedPtr pub_user_;
+      |                       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/controller_v1.hpp:29:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   29 |     rclcpp::Publisher<aubo_ros2_common::msg::AuboTcpPose[01;31m[K>[m[K::SharedPtr pub_user_;
+      |                                                         [01;31m[K^[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/controller_v1.hpp:29:60:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   29 |     rclcpp::Publisher<aubo_ros2_common::msg::AuboTcpPose>::[01;31m[KSharedPtr[m[K pub_user_;
+      |                                                            [01;31m[K^~~~~~~~~[m[K
+      |                                                                     [32m[K;[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/controller_v1.hpp:29:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_user_[m[K’ does not name a type
+   29 |     rclcpp::Publisher<aubo_ros2_common::msg::AuboTcpPose>::SharedPtr [01;31m[Kpub_user_[m[K;
+      |                                                                      [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:3[m[K:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/aubo_kin_mod.hpp:[m[K In function ‘[01m[Kint inverse(const double*, double*)[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/aubo_kin_mod.hpp:316:69:[m[K [01;35m[Kwarning: [m[Ksuggest braces around empty body in an ‘[01m[Kif[m[K’ statement [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wempty-body-Wempty-body]8;;[m[K]
+  316 |                     if (loop_again && !solution_num && j5_idx == 1) [01;35m[K;[m[K
+      |                                                                     [01;35m[K^[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/aubo_kin_mod.hpp:341:73:[m[K [01;35m[Kwarning: [m[Ksuggest braces around empty body in an ‘[01m[Kif[m[K’ statement [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wempty-body-Wempty-body]8;;[m[K]
+  341 |                         if (loop_again && !solution_num && j5_idx == 1) [01;35m[K;[m[K
+      |                                                                         [01;35m[K^[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:[m[K In constructor ‘[01m[KController::Controller()[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:9:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_user_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpub_sim_[m[K’?
+    9 |     [01;31m[Kpub_user_[m[K=this -> create_publisher<aubo_ros2_common::msg::AuboTcpPose>("Joint_pos",1000);
+      |     [01;31m[K^~~~~~~~~[m[K
+      |     [32m[Kpub_sim_[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:9:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kaubo_ros2_common[m[K’ was not declared in this scope
+    9 |     pub_user_=this -> create_publisher<[01;31m[Kaubo_ros2_common[m[K::msg::AuboTcpPose>("Joint_pos",1000);
+      |                                        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:9:23:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+    9 |     pub_user_=this -> [01;31m[Kcreate_publisher<aubo_ros2_common::msg::AuboTcpPose>[m[K("Joint_pos",1000);
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:9:75:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KController::create_publisher<<expression error> >(const char [10], int)[m[K’
+    9 |     pub_user_=[01;31m[Kthis -> create_publisher<aubo_ros2_common::msg::AuboTcpPose>("Joint_pos",1000)[m[K;
+      |               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/controller_v1.hpp:4[m[K,
+                 from [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:9:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    9 |     pub_user_=[01;31m[Kthis -> create_publisher<aubo_ros2_common::msg::AuboTcpPose>("Joint_pos",1000)[m[K;
+      |               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:24:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_ind_user[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   24 |     int [01;35m[Kpub_ind_user[m[K=0;
+      |         [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:25:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_ind_sim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   25 |     int [01;35m[Kpub_ind_sim[m[K=0;
+      |         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:26:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_ind_robot[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   26 |     int [01;35m[Kpub_ind_robot[m[K=0;
+      |         [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:[m[K In member function ‘[01m[Kvoid Controller::sim_sub_f(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:55:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsgrec[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   55 | void Controller::sim_sub_f([01;35m[Kconst std_msgs::msg::Float32MultiArray::SharedPtr msgrec[m[K) {
+      |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:[m[K In member function ‘[01m[Kvoid Controller::coll_sub_f(gazebo_msgs::msg::ContactsState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:59:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg_coll_robot[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   59 | void Controller::coll_sub_f([01;35m[Kconst gazebo_msgs::msg::ContactsState::SharedPtr msg_coll_robot[m[K) {
+      |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:[m[K In member function ‘[01m[Kvoid Controller::publish_user()[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:81:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_user_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpub_sim_[m[K’?
+   81 |     [01;31m[Kpub_user_[m[K-> publish(msg_pub_user); //Publicación del mensaje
+      |     [01;31m[K^~~~~~~~~[m[K
+      |     [32m[Kpub_sim_[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:81:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg_pub_user[m[K’ was not declared in this scope
+   81 |     pub_user_-> publish([01;31m[Kmsg_pub_user[m[K); //Publicación del mensaje
+      |                         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:102:20:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+  102 |     while ([01;35m[Krclcpp::ok[m[K)
+      |            [01;35m[K~~~~~~~~^~[m[K
+gmake[2]: *** [CMakeFiles/controller.dir/build.make:76: CMakeFiles/controller.dir/src/controller_v1.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,121 @@
+[0.212s] Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8
+[0.256s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.444s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.496s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.498s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.506s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.525s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.548s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.621s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.626s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.799s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.986s] -- Found rclcpp_action: 16.0.6 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.082s] -- Found rclcpp_components: 16.0.6 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.146s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.146s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[1.146s]   does not match the name of the calling package (gazebo).  This can lead to
+[1.146s]   problems in calling code that expects `find_package` result variables
+[1.146s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.146s] Call Stack (most recent call first):
+[1.146s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[1.146s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[1.146s]   CMakeLists.txt:14 (find_package)
+[1.146s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.146s] [0m
+[1.176s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.212s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.213s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.217s] -- Searching for dependencies of ignition-math6
+[1.218s] -- Looking for OGRE...
+[1.226s] -- Found Ogre Ghadamon (1.9.0)
+[1.227s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.241s] -- Looking for OGRE_Paging...
+[1.242s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.242s] -- Looking for OGRE_Terrain...
+[1.242s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.242s] -- Looking for OGRE_Property...
+[1.242s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.242s] -- Looking for OGRE_RTShaderSystem...
+[1.242s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.243s] -- Looking for OGRE_Volume...
+[1.243s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.243s] -- Looking for OGRE_Overlay...
+[1.243s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.500s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.500s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.500s] -- Searching for dependencies of ignition-transport8
+[1.524s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.544s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.550s] -- Checking for module 'libzmq >= 4'
+[1.572s] --   Found libzmq , version 4.3.4
+[1.631s] -- Checking for module 'uuid'
+[1.653s] --   Found uuid, version 2.37.2
+[1.703s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.704s] -- Searching for dependencies of ignition-msgs5
+[1.732s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.739s] -- Checking for module 'tinyxml2'
+[1.761s] --   Found tinyxml2, version 9.0.0
+[1.815s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.815s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.815s] -- Searching for dependencies of ignition-common3
+[1.816s] -- Looking for dlfcn.h - found
+[1.816s] -- Looking for libdl - found
+[1.829s] -- Searching for <ignition-common3> component [graphics]
+[1.830s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.830s] -- Searching for dependencies of ignition-common3-graphics
+[1.831s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.832s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.832s] -- Searching for dependencies of ignition-fuel_tools4
+[1.884s] -- Checking for module 'jsoncpp'
+[1.906s] --   Found jsoncpp, version 1.9.5
+[1.961s] -- Checking for module 'libzip'
+[1.985s] --   Found libzip, version 1.7.3
+[2.034s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.034s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.035s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.054s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[2.577s] -- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[2.725s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.849s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.850s] -- Configured cppcheck include dirs: /home/sara/aubo_ws/src/aubo_control/control/include
+[2.850s] -- Configured cppcheck exclude dirs and/or files: 
+[2.850s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.851s] -- Added test 'lint_cmake' to check CMake code style
+[2.852s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.854s] -- Added test 'uncrustify' to check C / C++ code style
+[2.854s] -- Configured uncrustify additional arguments: 
+[2.854s] -- Added test 'xmllint' to check XML markup files
+[2.855s] -- Configuring done
+[2.894s] -- Generating done
+[2.896s] -- Build files have been written to: /home/sara/aubo_ws/build/control
+[2.949s] [35m[1mConsolidate compiler generated dependencies of target inv_kin[0m
+[2.949s] [35m[1mConsolidate compiler generated dependencies of target test_pub[0m
+[2.949s] [35m[1mConsolidate compiler generated dependencies of target sim_pub[0m
+[2.949s] [35m[1mConsolidate compiler generated dependencies of target controller[0m
+[2.950s] [35m[1mConsolidate compiler generated dependencies of target dir_kin[0m
+[2.953s] [35m[1mConsolidate compiler generated dependencies of target sim_control[0m
+[2.954s] [35m[1mConsolidate compiler generated dependencies of target sim_sub[0m
+[2.972s] [35m[1mConsolidate compiler generated dependencies of target sim_test[0m
+[2.991s] [ 12%] Built target inv_kin
+[2.991s] [ 25%] Built target test_pub
+[2.992s] [ 37%] Built target controller
+[2.992s] [ 50%] Built target sim_pub
+[2.995s] [ 62%] Built target dir_kin
+[2.998s] [ 75%] Built target sim_sub
+[2.999s] [ 81%] [32mBuilding CXX object CMakeFiles/sim_control.dir/src/sim_control.cpp.o[0m
+[3.011s] [ 93%] Built target sim_test
+[5.748s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:[m[K In member function ‘[01m[Kvoid Sim_control::send_goal()[m[K’:
+[5.748s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:49:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::executor[m[K’ has not been declared
+[5.748s]    49 |     rclcpp::[01;31m[Kexecutor[m[K::FutureReturnCode::SUCCESS) {
+[5.748s]       |             [01;31m[K^~~~~~~~[m[K
+[5.749s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:[m[K In member function ‘[01m[Kvoid Sim_control::feedback_callback(rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>::SharedPtr)[m[K’:
+[5.749s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:55:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>[m[K’ {aka ‘[01m[Kclass rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>[m[K’} has no member named ‘[01m[Kaccept_pending[m[K’
+[5.749s]    55 |   if (goal_handle->[01;31m[Kaccept_pending[m[K()) {
+[5.749s]       |                    [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.749s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:57:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>[m[K’ {aka ‘[01m[Kclass rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>[m[K’} has no member named ‘[01m[Kaccepted[m[K’
+[5.749s]    57 |      } else if (goal_handle->[01;31m[Kaccepted[m[K()) {
+[5.750s]       |                              [01;31m[K^~~~~~~~[m[K
+[6.705s] gmake[2]: *** [CMakeFiles/sim_control.dir/build.make:76: CMakeFiles/sim_control.dir/src/sim_control.cpp.o] Error 1
+[6.705s] gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/sim_control.dir/all] Error 2
+[6.706s] gmake: *** [Makefile:146: all] Error 2
+[6.708s] Invoked command in '/home/sara/aubo_ws/build/control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8

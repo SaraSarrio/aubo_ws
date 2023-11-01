@@ -1,0 +1,52 @@
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:[m[K In member function ‘[01m[Kvoid Sim_control::send_goal()[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:23:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kpoint1_msg[m[K’
+   23 |   point1_msg->positions ={0.0, 0.0, 0.0, 0.0, 0.0, 0.0}
+      |                                                        [01;31m[K^[m[K
+      |                                                        [32m[K;[m[K
+   24 |   [32m[Kpoint1_msg[m[K->time_from_start = 2s;
+      |   [32m[K~~~~~~~~~~[m[K                                            
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:31:35:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kcontrol_msgs::action::FollowJointTrajectory_Goal_<std::allocator<void> >::_goal_time_tolerance_type[m[K’ {aka ‘[01m[Kbuiltin_interfaces::msg::Duration_<std::allocator<void> >[m[K’} and ‘[01m[Kstd::chrono::seconds[m[K’ {aka ‘[01m[Kstd::chrono::duration<long int>[m[K’})
+   31 |   goal_msg->goal_time_tolerance = [01;31m[K1s[m[K;
+      |                                   [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/sim_control.hpp:7[m[K,
+                 from [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr builtin_interfaces::msg::Duration_<std::allocator<void> >& builtin_interfaces::msg::Duration_<std::allocator<void> >::operator=(const builtin_interfaces::msg::Duration_<std::allocator<void> >&)[m[K’
+   32 | struct [01;36m[KDuration_[m[K
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::chrono::seconds[m[K’ {aka ‘[01m[Kstd::chrono::duration<long int>[m[K’} to ‘[01m[Kconst builtin_interfaces::msg::Duration_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr builtin_interfaces::msg::Duration_<std::allocator<void> >& builtin_interfaces::msg::Duration_<std::allocator<void> >::operator=(builtin_interfaces::msg::Duration_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::chrono::seconds[m[K’ {aka ‘[01m[Kstd::chrono::duration<long int>[m[K’} to ‘[01m[Kbuiltin_interfaces::msg::Duration_<std::allocator<void> >&&[m[K’
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:41:52:[m[K [01;31m[Kerror: [m[K‘[01m[KTrajectoryActionClient[m[K’ has not been declared
+   41 |   send_goal_options.feedback_callback = std::bind(&[01;31m[KTrajectoryActionClient[m[K::feedback_callback, this, std::placeholders::_1);
+      |                                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:43:59:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::shared_ptr<control_msgs::action::FollowJointTrajectory_Goal_<std::allocator<void> > >[m[K’ to ‘[01m[Kconst Goal&[m[K’ {aka ‘[01m[Kconst control_msgs::action::FollowJointTrajectory_Goal_<std::allocator<void> >&[m[K’}
+   43 |   auto send_goal_future = action_client_->async_send_goal([01;31m[Kgoal_msg[m[K, send_goal_options);
+      |                                                           [01;31m[K^~~~~~~~[m[K
+      |                                                           [01;31m[K|[m[K
+      |                                                           [01;31m[Kstd::shared_ptr<control_msgs::action::FollowJointTrajectory_Goal_<std::allocator<void> > >[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:36[m[K,
+                 from [01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/sim_control.hpp:10[m[K,
+                 from [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp:422:32:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::shared_future<typename rclcpp_action::ClientGoalHandle<ActionT>::SharedPtr> rclcpp_action::Client<ActionT>::async_send_goal(const Goal&, const rclcpp_action::Client<ActionT>::SendGoalOptions&) [with ActionT = control_msgs::action::FollowJointTrajectory; typename rclcpp_action::ClientGoalHandle<ActionT>::SharedPtr = std::shared_ptr<rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory> >; rclcpp_action::Client<ActionT>::Goal = control_msgs::action::FollowJointTrajectory_Goal_<std::allocator<void> >][m[K’
+  422 |   async_send_goal([01;36m[Kconst Goal & goal[m[K, const SendGoalOptions & options = SendGoalOptions())
+      |                   [01;36m[K~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:46:15:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::executor[m[K’ has not been declared
+   46 |       rclcpp::[01;31m[Kexecutor[m[K::FutureReturnCode::SUCCESS) {
+      |               [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/sim_control.dir/build.make:76: CMakeFiles/sim_control.dir/src/sim_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/sim_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

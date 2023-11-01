@@ -1,0 +1,115 @@
+[0.152s] Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8
+[0.238s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.637s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.721s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.730s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.748s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.787s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.836s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.982s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.994s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.344s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.683s] -- Found rclcpp_action: 16.0.6 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.872s] -- Found rclcpp_components: 16.0.6 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.004s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[2.004s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[2.005s]   does not match the name of the calling package (gazebo).  This can lead to
+[2.005s]   problems in calling code that expects `find_package` result variables
+[2.005s]   (e.g., `_FOUND`) to follow a certain pattern.
+[2.005s] Call Stack (most recent call first):
+[2.005s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[2.005s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[2.005s]   CMakeLists.txt:14 (find_package)
+[2.005s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.006s] [0m
+[2.057s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.123s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.126s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.136s] -- Searching for dependencies of ignition-math6
+[2.139s] -- Looking for OGRE...
+[2.151s] -- Found Ogre Ghadamon (1.9.0)
+[2.152s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.168s] -- Looking for OGRE_Paging...
+[2.168s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.169s] -- Looking for OGRE_Terrain...
+[2.169s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.169s] -- Looking for OGRE_Property...
+[2.169s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.169s] -- Looking for OGRE_RTShaderSystem...
+[2.170s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.170s] -- Looking for OGRE_Volume...
+[2.170s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.170s] -- Looking for OGRE_Overlay...
+[2.170s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.654s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.659s] -- Looking for ignition-transport8 -- found version 8.2.1
+[2.660s] -- Searching for dependencies of ignition-transport8
+[2.704s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[2.739s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.749s] -- Checking for module 'libzmq >= 4'
+[2.786s] --   Found libzmq , version 4.3.4
+[2.900s] -- Checking for module 'uuid'
+[2.940s] --   Found uuid, version 2.37.2
+[3.042s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.043s] -- Searching for dependencies of ignition-msgs5
+[3.094s] -- Looking for ignition-math6 -- found version 6.15.0
+[3.106s] -- Checking for module 'tinyxml2'
+[3.149s] --   Found tinyxml2, version 9.0.0
+[3.244s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.245s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.246s] -- Searching for dependencies of ignition-common3
+[3.247s] -- Looking for dlfcn.h - found
+[3.247s] -- Looking for libdl - found
+[3.275s] -- Searching for <ignition-common3> component [graphics]
+[3.276s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[3.278s] -- Searching for dependencies of ignition-common3-graphics
+[3.278s] -- Looking for ignition-math6 -- found version 6.15.0
+[3.282s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[3.283s] -- Searching for dependencies of ignition-fuel_tools4
+[3.385s] -- Checking for module 'jsoncpp'
+[3.425s] --   Found jsoncpp, version 1.9.5
+[3.526s] -- Checking for module 'libzip'
+[3.571s] --   Found libzip, version 1.7.3
+[3.669s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.669s] -- Looking for ignition-math6 -- found version 6.15.0
+[3.671s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.675s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[4.489s] -- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[4.773s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.026s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.028s] -- Configured cppcheck include dirs: /home/sara/aubo_ws/src/aubo_control/control/include
+[5.028s] -- Configured cppcheck exclude dirs and/or files: 
+[5.029s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.030s] -- Added test 'lint_cmake' to check CMake code style
+[5.031s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.035s] -- Added test 'uncrustify' to check C / C++ code style
+[5.035s] -- Configured uncrustify additional arguments: 
+[5.036s] -- Added test 'xmllint' to check XML markup files
+[5.038s] -- Configuring done
+[5.110s] -- Generating done
+[5.115s] -- Build files have been written to: /home/sara/aubo_ws/build/control
+[5.201s] [35m[1mConsolidate compiler generated dependencies of target dir_kin[0m
+[5.203s] [35m[1mConsolidate compiler generated dependencies of target controller[0m
+[5.205s] [35m[1mConsolidate compiler generated dependencies of target inv_kin[0m
+[5.215s] [35m[1mConsolidate compiler generated dependencies of target sim_pub[0m
+[5.225s] [35m[1mConsolidate compiler generated dependencies of target test_pub[0m
+[5.233s] [35m[1mConsolidate compiler generated dependencies of target sim_sub[0m
+[5.248s] [35m[1mConsolidate compiler generated dependencies of target sim_control[0m
+[5.259s] [35m[1mConsolidate compiler generated dependencies of target sim_test[0m
+[5.294s] [ 11%] Built target controller
+[5.300s] [ 22%] Built target dir_kin
+[5.308s] [ 33%] Built target inv_kin
+[5.309s] [ 44%] Built target sim_sub
+[5.311s] [ 55%] Built target test_pub
+[5.324s] [ 66%] Built target sim_pub
+[5.334s] [ 77%] Built target sim_test
+[5.348s] [ 88%] Built target sim_control
+[5.369s] [ 94%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[5.922s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/listener.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kgazebo_msgs/msg/imu.hpp: No such file or directory
+[5.923s]     4 | #include [01;31m[K"gazebo_msgs/msg/imu.hpp"[m[K
+[5.923s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.923s] compilation terminated.
+[5.928s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/listener.cpp.o] Error 1
+[5.929s] gmake[1]: *** [CMakeFiles/Makefile2:361: CMakeFiles/listener.dir/all] Error 2
+[5.929s] gmake: *** [Makefile:146: all] Error 2
+[5.933s] Invoked command in '/home/sara/aubo_ws/build/control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8

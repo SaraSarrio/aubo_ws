@@ -1,0 +1,29 @@
+[35m[1mConsolidate compiler generated dependencies of target sim_pub[0m
+[ 20%] Built target dir_kin
+[ 40%] Built target test_pub
+[ 60%] Built target inv_kin
+[ 80%] Built target controller
+[ 90%] [32mBuilding CXX object CMakeFiles/sim_pub.dir/src/sim_pub.cpp.o[0m
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:[m[K In constructor ‘[01m[KSim_pub::Sim_pub()[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:11:109:[m[K [01;31m[Kerror: [m[K‘[01m[Kfuncion[m[K’ is not a member of ‘[01m[KSim_pub[m[K’
+   11 |     sub_= this -> create_subscription <std_msgs::msg::Float32MultiArray>("Joint_pos",10,std::bind(&Sim_pub::[01;31m[Kfuncion[m[K,this, _1));
+      |                                                                                                             [01;31m[K^~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:13:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_ind[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   13 |     int [01;35m[Kpub_ind[m[K=1;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:[m[K At global scope:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:21:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid Sim_pub::funcion()[m[K’
+   21 | void [01;31m[KSim_pub[m[K::funcion(){
+      |      [01;31m[K^~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:21:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid Sim_pub::funcion()[m[K’
+In file included from [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:3[m[K:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/sim_pub.hpp:5:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Sim_pub[m[K’ defined here
+    5 | class [01;36m[KSim_pub[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:50:20:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+   50 |     while ([01;35m[Krclcpp::ok[m[K)
+      |            [01;35m[K~~~~~~~~^~[m[K
+gmake[2]: *** [CMakeFiles/sim_pub.dir/build.make:76: CMakeFiles/sim_pub.dir/src/sim_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/sim_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

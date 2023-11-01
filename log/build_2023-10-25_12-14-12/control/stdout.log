@@ -1,0 +1,9 @@
+[ 11%] Built target controller
+[ 16%] [32mBuilding CXX object CMakeFiles/test_pub_q.dir/src/test_pub_q.cpp.o[0m
+[ 27%] Built target sim_pub
+[ 38%] Built target inv_kin
+[ 50%] Built target dir_kin
+[ 61%] Built target sim_test
+[ 72%] Built target sim_sub
+[ 83%] Built target test_pub
+[ 94%] Built target sim_control

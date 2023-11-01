@@ -1,0 +1,49 @@
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sara/aubo_ws/build/aubo_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/launch/aubo_i5_gazebo.launch
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/launch/aubo_i5_rviz.launch
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/launch/aubo_i5_upload.launch
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/urdf/aubo.gazebo.xacro
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/urdf/aubo.transmission.xacro
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/urdf/aubo_i5.urdf.xacro
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/urdf/aubo_i5_robot.urdf.xacro
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/urdf/aubo_i5_robot_gazebo.urdf.xacro
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/urdf/common.gazebo.xacro
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/urdf/materials.xacro
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/meshes/base.STL
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/meshes/base_Link.STL
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/meshes/f1_Link.STL
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/meshes/foreArm_Link.STL
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/meshes/pedestal.STL
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/meshes/s_Link.STL
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/meshes/shoulder_Link.STL
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/meshes/u_Link.STL
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/meshes/upperArm_Link.STL
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/meshes/w1_Link.STL
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/meshes/w2_Link.STL
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/meshes/wrist1_Link.STL
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/meshes/wrist2_Link.STL
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/meshes/wrist3_Link.STL
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/ament_index/resource_index/package_run_dependencies/aubo_description
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/ament_index/resource_index/parent_prefix_path/aubo_description
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/environment/path.sh
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/environment/path.dsv
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/local_setup.bash
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/local_setup.sh
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/local_setup.zsh
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/local_setup.dsv
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/package.dsv
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/ament_index/resource_index/packages/aubo_description
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/cmake/aubo_descriptionConfig.cmake
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/cmake/aubo_descriptionConfig-version.cmake
+-- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/package.xml

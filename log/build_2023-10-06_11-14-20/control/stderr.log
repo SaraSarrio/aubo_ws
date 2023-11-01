@@ -1,0 +1,8 @@
+In file included from [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:3[m[K:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/sim_pub.hpp:4:10:[m[K [01;31m[Kfatal error: [m[Ktrajectory_msgs/msg/joint_trajectory: No such file or directory
+    4 | #include [01;31m[K"trajectory_msgs/msg/joint_trajectory"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/sim_pub.dir/build.make:76: CMakeFiles/sim_pub.dir/src/sim_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/sim_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

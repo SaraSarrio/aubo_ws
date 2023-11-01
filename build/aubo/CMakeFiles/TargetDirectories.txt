@@ -1,0 +1,9 @@
+/home/sara/aubo_ws/build/aubo/CMakeFiles/uninstall.dir
+/home/sara/aubo_ws/build/aubo/CMakeFiles/aubo_uninstall.dir
+/home/sara/aubo_ws/build/aubo/CMakeFiles/test.dir
+/home/sara/aubo_ws/build/aubo/CMakeFiles/edit_cache.dir
+/home/sara/aubo_ws/build/aubo/CMakeFiles/rebuild_cache.dir
+/home/sara/aubo_ws/build/aubo/CMakeFiles/list_install_components.dir
+/home/sara/aubo_ws/build/aubo/CMakeFiles/install.dir
+/home/sara/aubo_ws/build/aubo/CMakeFiles/install/local.dir
+/home/sara/aubo_ws/build/aubo/CMakeFiles/install/strip.dir

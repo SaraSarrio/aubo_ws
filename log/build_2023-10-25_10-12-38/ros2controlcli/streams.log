@@ -1,0 +1,83 @@
+[1.290s] Invoking command in '/home/sara/aubo_ws/src/ros-controls/ros2_control/ros2controlcli': CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo LD_LIBRARY_PATH=/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sara/aubo_ws/build/ros2controlcli/prefix_override:/home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ros2controlcli build --build-base /home/sara/aubo_ws/build/ros2controlcli/build install --record /home/sara/aubo_ws/build/ros2controlcli/install.log --single-version-externally-managed
+[9.791s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.791s]   warnings.warn(
+[9.795s] running egg_info
+[9.795s] creating ../../../../build/ros2controlcli/ros2controlcli.egg-info
+[9.795s] writing ../../../../build/ros2controlcli/ros2controlcli.egg-info/PKG-INFO
+[9.795s] writing dependency_links to ../../../../build/ros2controlcli/ros2controlcli.egg-info/dependency_links.txt
+[9.795s] writing entry points to ../../../../build/ros2controlcli/ros2controlcli.egg-info/entry_points.txt
+[9.795s] writing requirements to ../../../../build/ros2controlcli/ros2controlcli.egg-info/requires.txt
+[9.796s] writing top-level names to ../../../../build/ros2controlcli/ros2controlcli.egg-info/top_level.txt
+[9.796s] writing manifest file '../../../../build/ros2controlcli/ros2controlcli.egg-info/SOURCES.txt'
+[9.796s] reading manifest file '../../../../build/ros2controlcli/ros2controlcli.egg-info/SOURCES.txt'
+[9.796s] writing manifest file '../../../../build/ros2controlcli/ros2controlcli.egg-info/SOURCES.txt'
+[9.796s] running build
+[9.796s] running build_py
+[9.797s] creating /home/sara/aubo_ws/build/ros2controlcli/build
+[9.797s] creating /home/sara/aubo_ws/build/ros2controlcli/build/lib
+[9.797s] creating /home/sara/aubo_ws/build/ros2controlcli/build/lib/ros2controlcli
+[9.797s] copying ros2controlcli/__init__.py -> /home/sara/aubo_ws/build/ros2controlcli/build/lib/ros2controlcli
+[9.797s] creating /home/sara/aubo_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[9.797s] copying ros2controlcli/verb/__init__.py -> /home/sara/aubo_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[9.797s] copying ros2controlcli/verb/load_controller.py -> /home/sara/aubo_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[9.798s] copying ros2controlcli/verb/set_controller_state.py -> /home/sara/aubo_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[9.798s] copying ros2controlcli/verb/list_hardware_components.py -> /home/sara/aubo_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[9.798s] copying ros2controlcli/verb/unload_controller.py -> /home/sara/aubo_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[9.798s] copying ros2controlcli/verb/reload_controller_libraries.py -> /home/sara/aubo_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[9.798s] copying ros2controlcli/verb/list_controllers.py -> /home/sara/aubo_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[9.798s] copying ros2controlcli/verb/switch_controllers.py -> /home/sara/aubo_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[9.799s] copying ros2controlcli/verb/list_controller_types.py -> /home/sara/aubo_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[9.799s] copying ros2controlcli/verb/view_controller_chains.py -> /home/sara/aubo_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[9.799s] copying ros2controlcli/verb/list_hardware_interfaces.py -> /home/sara/aubo_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[9.799s] creating /home/sara/aubo_ws/build/ros2controlcli/build/lib/ros2controlcli/command
+[9.799s] copying ros2controlcli/command/__init__.py -> /home/sara/aubo_ws/build/ros2controlcli/build/lib/ros2controlcli/command
+[9.799s] copying ros2controlcli/command/control.py -> /home/sara/aubo_ws/build/ros2controlcli/build/lib/ros2controlcli/command
+[9.800s] creating /home/sara/aubo_ws/build/ros2controlcli/build/lib/ros2controlcli/api
+[9.800s] copying ros2controlcli/api/__init__.py -> /home/sara/aubo_ws/build/ros2controlcli/build/lib/ros2controlcli/api
+[9.800s] running install
+[9.800s] running install_lib
+[9.800s] creating /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli
+[9.800s] copying /home/sara/aubo_ws/build/ros2controlcli/build/lib/ros2controlcli/__init__.py -> /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli
+[9.800s] creating /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[9.801s] copying /home/sara/aubo_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/__init__.py -> /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[9.801s] copying /home/sara/aubo_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/load_controller.py -> /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[9.804s] copying /home/sara/aubo_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/set_controller_state.py -> /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[9.805s] copying /home/sara/aubo_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/list_hardware_components.py -> /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[9.805s] copying /home/sara/aubo_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/unload_controller.py -> /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[9.805s] copying /home/sara/aubo_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/reload_controller_libraries.py -> /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[9.805s] copying /home/sara/aubo_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/list_controllers.py -> /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[9.805s] copying /home/sara/aubo_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/switch_controllers.py -> /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[9.805s] copying /home/sara/aubo_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/list_controller_types.py -> /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[9.805s] copying /home/sara/aubo_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/view_controller_chains.py -> /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[9.806s] copying /home/sara/aubo_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/list_hardware_interfaces.py -> /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[9.806s] creating /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command
+[9.806s] copying /home/sara/aubo_ws/build/ros2controlcli/build/lib/ros2controlcli/command/__init__.py -> /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command
+[9.806s] copying /home/sara/aubo_ws/build/ros2controlcli/build/lib/ros2controlcli/command/control.py -> /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command
+[9.806s] creating /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/api
+[9.806s] copying /home/sara/aubo_ws/build/ros2controlcli/build/lib/ros2controlcli/api/__init__.py -> /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/api
+[9.807s] byte-compiling /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/__init__.py to __init__.cpython-310.pyc
+[9.807s] byte-compiling /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/__init__.py to __init__.cpython-310.pyc
+[9.807s] byte-compiling /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/load_controller.py to load_controller.cpython-310.pyc
+[9.807s] byte-compiling /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/set_controller_state.py to set_controller_state.cpython-310.pyc
+[9.807s] byte-compiling /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/list_hardware_components.py to list_hardware_components.cpython-310.pyc
+[9.807s] byte-compiling /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/unload_controller.py to unload_controller.cpython-310.pyc
+[9.807s] byte-compiling /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/reload_controller_libraries.py to reload_controller_libraries.cpython-310.pyc
+[9.808s] byte-compiling /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/list_controllers.py to list_controllers.cpython-310.pyc
+[9.808s] byte-compiling /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/switch_controllers.py to switch_controllers.cpython-310.pyc
+[9.808s] byte-compiling /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/list_controller_types.py to list_controller_types.cpython-310.pyc
+[9.808s] byte-compiling /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/view_controller_chains.py to view_controller_chains.cpython-310.pyc
+[9.808s] byte-compiling /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/list_hardware_interfaces.py to list_hardware_interfaces.cpython-310.pyc
+[9.808s] byte-compiling /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command/__init__.py to __init__.cpython-310.pyc
+[9.809s] byte-compiling /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command/control.py to control.cpython-310.pyc
+[9.809s] byte-compiling /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/api/__init__.py to __init__.cpython-310.pyc
+[9.809s] running install_data
+[9.809s] copying package.xml -> /home/sara/aubo_ws/install/ros2controlcli/share/ros2controlcli
+[9.809s] creating /home/sara/aubo_ws/install/ros2controlcli/share/ament_index
+[9.809s] creating /home/sara/aubo_ws/install/ros2controlcli/share/ament_index/resource_index
+[9.809s] creating /home/sara/aubo_ws/install/ros2controlcli/share/ament_index/resource_index/packages
+[9.810s] copying resource/ros2controlcli -> /home/sara/aubo_ws/install/ros2controlcli/share/ament_index/resource_index/packages
+[9.810s] running install_egg_info
+[9.810s] Copying ../../../../build/ros2controlcli/ros2controlcli.egg-info to /home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli-2.33.0-py3.10.egg-info
+[9.810s] running install_scripts
+[9.815s] writing list of installed files to '/home/sara/aubo_ws/build/ros2controlcli/install.log'
+[9.843s] Invoked command in '/home/sara/aubo_ws/src/ros-controls/ros2_control/ros2controlcli' returned '0': CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo LD_LIBRARY_PATH=/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/sara/aubo_ws/build/ros2controlcli/prefix_override:/home/sara/aubo_ws/install/ros2controlcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ros2controlcli build --build-base /home/sara/aubo_ws/build/ros2controlcli/build install --record /home/sara/aubo_ws/build/ros2controlcli/install.log --single-version-externally-managed

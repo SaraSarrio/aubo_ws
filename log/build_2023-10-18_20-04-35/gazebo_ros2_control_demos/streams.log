@@ -1,0 +1,123 @@
+[0.182s] Invoking command in '/home/sara/aubo_ws/build/gazebo_ros2_control_demos': AMENT_PREFIX_PATH=/home/sara/aubo_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/opt/ros/humble /usr/bin/cmake /home/sara/aubo_ws/src/gazebo_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/gazebo_ros2_control_demos
+[0.230s] -- The C compiler identification is GNU 11.4.0
+[0.283s] -- The CXX compiler identification is GNU 11.4.0
+[0.292s] -- Detecting C compiler ABI info
+[0.356s] -- Detecting C compiler ABI info - done
+[0.362s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.363s] -- Detecting C compile features
+[0.363s] -- Detecting C compile features - done
+[0.365s] -- Detecting CXX compiler ABI info
+[0.434s] -- Detecting CXX compiler ABI info - done
+[0.441s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.441s] -- Detecting CXX compile features
+[0.442s] -- Detecting CXX compile features - done
+[0.444s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.586s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.665s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.914s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.934s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.985s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.054s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.145s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.143s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[2.399s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.420s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.713s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.750s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.796s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.874s] -- Looking for pthread.h
+[3.020s] -- Looking for pthread.h - found
+[3.021s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.103s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.105s] -- Found Threads: TRUE  
+[3.425s] -- Found rclcpp_action: 16.0.6 (/opt/ros/humble/share/rclcpp_action/cmake)
+[3.487s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.505s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.597s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.599s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.599s] -- Configured cppcheck include dirs: 
+[3.599s] -- Configured cppcheck exclude dirs and/or files: 
+[3.601s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.602s] -- Configured cpplint exclude dirs and/or files: 
+[3.602s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.603s] -- Added test 'lint_cmake' to check CMake code style
+[3.603s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.605s] -- Added test 'uncrustify' to check C / C++ code style
+[3.605s] -- Configured uncrustify additional arguments: 
+[3.606s] -- Added test 'xmllint' to check XML markup files
+[3.607s] -- Configuring done
+[3.629s] -- Generating done
+[3.631s] -- Build files have been written to: /home/sara/aubo_ws/build/gazebo_ros2_control_demos
+[3.639s] Invoked command in '/home/sara/aubo_ws/build/gazebo_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/sara/aubo_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/opt/ros/humble /usr/bin/cmake /home/sara/aubo_ws/src/gazebo_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/gazebo_ros2_control_demos
+[3.641s] Invoking command in '/home/sara/aubo_ws/build/gazebo_ros2_control_demos': AMENT_PREFIX_PATH=/home/sara/aubo_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/gazebo_ros2_control_demos -- -j8 -l8
+[3.691s] [  8%] [32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o[0m
+[3.692s] [ 16%] [32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o[0m
+[3.694s] [ 25%] [32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_effort.cpp.o[0m
+[3.695s] [ 33%] [32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o[0m
+[3.698s] [ 41%] [32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o[0m
+[3.698s] [ 50%] [32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o[0m
+[8.142s] [ 58%] [32m[1mLinking CXX executable example_diff_drive[0m
+[8.351s] [ 58%] Built target example_diff_drive
+[8.488s] [ 66%] [32m[1mLinking CXX executable example_gripper[0m
+[8.691s] [ 66%] Built target example_gripper
+[9.834s] [ 75%] [32m[1mLinking CXX executable example_tricycle_drive[0m
+[9.860s] [ 83%] [32m[1mLinking CXX executable example_effort[0m
+[9.861s] [ 91%] [32m[1mLinking CXX executable example_velocity[0m
+[10.058s] [ 91%] Built target example_tricycle_drive
+[10.083s] [ 91%] Built target example_effort
+[10.090s] [ 91%] Built target example_velocity
+[10.416s] [100%] [32m[1mLinking CXX executable example_position[0m
+[10.887s] [100%] Built target example_position
+[10.898s] Invoked command in '/home/sara/aubo_ws/build/gazebo_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/sara/aubo_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/gazebo_ros2_control_demos -- -j8 -l8
+[10.936s] Invoking command in '/home/sara/aubo_ws/build/gazebo_ros2_control_demos': AMENT_PREFIX_PATH=/home/sara/aubo_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/gazebo_ros2_control_demos
+[10.943s] -- Install configuration: ""
+[10.943s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch
+[10.943s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_velocity.launch.py
+[10.943s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive.launch.py
+[10.943s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_position.launch.py
+[10.944s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py
+[10.944s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_effort.launch.py
+[10.944s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/tricycle_drive.launch.py
+[10.944s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config
+[10.944s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/config.rviz
+[10.944s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cartpole_controller_effort.yaml
+[10.945s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/diff_drive_controller.yaml
+[10.945s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/gripper_controller.yaml
+[10.945s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/tricycle_drive_controller.yaml
+[10.945s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cartpole_controller.yaml
+[10.945s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cartpole_controller_velocity.yaml
+[10.945s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf
+[10.945s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[10.946s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+[10.946s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf
+[10.946s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[10.946s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[10.946s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[10.946s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position
+[10.947s] -- Set runtime path of "/home/sara/aubo_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position" to ""
+[10.947s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity
+[10.949s] -- Set runtime path of "/home/sara/aubo_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity" to ""
+[10.949s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort
+[10.950s] -- Set runtime path of "/home/sara/aubo_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort" to ""
+[10.950s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive
+[10.951s] -- Set runtime path of "/home/sara/aubo_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive" to ""
+[10.951s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_tricycle_drive
+[10.952s] -- Set runtime path of "/home/sara/aubo_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_tricycle_drive" to ""
+[10.952s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper
+[10.953s] -- Set runtime path of "/home/sara/aubo_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper" to ""
+[10.954s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control_demos
+[10.954s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control_demos
+[10.954s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.sh
+[10.954s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.dsv
+[10.954s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.sh
+[10.954s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.dsv
+[10.955s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.bash
+[10.955s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.sh
+[10.955s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.zsh
+[10.955s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.dsv
+[10.955s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv
+[10.955s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/packages/gazebo_ros2_control_demos
+[10.956s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig.cmake
+[10.956s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig-version.cmake
+[10.956s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.xml
+[10.958s] Invoked command in '/home/sara/aubo_ws/build/gazebo_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/sara/aubo_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/gazebo_ros2_control_demos

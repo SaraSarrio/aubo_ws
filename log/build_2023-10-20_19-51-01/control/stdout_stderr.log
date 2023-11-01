@@ -1,0 +1,73 @@
+[35m[1mConsolidate compiler generated dependencies of target sim_control[0m
+[ 12%] Built target dir_kin
+[ 25%] Built target controller
+[ 37%] Built target inv_kin
+[ 50%] Built target test_pub
+[ 56%] [32mBuilding CXX object CMakeFiles/sim_control.dir/src/sim_control.cpp.o[0m
+[ 68%] Built target sim_pub
+[ 81%] Built target sim_test
+[ 93%] Built target sim_sub
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:[m[K In constructor ‘[01m[KSim_control::Sim_control()[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:13:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   13 |     float [01;35m[Kq0[m[K=0.0;
+      |           [01;35m[K^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:14:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   14 |     float [01;35m[Kq1[m[K=0.0;
+      |           [01;35m[K^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:15:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   15 |     float [01;35m[Kq2[m[K=0.0;
+      |           [01;35m[K^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:16:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq3[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   16 |     float [01;35m[Kq3[m[K=0.0;
+      |           [01;35m[K^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:17:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq4[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   17 |     float [01;35m[Kq4[m[K=0.0;
+      |           [01;35m[K^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:18:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq5[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   18 |     float [01;35m[Kq5[m[K=0.0;
+      |           [01;35m[K^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:19:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_int_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   19 |     int [01;35m[Kpub_int_[m[K=0;
+      |         [01;35m[K^~~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:[m[K In member function ‘[01m[Kvoid Sim_control::feedback_callback(rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>::SharedPtr)[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:92:134:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   92 |   void  Sim_control::feedback_callback([01;35m[Kconst rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>::SharedPtr goal_handle[m[K) {
+      |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:110:19:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+  110 |    while ([01;35m[Krclcpp::ok[m[K)
+      |           [01;35m[K~~~~~~~~^~[m[K
+[100%] [32m[1mLinking CXX executable sim_control[0m
+[100%] Built target sim_control
+-- Install configuration: ""
+-- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/controller
+-- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/dir_kin
+-- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/inv_kin
+-- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/test_pub
+-- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/sim_pub
+-- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/sim_sub
+-- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/sim_test
+-- Installing: /home/sara/aubo_ws/install/control/lib/control/sim_control
+-- Set runtime path of "/home/sara/aubo_ws/install/control/lib/control/sim_control" to ""
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/listener.launch.py
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/aubo_i5_gz.launch.py
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/view_robot.launch.py
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/world.launch.py
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/gz.launch.py
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/spawn_robot_launch_v4.launch.py
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/ament_index/resource_index/package_run_dependencies/control
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/ament_index/resource_index/parent_prefix_path/control
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/environment/ament_prefix_path.sh
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/environment/path.sh
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/environment/path.dsv
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.bash
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.sh
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.zsh
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.dsv
+-- Installing: /home/sara/aubo_ws/install/control/share/control/package.dsv
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/ament_index/resource_index/packages/control
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/cmake/controlConfig.cmake
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/cmake/controlConfig-version.cmake
+-- Up-to-date: /home/sara/aubo_ws/install/control/share/control/package.xml

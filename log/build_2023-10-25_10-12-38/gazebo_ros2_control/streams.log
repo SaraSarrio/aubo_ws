@@ -1,0 +1,162 @@
+[0.408s] Invoking command in '/home/sara/aubo_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/sara/aubo_ws/src/ros-controls/gazebo_ros2_control/gazebo_ros2_control -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/gazebo_ros2_control
+[0.508s] -- The C compiler identification is GNU 11.4.0
+[0.604s] -- The CXX compiler identification is GNU 11.4.0
+[0.617s] -- Detecting C compiler ABI info
+[0.743s] -- Detecting C compiler ABI info - done
+[0.760s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.761s] -- Detecting C compile features
+[0.761s] -- Detecting C compile features - done
+[0.767s] -- Detecting CXX compiler ABI info
+[1.022s] -- Detecting CXX compiler ABI info - done
+[1.045s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.046s] -- Detecting CXX compile features
+[1.047s] -- Detecting CXX compile features - done
+[1.055s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.798s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.149s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[2.153s] -- Found controller_manager: 2.33.0 (/home/sara/aubo_ws/install/controller_manager/share/controller_manager/cmake)
+[2.336s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.356s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.385s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.431s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.496s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.607s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.618s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.890s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.969s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.089s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.123s] -- Looking for pthread.h
+[5.288s] -- Looking for pthread.h - found
+[5.288s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.466s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.469s] -- Found Threads: TRUE  
+[7.360s] -- Found gazebo_dev: 3.7.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[7.377s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[7.380s] -- Checking for module 'bullet>=2.82'
+[7.412s] --   Found bullet, version 3.05
+[7.703s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[7.819s] -- Found assimp: /usr/include (found version "5.2.0") 
+[7.879s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[7.991s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[8.032s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[8.047s] -- Looking for ignition-math6 -- found version 6.15.0
+[8.066s] -- Searching for dependencies of ignition-math6
+[8.069s] -- Looking for OGRE...
+[8.071s] -- OGRE_PREFIX_WATCH changed.
+[8.089s] -- Checking for module 'OGRE'
+[8.126s] --   Found OGRE, version 1.9.0
+[8.200s] -- Found Ogre Ghadamon (1.9.0)
+[8.221s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[8.245s] -- Looking for OGRE_Paging...
+[8.275s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[8.276s] -- Looking for OGRE_Terrain...
+[8.284s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[8.284s] -- Looking for OGRE_Property...
+[8.303s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[8.303s] -- Looking for OGRE_RTShaderSystem...
+[8.322s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[8.322s] -- Looking for OGRE_Volume...
+[8.340s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[8.340s] -- Looking for OGRE_Overlay...
+[8.357s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[8.820s] -- Looking for ignition-math6 -- found version 6.15.0
+[8.828s] -- Looking for ignition-transport8 -- found version 8.2.1
+[8.830s] -- Searching for dependencies of ignition-transport8
+[8.894s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[8.945s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[8.976s] -- Checking for module 'libzmq >= 4'
+[9.108s] --   Found libzmq , version 4.3.4
+[9.379s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[9.395s] -- Checking for module 'uuid'
+[9.433s] --   Found uuid, version 2.37.2
+[9.737s] -- Found UUID: TRUE  
+[9.746s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[9.748s] -- Searching for dependencies of ignition-msgs5
+[9.804s] -- Looking for ignition-math6 -- found version 6.15.0
+[9.817s] -- Checking for module 'tinyxml2'
+[9.922s] --   Found tinyxml2, version 9.0.0
+[10.204s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[10.222s] -- Looking for ignition-common3 -- found version 3.14.0
+[10.223s] -- Searching for dependencies of ignition-common3
+[10.225s] -- Looking for dlfcn.h - found
+[10.228s] -- Looking for libdl - found
+[10.236s] -- Found DL: TRUE  
+[10.311s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[10.313s] -- Searching for <ignition-common3> component [graphics]
+[10.331s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[10.333s] -- Searching for dependencies of ignition-common3-graphics
+[10.334s] -- Looking for ignition-math6 -- found version 6.15.0
+[10.351s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[10.356s] -- Searching for dependencies of ignition-fuel_tools4
+[10.939s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[11.001s] -- Checking for module 'jsoncpp'
+[11.142s] --   Found jsoncpp, version 1.9.5
+[11.295s] -- Found JSONCPP: TRUE  
+[11.310s] -- Checking for module 'libzip'
+[11.439s] --   Found libzip, version 1.7.3
+[11.929s] -- Found ZIP: TRUE  
+[11.929s] -- Looking for ignition-common3 -- found version 3.14.0
+[11.930s] -- Looking for ignition-math6 -- found version 6.15.0
+[11.931s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[11.959s] -- Gazebo version: 11.10
+[11.977s] -- Checking for module 'tbb'
+[12.091s] --   Found tbb, version 2021.5.0
+[12.491s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[12.572s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[20.988s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[21.027s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[21.995s] -- Added test 'copyright' to check source files copyright and LICENSE
+[22.023s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[22.025s] -- Configured cppcheck include dirs: /home/sara/aubo_ws/src/ros-controls/gazebo_ros2_control/gazebo_ros2_control/include
+[22.025s] -- Configured cppcheck exclude dirs and/or files: 
+[22.038s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[22.038s] -- Configured cpplint exclude dirs and/or files: 
+[22.041s] -- Added test 'lint_cmake' to check CMake code style
+[22.050s] -- Added test 'uncrustify' to check C / C++ code style
+[22.051s] -- Configured uncrustify additional arguments: 
+[22.054s] -- Added test 'xmllint' to check XML markup files
+[22.087s] -- Configuring done
+[22.642s] -- Generating done
+[22.667s] -- Build files have been written to: /home/sara/aubo_ws/build/gazebo_ros2_control
+[22.760s] Invoked command in '/home/sara/aubo_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/sara/aubo_ws/src/ros-controls/gazebo_ros2_control/gazebo_ros2_control -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/gazebo_ros2_control
+[22.761s] Invoking command in '/home/sara/aubo_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/sara/aubo_ws/build/gazebo_ros2_control -- -j8 -l8
+[77.891s] [ 25%] [32mBuilding CXX object CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o[0m
+[77.891s] [ 50%] [32m[1mLinking CXX shared library libgazebo_ros2_control.so[0m
+[77.891s] [ 50%] Built target gazebo_ros2_control
+[77.891s] [ 75%] [32mBuilding CXX object CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o[0m
+[94.078s] [100%] [32m[1mLinking CXX shared library libgazebo_hardware_plugins.so[0m
+[95.277s] [100%] Built target gazebo_hardware_plugins
+[95.313s] Invoked command in '/home/sara/aubo_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/sara/aubo_ws/build/gazebo_ros2_control -- -j8 -l8
+[95.394s] Invoking command in '/home/sara/aubo_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/sara/aubo_ws/build/gazebo_ros2_control
+[98.131s] -- Install configuration: ""
+[98.131s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so
+[98.131s] -- Set runtime path of "/home/sara/aubo_ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so" to ""
+[98.131s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so
+[98.132s] -- Set runtime path of "/home/sara/aubo_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so" to ""
+[98.132s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh
+[98.132s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv
+[98.132s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/include/gazebo_ros2_control
+[98.132s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp
+[98.132s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp
+[98.133s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp
+[98.133s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/gazebo_hardware_plugins.xml
+[98.133s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control
+[98.133s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control
+[98.133s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh
+[98.133s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv
+[98.133s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh
+[98.134s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv
+[98.134s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash
+[98.134s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh
+[98.134s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh
+[98.134s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv
+[98.134s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv
+[98.135s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control
+[98.135s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control
+[98.135s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[98.135s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[98.135s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[98.135s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake
+[98.135s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake
+[98.136s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml
+[98.328s] Invoked command in '/home/sara/aubo_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=/home/sara/aubo_ws/install/controller_manager:/home/sara/aubo_ws/install/controller_interface:/home/sara/aubo_ws/install/hardware_interface:/home/sara/aubo_ws/install/ros2_control_test_assets:/home/sara/aubo_ws/install/realtime_tools:/home/sara/aubo_ws/install/controller_manager_msgs:/home/sara/aubo_ws/install/control_msgs:/home/sara/aubo_ws/install/transmission_interface:/home/sara/aubo_ws/install/gazebo_ros2_control_demos:/home/sara/aubo_ws/install/gazebo_ros2_control:/home/sara/aubo_ws/install/ros2_control_demo_description:/home/sara/aubo_ws/install/control_toolbox:/home/sara/aubo_ws/install/kinematics_interface_kdl:/home/sara/aubo_ws/install/kinematics_interface:/home/sara/aubo_ws/install/joint_limits:/home/sara/aubo_ws/install/control:/home/sara/aubo_ws/install/aubo_description:/home/sara/aubo_ws/install/aubo:/home/sara/aubo_ws/install/argo:/home/sara/aubo_ws/install/rqt_joint_trajectory_controller:/home/sara/aubo_ws/install/rqt_controller_manager:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/sara/aubo_ws/install/controller_manager/lib:/home/sara/aubo_ws/install/controller_interface/lib:/home/sara/aubo_ws/install/hardware_interface/lib:/home/sara/aubo_ws/install/realtime_tools/lib:/home/sara/aubo_ws/install/controller_manager_msgs/lib:/home/sara/aubo_ws/install/control_msgs/lib:/home/sara/aubo_ws/install/transmission_interface/lib:/home/sara/aubo_ws/install/control_toolbox/lib:/home/sara/aubo_ws/install/kinematics_interface_kdl/lib:/home/sara/aubo_ws/install/kinematics_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo-11/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/sara/aubo_ws/build/gazebo_ros2_control

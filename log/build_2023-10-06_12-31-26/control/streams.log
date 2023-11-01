@@ -1,0 +1,27 @@
+[0.063s] Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8
+[0.111s] [35m[1mConsolidate compiler generated dependencies of target sim_pub[0m
+[0.130s] [ 20%] Built target dir_kin
+[0.130s] [ 50%] Built target controller
+[0.131s] [ 60%] Built target inv_kin
+[0.132s] [ 80%] Built target test_pub
+[0.135s] [ 90%] [32mBuilding CXX object CMakeFiles/sim_pub.dir/src/sim_pub.cpp.o[0m
+[2.155s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:[m[K In constructor ‘[01m[KSim_pub::Sim_pub()[m[K’:
+[2.155s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:14:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_ind[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.155s]    14 |     int [01;35m[Kpub_ind[m[K=1;
+[2.155s]       |         [01;35m[K^~~~~~~[m[K
+[2.157s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:[m[K In member function ‘[01m[Kvoid Sim_pub::funcion(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.157s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:22:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsgrec[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.157s]    22 | void Sim_pub::funcion([01;35m[Kconst std_msgs::msg::Float32MultiArray::SharedPtr msgrec[m[K) {
+[2.157s]       |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[2.157s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:[m[K In member function ‘[01m[Kvoid Sim_pub::publish_method()[m[K’:
+[2.157s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:29:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing JointTrajectory = struct trajectory_msgs::msg::JointTrajectory_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct trajectory_msgs::msg::JointTrajectory_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kclear[m[K’
+[2.157s]    29 |          sim_goal.[01;31m[Kclear[m[K();
+[2.157s]       |                   [01;31m[K^~~~~[m[K
+[2.159s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.159s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:53:20:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+[2.159s]    53 |     while ([01;35m[Krclcpp::ok[m[K)
+[2.159s]       |            [01;35m[K~~~~~~~~^~[m[K
+[4.364s] gmake[2]: *** [CMakeFiles/sim_pub.dir/build.make:76: CMakeFiles/sim_pub.dir/src/sim_pub.cpp.o] Error 1
+[4.364s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/sim_pub.dir/all] Error 2
+[4.364s] gmake: *** [Makefile:146: all] Error 2
+[4.366s] Invoked command in '/home/sara/aubo_ws/build/control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8

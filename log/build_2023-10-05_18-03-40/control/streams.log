@@ -1,0 +1,21 @@
+[0.065s] Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8
+[0.112s] [35m[1mConsolidate compiler generated dependencies of target test_pub[0m
+[0.125s] [ 37%] Built target dir_kin
+[0.125s] [ 50%] Built target inv_kin
+[0.130s] [ 75%] Built target controller
+[0.134s] [ 87%] [32mBuilding CXX object CMakeFiles/test_pub.dir/src/test_pub.cpp.o[0m
+[2.066s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub.cpp:[m[K In constructor ‘[01m[KTest_pub::Test_pub()[m[K’:
+[2.066s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub.cpp:10:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksend[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.066s]    10 |     int [01;35m[Ksend[m[K= 1;
+[2.066s]       |         [01;35m[K^~~~[m[K
+[2.068s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.068s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub.cpp:40:20:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+[2.068s]    40 |     while ([01;35m[Krclcpp::ok[m[K)
+[2.068s]       |            [01;35m[K~~~~~~~~^~[m[K
+[2.072s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub.cpp:44:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ksend[m[K’ was not declared in this scope
+[2.072s]    44 |         if([01;31m[Ksend[m[K==1){
+[2.072s]       |            [01;31m[K^~~~[m[K
+[2.728s] gmake[2]: *** [CMakeFiles/test_pub.dir/build.make:76: CMakeFiles/test_pub.dir/src/test_pub.cpp.o] Error 1
+[2.728s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/test_pub.dir/all] Error 2
+[2.728s] gmake: *** [Makefile:146: all] Error 2
+[2.731s] Invoked command in '/home/sara/aubo_ws/build/control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8

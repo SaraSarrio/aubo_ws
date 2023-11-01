@@ -1,0 +1,50 @@
+[0.172s] Invoking command in '/home/sara/aubo_ws/build/aubo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/aubo -- -j8 -l8
+[0.208s] Invoked command in '/home/sara/aubo_ws/build/aubo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/aubo -- -j8 -l8
+[0.266s] Invoking command in '/home/sara/aubo_ws/build/aubo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/aubo
+[0.281s] -- Install configuration: ""
+[0.281s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/launch
+[0.281s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/launch/aubo.launch.py
+[0.281s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/launch/spawn_robot_launch_v4.launch.py
+[0.281s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/urdf
+[0.281s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/urdf/materials.xacro
+[0.281s] -- Installing: /home/sara/aubo_ws/install/aubo/share/aubo/urdf/aubo_i5.urdf
+[0.281s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/urdf/aubo.gazebo.xacro
+[0.282s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/urdf/aubo.transmission.xacro
+[0.282s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/urdf/aubo_i5.urdf.xacro
+[0.282s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes
+[0.282s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5
+[0.282s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision
+[0.282s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/pedestal.STL
+[0.282s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/wrist3_Link.STL
+[0.282s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/shoulder_Link.STL
+[0.283s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/upperArm_Link.STL
+[0.283s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/wrist2_Link.STL
+[0.283s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/base_link.STL
+[0.283s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/wrist1_Link.STL
+[0.283s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/foreArm_Link.STL
+[0.283s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual
+[0.283s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual/wrist3_Link.DAE
+[0.283s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual/shoulder_Link.DAE
+[0.283s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual/wrist1_Link.DAE
+[0.283s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual/base_link.DAE
+[0.283s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual/wrist2_Link.DAE
+[0.284s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual/upperArm_Link.DAE
+[0.284s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual/foreArm_Link.DAE
+[0.284s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/config
+[0.284s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/config/aubo_control.yaml
+[0.284s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/ament_index/resource_index/package_run_dependencies/aubo
+[0.284s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/ament_index/resource_index/parent_prefix_path/aubo
+[0.284s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/environment/ament_prefix_path.sh
+[0.284s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/environment/ament_prefix_path.dsv
+[0.284s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/environment/path.sh
+[0.285s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/environment/path.dsv
+[0.285s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/local_setup.bash
+[0.285s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/local_setup.sh
+[0.285s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/local_setup.zsh
+[0.285s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/local_setup.dsv
+[0.285s] -- Installing: /home/sara/aubo_ws/install/aubo/share/aubo/package.dsv
+[0.285s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/ament_index/resource_index/packages/aubo
+[0.285s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/cmake/auboConfig.cmake
+[0.286s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/cmake/auboConfig-version.cmake
+[0.286s] -- Up-to-date: /home/sara/aubo_ws/install/aubo/share/aubo/package.xml
+[0.381s] Invoked command in '/home/sara/aubo_ws/build/aubo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/aubo

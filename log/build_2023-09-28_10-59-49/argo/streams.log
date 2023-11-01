@@ -1,0 +1,71 @@
+[0.031s] Invoking command in '/home/sara/aubo_ws/build/argo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/opt/ros/humble /usr/bin/cmake /home/sara/aubo_ws/src/aubo_control/argo -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/argo
+[0.102s] -- The C compiler identification is GNU 11.4.0
+[0.179s] -- The CXX compiler identification is GNU 11.4.0
+[0.189s] -- Detecting C compiler ABI info
+[0.278s] -- Detecting C compiler ABI info - done
+[0.289s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.290s] -- Detecting C compile features
+[0.291s] -- Detecting C compile features - done
+[0.297s] -- Detecting CXX compiler ABI info
+[0.403s] -- Detecting CXX compiler ABI info - done
+[0.414s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.415s] -- Detecting CXX compile features
+[0.416s] -- Detecting CXX compile features - done
+[0.422s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.462s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3") 
+[0.462s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.860s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.999s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.000s] -- Added test 'lint_cmake' to check CMake code style
+[1.001s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.004s] -- Added test 'xmllint' to check XML markup files
+[1.006s] -- Configuring done
+[1.010s] -- Generating done
+[1.011s] -- Build files have been written to: /home/sara/aubo_ws/build/argo
+[1.017s] Invoked command in '/home/sara/aubo_ws/build/argo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/opt/ros/humble /usr/bin/cmake /home/sara/aubo_ws/src/aubo_control/argo -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/argo
+[1.019s] Invoking command in '/home/sara/aubo_ws/build/argo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/argo -- -j8 -l8
+[1.070s] Invoked command in '/home/sara/aubo_ws/build/argo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/argo -- -j8 -l8
+[1.114s] Invoking command in '/home/sara/aubo_ws/build/argo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/argo
+[1.125s] -- Install configuration: ""
+[1.125s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/launch
+[1.125s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/launch/spawn_robot_launch_v4.launch.py
+[1.125s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/launch/argo.launch.py
+[1.126s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/urdf
+[1.126s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/urdf/argo.csv
+[1.126s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/urdf/argo.urdf
+[1.127s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/meshes
+[1.127s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/meshes/imu.STL
+[1.127s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/meshes/base_gps.STL
+[1.130s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/meshes/W6.STL
+[1.130s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/meshes/W2.STL
+[1.130s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/meshes/W7.STL
+[1.131s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/meshes/W3.STL
+[1.131s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/meshes/front_cam.STL
+[1.131s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/meshes/base_link.STL
+[1.131s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/meshes/W4.STL
+[1.131s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/meshes/W1.STL
+[1.131s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/meshes/W5.STL
+[1.131s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/meshes/rover_gp.STL
+[1.131s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/meshes/W8.STL
+[1.132s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/meshes/top.STL
+[1.132s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/meshes/rear_cam.STL
+[1.132s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/meshes/brdge.STL
+[1.132s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/config
+[1.132s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/config/joint_names_argo.yaml
+[1.132s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/config/joint_names_argo_v2.yaml
+[1.132s] -- Installing: /home/sara/aubo_ws/install/argo/share/ament_index/resource_index/package_run_dependencies/argo
+[1.133s] -- Installing: /home/sara/aubo_ws/install/argo/share/ament_index/resource_index/parent_prefix_path/argo
+[1.133s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/environment/ament_prefix_path.sh
+[1.133s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/environment/ament_prefix_path.dsv
+[1.133s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/environment/path.sh
+[1.134s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/environment/path.dsv
+[1.134s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/local_setup.bash
+[1.134s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/local_setup.sh
+[1.134s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/local_setup.zsh
+[1.134s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/local_setup.dsv
+[1.135s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/package.dsv
+[1.135s] -- Installing: /home/sara/aubo_ws/install/argo/share/ament_index/resource_index/packages/argo
+[1.135s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/cmake/argoConfig.cmake
+[1.135s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/cmake/argoConfig-version.cmake
+[1.135s] -- Installing: /home/sara/aubo_ws/install/argo/share/argo/package.xml
+[1.138s] Invoked command in '/home/sara/aubo_ws/build/argo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/argo

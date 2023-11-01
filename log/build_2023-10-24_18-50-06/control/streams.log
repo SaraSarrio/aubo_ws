@@ -1,0 +1,50 @@
+[0.087s] Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8
+[0.218s] [ 11%] Built target dir_kin
+[0.222s] [ 22%] Built target inv_kin
+[0.222s] [ 33%] Built target controller
+[0.224s] [ 44%] Built target test_pub
+[0.226s] [ 55%] Built target sim_pub
+[0.236s] [ 66%] Built target sim_test
+[0.239s] [ 77%] Built target sim_control
+[0.240s] [ 88%] Built target sim_sub
+[0.286s] [ 94%] [32m[1mLinking CXX executable listener[0m
+[0.705s] /usr/bin/ld: CMakeFiles/listener.dir/src/listener.cpp.o: in function `main':
+[0.705s] listener.cpp:(.text+0x3f0): undefined reference to `gazebo::transport::Node::Node()'
+[0.705s] /usr/bin/ld: listener.cpp:(.text+0x481): undefined reference to `gazebo::transport::Node::Init(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+[0.707s] /usr/bin/ld: CMakeFiles/listener.dir/src/listener.cpp.o: in function `tbb::detail::d1::wait_context::add_reference(long)':
+[0.707s] listener.cpp:(.text._ZN3tbb6detail2d112wait_context13add_referenceEl[_ZN3tbb6detail2d112wait_context13add_referenceEl]+0x70): undefined reference to `tbb::detail::r1::notify_waiters(unsigned long)'
+[0.707s] /usr/bin/ld: CMakeFiles/listener.dir/src/listener.cpp.o: in function `tbb::detail::d1::execution_slot(tbb::detail::d1::execution_data const&)':
+[0.707s] listener.cpp:(.text._ZN3tbb6detail2d114execution_slotERKNS1_14execution_dataE[_ZN3tbb6detail2d114execution_slotERKNS1_14execution_dataE]+0x18): undefined reference to `tbb::detail::r1::execution_slot(tbb::detail::d1::execution_data const*)'
+[0.708s] /usr/bin/ld: CMakeFiles/listener.dir/src/listener.cpp.o: in function `tbb::detail::d1::wait(tbb::detail::d1::wait_context&, tbb::detail::d1::task_group_context&)':
+[0.708s] listener.cpp:(.text._ZN3tbb6detail2d14waitERNS1_12wait_contextERNS1_18task_group_contextE[_ZN3tbb6detail2d14waitERNS1_12wait_contextERNS1_18task_group_contextE]+0x23): undefined reference to `tbb::detail::r1::wait(tbb::detail::d1::wait_context&, tbb::detail::d1::task_group_context&)'
+[0.708s] /usr/bin/ld: CMakeFiles/listener.dir/src/listener.cpp.o: in function `tbb::detail::d1::task_arena::initialize()::{lambda()#1}::operator()() const':
+[0.708s] listener.cpp:(.text._ZZN3tbb6detail2d110task_arena10initializeEvENKUlvE_clEv[_ZZN3tbb6detail2d110task_arena10initializeEvENKUlvE_clEv]+0x1b): undefined reference to `tbb::detail::r1::initialize(tbb::detail::d1::task_arena_base&)'
+[0.709s] /usr/bin/ld: CMakeFiles/listener.dir/src/listener.cpp.o: in function `tbb::detail::d1::task_arena::terminate()':
+[0.709s] listener.cpp:(.text._ZN3tbb6detail2d110task_arena9terminateEv[_ZN3tbb6detail2d110task_arena9terminateEv]+0x28): undefined reference to `tbb::detail::r1::terminate(tbb::detail::d1::task_arena_base&)'
+[0.709s] /usr/bin/ld: CMakeFiles/listener.dir/src/listener.cpp.o: in function `tbb::detail::d1::current_thread_index()':
+[0.710s] listener.cpp:(.text._ZN3tbb6detail2d120current_thread_indexEv[_ZN3tbb6detail2d120current_thread_indexEv]+0x12): undefined reference to `tbb::detail::r1::execution_slot(tbb::detail::d1::execution_data const*)'
+[0.710s] /usr/bin/ld: CMakeFiles/listener.dir/src/listener.cpp.o: in function `tbb::detail::d1::task_group_context::~task_group_context()':
+[0.710s] listener.cpp:(.text._ZN3tbb6detail2d118task_group_contextD2Ev[_ZN3tbb6detail2d118task_group_contextD5Ev]+0x18): undefined reference to `tbb::detail::r1::destroy(tbb::detail::d1::task_group_context&)'
+[0.711s] /usr/bin/ld: CMakeFiles/listener.dir/src/listener.cpp.o: in function `tbb::detail::d1::task_group_context::reset()':
+[0.711s] listener.cpp:(.text._ZN3tbb6detail2d118task_group_context5resetEv[_ZN3tbb6detail2d118task_group_context5resetEv]+0x20): undefined reference to `tbb::detail::r1::reset(tbb::detail::d1::task_group_context&)'
+[0.711s] /usr/bin/ld: CMakeFiles/listener.dir/src/listener.cpp.o: in function `tbb::detail::d1::task_group_context::is_group_execution_cancelled()':
+[0.711s] listener.cpp:(.text._ZN3tbb6detail2d118task_group_context28is_group_execution_cancelledEv[_ZN3tbb6detail2d118task_group_context28is_group_execution_cancelledEv]+0x20): undefined reference to `tbb::detail::r1::is_group_execution_cancelled(tbb::detail::d1::task_group_context&)'
+[0.712s] /usr/bin/ld: CMakeFiles/listener.dir/src/listener.cpp.o: in function `tbb::detail::d1::graph::~graph()':
+[0.712s] listener.cpp:(.text._ZN3tbb6detail2d15graphD2Ev[_ZN3tbb6detail2d15graphD5Ev]+0x53): undefined reference to `tbb::detail::r1::cache_aligned_deallocate(void*)'
+[0.712s] /usr/bin/ld: CMakeFiles/listener.dir/src/listener.cpp.o: in function `SingletonT<gazebo::transport::ConnectionManager>::GetInstance()':
+[0.712s] listener.cpp:(.text._ZN10SingletonTIN6gazebo9transport17ConnectionManagerEE11GetInstanceEv[_ZN10SingletonTIN6gazebo9transport17ConnectionManagerEE11GetInstanceEv]+0x44): undefined reference to `gazebo::transport::ConnectionManager::ConnectionManager()'
+[0.713s] /usr/bin/ld: listener.cpp:(.text._ZN10SingletonTIN6gazebo9transport17ConnectionManagerEE11GetInstanceEv[_ZN10SingletonTIN6gazebo9transport17ConnectionManagerEE11GetInstanceEv]+0x5f): undefined reference to `gazebo::transport::ConnectionManager::~ConnectionManager()'
+[0.713s] /usr/bin/ld: CMakeFiles/listener.dir/src/listener.cpp.o: in function `SingletonT<gazebo::transport::TopicManager>::GetInstance()':
+[0.713s] listener.cpp:(.text._ZN10SingletonTIN6gazebo9transport12TopicManagerEE11GetInstanceEv[_ZN10SingletonTIN6gazebo9transport12TopicManagerEE11GetInstanceEv]+0x44): undefined reference to `gazebo::transport::TopicManager::TopicManager()'
+[0.714s] /usr/bin/ld: listener.cpp:(.text._ZN10SingletonTIN6gazebo9transport12TopicManagerEE11GetInstanceEv[_ZN10SingletonTIN6gazebo9transport12TopicManagerEE11GetInstanceEv]+0x5f): undefined reference to `gazebo::transport::TopicManager::~TopicManager()'
+[0.716s] /usr/bin/ld: CMakeFiles/listener.dir/src/listener.cpp.o: in function `void tbb::detail::d1::small_object_allocator::deallocate<tbb::detail::d1::graph_task>(tbb::detail::d1::graph_task*, tbb::detail::d1::execution_data const&)':
+[0.716s] listener.cpp:(.text._ZN3tbb6detail2d122small_object_allocator10deallocateINS1_10graph_taskEEEvPT_RKNS1_14execution_dataE[_ZN3tbb6detail2d122small_object_allocator10deallocateINS1_10graph_taskEEEvPT_RKNS1_14execution_dataE]+0x44): undefined reference to `tbb::detail::r1::deallocate(tbb::detail::d1::small_object_pool&, void*, unsigned long, tbb::detail::d1::execution_data const&)'
+[0.717s] /usr/bin/ld: CMakeFiles/listener.dir/src/listener.cpp.o: in function `void tbb::detail::d1::task_arena::execute_impl<void, tbb::detail::d1::graph::wait_for_all()::{lambda()#1}::operator()() const::{lambda()#1}>(tbb::detail::d1::graph::wait_for_all()::{lambda()#1}::operator()() const::{lambda()#1}&)':
+[0.717s] listener.cpp:(.text._ZN3tbb6detail2d110task_arena12execute_implIvZZNS1_5graph12wait_for_allEvENKUlvE_clEvEUlvE_EET_RT0_[_ZN3tbb6detail2d110task_arena12execute_implIvZZNS1_5graph12wait_for_allEvENKUlvE_clEvEUlvE_EET_RT0_]+0x52): undefined reference to `tbb::detail::r1::execute(tbb::detail::d1::task_arena_base&, tbb::detail::d1::delegate_base&)'
+[0.719s] /usr/bin/ld: CMakeFiles/listener.dir/src/listener.cpp.o: in function `tbb::detail::d1::cache_aligned_allocator<tbb::detail::d1::graph_task*>::deallocate(tbb::detail::d1::graph_task**, unsigned long)':
+[0.719s] listener.cpp:(.text._ZN3tbb6detail2d123cache_aligned_allocatorIPNS1_10graph_taskEE10deallocateEPS4_m[_ZN3tbb6detail2d123cache_aligned_allocatorIPNS1_10graph_taskEE10deallocateEPS4_m]+0x20): undefined reference to `tbb::detail::r1::cache_aligned_deallocate(void*)'
+[0.769s] collect2: error: ld returned 1 exit status
+[0.770s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:215: listener] Error 1
+[0.771s] gmake[1]: *** [CMakeFiles/Makefile2:361: CMakeFiles/listener.dir/all] Error 2
+[0.771s] gmake: *** [Makefile:146: all] Error 2
+[0.773s] Invoked command in '/home/sara/aubo_ws/build/control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8

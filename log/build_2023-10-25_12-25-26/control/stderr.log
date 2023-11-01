@@ -1,0 +1,20 @@
+In file included from [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller.cpp:3[m[K:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/aubo_kin_mod.hpp:[m[K In function ‘[01m[Kint inverse(const double*, double*)[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/aubo_kin_mod.hpp:316:69:[m[K [01;35m[Kwarning: [m[Ksuggest braces around empty body in an ‘[01m[Kif[m[K’ statement [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wempty-body-Wempty-body]8;;[m[K]
+  316 | op_again && !solution_num && j5_idx == 1) [01;35m[K;[m[K
+      |                                           [01;35m[K^[m[K
+
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/aubo_kin_mod.hpp:341:73:[m[K [01;35m[Kwarning: [m[Ksuggest braces around empty body in an ‘[01m[Kif[m[K’ statement [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wempty-body-Wempty-body]8;;[m[K]
+  341 | op_again && !solution_num && j5_idx == 1) [01;35m[K;[m[K
+      |                                           [01;35m[K^[m[K
+
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller.cpp:[m[K In constructor ‘[01m[KController::Controller()[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller.cpp:23:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_ind_user[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   23 |     int [01;35m[Kpub_ind_user[m[K=0;
+      |         [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller.cpp:24:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_ind_sim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   24 |     int [01;35m[Kpub_ind_sim[m[K=0;
+      |         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller.cpp:25:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_ind_robot[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   25 |     int [01;35m[Kpub_ind_robot[m[K=0;
+      |         [01;35m[K^~~~~~~~~~~~~[m[K

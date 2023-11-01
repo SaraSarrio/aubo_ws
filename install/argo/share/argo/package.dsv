@@ -1,0 +1,8 @@
+source;share/argo/hook/cmake_prefix_path.ps1
+source;share/argo/hook/cmake_prefix_path.dsv
+source;share/argo/hook/cmake_prefix_path.sh
+source;share/argo/local_setup.bash
+source;share/argo/local_setup.dsv
+source;share/argo/local_setup.ps1
+source;share/argo/local_setup.sh
+source;share/argo/local_setup.zsh

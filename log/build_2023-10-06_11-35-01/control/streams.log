@@ -1,0 +1,124 @@
+[0.062s] Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8
+[0.086s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.215s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.241s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.243s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.249s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.260s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.274s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.327s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.328s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.432s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.579s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.579s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[0.579s]   does not match the name of the calling package (gazebo).  This can lead to
+[0.579s]   problems in calling code that expects `find_package` result variables
+[0.580s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.580s] Call Stack (most recent call first):
+[0.580s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[0.580s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[0.580s]   CMakeLists.txt:12 (find_package)
+[0.580s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.580s] [0m
+[0.599s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.621s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.622s] -- Looking for ignition-math6 -- found version 6.15.0
+[0.626s] -- Searching for dependencies of ignition-math6
+[0.627s] -- Looking for OGRE...
+[0.632s] -- Found Ogre Ghadamon (1.9.0)
+[0.632s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.641s] -- Looking for OGRE_Paging...
+[0.641s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.641s] -- Looking for OGRE_Terrain...
+[0.641s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.641s] -- Looking for OGRE_Property...
+[0.641s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.641s] -- Looking for OGRE_RTShaderSystem...
+[0.641s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.641s] -- Looking for OGRE_Volume...
+[0.642s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.642s] -- Looking for OGRE_Overlay...
+[0.642s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.722s] -- Looking for ignition-math6 -- found version 6.15.0
+[0.722s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.723s] -- Searching for dependencies of ignition-transport8
+[0.738s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.747s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.751s] -- Checking for module 'libzmq >= 4'
+[0.762s] --   Found libzmq , version 4.3.4
+[0.795s] -- Checking for module 'uuid'
+[0.805s] --   Found uuid, version 2.37.2
+[0.831s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.832s] -- Searching for dependencies of ignition-msgs5
+[0.848s] -- Looking for ignition-math6 -- found version 6.15.0
+[0.852s] -- Checking for module 'tinyxml2'
+[0.863s] --   Found tinyxml2, version 9.0.0
+[0.890s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.890s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.890s] -- Searching for dependencies of ignition-common3
+[0.890s] -- Looking for dlfcn.h - found
+[0.891s] -- Looking for libdl - found
+[0.899s] -- Searching for <ignition-common3> component [graphics]
+[0.900s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[0.900s] -- Searching for dependencies of ignition-common3-graphics
+[0.901s] -- Looking for ignition-math6 -- found version 6.15.0
+[0.901s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[0.902s] -- Searching for dependencies of ignition-fuel_tools4
+[0.932s] -- Checking for module 'jsoncpp'
+[0.943s] --   Found jsoncpp, version 1.9.5
+[0.974s] -- Checking for module 'libzip'
+[0.985s] --   Found libzip, version 1.7.3
+[1.012s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.012s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.013s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.014s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[1.457s] [33mCMake Warning at CMakeLists.txt:14 (find_package):
+[1.457s]   By not providing "FindREQUIRED.cmake" in CMAKE_MODULE_PATH this project has
+[1.457s]   asked CMake to find a package configuration file provided by "REQUIRED",
+[1.457s]   but CMake did not find one.
+[1.458s] 
+[1.458s]   Could not find a package configuration file provided by "REQUIRED" with any
+[1.458s]   of the following names:
+[1.458s] 
+[1.458s]     REQUIREDConfig.cmake
+[1.458s]     required-config.cmake
+[1.458s] 
+[1.458s]   Add the installation prefix of "REQUIRED" to CMAKE_PREFIX_PATH or set
+[1.458s]   "REQUIRED_DIR" to a directory containing one of the above files.  If
+[1.458s]   "REQUIRED" provides a separate development package or SDK, be sure it has
+[1.458s]   been installed.
+[1.458s] 
+[1.458s] [0m
+[1.458s] -- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[1.567s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.627s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.627s] -- Configured cppcheck include dirs: /home/sara/aubo_ws/src/aubo_control/control/include
+[1.628s] -- Configured cppcheck exclude dirs and/or files: 
+[1.628s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.628s] -- Added test 'lint_cmake' to check CMake code style
+[1.629s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.630s] -- Added test 'uncrustify' to check C / C++ code style
+[1.630s] -- Configured uncrustify additional arguments: 
+[1.630s] -- Added test 'xmllint' to check XML markup files
+[1.631s] -- Configuring done
+[1.656s] -- Generating done
+[1.660s] -- Build files have been written to: /home/sara/aubo_ws/build/control
+[1.689s] [35m[1mConsolidate compiler generated dependencies of target test_pub[0m
+[1.689s] [35m[1mConsolidate compiler generated dependencies of target dir_kin[0m
+[1.689s] [35m[1mConsolidate compiler generated dependencies of target controller[0m
+[1.693s] [35m[1mConsolidate compiler generated dependencies of target inv_kin[0m
+[1.694s] [35m[1mConsolidate compiler generated dependencies of target sim_pub[0m
+[1.706s] [ 40%] Built target dir_kin
+[1.707s] [ 40%] Built target controller
+[1.709s] [ 60%] Built target test_pub
+[1.714s] [ 70%] [32mBuilding CXX object CMakeFiles/sim_pub.dir/src/sim_pub.cpp.o[0m
+[1.716s] [ 90%] Built target inv_kin
+[1.917s] In file included from [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:3[m[K:
+[1.917s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/sim_pub.hpp:4:10:[m[K [01;31m[Kfatal error: [m[Ktrajectory_msgs/msg/JointTrajectory.hpp: No such file or directory
+[1.917s]     4 | #include [01;31m[K"trajectory_msgs/msg/JointTrajectory.hpp"[m[K
+[1.917s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.917s] compilation terminated.
+[1.923s] gmake[2]: *** [CMakeFiles/sim_pub.dir/build.make:76: CMakeFiles/sim_pub.dir/src/sim_pub.cpp.o] Error 1
+[1.923s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/sim_pub.dir/all] Error 2
+[1.923s] gmake: *** [Makefile:146: all] Error 2
+[1.925s] Invoked command in '/home/sara/aubo_ws/build/control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8

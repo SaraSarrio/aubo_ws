@@ -1,0 +1,2 @@
+Invoking command in '/home/sara/aubo_ws/build/control': /usr/bin/cmake /home/sara/aubo_ws/src/aubo_control/controller -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/control
+Invoked command in '/home/sara/aubo_ws/build/control' returned '1': /usr/bin/cmake /home/sara/aubo_ws/src/aubo_control/controller -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/control

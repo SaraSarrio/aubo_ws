@@ -1,0 +1,56 @@
+[0.215s] Invoking command in '/home/sara/aubo_ws/build/aubo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/sara/aubo_ws/src/aubo_control/aubo -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/aubo
+[0.304s] -- The C compiler identification is GNU 11.4.0
+[0.387s] -- The CXX compiler identification is GNU 11.4.0
+[0.397s] -- Detecting C compiler ABI info
+[0.499s] -- Detecting C compiler ABI info - done
+[0.515s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.515s] -- Detecting C compile features
+[0.516s] -- Detecting C compile features - done
+[0.521s] -- Detecting CXX compiler ABI info
+[0.639s] -- Detecting CXX compiler ABI info - done
+[0.648s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.648s] -- Detecting CXX compile features
+[0.649s] -- Detecting CXX compile features - done
+[0.653s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.875s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.020s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.134s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.138s] -- Added test 'lint_cmake' to check CMake code style
+[1.142s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.149s] -- Added test 'xmllint' to check XML markup files
+[1.154s] -- Configuring done
+[1.160s] -- Generating done
+[1.161s] -- Build files have been written to: /home/sara/aubo_ws/build/aubo
+[1.168s] Invoked command in '/home/sara/aubo_ws/build/aubo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/sara/aubo_ws/src/aubo_control/aubo -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/aubo
+[1.172s] Invoking command in '/home/sara/aubo_ws/build/aubo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/aubo -- -j8 -l8
+[1.229s] Invoked command in '/home/sara/aubo_ws/build/aubo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/aubo -- -j8 -l8
+[1.276s] Invoking command in '/home/sara/aubo_ws/build/aubo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/aubo
+[1.289s] -- Install configuration: ""
+[1.290s] -- Installing: /home/sara/aubo_ws/install/aubo/share/aubo/launch
+[1.290s] -- Installing: /home/sara/aubo_ws/install/aubo/share/aubo/launch/aubo.launch.py
+[1.291s] -- Installing: /home/sara/aubo_ws/install/aubo/share/aubo/launch/spawn_robot_launch_v4.launch.py
+[1.291s] -- Installing: /home/sara/aubo_ws/install/aubo/share/aubo/launch/spawn.launch
+[1.292s] -- Installing: /home/sara/aubo_ws/install/aubo/share/aubo/urdf
+[1.292s] -- Installing: /home/sara/aubo_ws/install/aubo/share/aubo/urdf/aubo_argo.urdf
+[1.292s] -- Installing: /home/sara/aubo_ws/install/aubo/share/aubo/urdf/materials.xacro
+[1.293s] -- Installing: /home/sara/aubo_ws/install/aubo/share/aubo/urdf/aubo_i5.urdf
+[1.293s] -- Installing: /home/sara/aubo_ws/install/aubo/share/aubo/urdf/aubo.gazebo.xacro
+[1.293s] -- Installing: /home/sara/aubo_ws/install/aubo/share/aubo/urdf/aubo.transmission.xacro
+[1.293s] -- Installing: /home/sara/aubo_ws/install/aubo/share/aubo/urdf/aubo_i5.urdf.xacro
+[1.293s] -- Installing: /home/sara/aubo_ws/install/aubo/share/aubo/meshes
+[1.295s] -- Installing: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5
+[1.295s] -- Installing: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision
+[1.295s] -- Installing: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/pedestal.STL
+[1.295s] -- Installing: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/wrist3_Link.STL
+[1.295s] -- Installing: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/shoulder_Link.STL
+[1.296s] -- Installing: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/upperArm_Link.STL
+[1.296s] -- Installing: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/wrist2_Link.STL
+[1.298s] -- Installing: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/base_link.STL
+[1.298s] -- Installing: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/wrist1_Link.STL
+[1.299s] -- Installing: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/foreArm_Link.STL
+[1.302s] -- Installing: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual
+[1.302s] -- Installing: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual/wrist3_Link.DAE
+[1.305s] -- Installing: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual/shoulder_Link.DAE
+[1.308s] -- Installing: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual/wrist1_Link.DAE
+[1.311s] -- Installing: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual/base_link.DAE
+[1.311s] -- Installing: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual/wrist2_Link.DAE

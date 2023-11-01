@@ -1,0 +1,39 @@
+[35m[1mConsolidate compiler generated dependencies of target test_pub[0m
+[ 16%] Built target dir_kin
+[ 33%] Built target inv_kin
+[ 50%] Built target controller
+[ 66%] Built target sim_pub
+[ 83%] Built target sim_sub
+[ 91%] [32mBuilding CXX object CMakeFiles/test_pub.dir/src/test_pub.cpp.o[0m
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub.cpp:[m[K In constructor ‘[01m[KTest_pub::Test_pub()[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub.cpp:10:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_ind[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   10 |     int [01;35m[Kpub_ind[m[K=1;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub.cpp:11:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   11 |     float [01;35m[Kx[m[K=0.2;
+      |           [01;35m[K^[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub.cpp:12:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   12 |     float [01;35m[Ky[m[K=-0.5;
+      |           [01;35m[K^[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub.cpp:13:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kz[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   13 |     float [01;35m[Kz[m[K=0.5;
+      |           [01;35m[K^[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub.cpp:14:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kalpha[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   14 |     float [01;35m[Kalpha[m[K=1.57;
+      |           [01;35m[K^~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub.cpp:15:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbeta[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   15 |     float [01;35m[Kbeta[m[K=3.14;
+      |           [01;35m[K^~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub.cpp:16:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgamma[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   16 |     float [01;35m[Kgamma[m[K=0.0;
+      |           [01;35m[K^~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub.cpp:[m[K In member function ‘[01m[Kvoid Test_pub::publish_method()[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub.cpp:28:15:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around assignment used as truth value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+   28 |     if([01;35m[Kpub_ind=1[m[K){
+      |        [01;35m[K~~~~~~~^~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub.cpp:63:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+   63 |         [01;31m[K}[m[K
+      |         [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/test_pub.dir/build.make:76: CMakeFiles/test_pub.dir/src/test_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:225: CMakeFiles/test_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

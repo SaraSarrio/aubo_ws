@@ -1,0 +1,42 @@
+[0.074s] Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8
+[0.146s] [ 16%] Built target controller
+[0.149s] [ 41%] Built target dir_kin
+[0.150s] [ 50%] Built target inv_kin
+[0.153s] [ 66%] Built target test_pub
+[0.153s] [ 83%] Built target sim_sub
+[0.153s] [ 91%] [32mBuilding CXX object CMakeFiles/sim_pub.dir/src/sim_pub.cpp.o[0m
+[2.129s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:[m[K In constructor ‘[01m[KSim_pub::Sim_pub()[m[K’:
+[2.129s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:15:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_ind[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.129s]    15 |     int [01;35m[Kpub_ind[m[K=1;
+[2.130s]       |         [01;35m[K^~~~~~~[m[K
+[2.130s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:17:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.130s]    17 |     float [01;35m[Kq1[m[K=0.0;
+[2.130s]       |           [01;35m[K^~[m[K
+[2.130s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:18:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.130s]    18 |     float [01;35m[Kq2[m[K=0.0;
+[2.130s]       |           [01;35m[K^~[m[K
+[2.130s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:19:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq3[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.130s]    19 |     float [01;35m[Kq3[m[K=0.0;
+[2.130s]       |           [01;35m[K^~[m[K
+[2.130s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:20:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq4[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.130s]    20 |     float [01;35m[Kq4[m[K=0.0;
+[2.130s]       |           [01;35m[K^~[m[K
+[2.130s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:21:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq5[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.130s]    21 |     float [01;35m[Kq5[m[K=0.0;
+[2.130s]       |           [01;35m[K^~[m[K
+[2.130s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:22:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq6[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.130s]    22 |     float [01;35m[Kq6[m[K=0.0;
+[2.130s]       |           [01;35m[K^~[m[K
+[2.140s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:[m[K In member function ‘[01m[Kvoid Sim_pub::funcion(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.140s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:33:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kq0[m[K’ was not declared in this scope; did you mean ‘[01m[Kq1[m[K’?
+[2.140s]    33 |     [01;31m[Kq0[m[K=msgrec-> data[0];
+[2.140s]       |     [01;31m[K^~[m[K
+[2.140s]       |     [32m[Kq1[m[K
+[2.143s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.143s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:76:20:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+[2.143s]    76 |     while ([01;35m[Krclcpp::ok[m[K)
+[2.143s]       |            [01;35m[K~~~~~~~~^~[m[K
+[4.337s] gmake[2]: *** [CMakeFiles/sim_pub.dir/build.make:76: CMakeFiles/sim_pub.dir/src/sim_pub.cpp.o] Error 1
+[4.337s] gmake[1]: *** [CMakeFiles/Makefile2:251: CMakeFiles/sim_pub.dir/all] Error 2
+[4.337s] gmake: *** [Makefile:146: all] Error 2
+[4.339s] Invoked command in '/home/sara/aubo_ws/build/control' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8

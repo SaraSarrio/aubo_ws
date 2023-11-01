@@ -1,0 +1,107 @@
+[0.413s] Invoking command in '/home/sara/aubo_ws/build/realtime_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/realtime_tools -- -j8 -l8
+[0.955s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.956s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.956s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.957s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.957s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.957s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.958s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.960s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.960s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.961s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.096s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.456s] -- Found rclcpp_action: 16.0.6 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.698s] -- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.699s] -- Found test_msgs: 1.2.1 (/opt/ros/humble/share/test_msgs/cmake)
+[1.847s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.853s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.854s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.000s] -- Configuring done
+[2.076s] -- Generating done
+[2.082s] -- Build files have been written to: /home/sara/aubo_ws/build/realtime_tools
+[2.165s] [35m[1mConsolidate compiler generated dependencies of target thread_priority[0m
+[2.165s] [35m[1mConsolidate compiler generated dependencies of target realtime_tools[0m
+[2.165s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[2.190s] [  4%] [32mBuilding CXX object CMakeFiles/thread_priority.dir/src/thread_priority.cpp.o[0m
+[2.195s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[2.207s] [ 14%] Built target gmock_main
+[2.212s] [ 19%] [32mBuilding CXX object CMakeFiles/realtime_tools.dir/src/realtime_clock.cpp.o[0m
+[2.234s] [ 33%] Built target gmock
+[2.923s] [ 38%] [32m[1mLinking CXX shared library libthread_priority.so[0m
+[3.151s] [ 38%] Built target thread_priority
+[4.116s] [ 42%] [32m[1mLinking CXX shared library librealtime_tools.so[0m
+[4.347s] [ 42%] Built target realtime_tools
+[4.372s] [35m[1mConsolidate compiler generated dependencies of target realtime_buffer_tests[0m
+[4.382s] [35m[1mConsolidate compiler generated dependencies of target realtime_clock_tests[0m
+[4.385s] [35m[1mConsolidate compiler generated dependencies of target realtime_publisher_tests[0m
+[4.393s] [35m[1mConsolidate compiler generated dependencies of target realtime_server_goal_handle_tests[0m
+[4.394s] [35m[1mConsolidate compiler generated dependencies of target realtime_publisher_tests_non_polling[0m
+[4.396s] [35m[1mConsolidate compiler generated dependencies of target realtime_box_tests[0m
+[4.425s] [ 47%] [32mBuilding CXX object CMakeFiles/realtime_buffer_tests.dir/test/realtime_buffer_tests.cpp.o[0m
+[4.430s] [ 52%] [32mBuilding CXX object CMakeFiles/realtime_clock_tests.dir/test/realtime_clock_tests.cpp.o[0m
+[4.433s] [ 57%] [32mBuilding CXX object CMakeFiles/realtime_publisher_tests.dir/test/realtime_publisher_tests.cpp.o[0m
+[4.468s] [ 61%] [32mBuilding CXX object CMakeFiles/realtime_publisher_tests_non_polling.dir/test/realtime_publisher_tests_non_polling.cpp.o[0m
+[4.468s] [ 66%] [32mBuilding CXX object CMakeFiles/realtime_box_tests.dir/test/realtime_box_tests.cpp.o[0m
+[4.477s] [ 71%] [32mBuilding CXX object CMakeFiles/realtime_server_goal_handle_tests.dir/test/realtime_server_goal_handle_tests.cpp.o[0m
+[15.863s] [ 76%] [32m[1mLinking CXX executable realtime_box_tests[0m
+[16.915s] [ 76%] Built target realtime_box_tests
+[17.010s] [ 80%] [32m[1mLinking CXX executable realtime_buffer_tests[0m
+[17.759s] [ 80%] Built target realtime_buffer_tests
+[18.061s] [ 85%] [32m[1mLinking CXX executable realtime_clock_tests[0m
+[18.937s] [ 85%] Built target realtime_clock_tests
+[20.851s] [01m[K/home/sara/aubo_ws/src/ros-controls/realtime_tools/test/realtime_server_goal_handle_tests.cpp:[m[K In function ‘[01m[Kstd::shared_ptr<rclcpp_action::ClientGoalHandle<test_msgs::action::Fibonacci> > send_goal(rclcpp::Node::SharedPtr, std::shared_ptr<rclcpp_action::Client<test_msgs::action::Fibonacci> >, const string&, ActionClientCallbacks&)[m[K’:
+[20.851s] [01m[K/home/sara/aubo_ws/src/ros-controls/realtime_tools/test/realtime_server_goal_handle_tests.cpp:127:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kserver_name[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[20.852s]   127 |   [01;35m[Kconst std::string & server_name[m[K, ActionClientCallbacks & client_callbacks)
+[20.852s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[21.968s] In file included from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h:47[m[K,
+[21.968s]                  from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-actions.h:51[m[K,
+[21.969s]                  from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock.h:59[m[K,
+[21.969s]                  from [01m[K/home/sara/aubo_ws/src/ros-controls/realtime_tools/test/realtime_server_goal_handle_tests.cpp:29[m[K:
+[21.969s] /opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h: In instantiation of ‘[01m[Ktesting::AssertionResult testing::internal::CmpHelperEQ(const char*, const char*, const T1&, const T2&) [with T1 = int; T2 = long unsigned int][m[K’:
+[21.970s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:1554:23:[m[K   required from ‘[01m[Kstatic testing::AssertionResult testing::internal::EqHelper::Compare(const char*, const char*, const T1&, const T2&) [with T1 = int; T2 = long unsigned int; typename std::enable_if<((! std::is_integral<_Tp>::value) || (! std::is_pointer<_Dp>::value))>::type* <anonymous> = 0][m[K’
+[21.971s] [01m[K/home/sara/aubo_ws/src/ros-controls/realtime_tools/test/realtime_server_goal_handle_tests.cpp:203:3:[m[K   required from here
+[21.971s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:1527:11:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst int[m[K’ and ‘[01m[Kconst long unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[21.971s]  1527 |   if ([01;35m[Klhs == rhs[m[K) {
+[21.972s]       |       [01;35m[K~~~~^~~~~~[m[K
+[28.956s] [ 90%] [32m[1mLinking CXX executable realtime_server_goal_handle_tests[0m
+[30.035s] [ 90%] Built target realtime_server_goal_handle_tests
+[39.852s] [ 95%] [32m[1mLinking CXX executable realtime_publisher_tests[0m
+[40.907s] [100%] [32m[1mLinking CXX executable realtime_publisher_tests_non_polling[0m
+[41.167s] [100%] Built target realtime_publisher_tests
+[42.127s] [100%] Built target realtime_publisher_tests_non_polling
+[42.153s] Invoked command in '/home/sara/aubo_ws/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/realtime_tools -- -j8 -l8
+[42.367s] Invoking command in '/home/sara/aubo_ws/build/realtime_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/realtime_tools
+[42.388s] -- Install configuration: ""
+[42.390s] -- Execute custom install script
+[42.391s] -- Up-to-date symlink: /home/sara/aubo_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_box.h
+[42.391s] -- Up-to-date symlink: /home/sara/aubo_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_buffer.h
+[42.392s] -- Up-to-date symlink: /home/sara/aubo_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_clock.h
+[42.392s] -- Up-to-date symlink: /home/sara/aubo_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_publisher.h
+[42.392s] -- Up-to-date symlink: /home/sara/aubo_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_server_goal_handle.h
+[42.393s] -- Up-to-date symlink: /home/sara/aubo_ws/install/realtime_tools/include/realtime_tools/realtime_tools/thread_priority.hpp
+[42.393s] -- Up-to-date symlink: /home/sara/aubo_ws/install/realtime_tools/share/realtime_tools/environment/library_path.sh
+[42.394s] -- Up-to-date symlink: /home/sara/aubo_ws/install/realtime_tools/share/realtime_tools/environment/library_path.dsv
+[42.394s] -- Up-to-date symlink: /home/sara/aubo_ws/install/realtime_tools/share/ament_index/resource_index/package_run_dependencies/realtime_tools
+[42.395s] -- Up-to-date symlink: /home/sara/aubo_ws/install/realtime_tools/share/ament_index/resource_index/parent_prefix_path/realtime_tools
+[42.395s] -- Up-to-date symlink: /home/sara/aubo_ws/install/realtime_tools/share/realtime_tools/environment/ament_prefix_path.sh
+[42.396s] -- Up-to-date symlink: /home/sara/aubo_ws/install/realtime_tools/share/realtime_tools/environment/ament_prefix_path.dsv
+[42.396s] -- Up-to-date symlink: /home/sara/aubo_ws/install/realtime_tools/share/realtime_tools/environment/path.sh
+[42.397s] -- Up-to-date symlink: /home/sara/aubo_ws/install/realtime_tools/share/realtime_tools/environment/path.dsv
+[42.397s] -- Up-to-date symlink: /home/sara/aubo_ws/install/realtime_tools/share/realtime_tools/local_setup.bash
+[42.398s] -- Up-to-date symlink: /home/sara/aubo_ws/install/realtime_tools/share/realtime_tools/local_setup.sh
+[42.398s] -- Up-to-date symlink: /home/sara/aubo_ws/install/realtime_tools/share/realtime_tools/local_setup.zsh
+[42.399s] -- Up-to-date symlink: /home/sara/aubo_ws/install/realtime_tools/share/realtime_tools/local_setup.dsv
+[42.399s] -- Symlinking: /home/sara/aubo_ws/install/realtime_tools/share/realtime_tools/package.dsv
+[42.421s] -- Up-to-date symlink: /home/sara/aubo_ws/install/realtime_tools/share/ament_index/resource_index/packages/realtime_tools
+[42.421s] -- Up-to-date symlink: /home/sara/aubo_ws/install/realtime_tools/share/realtime_tools/cmake/ament_cmake_export_targets-extras.cmake
+[42.422s] -- Up-to-date symlink: /home/sara/aubo_ws/install/realtime_tools/share/realtime_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[42.422s] -- Up-to-date symlink: /home/sara/aubo_ws/install/realtime_tools/share/realtime_tools/cmake/realtime_toolsConfig.cmake
+[42.423s] -- Up-to-date symlink: /home/sara/aubo_ws/install/realtime_tools/share/realtime_tools/cmake/realtime_toolsConfig-version.cmake
+[42.423s] -- Up-to-date symlink: /home/sara/aubo_ws/install/realtime_tools/share/realtime_tools/package.xml
+[42.424s] -- Installing: /home/sara/aubo_ws/install/realtime_tools/lib/librealtime_tools.so
+[42.426s] -- Set runtime path of "/home/sara/aubo_ws/install/realtime_tools/lib/librealtime_tools.so" to ""
+[42.426s] -- Installing: /home/sara/aubo_ws/install/realtime_tools/lib/libthread_priority.so
+[42.427s] -- Set runtime path of "/home/sara/aubo_ws/install/realtime_tools/lib/libthread_priority.so" to ""
+[42.428s] -- Up-to-date: /home/sara/aubo_ws/install/realtime_tools/share/realtime_tools/cmake/export_realtime_toolsExport.cmake
+[42.428s] -- Up-to-date: /home/sara/aubo_ws/install/realtime_tools/share/realtime_tools/cmake/export_realtime_toolsExport-noconfig.cmake
+[42.431s] Invoked command in '/home/sara/aubo_ws/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/realtime_tools

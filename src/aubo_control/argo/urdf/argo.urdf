@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="argo">
+  <link
+    name="base_link_argo">
+    <inertial>
+      <origin
+        xyz="0.035819 -5.7525E-07 0.081279"
+        rpy="0 0 0" />
+      <mass
+        value="300.7" />
+      <inertia
+        ixx="250.5"
+        ixy="8.5043E-06"
+        ixz="11.589"
+        iyy="1155.2"
+        iyz="-0.00043656"
+        izz="1288.7" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://argo/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.37647 0.37647 0.37647 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://argo/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  
+  <gazebo reference="base_link_argo"> <!-- reference to a existing "link" -->
+  <material>Gazebo/DarkGrey</material>
+  </gazebo>
+  
+  <link
+    name="top">
+    <inertial>
+      <origin
+        xyz="1.29447232620919 -0.108911094870915 1.85161801499112E-16"
+        rpy="0 0 0" />
+      <mass
+        value="20.196" />
+      <inertia
+        ixx="49.6170529044795"
+        ixy="5.49755382314613"
+        ixz="1.58830630084734E-14"
+        iyy="137.267140906939"
+        iyz="7.00820882302427E-15"
+        izz="91.7318023780847" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://argo/meshes/top.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 0.219607843137255 0.0274509803921569 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://argo/meshes/top.STL" />
+      </geometry>
+    </collision>
+  </link>
+  
+<gazebo reference="top">  
+  <visual>  
+    <material>  
+      <ambient>0.2941 0.3255 0.1255 1.0</ambient>  
+      <diffuse>0.2941 0.3255 0.1255 1.0</diffuse>  
+      <specular>0.2941 0.3255 0.1255 1.0</specular>  
+      <emissive>0.0 0.0 0.0 0.0</emissive>  
+    </material>  
+  </visual>  
+</gazebo>
+
+  <joint
+    name="base_top"
+    type="fixed">
+    <origin
+      xyz="-0.28859 0 0.34908"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="base_link_argo" />
+    <child
+      link="top" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  
+  <link
+    name="brdge">
+    <inertial>
+      <origin
+        xyz="1.04033991226211E-15 0.0629989167766 0.0499999999999999"
+        rpy="0 0 0" />
+      <mass
+        value="16.9737091947536" />
+      <inertia
+        ixx="0.120706668200046"
+        ixy="-7.71055909114614E-17"
+        ixz="-5.38752534732447E-16"
+        iyy="3.43735102494903"
+        iyz="-4.74356800980588E-17"
+        izz="3.52976817782449" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://argo/meshes/brdge.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 0.372549019607843 0.164705882352941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://argo/meshes/brdge.STL" />
+      </geometry>
+    </collision>
+  </link>
+  
+  <gazebo reference="brdge">  
+  <visual>  
+    <material>  
+      <ambient>0.2941 0.3255 0.1255 1.0</ambient>  
+      <diffuse>0.2941 0.3255 0.1255 1.0</diffuse>  
+      <specular>0.2941 0.3255 0.1255 1.0</specular>  
+      <emissive>0.0 0.0 0.0 0.0</emissive>  
+    </material>  
+  </visual>  
+</gazebo>
+
+  <joint
+    name="top_brdge"
+    type="fixed">
+    <origin
+      xyz="0.91641 0 0.77908"
+      rpy="1.5708 0 1.5708" />
+    <parent
+      link="base_link_argo" />
+    <child
+      link="brdge" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="W6">
+    <inertial>
+      <origin
+        xyz="-2.22044604925031E-16 -5.55111512312578E-17 -0.162637423408204"
+        rpy="0 0 0" />
+      <mass
+        value="5.205463824313" />
+      <inertia
+        ixx="3.66317923670982"
+        ixy="-4.81006393304282E-33"
+        ixz="-7.14647583675023E-18"
+        iyy="3.66317923670982"
+        iyz="-1.69045854944496E-32"
+        izz="5.43484629444829" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://argo/meshes/W6.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+  
+   <collision>
+      <origin
+        xyz="0 0 -0.18"
+        rpy="0 0 0" />
+      <geometry>
+             <cylinder radius="0.32" length="0.36"/>
+      </geometry>
+    </collision>
+
+  </link>
+  <joint
+    name="jo_w6"
+    type="continuous">
+    <origin
+      xyz="1.0864 0.38 -0.18342"
+      rpy="1.5708 0 0" />
+    <parent
+      link="base_link_argo" />
+    <child
+      link="W6" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="W2">
+    <inertial>
+      <origin
+        xyz="-1.11022302462516E-16 -2.77555756156289E-17 -0.162637423408204"
+        rpy="0 0 0" />
+      <mass
+        value="5.205463824313" />
+      <inertia
+        ixx="3.66317923670982"
+        ixy="-4.80119742655688E-33"
+        ixz="-7.14647583675023E-18"
+        iyy="3.66317923670982"
+        iyz="-2.40741243048404E-32"
+        izz="5.43484629444829" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://argo/meshes/W2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+   
+   <collision>
+      <origin
+        xyz="0 0 -0.18"
+        rpy="0 0 0" />
+      <geometry>
+             <cylinder radius="0.32" length="0.36"/>
+      </geometry>
+    </collision>
+
+  </link>
+  <joint
+    name="jo_w2"
+    type="continuous">
+    <origin
+      xyz="0.39641 0.38 -0.18342"
+      rpy="1.5708 0 0" />
+    <parent
+      link="base_link_argo" />
+    <child
+      link="W2" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="W7">
+    <inertial>
+      <origin
+        xyz="-5.55111512312578E-17 0 -0.162637423408204"
+        rpy="0 0 0" />
+      <mass
+        value="5.205463824313" />
+      <inertia
+        ixx="3.66317923670982"
+        ixy="8.74627649933776E-33"
+        ixz="-5.29573736467459E-18"
+        iyy="3.66317923670982"
+        iyz="-2.40741243048404E-32"
+        izz="5.43484629444829" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://argo/meshes/W7.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+
+
+   <collision>
+      <origin
+        xyz="0 0 -0.18"
+        rpy="0 0 0" />
+      <geometry>
+             <cylinder radius="0.32" length="0.36"/>
+      </geometry>
+    </collision>
+
+  </link>
+  <joint
+    name="jo_w7"
+    type="continuous">
+    <origin
+      xyz="-0.29359 0.38 -0.18342"
+      rpy="1.5708 0 0" />
+    <parent
+      link="base_link_argo" />
+    <child
+      link="W7" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="W8">
+    <inertial>
+      <origin
+        xyz="1.11022302462516E-16 -5.55111512312578E-17 -0.162637423408204"
+        rpy="0 0 0" />
+      <mass
+        value="5.205463824313" />
+      <inertia
+        ixx="3.66317923670982"
+        ixy="-4.81006393304282E-33"
+        ixz="-7.14647583675023E-18"
+        iyy="3.66317923670982"
+        iyz="-1.69045854944496E-32"
+        izz="5.43484629444829" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://argo/meshes/W8.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+   <collision>
+      <origin
+        xyz="0 0 -0.18"
+        rpy="0 0 0" />
+      <geometry>
+             <cylinder radius="0.32" length="0.36"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="jo_w8"
+    type="continuous">
+    <origin
+      xyz="-0.98359 0.38 -0.18342"
+      rpy="1.5708 0 0" />
+    <parent
+      link="base_link_argo" />
+    <child
+      link="W8" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="W3">
+    <inertial>
+      <origin
+        xyz="0 0 -0.162637423408204"
+        rpy="0 0 0" />
+      <mass
+        value="5.205463824313" />
+      <inertia
+        ixx="3.66317923670982"
+        ixy="-2.22044604925031E-16"
+        ixz="-1.59843334544135E-16"
+        iyy="3.66317923670982"
+        iyz="-2.01732865994459E-17"
+        izz="5.43484629444829" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://argo/meshes/W3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+   <collision>
+      <origin
+        xyz="0 0 -0.18"
+        rpy="0 0 0" />
+      <geometry>
+             <cylinder radius="0.32" length="0.36"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="jo_w3"
+    type="continuous">
+    <origin
+      xyz="1.0864 -0.38 -0.18342"
+      rpy="1.5708 0.39309 -3.1416" />
+    <parent
+      link="base_link_argo" />
+    <child
+      link="W3" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="W5">
+    <inertial>
+      <origin
+        xyz="5.55111512312578E-17 1.11022302462516E-16 -0.162637423408204"
+        rpy="0 0 0" />
+      <mass
+        value="5.205463824313" />
+      <inertia
+        ixx="3.66317923670982"
+        ixy="0"
+        ixz="-8.74055653311197E-17"
+        iyy="3.66317923670982"
+        iyz="1.16509088889507E-17"
+        izz="5.43484629444829" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://argo/meshes/W5.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+   <collision>
+      <origin
+        xyz="0 0 -0.18"
+        rpy="0 0 0" />
+      <geometry>
+             <cylinder radius="0.32" length="0.36"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="jo_w5"
+    type="continuous">
+    <origin
+      xyz="0.39641 -0.38 -0.18342"
+      rpy="1.5708 0.39309 -3.1416" />
+    <parent
+      link="base_link_argo" />
+    <child
+      link="W5" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="W4">
+    <inertial>
+      <origin
+        xyz="-5.55111512312578E-17 -8.32667268468867E-17 -0.162637423408204"
+        rpy="0 0 0" />
+      <mass
+        value="5.205463824313" />
+      <inertia
+        ixx="3.66317923670982"
+        ixy="-2.22044604925031E-16"
+        ixz="-1.59843334544135E-16"
+        iyy="3.66317923670982"
+        iyz="-2.01732865994467E-17"
+        izz="5.43484629444829" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://argo/meshes/W4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+   <collision>
+      <origin
+        xyz="0 0 -0.18"
+        rpy="0 0 0" />
+      <geometry>
+             <cylinder radius="0.32" length="0.36"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="jo_w4"
+    type="continuous">
+    <origin
+      xyz="-0.29359 -0.38 -0.18342"
+      rpy="1.5708 0.39309 -3.1416" />
+    <parent
+      link="base_link_argo" />
+    <child
+      link="W4" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="W1">
+    <inertial>
+      <origin
+        xyz="0 -2.77555756156289E-17 -0.162637423408204"
+        rpy="0 0 0" />
+      <mass
+        value="5.205463824313" />
+      <inertia
+        ixx="3.66317923670982"
+        ixy="1.11022302462516E-16"
+        ixz="-1.00847316269664E-17"
+        iyy="3.66317923670982"
+        iyz="2.17202693956188E-18"
+        izz="5.43484629444829" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://argo/meshes/W1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+   <collision>
+      <origin
+        xyz="0 0 -0.18"
+        rpy="0 0 0" />
+      <geometry>
+             <cylinder radius="0.32" length="0.36"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="jo_w1"
+    type="continuous">
+    <origin
+      xyz="-0.98359 -0.38 -0.18342"
+      rpy="1.5708 0.39309 -3.1416" />
+    <parent
+      link="base_link_argo" />
+    <child
+      link="W1" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="front_cam">
+    <inertial>
+      <origin
+        xyz="0 0 -0.0150000000000001"
+        rpy="0 0 0" />
+      <mass
+        value="0.115453530019425" />
+      <inertia
+        ixx="4.40166583199059E-05"
+        ixy="0"
+        ixz="-1.82174905908648E-20"
+        iyy="4.40166583199058E-05"
+        iyz="-1.61820021637503E-20"
+        izz="7.07152871368979E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://argo/meshes/front_cam.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://argo/meshes/front_cam.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="front_cam_joint"
+    type="continuous">
+    <origin
+      xyz="1.0164 0.037112 0.89408"
+      rpy="-1.5708 1.179 1.5708" />
+    <parent
+      link="base_link_argo" />
+    <child
+      link="front_cam" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="rear_cam">
+    <inertial>
+      <origin
+        xyz="6.93889390390723E-18 0 0.015"
+        rpy="0 0 0" />
+      <mass
+        value="0.115453530019425" />
+      <inertia
+        ixx="4.40166583199058E-05"
+        ixy="-3.42235207630587E-36"
+        ixz="7.53363137661562E-21"
+        iyy="4.40166583199058E-05"
+        iyz="2.44908279915527E-20"
+        izz="7.07152871368979E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://argo/meshes/rear_cam.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://argo/meshes/rear_cam.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="rear_cam_joint"
+    type="continuous">
+    <origin
+      xyz="0.88641 0.037112 0.89408"
+      rpy="-1.5708 0 -1.5708" />
+    <parent
+      link="base_link_argo" />
+    <child
+      link="rear_cam" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="rover_gp">
+    <inertial>
+      <origin
+        xyz="0.0301308975542904 -2.63724109217378E-09 0.0102553549737826"
+        rpy="0 0 0" />
+      <mass
+        value="0.0702100451640409" />
+      <inertia
+        ixx="2.1783864357282E-05"
+        ixy="2.6914604596263E-11"
+        ixz="-1.56979730664447E-09"
+        iyy="2.02785504843164E-05"
+        iyz="5.60595894600677E-12"
+        izz="3.64793601068854E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://argo/meshes/rover_gp.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.647058823529412 0.513725490196078 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://argo/meshes/rover_gp.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="rover_gps_link"
+    type="fixed">
+    <origin
+      xyz="0.91596 -0.57275 0.93408"
+      rpy="0 0 0" />
+    <parent
+      link="base_link_argo" />
+    <child
+      link="rover_gp" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="base_gps">
+    <inertial>
+      <origin
+        xyz="0.0301308975542902 -2.63724109217378E-09 0.0102553549737822"
+        rpy="0 0 0" />
+      <mass
+        value="0.0702100451640406" />
+      <inertia
+        ixx="2.17838643572819E-05"
+        ixy="2.69146046062537E-11"
+        ixz="-1.56979730664984E-09"
+        iyy="2.02785504843163E-05"
+        iyz="5.60595895952449E-12"
+        izz="3.64793601068852E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://argo/meshes/base_gps.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.647058823529412 0.513725490196078 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://argo/meshes/base_gps.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="bage_gps_link"
+    type="fixed">
+    <origin
+      xyz="0.91956 0.57253 0.93408"
+      rpy="0 0 0" />
+    <parent
+      link="base_link_argo" />
+    <child
+      link="base_gps" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="imu">
+    <inertial>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="0" />
+      <inertia
+        ixx="0"
+        ixy="0"
+        ixz="0"
+        iyy="0"
+        iyz="0"
+        izz="0" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://argo/meshes/imu.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://argo/meshes/imu.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="imu_joint"
+    type="prismatic">
+    <origin
+      xyz="1.30635060914358 -0.0204979424251575 0.634949081448957"
+      rpy="1.5707963267949 0 0" />
+    <parent
+      link="base_link_argo" />
+    <child
+      link="imu" />
+    <axis
+      xyz="1 0 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+   </joint>
+    <gazebo reference="W1">
+    <kp>500</kp>
+    <kd>100</kd>
+    <mu>1</mu>
+    <mu2>1</mu2>
+    <fdir1>1 0 0</fdir1>
+    <maxVel>1.0</maxVel>
+    <minDepth>0.00</minDepth>
+
+  </gazebo>
+      
+   <!--   <gazebo reference="W2">
+
+    <kp>500</kp>
+    <kd>100</kd>
+    <mu>1</mu>
+    <mu2>1</mu2>
+    <fdir1>1 0 0</fdir1>
+    <maxVel>1.0</maxVel>
+    <minDepth>0.00</minDepth>
+  </gazebo>
+      <gazebo reference="W3">
+
+     <kp>500</kp>
+    <kd>100</kd>
+    <mu>1</mu>
+    <mu2>1</mu2>
+    <fdir1>1 0 0</fdir1>
+    <maxVel>1.0</maxVel>
+    <minDepth>0.00</minDepth>
+  </gazebo>
+      <gazebo reference="W4">
+
+    <kp>500</kp>
+    <kd>100</kd>
+    <mu>1</mu>
+    <mu2>1</mu2>
+    <fdir1>1 0 0</fdir1>
+    <maxVel>1.0</maxVel>
+    <minDepth>0.00</minDepth>
+  </gazebo>
+      <gazebo reference="W5">
+
+    <kp>500</kp>
+    <kd>100</kd>
+    <mu>1</mu>
+    <mu2>1</mu2>
+    <fdir1>1 0 0</fdir1>
+    <maxVel>1.0</maxVel>
+    <minDepth>0.00</minDepth>
+  </gazebo>
+      <gazebo reference="W6">
+
+    <kp>500</kp>
+    <kd>100</kd>
+    <mu>1</mu>
+    <mu2>1</mu2>
+    <fdir1>1 0 0</fdir1>
+    <maxVel>1.0</maxVel>
+    <minDepth>0.00</minDepth>
+  </gazebo>
+      <gazebo reference="W7">
+
+    <kp>500</kp>
+    <kd>100</kd>
+    <mu>1</mu>
+    <mu2>1</mu2>
+    <fdir1>1 0 0</fdir1>
+    <maxVel>1.0</maxVel>
+    <minDepth>0.00</minDepth>
+  </gazebo>
+      <gazebo reference="W8">
+
+    <kp>500</kp>
+    <kd>100</kd>
+    <mu>1</mu>
+    <mu2>1</mu2>
+    <fdir1>1 0 0</fdir1>
+    <maxVel>1.0</maxVel>
+    <minDepth>0.00</minDepth>
+  </gazebo>-->
+
+  <gazebo reference="W1"> <!-- reference to a existing "link" -->
+  <material>Gazebo/Black </material>
+  </gazebo>
+  
+  <gazebo reference="W2"> <!-- reference to a existing "link" -->
+  <material>Gazebo/Black </material>
+  </gazebo>
+
+  <gazebo reference="W3"> <!-- reference to a existing "link" -->
+  <material>Gazebo/Black </material>
+  </gazebo>
+
+  <gazebo reference="W4"> <!-- reference to a existing "link" -->
+  <material>Gazebo/Black </material>
+  </gazebo>
+
+  <gazebo reference="W5"> <!-- reference to a existing "link" -->
+  <material>Gazebo/Black </material>
+  </gazebo>
+
+  <gazebo reference="W6"> <!-- reference to a existing "link" -->
+  <material>Gazebo/Black </material>
+  </gazebo>
+
+  <gazebo reference="W7"> <!-- reference to a existing "link" -->
+  <material>Gazebo/Black </material>
+  </gazebo>
+  
+  <gazebo reference="W8"> <!-- reference to a existing "link" -->
+  <material>Gazebo/Black </material>
+  </gazebo>
+  
+  <gazebo reference="base_gps">
+    <sensor name="gps_sensor" type="gps">
+        <always_on>true</always_on>
+        <update_rate>8.0</update_rate>
+        <plugin name="base_gps_node" filename="libgazebo_ros_gps_sensor.so">
+                <remapping>/base_gps_node/out:=/ARGJ801/base/gps/fix</remapping>
+                <remapping>/base_gps_node/vel:=/ARGJ801/base/gps/vel</remapping>
+            <frame_name>base_gps</frame_name>
+        </plugin>
+    </sensor>
+    <material>Gazebo/Grey</material>
+</gazebo>
+  <gazebo reference="rover_gp">
+    <sensor name="gps_sensor" type="gps">
+    <position_sensing> 
+    	<horizontal>
+    		<noise type="gaussian">
+    			<mean>0.000196</mean>
+    		</noise> 
+    	</horizontal>
+    </position_sensing> 
+        <always_on>true</always_on>
+        <update_rate>8.0</update_rate>
+        <plugin name="rover_gps_node" filename="libgazebo_ros_gps_sensor.so">
+                <remapping>/rover_gps_node/out:=/ARGJ801/rover/gps/fix</remapping>
+                <remapping>/rover_gps_node/vel:=/ARGJ801/rover/gps/vel</remapping>
+            <frame_name>rover_gp</frame_name>
+        </plugin>
+    </sensor>
+    <material>Gazebo/Grey</material>
+</gazebo>
+
+  <gazebo reference="front_cam">
+    <sensor type="camera" name="front_camera">
+      <update_rate>1</update_rate>
+      <camera name="head">
+        <horizontal_fov>1.2</horizontal_fov>
+        <image>
+          <width>420</width>
+          <height>240</height>
+          <format>R8G8B8</format>
+        </image>
+        <clip>
+          <near>0.02</near>
+          <far>300</far>
+        </clip>
+        <distortion>
+          <k1>0.0</k1>
+          <k2>0.0</k2>
+          <k3>0.0</k3>
+          <p1>0.0</p1>
+          <p2>0.0</p2>
+        </distortion>
+      </camera>
+      <plugin name="front_cam_controller" filename="libgazebo_ros_camera.so">
+        <ros>
+          <namespace>ARGJ801</namespace>
+          <argument>image_raw:=custom</argument>
+          <argument>camera_info:=custom_info</argument>
+          <update_rate>25</update_rate>
+        </ros>
+        <camera_name>front_camera</camera_name>
+        <frame_name>front_cam</frame_name>
+        <hack_baseline>0.07</hack_baseline>
+      </plugin>
+    </sensor>
+  </gazebo>
+  
+  <gazebo reference="base_link_argo">
+    <sensor name="br_imu" type="imu">
+        <always_on>true</always_on>
+        <update_rate>100</update_rate>
+        <imu>
+          <angular_velocity>
+            <x>
+              <noise type="gaussian">
+                <mean>0.0</mean>
+                <stddev>2e-4</stddev>
+              </noise>
+            </x>
+            <y>
+              <noise type="gaussian">
+                <mean>0.0</mean>
+                <stddev>2e-4</stddev>
+              </noise>
+            </y>
+            <z>
+              <noise type="gaussian">
+                <mean>0.0</mean>
+                <stddev>2e-4</stddev>
+              </noise>
+            </z>
+          </angular_velocity>
+          <linear_acceleration>
+            <x>
+              <noise type="gaussian">
+                <mean>0.0</mean>
+                <stddev>1.7e-2</stddev>
+              </noise>
+            </x>
+            <y>
+              <noise type="gaussian">
+                <mean>0.0</mean>
+                <stddev>1.7e-2</stddev>
+              </noise>
+            </y>
+            <z>
+              <noise type="gaussian">
+                <mean>0.0</mean>
+                <stddev>1.7e-2</stddev>
+              </noise>
+            </z>
+          </linear_acceleration>
+        </imu>
+        <plugin name="bytes_imu" filename="libgazebo_ros_imu_sensor_mod.so">
+            <ros>
+                <namespace>imu</namespace>
+                <remapping>~/out:=data</remapping>
+            </ros>
+            <initial_orientation_as_reference>false</initial_orientation_as_reference>
+        </plugin>
+    </sensor>
+</gazebo>
+
+  <gazebo>
+        <plugin name='diff_drive' filename='libgazebo_ros_diff_drive_mod.so'>
+
+        <ros>
+          <namespace>/ARGJ801</namespace>
+          <!--<remapping>cmd_vel:=cmd_demo</remapping>-->
+          <remapping>odom:=odom_demo</remapping>
+        </ros>
+
+        <!-- wheels -->
+        <num_wheel_pairs>4</num_wheel_pairs>
+        <left_joint>jo_w3</left_joint>
+        <left_joint>jo_w5</left_joint>
+        <left_joint>jo_w4</left_joint>
+        <left_joint>jo_w1</left_joint>
+        
+        <right_joint>jo_w6</right_joint>
+        <right_joint>jo_w2</right_joint>
+        <right_joint>jo_w7</right_joint>
+        <right_joint>jo_w8</right_joint>
+        <!-- kinematics -->
+        <wheel_separation>1.35</wheel_separation>
+        <wheel_diameter>0.64</wheel_diameter>
+
+        <!-- limits -->
+        <max_wheel_torque>500</max_wheel_torque>
+        <max_wheel_acceleration>2.0</max_wheel_acceleration>
+
+        <!-- output -->
+        <publish_odom>true</publish_odom>
+        <publish_odom_tf>false</publish_odom_tf>
+        <publish_wheel_tf>false</publish_wheel_tf>
+
+        <odometry_frame>odom</odometry_frame>
+        <robot_base_frame>base_link_argo</robot_base_frame>
+
+      </plugin>
+        </gazebo>
+</robot>

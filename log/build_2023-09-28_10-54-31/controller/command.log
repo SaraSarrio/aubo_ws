@@ -1,0 +1,6 @@
+Invoking command in '/home/sara/aubo_ws/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/opt/ros/humble /usr/bin/cmake /home/sara/aubo_ws/src/controller -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/controller
+Invoked command in '/home/sara/aubo_ws/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/opt/ros/humble /usr/bin/cmake /home/sara/aubo_ws/src/controller -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/controller
+Invoking command in '/home/sara/aubo_ws/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/controller -- -j8 -l8
+Invoked command in '/home/sara/aubo_ws/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/controller -- -j8 -l8
+Invoking command in '/home/sara/aubo_ws/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/controller
+Invoked command in '/home/sara/aubo_ws/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/controller

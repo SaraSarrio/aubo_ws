@@ -1,0 +1,64 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sara/aubo_ws/build/argo
+-- Install configuration: ""
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/launch
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/launch/argo.launch.py
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/launch/spawn_robot_launch_v4.launch.py
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/urdf
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/urdf/argo.urdf
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/urdf/argo.csv
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/meshes
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/meshes/W2.STL
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/meshes/brdge.STL
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/meshes/base_gps.STL
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/meshes/W7.STL
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/meshes/W4.STL
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/meshes/rover_gp.STL
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/meshes/W5.STL
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/meshes/rear_cam.STL
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/meshes/W3.STL
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/meshes/W1.STL
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/meshes/base_link.STL
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/meshes/imu.STL
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/meshes/W6.STL
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/meshes/W8.STL
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/meshes/front_cam.STL
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/meshes/top.STL
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/config
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/config/joint_names_argo.yaml
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/config/joint_names_argo_v2.yaml
+-- Installing: /home/sara/aubo_ws/install/argo/share/ament_index/resource_index/package_run_dependencies/argo
+-- Installing: /home/sara/aubo_ws/install/argo/share/ament_index/resource_index/parent_prefix_path/argo
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/environment/ament_prefix_path.sh
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/environment/ament_prefix_path.dsv
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/environment/path.sh
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/environment/path.dsv
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/local_setup.bash
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/local_setup.sh
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/local_setup.zsh
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/local_setup.dsv
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/package.dsv
+-- Installing: /home/sara/aubo_ws/install/argo/share/ament_index/resource_index/packages/argo
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/cmake/argoConfig.cmake
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/cmake/argoConfig-version.cmake
+-- Installing: /home/sara/aubo_ws/install/argo/share/argo/package.xml

@@ -1,0 +1,441 @@
+[1.031s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.031s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb6e0a9e3b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb6e0a9f3a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb6e0a9f3a0>>)
+[1.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.078s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sara/aubo_ws'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.079s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.091s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control) by extensions ['ignore', 'ignore_ament_install']
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control) by extension 'ignore'
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control) by extension 'ignore_ament_install'
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control) by extensions ['colcon_pkg']
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control) by extension 'colcon_pkg'
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control) by extensions ['colcon_meta']
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control) by extension 'colcon_meta'
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control) by extensions ['ros']
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control) by extension 'ros'
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control) by extensions ['cmake', 'python']
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control) by extension 'cmake'
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control) by extension 'python'
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control) by extensions ['python_setup_py']
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control) by extension 'python_setup_py'
+[1.092s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/argo) by extensions ['ignore', 'ignore_ament_install']
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/argo) by extension 'ignore'
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/argo) by extension 'ignore_ament_install'
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/argo) by extensions ['colcon_pkg']
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/argo) by extension 'colcon_pkg'
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/argo) by extensions ['colcon_meta']
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/argo) by extension 'colcon_meta'
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/argo) by extensions ['ros']
+[1.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/argo) by extension 'ros'
+[1.096s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aubo_control/argo' with type 'ros.ament_cmake' and name 'argo'
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/aubo) by extensions ['ignore', 'ignore_ament_install']
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/aubo) by extension 'ignore'
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/aubo) by extension 'ignore_ament_install'
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/aubo) by extensions ['colcon_pkg']
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/aubo) by extension 'colcon_pkg'
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/aubo) by extensions ['colcon_meta']
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/aubo) by extension 'colcon_meta'
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/aubo) by extensions ['ros']
+[1.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/aubo) by extension 'ros'
+[1.097s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aubo_control/aubo' with type 'ros.ament_cmake' and name 'aubo'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/control) by extensions ['ignore', 'ignore_ament_install']
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/control) by extension 'ignore'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/control) by extension 'ignore_ament_install'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/control) by extensions ['colcon_pkg']
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/control) by extension 'colcon_pkg'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/control) by extensions ['colcon_meta']
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/control) by extension 'colcon_meta'
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/control) by extensions ['ros']
+[1.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_control/control) by extension 'ros'
+[1.098s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aubo_control/control' with type 'ros.ament_cmake' and name 'control'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_description) by extensions ['ignore', 'ignore_ament_install']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_description) by extension 'ignore'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_description) by extension 'ignore_ament_install'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_description) by extensions ['colcon_pkg']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_description) by extension 'colcon_pkg'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_description) by extensions ['colcon_meta']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_description) by extension 'colcon_meta'
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_description) by extensions ['ros']
+[1.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/aubo_description) by extension 'ros'
+[1.099s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aubo_description' with type 'ros.ament_cmake' and name 'aubo_description'
+[1.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.208s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/sara/ros2_ws/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[1.208s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/gazebo_ros2_control_demos' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.208s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/ros2_controllers' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.208s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/ign_ros2_control_demos' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.208s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/velocity_controllers' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.208s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/tricycle_steering_controller' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.208s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/tricycle_controller' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.208s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/ros2_control_demos' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.208s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/ros2_control_demo_example_8' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.208s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/ros2_control' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.208s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/transmission_interface' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.208s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/bicycle_steering_controller' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.209s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/ackermann_steering_controller' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.209s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/steering_controllers_library' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.209s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/rqt_joint_trajectory_controller' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.209s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/rqt_controller_manager' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.209s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/ros2_control_demo_example_9' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.209s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/ros2_control_demo_example_7' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.209s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/ros2_control_demo_example_6' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.209s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/ros2_control_demo_example_5' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.209s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/ros2_control_demo_example_4' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.209s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/ros2_control_demo_example_3' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.209s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/ros2_control_demo_example_2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.209s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/ros2_control_demo_example_14' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.209s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/ros2_control_demo_example_12' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.209s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/ros2_control_demo_example_10' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.209s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/ros2_control_demo_example_1' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.209s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/gz_ros2_control_tests' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.209s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/ros2controlcli' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.209s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/ros2_controllers_test_nodes' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.209s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/ign_ros2_control' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.209s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/controller_manager' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.209s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/ros2_control_test_assets' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.209s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/ros2_control_demo_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.209s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/range_sensor_broadcaster' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.209s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/position_controllers' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.209s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/admittance_controller' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.209s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/joint_state_broadcaster' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.210s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/gripper_controllers' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.210s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/effort_controllers' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.210s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/forward_command_controller' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.210s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/force_torque_sensor_broadcaster' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.210s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/control_toolbox' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.210s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/realtime_tools' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.210s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/kinematics_interface_kdl' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.210s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/kinematics_interface' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.210s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/joint_limits' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.210s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/controller_interface' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.210s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/hardware_interface' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.210s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/controller_manager_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.210s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sara/ros2_ws/install/control_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.210s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/gazebo_ros2_control_demos' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.210s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/ros2_controllers' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.210s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/ign_ros2_control_demos' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.211s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/velocity_controllers' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.211s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/tricycle_steering_controller' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.211s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/tricycle_controller' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.211s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/ros2_control_demos' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.211s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/ros2_control_demo_example_8' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.211s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/ros2_control' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.211s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/transmission_interface' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.211s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/bicycle_steering_controller' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.211s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/ackermann_steering_controller' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.211s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/ros2_control_demo_example_9' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.211s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/ros2_control_demo_example_7' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.211s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/ros2_control_demo_example_6' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.211s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/ros2_control_demo_example_5' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.211s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/ros2_control_demo_example_4' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.211s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/ros2_control_demo_example_3' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.212s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/ros2_control_demo_example_2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.212s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/ros2_control_demo_example_14' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.212s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/ros2_control_demo_example_12' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.212s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/ros2_control_demo_example_10' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.212s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/ros2_control_demo_example_1' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.212s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/gz_ros2_control_tests' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.212s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/ign_ros2_control' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.212s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/gazebo_ros2_control' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.212s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/controller_manager' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.212s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/ros2_control_test_assets' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.212s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/ros2_control_demo_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.212s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/range_sensor_broadcaster' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.212s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/position_controllers' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.212s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/admittance_controller' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.212s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/joint_trajectory_controller' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.212s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/joint_state_broadcaster' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.212s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/imu_sensor_broadcaster' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.212s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/gripper_controllers' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.212s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/effort_controllers' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.213s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/forward_command_controller' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.213s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/force_torque_sensor_broadcaster' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.213s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/diff_drive_controller' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.213s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/control_toolbox' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.213s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/realtime_tools' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.213s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/kinematics_interface_kdl' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.213s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/kinematics_interface' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.213s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/joint_limits' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.213s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/controller_interface' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.213s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/hardware_interface' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.213s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/controller_manager_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.213s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sara/ros2_ws/install/control_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.230s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 23 installed packages in /home/sara/aubo_ws/install
+[1.247s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 319 installed packages in /opt/ros/humble
+[1.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.366s] Level 5:colcon.colcon_core.verb:set package 'argo' build argument 'cmake_args' from command line to 'None'
+[1.366s] Level 5:colcon.colcon_core.verb:set package 'argo' build argument 'cmake_target' from command line to 'None'
+[1.367s] Level 5:colcon.colcon_core.verb:set package 'argo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.367s] Level 5:colcon.colcon_core.verb:set package 'argo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.367s] Level 5:colcon.colcon_core.verb:set package 'argo' build argument 'cmake_clean_first' from command line to 'False'
+[1.367s] Level 5:colcon.colcon_core.verb:set package 'argo' build argument 'cmake_force_configure' from command line to 'False'
+[1.367s] Level 5:colcon.colcon_core.verb:set package 'argo' build argument 'ament_cmake_args' from command line to 'None'
+[1.367s] Level 5:colcon.colcon_core.verb:set package 'argo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.367s] Level 5:colcon.colcon_core.verb:set package 'argo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.367s] DEBUG:colcon.colcon_core.verb:Building package 'argo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sara/aubo_ws/build/argo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sara/aubo_ws/install/argo', 'merge_install': False, 'path': '/home/sara/aubo_ws/src/aubo_control/argo', 'symlink_install': False, 'test_result_base': None}
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'aubo' build argument 'cmake_args' from command line to 'None'
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'aubo' build argument 'cmake_target' from command line to 'None'
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'aubo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'aubo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'aubo' build argument 'cmake_clean_first' from command line to 'False'
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'aubo' build argument 'cmake_force_configure' from command line to 'False'
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'aubo' build argument 'ament_cmake_args' from command line to 'None'
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'aubo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.382s] Level 5:colcon.colcon_core.verb:set package 'aubo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.382s] DEBUG:colcon.colcon_core.verb:Building package 'aubo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sara/aubo_ws/build/aubo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sara/aubo_ws/install/aubo', 'merge_install': False, 'path': '/home/sara/aubo_ws/src/aubo_control/aubo', 'symlink_install': False, 'test_result_base': None}
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'aubo_description' build argument 'cmake_args' from command line to 'None'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'aubo_description' build argument 'cmake_target' from command line to 'None'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'aubo_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'aubo_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'aubo_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'aubo_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'aubo_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'aubo_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.397s] Level 5:colcon.colcon_core.verb:set package 'aubo_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.397s] DEBUG:colcon.colcon_core.verb:Building package 'aubo_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sara/aubo_ws/build/aubo_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sara/aubo_ws/install/aubo_description', 'merge_install': False, 'path': '/home/sara/aubo_ws/src/aubo_description', 'symlink_install': False, 'test_result_base': None}
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_args' from command line to 'None'
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_target' from command line to 'None'
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_clean_cache' from command line to 'False'
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_clean_first' from command line to 'False'
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'cmake_force_configure' from command line to 'False'
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'ament_cmake_args' from command line to 'None'
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'catkin_cmake_args' from command line to 'None'
+[1.412s] Level 5:colcon.colcon_core.verb:set package 'control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.412s] DEBUG:colcon.colcon_core.verb:Building package 'control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sara/aubo_ws/build/control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sara/aubo_ws/install/control', 'merge_install': False, 'path': '/home/sara/aubo_ws/src/aubo_control/control', 'symlink_install': False, 'test_result_base': None}
+[1.429s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.444s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.444s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sara/aubo_ws/src/aubo_control/argo' with build type 'ament_cmake'
+[1.445s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sara/aubo_ws/src/aubo_control/argo'
+[1.463s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.463s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.464s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.512s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sara/aubo_ws/src/aubo_control/aubo' with build type 'ament_cmake'
+[1.512s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sara/aubo_ws/src/aubo_control/aubo'
+[1.528s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.528s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.578s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sara/aubo_ws/src/aubo_description' with build type 'ament_cmake'
+[1.578s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sara/aubo_ws/src/aubo_description'
+[1.595s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.595s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.645s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sara/aubo_ws/src/aubo_control/control' with build type 'ament_cmake'
+[1.645s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sara/aubo_ws/src/aubo_control/control'
+[1.661s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.661s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sara/aubo_ws/build/argo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/argo -- -j8 -l8
+[1.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sara/aubo_ws/build/aubo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/aubo -- -j8 -l8
+[1.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sara/aubo_ws/build/aubo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/aubo_description -- -j8 -l8
+[1.730s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8
+[1.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sara/aubo_ws/build/argo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/argo -- -j8 -l8
+[1.773s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sara/aubo_ws/build/aubo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/aubo -- -j8 -l8
+[1.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sara/aubo_ws/build/aubo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/aubo_description -- -j8 -l8
+[1.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sara/aubo_ws/build/aubo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/aubo_description
+[1.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sara/aubo_ws/build/aubo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/aubo
+[1.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sara/aubo_ws/build/argo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/argo
+[1.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sara/aubo_ws/build/control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8
+[1.910s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aubo_description)
+[1.911s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sara/aubo_ws/build/aubo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/aubo_description
+[1.932s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo_description' for CMake module files
+[1.933s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo_description' for CMake config files
+[1.933s] Level 1:colcon.colcon_core.shell:create_environment_hook('aubo_description', 'cmake_prefix_path')
+[1.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/aubo_description/share/aubo_description/hook/cmake_prefix_path.ps1'
+[1.951s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sara/aubo_ws/install/aubo_description/share/aubo_description/hook/cmake_prefix_path.dsv'
+[1.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/aubo_description/share/aubo_description/hook/cmake_prefix_path.sh'
+[1.952s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo_description/bin'
+[1.952s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo_description/lib/pkgconfig/aubo_description.pc'
+[1.952s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo_description/lib/python3.10/site-packages'
+[1.952s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo_description/bin'
+[1.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/aubo_description/share/aubo_description/package.ps1'
+[1.969s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sara/aubo_ws/install/aubo_description/share/aubo_description/package.dsv'
+[1.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/aubo_description/share/aubo_description/package.sh'
+[1.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/aubo_description/share/aubo_description/package.bash'
+[1.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/aubo_description/share/aubo_description/package.zsh'
+[1.973s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sara/aubo_ws/install/aubo_description/share/colcon-core/packages/aubo_description)
+[1.975s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(argo)
+[1.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sara/aubo_ws/build/argo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/argo
+[1.995s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/argo' for CMake module files
+[1.995s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/argo' for CMake config files
+[1.996s] Level 1:colcon.colcon_core.shell:create_environment_hook('argo', 'cmake_prefix_path')
+[2.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/argo/share/argo/hook/cmake_prefix_path.ps1'
+[2.014s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sara/aubo_ws/install/argo/share/argo/hook/cmake_prefix_path.dsv'
+[2.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/argo/share/argo/hook/cmake_prefix_path.sh'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/argo/bin'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/argo/lib/pkgconfig/argo.pc'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/argo/lib/python3.10/site-packages'
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/argo/bin'
+[2.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/argo/share/argo/package.ps1'
+[2.031s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sara/aubo_ws/install/argo/share/argo/package.dsv'
+[2.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/argo/share/argo/package.sh'
+[2.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/argo/share/argo/package.bash'
+[2.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/argo/share/argo/package.zsh'
+[2.032s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sara/aubo_ws/install/argo/share/colcon-core/packages/argo)
+[2.033s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aubo)
+[2.033s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sara/aubo_ws/build/aubo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/aubo
+[2.049s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo' for CMake module files
+[2.050s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo' for CMake config files
+[2.050s] Level 1:colcon.colcon_core.shell:create_environment_hook('aubo', 'cmake_prefix_path')
+[2.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/aubo/share/aubo/hook/cmake_prefix_path.ps1'
+[2.067s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sara/aubo_ws/install/aubo/share/aubo/hook/cmake_prefix_path.dsv'
+[2.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/aubo/share/aubo/hook/cmake_prefix_path.sh'
+[2.068s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo/bin'
+[2.068s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo/lib/pkgconfig/aubo.pc'
+[2.068s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo/lib/python3.10/site-packages'
+[2.068s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo/bin'
+[2.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/aubo/share/aubo/package.ps1'
+[2.084s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sara/aubo_ws/install/aubo/share/aubo/package.dsv'
+[2.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/aubo/share/aubo/package.sh'
+[2.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/aubo/share/aubo/package.bash'
+[2.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/aubo/share/aubo/package.zsh'
+[2.086s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sara/aubo_ws/install/aubo/share/colcon-core/packages/aubo)
+[2.090s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/control
+[2.111s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aubo_description)
+[2.128s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo_description' for CMake module files
+[2.129s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo_description' for CMake config files
+[2.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('aubo_description', 'cmake_prefix_path')
+[2.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/aubo_description/share/aubo_description/hook/cmake_prefix_path.ps1'
+[2.145s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sara/aubo_ws/install/aubo_description/share/aubo_description/hook/cmake_prefix_path.dsv'
+[2.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/aubo_description/share/aubo_description/hook/cmake_prefix_path.sh'
+[2.146s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo_description/bin'
+[2.146s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo_description/lib/pkgconfig/aubo_description.pc'
+[2.146s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo_description/lib/python3.10/site-packages'
+[2.146s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo_description/bin'
+[2.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/aubo_description/share/aubo_description/package.ps1'
+[2.165s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sara/aubo_ws/install/aubo_description/share/aubo_description/package.dsv'
+[2.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/aubo_description/share/aubo_description/package.sh'
+[2.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/aubo_description/share/aubo_description/package.bash'
+[2.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/aubo_description/share/aubo_description/package.zsh'
+[2.167s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sara/aubo_ws/install/aubo_description/share/colcon-core/packages/aubo_description)
+[2.190s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(argo)
+[2.205s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/argo' for CMake module files
+[2.206s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/argo' for CMake config files
+[2.206s] Level 1:colcon.colcon_core.shell:create_environment_hook('argo', 'cmake_prefix_path')
+[2.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/argo/share/argo/hook/cmake_prefix_path.ps1'
+[2.220s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sara/aubo_ws/install/argo/share/argo/hook/cmake_prefix_path.dsv'
+[2.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/argo/share/argo/hook/cmake_prefix_path.sh'
+[2.221s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/argo/bin'
+[2.221s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/argo/lib/pkgconfig/argo.pc'
+[2.221s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/argo/lib/python3.10/site-packages'
+[2.222s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/argo/bin'
+[2.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/argo/share/argo/package.ps1'
+[2.239s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sara/aubo_ws/install/argo/share/argo/package.dsv'
+[2.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/argo/share/argo/package.sh'
+[2.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/argo/share/argo/package.bash'
+[2.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/argo/share/argo/package.zsh'
+[2.240s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sara/aubo_ws/install/argo/share/colcon-core/packages/argo)
+[2.240s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control)
+[2.241s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sara/aubo_ws/build/control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sara/ros2_ws/install/steering_controllers_library:/home/sara/ros2_ws/install/rqt_joint_trajectory_controller:/home/sara/ros2_ws/install/rqt_controller_manager:/home/sara/ros2_ws/install/ros2controlcli:/home/sara/ros2_ws/install/ros2_controllers_test_nodes:/home/sara/aubo_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/control
+[2.259s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/control' for CMake module files
+[2.260s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/control' for CMake config files
+[2.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('control', 'cmake_prefix_path')
+[2.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/control/share/control/hook/cmake_prefix_path.ps1'
+[2.277s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sara/aubo_ws/install/control/share/control/hook/cmake_prefix_path.dsv'
+[2.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/control/share/control/hook/cmake_prefix_path.sh'
+[2.278s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/control/lib'
+[2.278s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/control/bin'
+[2.278s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/control/lib/pkgconfig/control.pc'
+[2.278s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/control/lib/python3.10/site-packages'
+[2.279s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/control/bin'
+[2.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/control/share/control/package.ps1'
+[2.294s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sara/aubo_ws/install/control/share/control/package.dsv'
+[2.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/control/share/control/package.sh'
+[2.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/control/share/control/package.bash'
+[2.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/control/share/control/package.zsh'
+[2.296s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sara/aubo_ws/install/control/share/colcon-core/packages/control)
+[2.313s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aubo)
+[2.329s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo' for CMake module files
+[2.329s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo' for CMake config files
+[2.330s] Level 1:colcon.colcon_core.shell:create_environment_hook('aubo', 'cmake_prefix_path')
+[2.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/aubo/share/aubo/hook/cmake_prefix_path.ps1'
+[2.346s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sara/aubo_ws/install/aubo/share/aubo/hook/cmake_prefix_path.dsv'
+[2.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/aubo/share/aubo/hook/cmake_prefix_path.sh'
+[2.347s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo/bin'
+[2.347s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo/lib/pkgconfig/aubo.pc'
+[2.347s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo/lib/python3.10/site-packages'
+[2.347s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/aubo/bin'
+[2.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/aubo/share/aubo/package.ps1'
+[2.364s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sara/aubo_ws/install/aubo/share/aubo/package.dsv'
+[2.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/aubo/share/aubo/package.sh'
+[2.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/aubo/share/aubo/package.bash'
+[2.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/aubo/share/aubo/package.zsh'
+[2.365s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sara/aubo_ws/install/aubo/share/colcon-core/packages/aubo)
+[2.404s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control)
+[2.420s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/control' for CMake module files
+[2.421s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/control' for CMake config files
+[2.421s] Level 1:colcon.colcon_core.shell:create_environment_hook('control', 'cmake_prefix_path')
+[2.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/control/share/control/hook/cmake_prefix_path.ps1'
+[2.437s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sara/aubo_ws/install/control/share/control/hook/cmake_prefix_path.dsv'
+[2.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sara/aubo_ws/install/control/share/control/hook/cmake_prefix_path.sh'
+[2.438s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/control/lib'
+[2.438s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/control/bin'
+[2.438s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/control/lib/pkgconfig/control.pc'
+[2.439s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/control/lib/python3.10/site-packages'
+[2.439s] Level 1:colcon.colcon_core.environment:checking '/home/sara/aubo_ws/install/control/bin'
+[2.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/control/share/control/package.ps1'
+[2.455s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sara/aubo_ws/install/control/share/control/package.dsv'
+[2.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/control/share/control/package.sh'
+[2.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/control/share/control/package.bash'
+[2.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/sara/aubo_ws/install/control/share/control/package.zsh'
+[2.458s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sara/aubo_ws/install/control/share/colcon-core/packages/control)
+[2.458s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.459s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.459s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.459s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.480s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.480s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.480s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.490s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.505s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sara/aubo_ws/install/local_setup.ps1'
+[2.506s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sara/aubo_ws/install/_local_setup_util_ps1.py'
+[2.508s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sara/aubo_ws/install/setup.ps1'
+[2.537s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sara/aubo_ws/install/local_setup.sh'
+[2.538s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sara/aubo_ws/install/_local_setup_util_sh.py'
+[2.538s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sara/aubo_ws/install/setup.sh'
+[2.558s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sara/aubo_ws/install/local_setup.bash'
+[2.558s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sara/aubo_ws/install/setup.bash'
+[2.575s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sara/aubo_ws/install/local_setup.zsh'
+[2.576s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sara/aubo_ws/install/setup.zsh'

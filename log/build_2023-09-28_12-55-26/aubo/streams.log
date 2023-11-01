@@ -1,0 +1,1 @@
+[0.123s] Invoking command in '/home/sara/aubo_ws/build/aubo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/aubo -- -j8 -l8

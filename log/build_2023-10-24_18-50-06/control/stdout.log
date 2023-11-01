@@ -1,0 +1,9 @@
+[ 11%] Built target dir_kin
+[ 22%] Built target inv_kin
+[ 33%] Built target controller
+[ 44%] Built target test_pub
+[ 55%] Built target sim_pub
+[ 66%] Built target sim_test
+[ 77%] Built target sim_control
+[ 88%] Built target sim_sub
+[ 94%] [32m[1mLinking CXX executable listener[0m

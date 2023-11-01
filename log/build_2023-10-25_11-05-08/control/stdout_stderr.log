@@ -1,0 +1,16 @@
+[ 12%] Built target controller
+[ 25%] Built target inv_kin
+[ 37%] Built target test_pub
+[ 50%] Built target dir_kin
+[ 62%] Built target sim_control
+[ 75%] Built target sim_sub
+[ 87%] Built target sim_test
+[ 93%] [32mBuilding CXX object CMakeFiles/sim_pub.dir/src/sim_pub.cpp.o[0m
+In file included from [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:3[m[K:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/sim_pub.hpp:12:10:[m[K [01;31m[Kfatal error: [m[Kgazebo_msgs/msg/contact_state.hpp: No such file or directory
+   12 | #include [01;31m[K"gazebo_msgs/msg/contact_state.hpp"[m[K  // Si estás trabajando con contactos
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/sim_pub.dir/build.make:76: CMakeFiles/sim_pub.dir/src/sim_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:255: CMakeFiles/sim_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

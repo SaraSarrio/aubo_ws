@@ -1,0 +1,4 @@
+source;share/argo/local_setup.bash
+source;share/argo/local_setup.dsv
+source;share/argo/local_setup.sh
+source;share/argo/local_setup.zsh

@@ -1,0 +1,283 @@
+[0.085s] Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sara/aubo_ws/src/aubo_control/control -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/control
+[0.148s] -- The C compiler identification is GNU 11.4.0
+[0.221s] -- The CXX compiler identification is GNU 11.4.0
+[0.229s] -- Detecting C compiler ABI info
+[0.319s] -- Detecting C compiler ABI info - done
+[0.332s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.333s] -- Detecting C compile features
+[0.334s] -- Detecting C compile features - done
+[0.339s] -- Detecting CXX compiler ABI info
+[0.434s] -- Detecting CXX compiler ABI info - done
+[0.449s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.450s] -- Detecting CXX compile features
+[0.450s] -- Detecting CXX compile features - done
+[0.453s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.659s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.766s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.842s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.851s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.865s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.889s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.920s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.032s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.036s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.160s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.187s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.238s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.250s] -- Looking for pthread.h
+[1.323s] -- Looking for pthread.h - found
+[1.324s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.399s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.400s] -- Found Threads: TRUE  
+[1.583s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.583s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[1.584s]   does not match the name of the calling package (gazebo).  This can lead to
+[1.584s]   problems in calling code that expects `find_package` result variables
+[1.584s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.584s] Call Stack (most recent call first):
+[1.584s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[1.584s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[1.584s]   CMakeLists.txt:12 (find_package)
+[1.584s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.584s] [0m
+[1.584s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.585s] -- Checking for module 'bullet>=2.82'
+[1.598s] --   Found bullet, version 3.05
+[1.710s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.764s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.789s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.819s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.838s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.844s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.853s] -- Searching for dependencies of ignition-math6
+[1.855s] -- Looking for OGRE...
+[1.855s] -- OGRE_PREFIX_WATCH changed.
+[1.860s] -- Checking for module 'OGRE'
+[1.874s] --   Found OGRE, version 1.9.0
+[1.909s] -- Found Ogre Ghadamon (1.9.0)
+[1.917s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.928s] -- Looking for OGRE_Paging...
+[1.935s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.935s] -- Looking for OGRE_Terrain...
+[1.940s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.940s] -- Looking for OGRE_Property...
+[1.945s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.945s] -- Looking for OGRE_RTShaderSystem...
+[1.952s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.952s] -- Looking for OGRE_Volume...
+[1.957s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.957s] -- Looking for OGRE_Overlay...
+[1.963s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.094s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.097s] -- Looking for ignition-transport8 -- found version 8.2.1
+[2.097s] -- Searching for dependencies of ignition-transport8
+[2.115s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[2.125s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.130s] -- Checking for module 'libzmq >= 4'
+[2.145s] --   Found libzmq , version 4.3.4
+[2.183s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.190s] -- Checking for module 'uuid'
+[2.204s] --   Found uuid, version 2.37.2
+[2.240s] -- Found UUID: TRUE  
+[2.243s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.243s] -- Searching for dependencies of ignition-msgs5
+[2.262s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.268s] -- Checking for module 'tinyxml2'
+[2.281s] --   Found tinyxml2, version 9.0.0
+[2.319s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.321s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.321s] -- Searching for dependencies of ignition-common3
+[2.322s] -- Looking for dlfcn.h - found
+[2.323s] -- Looking for libdl - found
+[2.324s] -- Found DL: TRUE  
+[2.336s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[2.336s] -- Searching for <ignition-common3> component [graphics]
+[2.339s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.340s] -- Searching for dependencies of ignition-common3-graphics
+[2.340s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.343s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.344s] -- Searching for dependencies of ignition-fuel_tools4
+[2.424s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[2.434s] -- Checking for module 'jsoncpp'
+[2.449s] --   Found jsoncpp, version 1.9.5
+[2.486s] -- Found JSONCPP: TRUE  
+[2.493s] -- Checking for module 'libzip'
+[2.508s] --   Found libzip, version 1.7.3
+[2.545s] -- Found ZIP: TRUE  
+[2.546s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.546s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.547s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.552s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[3.097s] -- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[3.241s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.324s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.324s] -- Configured cppcheck include dirs: /home/sara/aubo_ws/src/aubo_control/control/include
+[3.325s] -- Configured cppcheck exclude dirs and/or files: 
+[3.325s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.326s] -- Added test 'lint_cmake' to check CMake code style
+[3.327s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.328s] -- Added test 'uncrustify' to check C / C++ code style
+[3.328s] -- Configured uncrustify additional arguments: 
+[3.329s] -- Added test 'xmllint' to check XML markup files
+[3.330s] -- Configuring done
+[3.353s] -- Generating done
+[3.356s] -- Build files have been written to: /home/sara/aubo_ws/build/control
+[3.370s] Invoked command in '/home/sara/aubo_ws/build/control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sara/aubo_ws/src/aubo_control/control -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/control
+[3.373s] Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8
+[3.431s] [ 10%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller_v1.cpp.o[0m
+[3.431s] [ 20%] [32mBuilding CXX object CMakeFiles/inv_kin.dir/src/inv_kin.cpp.o[0m
+[3.435s] [ 30%] [32mBuilding CXX object CMakeFiles/test_pub.dir/src/test_pub.cpp.o[0m
+[3.438s] [ 40%] [32mBuilding CXX object CMakeFiles/dir_kin.dir/src/dir_kin.cpp.o[0m
+[3.440s] [ 50%] [32mBuilding CXX object CMakeFiles/sim_pub.dir/src/sim_pub.cpp.o[0m
+[6.490s] In file included from [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/inv_kin.cpp:4[m[K:
+[6.490s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/aubo_kin_mod.hpp:[m[K In function ‘[01m[Kint inverse(const double*, double*)[m[K’:
+[6.491s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/aubo_kin_mod.hpp:316:69:[m[K [01;35m[Kwarning: [m[Ksuggest braces around empty body in an ‘[01m[Kif[m[K’ statement [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wempty-body-Wempty-body]8;;[m[K]
+[6.491s]   316 |                     if (loop_again && !solution_num && j5_idx == 1) [01;35m[K;[m[K
+[6.491s]       |                                                                     [01;35m[K^[m[K
+[6.491s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/aubo_kin_mod.hpp:341:73:[m[K [01;35m[Kwarning: [m[Ksuggest braces around empty body in an ‘[01m[Kif[m[K’ statement [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wempty-body-Wempty-body]8;;[m[K]
+[6.491s]   341 |                         if (loop_again && !solution_num && j5_idx == 1) [01;35m[K;[m[K
+[6.492s]       |                                                                         [01;35m[K^[m[K
+[6.502s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/inv_kin.cpp:[m[K In constructor ‘[01m[KInv_kin::Inv_kin()[m[K’:
+[6.504s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/inv_kin.cpp:12:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kc_goal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.504s]    12 |     double [01;35m[Kc_goal[m[K[6]={0.097,-0.128,0.959,0.0,0.0,0.0};
+[6.504s]       |            [01;35m[K^~~~~~[m[K
+[6.504s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/inv_kin.cpp:13:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kj_goal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.505s]    13 |     double [01;35m[Kj_goal[m[K[6]={0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
+[6.505s]       |            [01;35m[K^~~~~~[m[K
+[6.505s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/inv_kin.cpp:14:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_ind[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.505s]    14 |     int [01;35m[Kpub_ind[m[K=0;
+[6.505s]       |         [01;35m[K^~~~~~~[m[K
+[6.506s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/inv_kin.cpp:15:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kest_codo[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.506s]    15 |     int [01;35m[Kest_codo[m[K=1;
+[6.506s]       |         [01;35m[K^~~~~~~~[m[K
+[6.506s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/inv_kin.cpp:[m[K In member function ‘[01m[Kvoid Inv_kin::funcion(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[6.507s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/inv_kin.cpp:26:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kqi[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.507s]    26 |  double [01;35m[Kqi[m[K[6];
+[6.507s]       |         [01;35m[K^~[m[K
+[6.507s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/inv_kin.cpp:27:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KTi[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.507s]    27 |  double [01;35m[KTi[m[K[16];
+[6.507s]       |         [01;35m[K^~[m[K
+[6.511s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/inv_kin.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[6.512s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/inv_kin.cpp:129:20:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+[6.512s]   129 |     while ([01;35m[Krclcpp::ok[m[K)
+[6.512s]       |            [01;35m[K~~~~~~~~^~[m[K
+[6.653s] In file included from [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:3[m[K:
+[6.654s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/aubo_kin_mod.hpp:[m[K In function ‘[01m[Kint inverse(const double*, double*)[m[K’:
+[6.654s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/aubo_kin_mod.hpp:316:69:[m[K [01;35m[Kwarning: [m[Ksuggest braces around empty body in an ‘[01m[Kif[m[K’ statement [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wempty-body-Wempty-body]8;;[m[K]
+[6.654s]   316 |             if (loop_again && !solution_num && j5_idx == 1) [01;35m[K;[m[K
+[6.654s]       |                                                             [01;35m[K^[m[K
+[6.654s] 
+[6.654s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/aubo_kin_mod.hpp:341:73:[m[K [01;35m[Kwarning: [m[Ksuggest braces around empty body in an ‘[01m[Kif[m[K’ statement [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wempty-body-Wempty-body]8;;[m[K]
+[6.654s]   341 |             if (loop_again && !solution_num && j5_idx == 1) [01;35m[K;[m[K
+[6.655s]       |                                                             [01;35m[K^[m[K
+[6.655s] 
+[6.668s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:[m[K In constructor ‘[01m[KController::Controller()[m[K’:
+[6.669s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:24:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_ind_user[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.669s]    24 |     int [01;35m[Kpub_ind_user[m[K=0;
+[6.669s]       |         [01;35m[K^~~~~~~~~~~~[m[K
+[6.669s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:25:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_ind_sim[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.669s]    25 |     int [01;35m[Kpub_ind_sim[m[K=0;
+[6.670s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[6.670s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:26:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_ind_robot[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.670s]    26 |     int [01;35m[Kpub_ind_robot[m[K=0;
+[6.670s]       |         [01;35m[K^~~~~~~~~~~~~[m[K
+[6.674s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:[m[K In member function ‘[01m[Kvoid Controller::sim_sub_f(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[6.674s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:57:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsgrec[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.674s]    57 | f([01;35m[Kconst std_msgs::msg::Float32MultiArray::SharedPtr msgrec[m[K) {
+[6.674s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[6.675s] 
+[6.677s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:[m[K In member function ‘[01m[Kvoid Controller::coll_sub_f(gazebo_msgs::msg::ContactsState_<std::allocator<void> >::SharedPtr)[m[K’:
+[6.677s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:61:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg_coll_robot[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.677s]    61 | ([01;35m[Kconst gazebo_msgs::msg::ContactsState::SharedPtr msg_coll_robot[m[K) {
+[6.677s]       |  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[6.677s] 
+[6.681s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[6.681s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/controller_v1.cpp:104:20:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+[6.681s]   104 |     while ([01;35m[Krclcpp::ok[m[K)
+[6.681s]       |            [01;35m[K~~~~~~~~^~[m[K
+[6.727s] In file included from [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/dir_kin.cpp:3[m[K:
+[6.727s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/aubo_kin_mod.hpp:[m[K In function ‘[01m[Kint inverse(const double*, double*)[m[K’:
+[6.727s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/aubo_kin_mod.hpp:316:69:[m[K [01;35m[Kwarning: [m[Ksuggest braces around empty body in an ‘[01m[Kif[m[K’ statement [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wempty-body-Wempty-body]8;;[m[K]
+[6.727s]   316 |                     if (loop_again && !solution_num && j5_idx == 1) [01;35m[K;[m[K
+[6.727s]       |                                                                     [01;35m[K^[m[K
+[6.727s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/include/control/aubo_kin_mod.hpp:341:73:[m[K [01;35m[Kwarning: [m[Ksuggest braces around empty body in an ‘[01m[Kif[m[K’ statement [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wempty-body-Wempty-body]8;;[m[K]
+[6.727s]   341 |                         if (loop_again && !solution_num && j5_idx == 1) [01;35m[K;[m[K
+[6.728s]       |                                                                         [01;35m[K^[m[K
+[6.740s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/dir_kin.cpp:[m[K In constructor ‘[01m[KDir_kin::Dir_kin()[m[K’:
+[6.741s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/dir_kin.cpp:11:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KT[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.741s]    11 |     double [01;35m[KT[m[K[16] = {0.0, 0.0, 0.0, 0.0,0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
+[6.741s]       |            [01;35m[K^[m[K
+[6.741s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/dir_kin.cpp:12:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.741s]    12 |     double [01;35m[Kq0[m[K[6];
+[6.741s]       |            [01;35m[K^~[m[K
+[6.742s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/dir_kin.cpp:14:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_ind[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.742s]    14 |     int [01;35m[Kpub_ind[m[K=0;
+[6.742s]       |         [01;35m[K^~~~~~~[m[K
+[6.750s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/dir_kin.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[6.751s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/dir_kin.cpp:73:20:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+[6.751s]    73 |     while ([01;35m[Krclcpp::ok[m[K)
+[6.751s]       |            [01;35m[K~~~~~~~~^~[m[K
+[8.053s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub.cpp:[m[K In constructor ‘[01m[KTest_pub::Test_pub()[m[K’:
+[8.053s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub.cpp:10:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_ind[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.053s]    10 |     int [01;35m[Kpub_ind[m[K=1;
+[8.053s]       |         [01;35m[K^~~~~~~[m[K
+[8.053s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub.cpp:[m[K In member function ‘[01m[Kvoid Test_pub::publish_method()[m[K’:
+[8.054s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/test_pub.cpp:21:15:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around assignment used as truth value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[8.054s]    21 |     if([01;35m[Kpub_ind=1[m[K){
+[8.054s]       |        [01;35m[K~~~~~~~^~[m[K
+[8.199s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:[m[K In constructor ‘[01m[KSim_pub::Sim_pub()[m[K’:
+[8.199s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:14:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_ind[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.199s]    14 |     int [01;35m[Kpub_ind[m[K=1;
+[8.199s]       |         [01;35m[K^~~~~~~[m[K
+[8.205s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:[m[K In member function ‘[01m[Kvoid Sim_pub::funcion(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[8.205s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:22:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsgrec[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.206s]    22 | void Sim_pub::funcion([01;35m[Kconst std_msgs::msg::Float32MultiArray::SharedPtr msgrec[m[K) {
+[8.206s]       |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[8.212s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[8.213s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:60:20:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+[8.213s]    60 |     while ([01;35m[Krclcpp::ok[m[K)
+[8.213s]       |            [01;35m[K~~~~~~~~^~[m[K
+[11.859s] [ 60%] [32m[1mLinking CXX executable test_pub[0m
+[12.289s] [ 60%] Built target test_pub
+[14.785s] [ 70%] [32m[1mLinking CXX executable inv_kin[0m
+[15.003s] [ 80%] [32m[1mLinking CXX executable dir_kin[0m
+[15.414s] [ 80%] Built target inv_kin
+[15.609s] [ 80%] Built target dir_kin
+[17.220s] [ 90%] [32m[1mLinking CXX executable sim_pub[0m
+[17.773s] [ 90%] Built target sim_pub
+[18.829s] [100%] [32m[1mLinking CXX executable controller[0m
+[19.618s] [100%] Built target controller
+[19.632s] Invoked command in '/home/sara/aubo_ws/build/control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8
+[19.677s] Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/control
+[19.685s] -- Install configuration: ""
+[19.685s] -- Installing: /home/sara/aubo_ws/install/control/lib/control/controller
+[19.692s] -- Set runtime path of "/home/sara/aubo_ws/install/control/lib/control/controller" to ""
+[19.692s] -- Installing: /home/sara/aubo_ws/install/control/lib/control/dir_kin
+[19.696s] -- Set runtime path of "/home/sara/aubo_ws/install/control/lib/control/dir_kin" to ""
+[19.696s] -- Installing: /home/sara/aubo_ws/install/control/lib/control/inv_kin
+[19.700s] -- Set runtime path of "/home/sara/aubo_ws/install/control/lib/control/inv_kin" to ""
+[19.700s] -- Installing: /home/sara/aubo_ws/install/control/lib/control/test_pub
+[19.701s] -- Set runtime path of "/home/sara/aubo_ws/install/control/lib/control/test_pub" to ""
+[19.702s] -- Installing: /home/sara/aubo_ws/install/control/lib/control/sim_pub
+[19.706s] -- Set runtime path of "/home/sara/aubo_ws/install/control/lib/control/sim_pub" to ""
+[19.706s] -- Installing: /home/sara/aubo_ws/install/control/share/control/launch
+[19.706s] -- Installing: /home/sara/aubo_ws/install/control/share/control/launch/view_robot.launch.py
+[19.706s] -- Installing: /home/sara/aubo_ws/install/control/share/control/launch/world.launch.py
+[19.706s] -- Installing: /home/sara/aubo_ws/install/control/share/control/launch/gz.launch.py
+[19.706s] -- Installing: /home/sara/aubo_ws/install/control/share/control/launch/spawn_robot_launch_v4.launch.py
+[19.706s] -- Installing: /home/sara/aubo_ws/install/control/share/ament_index/resource_index/package_run_dependencies/control
+[19.707s] -- Installing: /home/sara/aubo_ws/install/control/share/ament_index/resource_index/parent_prefix_path/control
+[19.707s] -- Installing: /home/sara/aubo_ws/install/control/share/control/environment/ament_prefix_path.sh
+[19.707s] -- Installing: /home/sara/aubo_ws/install/control/share/control/environment/ament_prefix_path.dsv
+[19.707s] -- Installing: /home/sara/aubo_ws/install/control/share/control/environment/path.sh
+[19.707s] -- Installing: /home/sara/aubo_ws/install/control/share/control/environment/path.dsv
+[19.707s] -- Installing: /home/sara/aubo_ws/install/control/share/control/local_setup.bash
+[19.707s] -- Installing: /home/sara/aubo_ws/install/control/share/control/local_setup.sh
+[19.707s] -- Installing: /home/sara/aubo_ws/install/control/share/control/local_setup.zsh
+[19.708s] -- Installing: /home/sara/aubo_ws/install/control/share/control/local_setup.dsv
+[19.708s] -- Installing: /home/sara/aubo_ws/install/control/share/control/package.dsv
+[19.708s] -- Installing: /home/sara/aubo_ws/install/control/share/ament_index/resource_index/packages/control
+[19.708s] -- Installing: /home/sara/aubo_ws/install/control/share/control/cmake/controlConfig.cmake
+[19.708s] -- Installing: /home/sara/aubo_ws/install/control/share/control/cmake/controlConfig-version.cmake
+[19.708s] -- Installing: /home/sara/aubo_ws/install/control/share/control/package.xml
+[19.711s] Invoked command in '/home/sara/aubo_ws/build/control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/control

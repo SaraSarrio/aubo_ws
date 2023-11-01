@@ -1,0 +1,55 @@
+[0.125s] Invoking command in '/home/sara/aubo_ws/build/aubo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sara/aubo_ws/src/aubo_description -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/aubo_description
+[0.137s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.298s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.308s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.387s] -- Added test 'lint_cmake' to check CMake code style
+[0.389s] -- Added test 'xmllint' to check XML markup files
+[0.390s] -- Configuring done
+[0.395s] -- Generating done
+[0.395s] -- Build files have been written to: /home/sara/aubo_ws/build/aubo_description
+[0.398s] Invoked command in '/home/sara/aubo_ws/build/aubo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sara/aubo_ws/src/aubo_description -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/aubo_description
+[0.400s] Invoking command in '/home/sara/aubo_ws/build/aubo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/aubo_description -- -j8 -l8
+[0.484s] Invoked command in '/home/sara/aubo_ws/build/aubo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/aubo_description -- -j8 -l8
+[0.508s] Invoking command in '/home/sara/aubo_ws/build/aubo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/aubo_description
+[0.514s] -- Install configuration: ""
+[0.514s] -- Execute custom install script
+[0.515s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/launch/aubo_i5_gazebo.launch
+[0.523s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/launch/aubo_i5_rviz.launch
+[0.531s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/launch/aubo_i5_upload.launch
+[0.540s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/urdf/aubo.gazebo.xacro
+[0.549s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/urdf/aubo.transmission.xacro
+[0.557s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/urdf/aubo_i5.urdf.xacro
+[0.565s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/urdf/aubo_i5_robot.urdf.xacro
+[0.573s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/urdf/aubo_i5_robot_gazebo.urdf.xacro
+[0.583s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/urdf/common.gazebo.xacro
+[0.591s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/urdf/materials.xacro
+[0.601s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/meshes/base.STL
+[0.609s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/meshes/base_Link.STL
+[0.618s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/meshes/f1_Link.STL
+[0.626s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/meshes/foreArm_Link.STL
+[0.635s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/meshes/pedestal.STL
+[0.643s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/meshes/s_Link.STL
+[0.652s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/meshes/shoulder_Link.STL
+[0.661s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/meshes/u_Link.STL
+[0.670s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/meshes/upperArm_Link.STL
+[0.679s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/meshes/w1_Link.STL
+[0.687s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/meshes/w2_Link.STL
+[0.696s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/meshes/wrist1_Link.STL
+[0.705s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/meshes/wrist2_Link.STL
+[0.713s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/meshes/wrist3_Link.STL
+[0.722s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/ament_index/resource_index/package_run_dependencies/aubo_description
+[0.731s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/ament_index/resource_index/parent_prefix_path/aubo_description
+[0.740s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/environment/ament_prefix_path.sh
+[0.749s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/environment/ament_prefix_path.dsv
+[0.758s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/environment/path.sh
+[0.767s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/environment/path.dsv
+[0.776s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/local_setup.bash
+[0.785s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/local_setup.sh
+[0.794s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/local_setup.zsh
+[0.803s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/local_setup.dsv
+[0.812s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/package.dsv
+[0.822s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/ament_index/resource_index/packages/aubo_description
+[0.831s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/cmake/aubo_descriptionConfig.cmake
+[0.840s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/cmake/aubo_descriptionConfig-version.cmake
+[0.850s] -- Symlinking: /home/sara/aubo_ws/install/aubo_description/share/aubo_description/package.xml
+[0.943s] Invoked command in '/home/sara/aubo_ws/build/aubo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/aubo_description

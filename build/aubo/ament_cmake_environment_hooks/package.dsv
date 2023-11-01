@@ -1,0 +1,4 @@
+source;share/aubo/local_setup.bash
+source;share/aubo/local_setup.dsv
+source;share/aubo/local_setup.sh
+source;share/aubo/local_setup.zsh

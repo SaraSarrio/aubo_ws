@@ -1,0 +1,49 @@
+[0.073s] Invoking command in '/home/sara/aubo_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sara/aubo_ws/src/gazebo_ros2_control -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/gazebo_ros2_control
+[0.362s] -- The C compiler identification is GNU 11.4.0
+[0.434s] -- The CXX compiler identification is GNU 11.4.0
+[0.470s] -- Detecting C compiler ABI info
+[0.546s] -- Detecting C compiler ABI info - done
+[0.553s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.554s] -- Detecting C compile features
+[0.555s] -- Detecting C compile features - done
+[0.565s] -- Detecting CXX compiler ABI info
+[0.644s] -- Detecting CXX compiler ABI info - done
+[0.651s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.651s] -- Detecting CXX compile features
+[0.651s] -- Detecting CXX compile features - done
+[0.659s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.841s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.189s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.391s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.391s] -- Configured cppcheck include dirs: 
+[1.391s] -- Configured cppcheck exclude dirs and/or files: 
+[1.396s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.401s] -- Added test 'lint_cmake' to check CMake code style
+[1.404s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.413s] -- Added test 'uncrustify' to check C / C++ code style
+[1.413s] -- Configured uncrustify additional arguments: 
+[1.418s] -- Added test 'xmllint' to check XML markup files
+[1.424s] -- Configuring done
+[1.432s] -- Generating done
+[1.434s] -- Build files have been written to: /home/sara/aubo_ws/build/gazebo_ros2_control
+[1.444s] Invoked command in '/home/sara/aubo_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sara/aubo_ws/src/gazebo_ros2_control -DCMAKE_INSTALL_PREFIX=/home/sara/aubo_ws/install/gazebo_ros2_control
+[1.448s] Invoking command in '/home/sara/aubo_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/gazebo_ros2_control -- -j8 -l8
+[1.505s] Invoked command in '/home/sara/aubo_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/gazebo_ros2_control -- -j8 -l8
+[1.537s] Invoking command in '/home/sara/aubo_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/gazebo_ros2_control
+[1.547s] -- Install configuration: ""
+[1.548s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control
+[1.548s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control
+[1.548s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh
+[1.548s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv
+[1.549s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh
+[1.549s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv
+[1.549s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash
+[1.549s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh
+[1.549s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh
+[1.549s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv
+[1.550s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv
+[1.550s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control
+[1.550s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake
+[1.550s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake
+[1.550s] -- Installing: /home/sara/aubo_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml
+[1.553s] Invoked command in '/home/sara/aubo_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/gazebo_ros2_control

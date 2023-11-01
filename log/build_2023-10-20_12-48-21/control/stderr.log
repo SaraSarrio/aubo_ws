@@ -1,0 +1,26 @@
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PkgConfig)
+  does not match the name of the calling package (gazebo).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+  CMakeLists.txt:14 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:[m[K In constructor ‘[01m[KSim_control::Sim_control()[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:8:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ has not been declared
+    8 |   goal_ = [01;31m[Kexample_interfaces[m[K::action::Fibonacci::Goal();
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:[m[K At global scope:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:16:23:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+   16 | void Sim_control::send[01;31m[K:[m[Kgoal()
+      |                       [01;31m[K^[m[K
+      |                       [32m[K::[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:16:19:[m[K [01;31m[Kerror: [m[K‘[01m[KSim_control::send[m[K’ has not been declared
+   16 | void Sim_control::[01;31m[Ksend[m[K:goal()
+      |                   [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/sim_control.dir/build.make:76: CMakeFiles/sim_control.dir/src/sim_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/sim_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

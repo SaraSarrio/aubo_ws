@@ -1,0 +1,169 @@
+[0.161s] Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8
+[0.214s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.511s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.584s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.592s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.608s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.634s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.681s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.843s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.847s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.116s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.479s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.480s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[1.480s]   does not match the name of the calling package (gazebo).  This can lead to
+[1.480s]   problems in calling code that expects `find_package` result variables
+[1.480s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.480s] Call Stack (most recent call first):
+[1.480s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[1.480s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[1.480s]   CMakeLists.txt:12 (find_package)
+[1.480s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.480s] [0m
+[1.517s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.561s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.563s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.572s] -- Searching for dependencies of ignition-math6
+[1.575s] -- Looking for OGRE...
+[1.583s] -- Found Ogre Ghadamon (1.9.0)
+[1.583s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.599s] -- Looking for OGRE_Paging...
+[1.599s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.599s] -- Looking for OGRE_Terrain...
+[1.599s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.600s] -- Looking for OGRE_Property...
+[1.600s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.600s] -- Looking for OGRE_RTShaderSystem...
+[1.600s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.600s] -- Looking for OGRE_Volume...
+[1.600s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.601s] -- Looking for OGRE_Overlay...
+[1.601s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.820s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.821s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.822s] -- Searching for dependencies of ignition-transport8
+[1.850s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.868s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.876s] -- Checking for module 'libzmq >= 4'
+[1.896s] --   Found libzmq , version 4.3.4
+[1.956s] -- Checking for module 'uuid'
+[1.975s] --   Found uuid, version 2.37.2
+[2.022s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.023s] -- Searching for dependencies of ignition-msgs5
+[2.048s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.055s] -- Checking for module 'tinyxml2'
+[2.074s] --   Found tinyxml2, version 9.0.0
+[2.120s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.121s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.122s] -- Searching for dependencies of ignition-common3
+[2.122s] -- Looking for dlfcn.h - found
+[2.122s] -- Looking for libdl - found
+[2.139s] -- Searching for <ignition-common3> component [graphics]
+[2.139s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.140s] -- Searching for dependencies of ignition-common3-graphics
+[2.141s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.142s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.143s] -- Searching for dependencies of ignition-fuel_tools4
+[2.207s] -- Checking for module 'jsoncpp'
+[2.228s] --   Found jsoncpp, version 1.9.5
+[2.281s] -- Checking for module 'libzip'
+[2.300s] --   Found libzip, version 1.7.3
+[2.346s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.347s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.348s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.350s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[3.310s] -- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[3.598s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.730s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.731s] -- Configured cppcheck include dirs: /home/sara/aubo_ws/src/aubo_control/control/include
+[3.731s] -- Configured cppcheck exclude dirs and/or files: 
+[3.732s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.733s] -- Added test 'lint_cmake' to check CMake code style
+[3.734s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.737s] -- Added test 'uncrustify' to check C / C++ code style
+[3.737s] -- Configured uncrustify additional arguments: 
+[3.738s] -- Added test 'xmllint' to check XML markup files
+[3.740s] -- Configuring done
+[3.790s] -- Generating done
+[3.795s] -- Build files have been written to: /home/sara/aubo_ws/build/control
+[3.840s] [35m[1mConsolidate compiler generated dependencies of target dir_kin[0m
+[3.841s] [35m[1mConsolidate compiler generated dependencies of target test_pub[0m
+[3.841s] [35m[1mConsolidate compiler generated dependencies of target controller[0m
+[3.844s] [35m[1mConsolidate compiler generated dependencies of target inv_kin[0m
+[3.846s] [35m[1mConsolidate compiler generated dependencies of target sim_sub[0m
+[3.858s] [35m[1mConsolidate compiler generated dependencies of target sim_pub[0m
+[3.867s] [  7%] [32mBuilding CXX object CMakeFiles/sim_test.dir/src/sim_test.cpp.o[0m
+[3.883s] [ 21%] Built target test_pub
+[3.884s] [ 35%] Built target controller
+[3.889s] [ 50%] Built target dir_kin
+[3.891s] [ 64%] Built target sim_sub
+[3.894s] [ 78%] Built target inv_kin
+[3.897s] [ 85%] [32mBuilding CXX object CMakeFiles/sim_pub.dir/src/sim_pub.cpp.o[0m
+[8.316s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:[m[K In constructor ‘[01m[KSim_pub::Sim_pub()[m[K’:
+[8.316s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:15:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpub_ind[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.317s]    15 |     int [01;35m[Kpub_ind[m[K=1;
+[8.317s]       |         [01;35m[K^~~~~~~[m[K
+[8.317s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:17:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq0[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.317s]    17 |     float [01;35m[Kq0[m[K=0.0;
+[8.317s]       |           [01;35m[K^~[m[K
+[8.317s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:18:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.318s]    18 |     float [01;35m[Kq1[m[K=0.0;
+[8.318s]       |           [01;35m[K^~[m[K
+[8.318s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:19:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.318s]    19 |     float [01;35m[Kq2[m[K=0.0;
+[8.318s]       |           [01;35m[K^~[m[K
+[8.318s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:20:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq3[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.318s]    20 |     float [01;35m[Kq3[m[K=0.0;
+[8.319s]       |           [01;35m[K^~[m[K
+[8.319s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:21:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq4[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.319s]    21 |     float [01;35m[Kq4[m[K=0.0;
+[8.319s]       |           [01;35m[K^~[m[K
+[8.319s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:22:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq5[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[8.319s]    22 |     float [01;35m[Kq5[m[K=0.0;
+[8.319s]       |           [01;35m[K^~[m[K
+[8.326s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_test.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[8.326s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_test.cpp:78:20:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+[8.326s]    78 |     while ([01;35m[Krclcpp::ok[m[K)
+[8.327s]       |            [01;35m[K~~~~~~~~^~[m[K
+[8.328s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[8.329s] [01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_pub.cpp:76:20:[m[K [01;35m[Kwarning: [m[Kthe address of ‘[01m[Kbool rclcpp::ok(rclcpp::Context::SharedPtr)[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+[8.329s]    76 |     while ([01;35m[Krclcpp::ok[m[K)
+[8.329s]       |            [01;35m[K~~~~~~~~^~[m[K
+[11.846s] [ 92%] [32m[1mLinking CXX executable sim_test[0m
+[12.227s] [ 92%] Built target sim_test
+[18.490s] [100%] [32m[1mLinking CXX executable sim_pub[0m
+[19.127s] [100%] Built target sim_pub
+[19.144s] Invoked command in '/home/sara/aubo_ws/build/control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sara/aubo_ws/build/control -- -j8 -l8
+[19.210s] Invoking command in '/home/sara/aubo_ws/build/control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/control
+[19.222s] -- Install configuration: ""
+[19.222s] -- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/controller
+[19.223s] -- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/dir_kin
+[19.223s] -- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/inv_kin
+[19.224s] -- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/test_pub
+[19.225s] -- Installing: /home/sara/aubo_ws/install/control/lib/control/sim_pub
+[19.230s] -- Set runtime path of "/home/sara/aubo_ws/install/control/lib/control/sim_pub" to ""
+[19.231s] -- Up-to-date: /home/sara/aubo_ws/install/control/lib/control/sim_sub
+[19.232s] -- Installing: /home/sara/aubo_ws/install/control/lib/control/sim_test
+[19.234s] -- Set runtime path of "/home/sara/aubo_ws/install/control/lib/control/sim_test" to ""
+[19.234s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch
+[19.234s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/listener.launch.py
+[19.235s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/view_robot.launch.py
+[19.235s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/world.launch.py
+[19.235s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/gz.launch.py
+[19.235s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/launch/spawn_robot_launch_v4.launch.py
+[19.235s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/ament_index/resource_index/package_run_dependencies/control
+[19.236s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/ament_index/resource_index/parent_prefix_path/control
+[19.236s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/environment/ament_prefix_path.sh
+[19.236s] -- Installing: /home/sara/aubo_ws/install/control/share/control/environment/ament_prefix_path.dsv
+[19.236s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/environment/path.sh
+[19.236s] -- Installing: /home/sara/aubo_ws/install/control/share/control/environment/path.dsv
+[19.237s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.bash
+[19.237s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.sh
+[19.237s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/local_setup.zsh
+[19.237s] -- Installing: /home/sara/aubo_ws/install/control/share/control/local_setup.dsv
+[19.237s] -- Installing: /home/sara/aubo_ws/install/control/share/control/package.dsv
+[19.237s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/ament_index/resource_index/packages/control
+[19.237s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/cmake/controlConfig.cmake
+[19.237s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/cmake/controlConfig-version.cmake
+[19.238s] -- Up-to-date: /home/sara/aubo_ws/install/control/share/control/package.xml
+[19.240s] Invoked command in '/home/sara/aubo_ws/build/control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sara/aubo_ws/build/control

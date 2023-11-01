@@ -1,0 +1,23 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/dir_kin.dir/src/dir_kin.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/inv_kin.dir/src/inv_kin.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/test_pub.dir/src/test_pub.cpp.o[0m
+[01m[K/home/sara/aubo_ws/src/aubo_control/controller/src/inv_kin.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kcontrol/inv_kin.hpp: No such file or directory
+    2 | #include [01;31m[K<control/inv_kin.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/sara/aubo_ws/src/aubo_control/controller/src/dir_kin.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kcontrol/dir_kin.hpp: No such file or directory
+    1 | #include [01;31m[K<control/dir_kin.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/sara/aubo_ws/src/aubo_control/controller/src/test_pub.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kcontrol/test_pub.hpp: No such file or directory
+    2 | #include [01;31m[K<control/test_pub.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/inv_kin.dir/build.make:76: CMakeFiles/inv_kin.dir/src/inv_kin.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/dir_kin.dir/build.make:76: CMakeFiles/dir_kin.dir/src/dir_kin.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/test_pub.dir/build.make:76: CMakeFiles/test_pub.dir/src/test_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/inv_kin.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/dir_kin.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/test_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

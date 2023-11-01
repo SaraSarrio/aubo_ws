@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target sim_control[0m
+[ 12%] Built target controller
+[ 25%] Built target dir_kin
+[ 37%] Built target inv_kin
+[ 50%] Built target test_pub
+[ 62%] Built target sim_pub
+[ 75%] Built target sim_test
+[ 87%] Built target sim_sub
+[ 93%] [32mBuilding CXX object CMakeFiles/sim_control.dir/src/sim_control.cpp.o[0m
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:[m[K In member function ‘[01m[Kvoid Sim_control::send_goal()[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:49:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::executor[m[K’ has not been declared
+   49 |     rclcpp::[01;31m[Kexecutor[m[K::FutureReturnCode::SUCCESS) {
+      |             [01;31m[K^~~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:[m[K In member function ‘[01m[Kvoid Sim_control::feedback_callback(rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>::SharedPtr)[m[K’:
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:56:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>[m[K’ {aka ‘[01m[Kclass rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>[m[K’} has no member named ‘[01m[Kresult_ready[m[K’
+   56 |     if (goal_handle->[01;31m[Kresult_ready[m[K()) {
+      |                      [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sara/aubo_ws/src/aubo_control/control/src/sim_control.cpp:57:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>[m[K’ {aka ‘[01m[Kclass rclcpp_action::ClientGoalHandle<control_msgs::action::FollowJointTrajectory>[m[K’} has no member named ‘[01m[Kget_result[m[K’; did you mean ‘[01m[Kset_result[m[K’?
+   57 |       if (goal_handle->[01;31m[Kget_result[m[K()->code == rclcpp_action::ResultCode::SUCCEEDED) {
+      |                        [01;31m[K^~~~~~~~~~[m[K
+      |                        [32m[Kset_result[m[K
+gmake[2]: *** [CMakeFiles/sim_control.dir/build.make:76: CMakeFiles/sim_control.dir/src/sim_control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:333: CMakeFiles/sim_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

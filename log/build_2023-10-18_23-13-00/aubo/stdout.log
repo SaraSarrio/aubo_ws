@@ -1,0 +1,50 @@
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sara/aubo_ws/build/aubo
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/launch/aubo.launch.py
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/launch/spawn_robot_launch_v4.launch.py
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/urdf/aubo.gazebo.xacro
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/urdf/aubo.transmission.xacro
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/urdf/aubo_i5.urdf
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/urdf/aubo_i5.urdf.xacro
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/urdf/materials.xacro
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/base_link.STL
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/foreArm_Link.STL
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/pedestal.STL
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/shoulder_Link.STL
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/upperArm_Link.STL
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/wrist1_Link.STL
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/wrist2_Link.STL
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/collision/wrist3_Link.STL
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual/base_link.DAE
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual/foreArm_Link.DAE
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual/shoulder_Link.DAE
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual/upperArm_Link.DAE
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual/wrist1_Link.DAE
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual/wrist2_Link.DAE
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/meshes/aubo_i5/visual/wrist3_Link.DAE
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/config/aubo_control.yaml
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/ament_index/resource_index/package_run_dependencies/aubo
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/ament_index/resource_index/parent_prefix_path/aubo
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/environment/ament_prefix_path.sh
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/environment/ament_prefix_path.dsv
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/environment/path.sh
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/environment/path.dsv
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/local_setup.bash
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/local_setup.sh
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/local_setup.zsh
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/local_setup.dsv
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/package.dsv
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/ament_index/resource_index/packages/aubo
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/cmake/auboConfig.cmake
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/cmake/auboConfig-version.cmake
+-- Symlinking: /home/sara/aubo_ws/install/aubo/share/aubo/package.xml

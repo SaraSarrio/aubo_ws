@@ -1,0 +1,9 @@
+[ 11%] Built target inv_kin
+[ 22%] Built target test_pub
+[ 33%] Built target sim_sub
+[ 44%] Built target sim_pub
+[ 55%] Built target dir_kin
+[ 66%] Built target sim_test
+[ 77%] Built target sim_control
+[ 88%] Built target controller
+[ 94%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
